@@ -513,72 +513,75 @@
       <include>Animation_Viewtype_Showcase_FocusArea</include>
       <visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
       <itemlayout width="106" height="129">
-        <control type="image">
-          <posx>55</posx>
-          <posy>0</posy>
-          <width>45</width>
-          <height>45</height>
-          <aspectratio>keep</aspectratio>
-          <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-        </control>
-        <control type="image">
-          <include>MultiplexIconDimensionsWrap</include>
-          <texture diffuse="mod/wall_movie_mask.png" background="true">defaultvideobig.png</texture>
-          <aspectratio scalediffuse="false">scale</aspectratio>
-          <info>ListItem.Icon</info>
-          <!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> -->
-        </control>
-        <control type="image">
-          <include>MultiplexIconDimensionsWrap</include>
-          <bordertexture border="-3">mod/wall_movie_nfborder.png</bordertexture>
-          <texture>mod/wall_nfoverlay.png</texture>
-          <!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> -->
-        </control>
+      <control type="image">
+	<include>MultiplexIconDimensionsWrap</include>
+	<texture diffuse="mod/wall_movie_mask.png" background="true">defaultvideobig.png</texture>
+	<aspectratio scalediffuse="false">scale</aspectratio>
+	<info>ListItem.Icon</info>
+	<!--    <animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> 
+	-->
+      </control>
+      <control type="image">
+	<include>MultiplexIconDimensionsWrap</include>
+	<bordertexture border="-3">mod/wall_movie_nfborder.png</bordertexture>
+	<texture>mod/wall_nfoverlay.png</texture>
+	<!--    <animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> 
+	-->
+      </control>
+      <control type="image">
+	<posx>55</posx>
+	<posy>0</posy>
+	<width>45</width>
+	<height>45</height>
+	<aspectratio>keep</aspectratio>
+	<texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+      </control>
       </itemlayout>
       <focusedlayout width="106" height="129">
-        <control type="image">
-          <posx>55</posx>
-          <posy>-13</posy>
-          <width>55</width>
-          <height>55</height>
-          <aspectratio>keep</aspectratio>
-          <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-          <animation type="focus">
-            <effect type="fade" start="0" end="100" time="200" />
-            <effect type="slide" start="0,0" end="10,5" time="200" />
-          </animation>
-          <animation type="unfocus">
-            <effect type="fade" start="100" end="0" time="200" />
-            <effect type="slide" end="0,0" start="10,5" time="200" />
-          </animation>
-        </control>
-        <!--	<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> -->
-        <control type="image">
-          <include>MultiplexIconDimensionsWrap</include>
-          <texture diffuse="mod/wall_movie_mask.png" background="true">defaultvideobig.png</texture>
+	<!--    <animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> 
+	-->
+	<control type="image">
+	  <include>MultiplexIconDimensionsWrap</include>
+	  <texture diffuse="mod/wall_movie_mask.png" background="true">defaultvideobig.png</texture>
           <aspectratio scalediffuse="false">scale</aspectratio>
-          <info>ListItem.Icon</info>
-          <animation effect="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false">Focus</animation>
-        </control>
-        <control type="image">
-          <include>MultiplexIconDimensionsWrap</include>
-          <bordertexture border="-2">mod/wall_movie_nfborder.png</bordertexture>
-          <texture>mod/wall_movie_nfoverlay.png</texture>
-          <animation type="Focus" reversible="false">
-            <effect type="fade" start="100" end="0" time="200" reversible="false" />
-            <effect type="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false" />
-          </animation>
-        </control>
-        <control type="image">
-          <include>MultiplexIconDimensionsWrap</include>
-          <bordertexture border="-10">mod/wall_movie_fborder.png</bordertexture>
-          <texture>mod/blank.png</texture>
-          <animation type="Focus" reversible="false">
-            <effect type="fade" start="0" end="100" time="400" reversible="false" />
-            <effect type="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false" />
-          </animation>
-          <visible>!Container(588).Column(12)</visible>
-        </control>
+	  <info>ListItem.Icon</info>
+	  <animation effect="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false">Focus</animation>
+	</control>
+	<control type="image">
+	  <include>MultiplexIconDimensionsWrap</include>
+	  <bordertexture border="-2">mod/wall_movie_nfborder.png</bordertexture>
+	  <texture>mod/wall_movie_nfoverlay.png</texture>
+	  <animation type="Focus" reversible="false">
+    	    <effect type="fade" start="100" end="0" time="200" reversible="false"/>
+	    <effect type="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false"/>
+	  </animation>
+	</control>
+	<control type="image">
+	  <include>MultiplexIconDimensionsWrap</include>
+	  <bordertexture border="-10">mod/wall_movie_fborder.png</bordertexture>
+	  <texture>mod/blank.png</texture>
+	  <animation type="Focus" reversible="false">
+	    <effect type="fade" start="0" end="100" time="400" reversible="false"/>
+	    <effect type="zoom" center="45,75" start="100" end="120" time="400" easing="out" tween="cubic" reversible="false"/>
+	  </animation>
+	  <visible>!Container(588).Column(12)</visible>
+	</control>
+	<control type="image">
+	  <posx>55</posx>
+	  <posy>-13</posy>
+	  <width>55</width>
+	  <height>55</height>
+	  <aspectratio>keep</aspectratio>
+	  <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+	  <animation type="focus">
+	    <effect type="fade" start="0" end="100" time="200"/>
+	    <effect type="slide" start="0,0" end="10,5" time="200"/>
+	  </animation>
+	  <animation type="unfocus">
+	    <effect type="fade" start="100" end="0" time="200"/>
+	    <effect type="slide" end="0,0" start="10,5" time="200"/>
+	  </animation>
+	</control>
       </focusedlayout>
     </control>
     <control type="group">
