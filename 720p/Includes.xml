@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
-  <!-- File includes -->
+  <!-- File includes-->
   <include file="Defaults.xml" />
   <include file="Viewtype_Episode.xml" />
   <include file="Viewtype_Poster.xml" />
