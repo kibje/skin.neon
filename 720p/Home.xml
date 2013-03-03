@@ -1,113 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <window id="0">
   <defaultcontrol always="true">301</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
   <controls>
-    <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
-      <width>1280</width>
-      <height>720</height>
-      <include>switch_horizontal_fanart</include>
-      <timeperimage>7000</timeperimage>
-      <randomize>true</randomize>
-      <fadetime>400</fadetime>
-      <animation effect="zoom" start="110" end="130" center="auto" time="16000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
-      <animation effect="slide" start="-10,-10" end="20,20" time="8000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
-      <include>Animation_CommonFadeNoHide</include>
-    </control>
-    <include>TVGuide</include>
-    <include>CommonMediaPlayingBackground</include>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <colordiffuse>mainblue</colordiffuse>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_back.png</texture>
-      <include>Animation_CommonFadeNoHideBack-Home</include>
-      <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
-      <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
-      <include>Animation_CommonFadeNoHide</include>
-      <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
-      <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <colordiffuse>mainblue</colordiffuse>
-      <texture>mainmenu/home_bottom_back.png</texture>
-      <include>Animation_CommonFadeNoHideBack-Home</include>
-      <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
-      <include>Animation_CommonFadeNoHide</include>
-      <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
-    </control>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <colordiffuse>mainblue</colordiffuse>
-      <texture>mainmenu/home_bottom_back.png</texture>
-      <include>Animation_CommonFadeNoHideBack-Home</include>
-    </control>
-    <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
-      <height>200</height>
-      <include>Dimensions_Fullscreen</include>
-      <texture>mainmenu/home_bottom_align.png</texture>
-      <include>Animation_CommonFadeNoHide</include>
+    <control type="group">
+      <!--This group is all horizontal main menu items, that can be shifted with the posy parameter-->
+      <posy>20</posy>
+      <control type="multiimage">
+        <posx>0</posx>
+        <posy>0</posy>
+        <width>1280</width>
+        <height>720</height>
+        <include>switch_horizontal_fanart</include>
+        <timeperimage>7000</timeperimage>
+        <randomize>true</randomize>
+        <fadetime>400</fadetime>
+        <animation effect="zoom" start="110" end="130" center="auto" time="16000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
+        <animation effect="slide" start="-10,-10" end="20,20" time="8000" tween="cubic" easing="inout" pulse="true" condition="Skin.HasSetting(animation_bg)">Conditional</animation>
+        <include>Animation_CommonFadeNoHide</include>
+      </control>
+      <include>TVGuide</include>
+      <include>CommonMediaPlayingBackground</include>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <include>Dimensions_Fullscreen</include>
+        <texture>mainmenu/home_bottom_back.png</texture>
+        <include>Animation_CommonFadeNoHideBack-Home</include>
+        <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
+        <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
+      </control>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <include>Dimensions_Fullscreen</include>
+        <texture>mainmenu/home_bottom_align.png</texture>
+        <include>Animation_CommonFadeNoHide</include>
+        <visible>Skin.HasSetting(horizontal_bottom_align) + ControlGroup(9001).HasFocus()</visible>
+        <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
+      </control>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <include>Dimensions_Fullscreen</include>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>mainmenu/home_bottom_back.png</texture>
+        <include>Animation_CommonFadeNoHideBack-Home</include>
+        <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
+      </control>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <include>Dimensions_Fullscreen</include>
+        <texture>mainmenu/home_bottom_align.png</texture>
+        <include>Animation_CommonFadeNoHide</include>
+        <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
+      </control>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <include>Dimensions_Fullscreen</include>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>mainmenu/home_bottom_back.png</texture>
+        <include>Animation_CommonFadeNoHideBack-Home</include>
+      </control>
+      <control type="image">
+        <posx>0</posx>
+        <posy>445</posy>
+        <height>200</height>
+        <include>Dimensions_Fullscreen</include>
+        <texture>mainmenu/home_bottom_align.png</texture>
+        <include>Animation_CommonFadeNoHide</include>
+      </control>
+      <include>HorizontalHomeBottom</include>
+      <!-- stoli - new home animation - 030511 -->
+      <control type="image">
+        <posx>1400</posx>
+        <posy>565</posy>
+        <width>211</width>
+        <height>23</height>
+        <texture>sweep2.png</texture>
+        <include>Animation_Bartowski_Context_Zoom</include>
+        <animation type="Conditional" reversible="false" condition="true" loop="true">
+          <effect type="fade" start="0" end="100" time="3000" delay="2000" />
+          <effect type="slide" start="0,0" end="-1600,0" time="10000" loop="false" />
+          <effect type="fade" start="100" end="0" time="4500" delay="6000" />
+          <effect type="slide" start="0,0" end="0,0" time="10000" delay="10000" loop="false" />
+        </animation>
+      </control>
+      <control type="image">
+        <posx>1500</posx>
+        <posy>628</posy>
+        <width>211</width>
+        <height>23</height>
+        <texture flipy="true">sweep2.png</texture>
+        <include>Animation_Bartowski_Context_Zoom</include>
+        <animation type="Conditional" reversible="false" condition="true" loop="true">
+          <effect type="fade" start="0" end="100" time="3000" delay="2000" />
+          <effect type="slide" start="0,0" end="-1600,0" time="10000" loop="false" />
+          <effect type="fade" start="100" end="0" time="4500" delay="6000" />
+          <effect type="slide" start="0,0" end="0,0" time="10000" delay="10000" loop="false" />
+        </animation>
+      </control>
+      <!--Added by OMR-->
+      <include>watched_status</include>
     </control>
     <include condition="Skin.HasSetting(homepageHideRecentlyAdded)">NewRecentlyAdded</include>
     <include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
     <include condition="Skin.HasSetting(random_items)">random_tv</include>
-    <include>HorizontalHomeBottom</include>
-    <!-- stoli - new home animation - 030511 -->
-    <control type="image">
-      <posx>1400</posx>
-      <posy>565</posy>
-      <width>211</width>
-      <height>23</height>
-      <texture>sweep2.png</texture>
-      <include>Animation_Bartowski_Context_Zoom</include>
-      <animation type="Conditional" reversible="false" condition="true" loop="true">
-        <effect type="fade" start="0" end="100" time="3000" delay="2000" />
-        <effect type="slide" start="0,0" end="-1600,0" time="10000" loop="false" />
-        <effect type="fade" start="100" end="0" time="4500" delay="6000" />
-        <effect type="slide" start="0,0" end="0,0" time="10000" delay="10000" loop="false" />
-      </animation>
-    </control>
-    <control type="image">
-      <posx>1500</posx>
-      <posy>628</posy>
-      <width>211</width>
-      <height>23</height>
-      <texture flipy="true">sweep2.png</texture>
-      <include>Animation_Bartowski_Context_Zoom</include>
-      <animation type="Conditional" reversible="false" condition="true" loop="true">
-        <effect type="fade" start="0" end="100" time="3000" delay="2000" />
-        <effect type="slide" start="0,0" end="-1600,0" time="10000" loop="false" />
-        <effect type="fade" start="100" end="0" time="4500" delay="6000" />
-        <effect type="slide" start="0,0" end="0,0" time="10000" delay="10000" loop="false" />
-      </animation>
-    </control>
     <control type="button" id="8999">
       <description>Don't run Recently added</description>
       <posx>-20</posx>

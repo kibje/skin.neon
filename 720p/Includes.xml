@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
   <!-- File includes -->
   <include file="Defaults.xml" />
@@ -2102,5 +2102,76 @@
     <font>-</font>
     <texturenofocus>-</texturenofocus>
     <texturefocus>-</texturefocus>
+  </include>
+  <!--Added by oleroc-->
+  <include name="watched_status">
+    <control type="group">
+      <visible>!Skin.HasSetting(library_totals)</visible>
+      <posx>0</posx>
+      <posy>520</posy>
+      <!--Movies-->
+      <control type="group">
+        <visible>Container(301).HasFocus(3)</visible>
+        <animation effect="slide" start="-500,0" end="0,0" time="500">WindowOpen</animation>
+        <animation effect="slide" start="0,0" end="-500,0" time="300">WindowClose</animation>
+        <control type="image">
+          <posx>0</posx>
+          <posy>20</posy>
+          <colordiffuse>mainblue</colordiffuse>
+          <aspectratio>stretch</aspectratio>
+          <width>500</width>
+          <texture flipx="true">Rss_Back.png</texture>
+        </control>
+        <control type="Label">
+          <font>Font_RSS</font>
+          <textcolor>orange</textcolor>
+          <posy>27</posy>
+          <posx>0</posx>
+          <label>$LOCALIZE[342]: [COLOR white]$INFO[Window(Home).Property(Movies.Count)] [/COLOR]$LOCALIZE[16102]:[COLOR white] $INFO[Window(Home).Property(Movies.Watched)] [/COLOR]$LOCALIZE[16101]: [COLOR white]$INFO[Window(Home).Property(Movies.UnWatched)][/COLOR] </label>
+        </control>
+      </control>
+      <!--TVShows-->
+      <control type="group">
+        <visible>Container(301).HasFocus(5)</visible>
+        <animation effect="slide" start="-600,0" end="0,0" time="500">WindowOpen</animation>
+        <animation effect="slide" start="0,0" end="-600,0" time="300">WindowClose</animation>
+        <control type="image">
+          <posx>0</posx>
+          <posy>20</posy>
+          <colordiffuse>mainblue</colordiffuse>
+          <aspectratio>stretch</aspectratio>
+          <width>600</width>
+          <texture flipx="true">Rss_Back.png</texture>
+        </control>
+        <control type="Label" condition="Container.Content(seasons) + !IsEmpty(ListItem.Thumb)">
+          <posx>0</posx>
+          <posy>27</posy>
+          <font>Font_RSS</font>
+          <textcolor>orange</textcolor>
+          <label>$LOCALIZE[31524]:[COLOR white] $INFO[Window(home).Property(TvShows.Count)][/COLOR] $LOCALIZE[20360]:[COLOR white]$INFO[Window(home).property(Episodes.Count)][/COLOR] $LOCALIZE[16102]:[COLOR white]$INFO[Window(home).property(Episodes.watched)][/COLOR] $LOCALIZE[16101]:[COLOR white]$INFO[Window(home).property(Episodes.Unwatched)][/COLOR]</label>
+        </control>
+      </control>
+      <!--Music-->
+      <control type="group">
+        <visible>Container(301).HasFocus(1)</visible>
+        <animation effect="slide" start="-500,0" end="0,0" time="500">WindowOpen</animation>
+        <animation effect="slide" start="0,0" end="-500,0" time="300">WindowClose</animation>
+        <control type="image">
+          <posx>0</posx>
+          <posy>20</posy>
+          <colordiffuse>mainblue</colordiffuse>
+          <aspectratio>stretch</aspectratio>
+          <width>500</width>
+          <texture flipx="true">Rss_Back.png</texture>
+        </control>
+        <control type="Label">
+          <font>Font_RSS</font>
+          <textcolor>orange</textcolor>
+          <posy>27</posy>
+          <posx>0</posx>
+          <label>$LOCALIZE[134]: [COLOR white]$INFO[Window(Home).Property(Music.SongsCount] [/COLOR]$LOCALIZE[132]:[COLOR white] $INFO[Window(Home).Property(Music.AlbumsCount)] [/COLOR]$LOCALIZE[133]: [COLOR white]$INFO[Window(Home).Property(Music.ArtistsCount)][/COLOR] </label>
+        </control>
+      </control>
+    </control>
   </include>
 </includes>
