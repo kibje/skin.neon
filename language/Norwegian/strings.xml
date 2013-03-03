@@ -225,5 +225,7 @@ just copy the translations from Confluence to here
   <string id="31718">Artist</string>
   <string id="31719">Tid Gått / Varighet</string>
   <string id="31720">Nåværende Tid
-  <string id="31524">TVshows</string></string>
+  </string>
+  <string id="31524">TVshows</string>
+  <string id="31525">Skjul bibliotek totaler/sett/usett</string>
 </strings>
