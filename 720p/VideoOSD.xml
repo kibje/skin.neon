@@ -98,9 +98,8 @@
           <onright>704</onright>
           <onup>604</onup>
           <ondown>604</ondown>
-          <onclick>Close</onclick>
-          <onclick>RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-          <enable>Skin.HasSetting(SubsScript_Enable)</enable>
+		  <onclick>Dialog.Close(VideoOSD)</onclick>
+  		  <onclick>ActivateWindow(SubtitleSearch)</onclick>
         </control>
         <control type="button" id="704">
           <left>50</left>

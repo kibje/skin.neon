@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
 <window id="115">
-  <visible>Window.IsActive(2005) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
+  <visible>Window.IsActive(2005) + !Window.IsActive(SubtitleSearch) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
   <controls>
     <include>Time</include>
     <include>Finish_Time</include>

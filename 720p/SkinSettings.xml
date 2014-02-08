@@ -217,28 +217,6 @@
             <onclick>Skin.ToggleSetting(LockViews)</onclick>
             <selected>Skin.HasSetting(LockViews)</selected>
           </control>
-          <control type="radiobutton" id="104">
-            <include>skin_settings_labels</include>
-            <label>$LOCALIZE[31215]</label>
-            <onclick>Skin.ToggleSetting(SubsScript_Enable)</onclick>
-            <selected>Skin.HasSetting(SubsScript_Enable)</selected>
-          </control>
-          <control type="button" id="105">
-            <description>Startup Playlist Path</description>
-            <width>740</width>
-            <height>30</height>
-            <font>Font_KeyboardTitle</font>
-            <textcolor>grey2</textcolor>
-            <focusedcolor>white</focusedcolor>
-            <textoffsetx>40</textoffsetx>
-            <label>$LOCALIZE[31216]</label>
-            <label2>[COLOR=selected]$INFO[Skin.String(SubtitleScript_Path)][/COLOR]</label2>
-            <onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
-            <visible>Skin.HasSetting(SubsScript_Enable)</visible>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>MenuItemFO.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
-          </control>
           <control type="radiobutton" id="107">
             <include>skin_settings_labels</include>
             <label>$LOCALIZE[31248]</label>
