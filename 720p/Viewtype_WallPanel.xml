@@ -7,8 +7,8 @@
       <visible>Control.IsVisible(597)</visible>
       <include>Animation_CommonFadeNoHide</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>167</width>
         <height>240</height>
         <texture background="true">$INFO[ListItem.Icon]</texture>
@@ -17,8 +17,8 @@
         <include>Animation_HiddenByInfo</include>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>240</posy>
+        <left>0</left>
+        <top>240</top>
         <width>167</width>
         <height>240</height>
         <texture background="true">$INFO[ListItem(1).Icon]</texture>
@@ -27,8 +27,8 @@
         <include>Animation_HiddenByInfo</include>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>480</posy>
+        <left>0</left>
+        <top>480</top>
         <width>167</width>
         <height>240</height>
         <texture background="true">$INFO[ListItem(2).Icon]</texture>
@@ -37,10 +37,10 @@
         <include>Animation_HiddenByInfo</include>
       </control>
       <control type="group">
-        <posx>168</posx>
+        <left>168</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(-3).Icon]</texture>
@@ -49,8 +49,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>250</height>
           <texture background="true">$INFO[ListItem(16).Icon]</texture>
@@ -59,8 +59,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(12).Icon]</texture>
@@ -70,10 +70,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>334</posx>
+        <left>334</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(-13).Icon]</texture>
@@ -82,8 +82,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>250</height>
           <texture background="true">$INFO[ListItem(6).Icon]</texture>
@@ -92,8 +92,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(7).Icon]</texture>
@@ -103,10 +103,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>502</posx>
+        <left>502</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(13).Icon]</texture>
@@ -115,8 +115,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem.Icon]</texture>
@@ -125,8 +125,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(17).Icon]</texture>
@@ -136,10 +136,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>672</posx>
+        <left>672</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(22).Icon]</texture>
@@ -148,8 +148,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(9).Icon]</texture>
@@ -158,8 +158,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(5).Icon]</texture>
@@ -169,10 +169,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>840</posx>
+        <left>840</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(11).Icon]</texture>
@@ -181,8 +181,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(19).Icon]</texture>
@@ -191,8 +191,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(15).Icon]</texture>
@@ -202,10 +202,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>1008</posx>
+        <left>1008</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(14).Icon]</texture>
@@ -214,8 +214,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(33).Icon]</texture>
@@ -224,8 +224,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(4).Icon]</texture>
@@ -235,10 +235,10 @@
         </control>
       </control>
       <control type="group">
-        <posx>1176</posx>
+        <left>1176</left>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(20).Icon]</texture>
@@ -247,8 +247,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>240</posy>
+          <left>0</left>
+          <top>240</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(29).Icon]</texture>
@@ -257,8 +257,8 @@
           <include>Animation_HiddenByInfo</include>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>167</width>
           <height>240</height>
           <texture background="true">$INFO[ListItem(9).Icon]</texture>
@@ -274,8 +274,8 @@
       <visible>Control.IsVisible(597)</visible>
     </control>
     <control type="fixedlist" id="597">
-      <posx>0</posx>
-      <posy>140</posy>
+      <left>0</left>
+      <top>140</top>
       <height>410</height>
       <width>440</width>
       <onup>597</onup>
@@ -294,8 +294,8 @@
       <visible>!Skin.HasSetting(no_WallPanel) + Container.Content(movies)</visible>
       <itemlayout width="1210" height="30">
         <control type="label">
-          <posx>20</posx>
-          <posy>10</posy>
+          <left>20</left>
+          <top>10</top>
           <width>680</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -305,8 +305,8 @@
           <animation effect="slide" start="0,0" end="20,0" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png) + Skin.HasSetting(movieoverlays)">Conditional</animation>
         </control>
         <control type="image">
-          <posx>20</posx>
-          <posy>24</posy>
+          <left>20</left>
+          <top>24</top>
           <width>17</width>
           <height>20</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -316,8 +316,8 @@
       </itemlayout>
       <focusedlayout width="1210" height="30">
         <control type="image">
-          <posx>-40</posx>
-          <posy>0</posy>
+          <left>-40</left>
+          <top>0</top>
           <width>521</width>
           <height>68</height>
           <texture>list/highlight_new.png</texture>
@@ -326,8 +326,8 @@
           </animation>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>10</posy>
+          <left>20</left>
+          <top>10</top>
           <width>720</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -337,8 +337,8 @@
           <animation effect="slide" start="0,0" end="20,0" time="0" condition="stringcompare(ListItem.Overlay,OverlayWatched.png) + Skin.HasSetting(movieoverlays)">Conditional</animation>
         </control>
         <control type="image">
-          <posx>20</posx>
-          <posy>24</posy>
+          <left>20</left>
+          <top>24</top>
           <width>17</width>
           <height>20</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -351,8 +351,8 @@
       <include>Animation_Bartowski_Context_Zoom</include>
       <visible>Container.Content(movies) + Control.IsVisible(597)</visible>
       <control type="image">
-        <posx>380</posx>
-        <posy>100</posy>
+        <left>380</left>
+        <top>100</top>
         <width>419</width>
         <height>522</height>
         <texture>wall/wall_panel_glow1.png</texture>
@@ -361,8 +361,8 @@
         <include>Animation_HiddenByInfo</include>
       </control>
       <control type="image">
-        <posx>470</posx>
-        <posy>180</posy>
+        <left>470</left>
+        <top>180</top>
         <width>250</width>
         <height>360</height>
         <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -372,14 +372,14 @@
       </control>
     </control>
     <control type="group">
-      <posx>810</posx>
-      <posy>60</posy>
+      <left>810</left>
+      <top>60</top>
       <include>Animation_Viewtype_Panel_FocusArea</include>
       <visible>!IsEmpty(ListItem.Title) + Container.Content(movies) + Control.IsVisible(597)</visible>
       <control type="label">
         <!--Movie title-->
-        <posx>0</posx>
-        <posy>80</posy>
+        <left>0</left>
+        <top>80</top>
         <width>460</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -388,8 +388,8 @@
         <label>$INFO[ListItem.Label]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>108</posy>
+        <left>0</left>
+        <top>108</top>
         <width>460</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -400,8 +400,8 @@
       </control>
       <control type="label">
         <!--Duration-->
-        <posx>0</posx>
-        <posy>108</posy>
+        <left>0</left>
+        <top>108</top>
         <width>460</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -412,8 +412,8 @@
       </control>
       <control type="label">
         <!--Year-->
-        <posx>0</posx>
-        <posy>133</posy>
+        <left>0</left>
+        <top>133</top>
         <width>360</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -422,15 +422,15 @@
         <label>$INFO[ListItem.Year]</label>
       </control>
       <control type="group">
-        <posx>118</posx>
-        <posy>178</posy>
+        <left>118</left>
+        <top>178</top>
         <include>VideoMPAAFlaggingConditions</include>
         <animation effect="zoom" start="79" end="79" time="0" condition="true">Conditional</animation>
       </control>
       <control type="textbox">
         <visible>![Container.OnNext | Container.OnPrevious] + !Player.HasAudio</visible>
-        <posx>0</posx>
-        <posy>224</posy>
+        <left>0</left>
+        <top>224</top>
         <width>460</width>
         <height>310</height>
         <align>justify</align>
@@ -442,8 +442,8 @@
       </control>
       <control type="textbox">
         <visible>![Container.OnNext | Container.OnPrevious] + Player.HasAudio</visible>
-        <posx>0</posx>
-        <posy>224</posy>
+        <left>0</left>
+        <top>224</top>
         <width>460</width>
         <height>264</height>
         <align>justify</align>
@@ -457,8 +457,8 @@
     <control type="grouplist">
       <visible>Control.IsVisible(597) + Container.Content(movies) + !Skin.HasSetting(no_media_flags) + !Player.HasAudio</visible>
       <description>Media Codec Flagging Images</description>
-      <posx>800</posx>
-      <posy>680</posy>
+      <left>800</left>
+      <top>680</top>
       <width>480</width>
       <align>center</align>
       <itemgap>0</itemgap>
@@ -474,8 +474,8 @@
     </control>
     <control type="scrollbar" id="5970">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(597) + Control.HasFocus(5970)</visible>
@@ -492,8 +492,8 @@
     <control type="label">
       <!--Trailer Start-->
       <visible>Control.IsVisible(597) + Container.Content(movies) + !IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
-      <posx>64</posx>
-      <posy>676</posy>
+      <left>64</left>
+      <top>676</top>
       <width>370</width>
       <height>50</height>
       <aligny>center</aligny>
@@ -506,8 +506,8 @@
     <control type="label">
       <!--Trailer Stop-->
       <visible>Control.IsVisible(597) + Container.Content(movies) + Player.HasVideo</visible>
-      <posx>84</posx>
-      <posy>676</posy>
+      <left>84</left>
+      <top>676</top>
       <width>370</width>
       <height>50</height>
       <aligny>center</aligny>

@@ -6,8 +6,8 @@
   <views>50,58,52,51,596</views>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <controls>
     <control type="image">
@@ -64,8 +64,8 @@
     <include>7000_has_focus</include>
     <control type="image">
       <!-- Floor -->
-      <posx>0</posx>
-      <posy>650</posy>
+      <left>0</left>
+      <top>650</top>
       <width>1280</width>
       <height>70</height>
       <texture>notification_background.png</texture>
@@ -74,7 +74,7 @@
     </control>
     <control type="grouplist" id="7000">
       <include>WindowMenuVars</include>
-      <posy>680</posy>
+      <top>680</top>
       <control type="button" id="2">
         <description>View</description>
         <include>WindowMenuButton</include>
@@ -82,8 +82,8 @@
       </control>
       <control type="radiobutton" id="20">
         <description>shuffle</description>
-        <posx>0</posx>
-        <posy>30</posy>
+        <left>0</left>
+        <top>30</top>
         <width>160</width>
         <height>30</height>
         <font>Font_Bartowski_Smaller_MenuTitle</font>
@@ -96,8 +96,8 @@
       </control>
       <control type="radiobutton" id="28">
         <description>randomize</description>
-        <posx>0</posx>
-        <posy>30</posy>
+        <left>0</left>
+        <top>30</top>
         <width>160</width>
         <height>30</height>
         <font>Font_Bartowski_Smaller_MenuTitle</font>

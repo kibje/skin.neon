@@ -5,21 +5,21 @@
       <include>Animation_CommonFadeNoHideBack-Home</include>
       <!-- Movies -->
       <control type="group">
-        <posx>-800</posx>
-        <posy>300</posy>
+        <left>-800</left>
+        <top>300</top>
         <visible>Container(301).HasFocus(3) + Library.HasContent(Movies)</visible>
         <animation effect="slide" start="0,0" end="830,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510) + Container(301).HasFocus(3)">Conditional</animation>
         <control type="image">
-          <posx>-9</posx>
-          <posy>-10</posy>
+          <left>-9</left>
+          <top>-10</top>
           <width>188</width>
           <height>280</height>
           <texture diffuse="showcase_matte.png">thumb_cover_back.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="largeimage">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>169</width>
           <height>260</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -27,26 +27,26 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>169</width>
           <height>260</height>
           <texture border="-17">showcase_shadow.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="group">
-          <posy>14</posy>
+          <top>14</top>
           <control type="image">
-            <posx>180</posx>
-            <posy>-10</posy>
+            <left>180</left>
+            <top>-10</top>
             <width>570</width>
             <height>255</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="20">ContentPanel.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>195</posx>
-            <posy>0</posy>
+            <left>195</left>
+            <top>0</top>
             <width>540</width>
             <height>30</height>
             <aligny>center</aligny>
@@ -56,8 +56,8 @@
             <scrollout>false</scrollout>
           </control>
           <control type="image">
-            <posx>196</posx>
-            <posy>30</posy>
+            <left>196</left>
+            <top>30</top>
             <width>540</width>
             <height>1</height>
             <texture>common/separator.png</texture>
@@ -74,13 +74,13 @@
       </control>
       <!-- TV Shows Large -->
       <control type="group" id="8888">
-        <posx>0</posx>
-        <posy>45</posy>
+        <left>0</left>
+        <top>45</top>
         <visible>Library.HasContent(TVShows) + Container(301).Hasfocus(5) + Skin.HasSetting(BigRecentTV) + !Skin.HasSetting(random_items)</visible>
         <animation effect="fade" start="0" end="100" time="600" delay="2000" condition="Container(301).HasFocus(5)">Conditional</animation>
         <control type="wraplist" id="8001">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1280</width>
           <height>510</height>
           <onleft>301</onleft>
@@ -93,19 +93,19 @@
           <scrolltime>0</scrolltime>
           <itemlayout width="633" height="172">
             <control type="group">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>284</width>
                 <height>160</height>
                 <texture diffuse="episodematte.png" fallback="tv-landscape/tv-background.png">$INFO[ListItem.Art(thumb)]</texture>
                 <aspectratio scalediffuse="false">stretch</aspectratio>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>-100</posy>
+                <left>0</left>
+                <top>-100</top>
                 <width>284</width>
                 <height>260</height>
                 <texture>common/recently_black_back.png</texture>
@@ -113,8 +113,8 @@
                 <aspectratio scalediffuse="false">scale</aspectratio>
               </control>
               <control type="image">
-                <posx>-10</posx>
-                <posy>-10</posy>
+                <left>-10</left>
+                <top>-10</top>
                 <width>306</width>
                 <height>180</height>
                 <colordiffuse>grey3</colordiffuse>
@@ -125,8 +125,8 @@
                 </animation>
               </control>
               <control type="label">
-                <posx>270</posx>
-                <posy>123</posy>
+                <left>270</left>
+                <top>123</top>
                 <width>260</width>
                 <height>10</height>
                 <font>Font_Bartowski_Movies</font>
@@ -139,8 +139,8 @@
                 <label>[B]$INFO[ListItem.Label2][/B]</label>
               </control>
               <control type="label">
-                <posx>270</posx>
-                <posy>138</posy>
+                <left>270</left>
+                <top>138</top>
                 <width>260</width>
                 <scroll>false</scroll>
                 <height>20</height>
@@ -156,18 +156,18 @@
           </itemlayout>
           <focusedlayout width="633" height="172">
             <control type="group">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <control type="image">
-                <posx>-10</posx>
-                <posy>-5</posy>
+                <left>-10</left>
+                <top>-5</top>
                 <width>1300</width>
                 <height>170</height>
                 <texture>black-back.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>284</width>
                 <height>160</height>
                 <texture diffuse="episodematte.png" fallback="tv-landscape/tv-background.png">$INFO[ListItem.Art(thumb)]</texture>
@@ -178,8 +178,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-10</posx>
-                <posy>-10</posy>
+                <left>-10</left>
+                <top>-10</top>
                 <width>306</width>
                 <height>180</height>
                 <colordiffuse>grey3</colordiffuse>
@@ -192,8 +192,8 @@
               <control type="label">
                 <!-- Good -->
                 <description>Episode Title</description>
-                <posx>300</posx>
-                <posy>6</posy>
+                <left>300</left>
+                <top>6</top>
                 <width>960</width>
                 <height>50</height>
                 <aligny>center</aligny>
@@ -202,8 +202,8 @@
                 <label>[COLOR=mainblue]$INFO[ListItem.Label2][/COLOR] - [COLOR=white]$INFO[ListItem.Label][/COLOR]</label>
               </control>
               <control type="textbox">
-                <posx>300</posx>
-                <posy>60</posy>
+                <left>300</left>
+                <top>60</top>
                 <width>960</width>
                 <height>104</height>
                 <align>justify</align>
@@ -321,27 +321,27 @@
       <!-- TV Shows small -->
       <control type="group">
         <visible>Container(301).HasFocus(5) + Library.HasContent(TVShows) + !Skin.HasSetting(BigRecentTV)</visible>
-        <posx>-900</posx>
-        <posy>320</posy>
+        <left>-900</left>
+        <top>320</top>
         <animation effect="slide" start="0,0" end="929,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510) + Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)">Conditional</animation>
         <control type="image">
-          <posx>320</posx>
-          <posy>68</posy>
+          <left>320</left>
+          <top>68</top>
           <width>20</width>
           <height>40</height>
           <texture>arrow_settings_left.png</texture>
         </control>
         <control type="image">
-          <posx>-11</posx>
-          <posy>56</posy>
+          <left>-11</left>
+          <top>56</top>
           <width>346</width>
           <height>194</height>
           <texture diffuse="thumb_tvmask.png">thumb_nowplaying_back.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="largeimage">
-          <posx>0</posx>
-          <posy>51</posy>
+          <left>0</left>
+          <top>51</top>
           <width>321</width>
           <height>180</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -349,27 +349,27 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>1</posx>
-          <posy>63</posy>
+          <left>1</left>
+          <top>63</top>
           <width>321</width>
           <height>180</height>
           <texture diffuse="thumb_tvmask.png">thumb_tvglass_noedge.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>330</posx>
-          <posy>65</posy>
+          <left>330</left>
+          <top>65</top>
           <width>570</width>
           <height>175</height>
           <colordiffuse>mainblue</colordiffuse>
           <texture border="20">ContentPanel.png</texture>
         </control>
         <control type="group">
-          <posx>5</posx>
-          <posy>5</posy>
+          <left>5</left>
+          <top>5</top>
           <control type="fadelabel">
-            <posx>340</posx>
-            <posy>69</posy>
+            <left>340</left>
+            <top>69</top>
             <width>540</width>
             <height>30</height>
             <aligny>center</aligny>
@@ -379,15 +379,15 @@
             <scrollout>false</scrollout>
           </control>
           <control type="image">
-            <posx>340</posx>
-            <posy>98</posy>
+            <left>340</left>
+            <top>98</top>
             <width>540</width>
             <height>1</height>
             <texture>common/separator.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>340</posx>
-            <posy>99</posy>
+            <left>340</left>
+            <top>99</top>
             <width>540</width>
             <height>20</height>
             <aligny>center</aligny>
@@ -410,26 +410,26 @@
       <control type="group">
         <visible>Container(301).HasFocus(1) + Library.HasContent(Music)</visible>
         <animation effect="slide" start="0,0" end="1022,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510) + Container(301).HasFocus(1)">Conditional</animation>
-        <posx>-1020</posx>
-        <posy>268</posy>
+        <left>-1020</left>
+        <top>268</top>
         <control type="image">
-          <posx>282</posx>
-          <posy>70</posy>
+          <left>282</left>
+          <top>70</top>
           <width>20</width>
           <height>40</height>
           <texture>arrow_settings_left.png</texture>
         </control>
         <control type="image">
-          <posx>20</posx>
-          <posy>53</posy>
+          <left>20</left>
+          <top>53</top>
           <height>247</height>
           <width>273</width>
           <texture diffuse="thumb_cdmask_diffuse.png">thumb_nowplaying_back.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="largeimage">
-          <posx>28</posx>
-          <posy>62</posy>
+          <left>28</left>
+          <top>62</top>
           <height>230</height>
           <width>255</width>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -437,27 +437,27 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>28</posx>
-          <posy>62</posy>
+          <left>28</left>
+          <top>62</top>
           <height>230</height>
           <width>255</width>
           <texture diffuse="thumb_cdmask_diffuse.png">thumb_tvglass_noedge.png</texture>
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="group">
-          <posx>7</posx>
-          <posy>5</posy>
+          <left>7</left>
+          <top>5</top>
           <control type="image">
-            <posx>290</posx>
-            <posy>62</posy>
+            <left>290</left>
+            <top>62</top>
             <width>400</width>
             <height>225</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="20">ContentPanel.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>305</posx>
-            <posy>70</posy>
+            <left>305</left>
+            <top>70</top>
             <height>30</height>
             <width>375</width>
             <aligny>center</aligny>
@@ -467,15 +467,15 @@
             <scrollout>false</scrollout>
           </control>
           <control type="image">
-            <posx>306</posx>
-            <posy>100</posy>
+            <left>306</left>
+            <top>100</top>
             <width>540</width>
             <height>1</height>
             <texture>common/separator.png</texture>
           </control>
           <control type="fadelabel">
-            <posx>305</posx>
-            <posy>102</posy>
+            <left>305</left>
+            <top>102</top>
             <width>540</width>
             <height>25</height>
             <aligny>center</aligny>
@@ -500,19 +500,19 @@
         <animation effect="slide" start="0,0" end="-380,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,20" time="0" condition="!Skin.HasSetting(nohometime) + Skin.HasSetting(highertime)+ !Skin.HasSetting(lowermainmenu)">Conditional</animation>
         <include>Animation_CloseZoom</include>
-        <posx>1340</posx>
-        <posy>305</posy>
+        <left>1340</left>
+        <top>305</top>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>300</width>
           <height>255</height>
           <colordiffuse>mainblue</colordiffuse>
           <texture background="true" border="20">ContentPanel.png</texture>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>13</posy>
+          <left>0</left>
+          <top>13</top>
           <width>300</width>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -520,8 +520,8 @@
           <visible>!Skin.HasSetting(random_items) + [Container(301).HasFocus(1) | Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]]</visible>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>13</posy>
+          <left>0</left>
+          <top>13</top>
           <width>300</width>
           <textcolor>mainblue</textcolor>
           <align>center</align>
@@ -534,11 +534,11 @@
         <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]]</visible>
         <animation effect="slide" start="0,0" end="-380,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,20" time="0" condition="!Skin.HasSetting(Clock)">Conditional</animation>
-        <posx>1340</posx>
-        <posy>250</posy>
+        <left>1340</left>
+        <top>250</top>
         <control type="list" id="510">
-          <posx>0</posx>
-          <posy>72</posy>
+          <left>0</left>
+          <top>72</top>
           <width>300</width>
           <height>210</height>
           <onleft>4054</onleft>
@@ -549,8 +549,8 @@
           <visible>!Skin.HasSetting(random_items)</visible>
           <itemlayout height="24" width="300">
             <control type="image">
-              <posx>-6</posx>
-              <posy>6</posy>
+              <left>-6</left>
+              <top>6</top>
               <height>24</height>
               <width>311</width>
               <texture>osd_settings_buttonnf.png</texture>
@@ -563,16 +563,16 @@
           </itemlayout>
           <focusedlayout height="24" width="300">
             <control type="image">
-              <posx>-6</posx>
-              <posy>6</posy>
+              <left>-6</left>
+              <top>6</top>
               <height>24</height>
               <width>311</width>
               <texture>osd_settings_buttonnf.png</texture>
               <colordiffuse>88ffffff</colordiffuse>
             </control>
             <control type="image">
-              <posx>3</posx>
-              <posy>5</posy>
+              <left>3</left>
+              <top>5</top>
               <width>293</width>
               <height>25</height>
               <texture>common_browser_focus.png</texture>
@@ -863,11 +863,11 @@
         <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]]</visible>
         <animation effect="slide" start="0,0" end="-380,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,20" time="0" condition="!Skin.HasSetting(nohometime) + Skin.HasSetting(highertime)+ !Skin.HasSetting(lowermainmenu)">Conditional</animation>
-        <posx>1340</posx>
-        <posy>250</posy>
+        <left>1340</left>
+        <top>250</top>
         <control type="list" id="510">
-          <posx>0</posx>
-          <posy>96</posy>
+          <left>0</left>
+          <top>96</top>
           <width>300</width>
           <height>210</height>
           <onleft>4054</onleft>
@@ -878,8 +878,8 @@
           <visible>Skin.HasSetting(random_items)</visible>
           <itemlayout height="24" width="300">
             <control type="image">
-              <posx>-6</posx>
-              <posy>6</posy>
+              <left>-6</left>
+              <top>6</top>
               <height>24</height>
               <width>311</width>
               <texture>osd_settings_buttonnf.png</texture>
@@ -892,16 +892,16 @@
           </itemlayout>
           <focusedlayout height="24" width="300">
             <control type="image">
-              <posx>-6</posx>
-              <posy>6</posy>
+              <left>-6</left>
+              <top>6</top>
               <height>24</height>
               <width>311</width>
               <texture>osd_settings_buttonnf.png</texture>
               <colordiffuse>88ffffff</colordiffuse>
             </control>
             <control type="image">
-              <posx>3</posx>
-              <posy>5</posy>
+              <left>3</left>
+              <top>5</top>
               <width>293</width>
               <height>25</height>
               <texture>common_browser_focus.png</texture>
@@ -1280,8 +1280,8 @@
       <control type="group">
         <include>Animation_OpenCloseSlideWidget</include>
         <visible>[[Container(301).HasFocus(1) + Library.HasContent(Music)] | [Container(301).HasFocus(3) + Library.HasContent(Movies)] | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV) + Library.HasContent(TVShows)] | Container(301).HasFocus(9)]</visible>
-        <posx>1000</posx>
-        <posy>320</posy>
+        <left>1000</left>
+        <top>320</top>
         <animation effect="slide" start="0,0" end="380,0" time="500" easing="inout" tween="cubic" condition="Control.HasFocus(510)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,403" time="400" tween="cubic" easing="inout" condition="Skin.HasSetting(lowerwidgets) + !Skin.HasSetting(lowermainmenu)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,-30" time="400" tween="cubic" easing="inout" condition="Skin.HasSetting(lowerwidgets) + !Skin.HasSetting(lowermainmenu) + Skin.HasSetting(lowerrss)">Conditional</animation>
@@ -1303,8 +1303,8 @@
           <visible>[Container(301).HasFocus(1) | Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]] + Skin.HasSetting(random_items)</visible>
         </control>
         <control type="image">
-          <posx>1</posx>
-          <posy>61</posy>
+          <left>1</left>
+          <top>61</top>
           <width>238</width>
           <height>132</height>
           <texture diffuse="thumb_tvmask.png">thumb_nowplaying_back.png</texture>
@@ -1313,8 +1313,8 @@
           <visible>Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]</visible>
         </control>
         <control type="image">
-          <posx>44</posx>
-          <posy>63</posy>
+          <left>44</left>
+          <top>63</top>
           <width>150</width>
           <height>133</height>
           <texture diffuse="thumb_cdmask_diffuse.png">thumb_nowplaying_back.png</texture>
@@ -1323,8 +1323,8 @@
           <visible>Container(301).HasFocus(1) | Container(301).HasFocus(9)</visible>
         </control>
         <control type="image">
-          <posx>15</posx>
-          <posy>55</posy>
+          <left>15</left>
+          <top>55</top>
           <width>220</width>
           <height>123</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -1334,8 +1334,8 @@
           <visible>Container(301).HasFocus(3)</visible>
         </control>
         <control type="image">
-          <posx>15</posx>
-          <posy>55</posy>
+          <left>15</left>
+          <top>55</top>
           <width>220</width>
           <height>123</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -1345,8 +1345,8 @@
           <visible>Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)</visible>
         </control>
         <control type="image">
-          <posx>55</posx>
-          <posy>57</posy>
+          <left>55</left>
+          <top>57</top>
           <width>140</width>
           <height>125</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -1356,8 +1356,8 @@
           <visible>Container(301).HasFocus(1)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>67</posy>
+          <left>50</left>
+          <top>67</top>
           <width>140</width>
           <height>140</height>
           <fadetime>FanartCrossfadeTime</fadetime>
@@ -1367,8 +1367,8 @@
           <visible>Container(301).HasFocus(9)</visible>
         </control>
         <control type="image">
-          <posx>10</posx>
-          <posy>65</posy>
+          <left>10</left>
+          <top>65</top>
           <width>220</width>
           <height>123</height>
           <texture diffuse="thumb_tvmask.png">thumb_episodeicon_glass.png</texture>
@@ -1377,8 +1377,8 @@
           <visible>Container(301).HasFocus(3) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>67</posy>
+          <left>50</left>
+          <top>67</top>
           <width>140</width>
           <height>125</height>
           <colordiffuse>aaFFFFFF</colordiffuse>
@@ -1419,8 +1419,8 @@
     </control>
   </include>
   <include name="Objects_ListMultiFunction_Label">
-    <posx>20</posx>
-    <posy>2</posy>
+    <left>20</left>
+    <top>2</top>
     <width>270</width>
     <height>30</height>
     <font>Font_Neon_24</font>
@@ -1429,8 +1429,8 @@
     <label>$INFO[ListItem.Label]</label>
   </include>
   <include name="MainMenuMultiFunction_SubTitle">
-    <posx>15</posx>
-    <posy>182</posy>
+    <left>15</left>
+    <top>182</top>
     <width>220</width>
     <height>25</height>
     <font>Font_Neon_20</font>
@@ -1443,8 +1443,8 @@
     <animation effect="slide" start="0,0" end="0,7" time="50" tween="cubic" easing="inout" condition="Container(300).HasFocus(3)">Conditional</animation>
   </include>
   <include name="MainMenuMultiFunction_SubTitle2">
-    <posx>15</posx>
-    <posy>206</posy>
+    <left>15</left>
+    <top>206</top>
     <width>220</width>
     <height>20</height>
     <font>Font_Time</font>
@@ -1452,8 +1452,8 @@
     <aligny>center</aligny>
   </include>
   <include name="Objects_ListMultiFunction_Label">
-    <posx>20</posx>
-    <posy>2</posy>
+    <left>20</left>
+    <top>2</top>
     <width>270</width>
     <height>30</height>
     <font>Font_Neon_20</font>
@@ -1462,8 +1462,8 @@
     <label>$INFO[ListItem.Label]</label>
   </include>
   <include name="Objects_LatestSong_Label">
-    <posx>10</posx>
-    <posy>193</posy>
+    <left>10</left>
+    <top>193</top>
     <width>220</width>
     <height>20</height>
     <font>Font_Neon_24</font>
@@ -1472,8 +1472,8 @@
     <aligny>center</aligny>
   </include>
   <include name="Home_Song_YearNote">
-    <posx>305</posx>
-    <posy>132</posy>
+    <left>305</left>
+    <top>132</top>
     <width>533</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1481,8 +1481,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Recently_Song_Genre">
-    <posx>305</posx>
-    <posy>152</posy>
+    <left>305</left>
+    <top>152</top>
     <width>533</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1490,8 +1490,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Recently_Song_Album">
-    <posx>305</posx>
-    <posy>172</posy>
+    <left>305</left>
+    <top>172</top>
     <width>533</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1500,8 +1500,8 @@
     <label>$LOCALIZE[31425]:</label>
   </include>
   <include name="Home_Recently_Song_Plot">
-    <posx>305</posx>
-    <posy>197</posy>
+    <left>305</left>
+    <top>197</top>
     <width>533</width>
     <height>117</height>
     <aligny>center</aligny>
@@ -1509,8 +1509,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Movie_YearNote">
-    <posx>195</posx>
-    <posy>33</posy>
+    <left>195</left>
+    <top>33</top>
     <width>540</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1518,8 +1518,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Movie_Plot">
-    <posx>195</posx>
-    <posy>57</posy>
+    <left>195</left>
+    <top>57</top>
     <width>540</width>
     <height>169</height>
     <aligny>top</aligny>
@@ -1529,8 +1529,8 @@
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
   <include name="Home_Episode_Note">
-    <posx>340</posx>
-    <posy>116</posy>
+    <left>340</left>
+    <top>116</top>
     <width>540</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1538,8 +1538,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Episode_Plot">
-    <posx>340</posx>
-    <posy>140</posy>
+    <left>340</left>
+    <top>140</top>
     <width>540</width>
     <height>77</height>
     <aligny>top</aligny>
@@ -1549,8 +1549,8 @@
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
   <include name="Home_Song_YearGenre">
-    <posx>305</posx>
-    <posy>125</posy>
+    <left>305</left>
+    <top>125</top>
     <width>540</width>
     <height>25</height>
     <aligny>center</aligny>
@@ -1558,8 +1558,8 @@
     <font>Font_Neon_22</font>
   </include>
   <include name="Home_Song_Plot">
-    <posx>305</posx>
-    <posy>145</posy>
+    <left>305</left>
+    <top>145</top>
     <width>540</width>
     <height>133</height>
     <aligny>center</aligny>
@@ -1569,14 +1569,14 @@
     <autoscroll delay="8000" time="2000" repeat="8000">!Skin.HasSetting(noallowscroll)</autoscroll>
   </include>
   <include name="Objects_MultiFunctionWidget">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>250</width>
     <height>250</height>
   </include>
   <include name="MainMenuMultiFunction_ClassicTitle">
-    <posx>0</posx>
-    <posy>13</posy>
+    <left>0</left>
+    <top>13</top>
     <width>240</width>
     <height>40</height>
     <align>center</align>

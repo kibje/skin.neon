@@ -2,8 +2,8 @@
 <includes>
   <include name="ContentPanelBackgrounds">
     <control type="image">
-      <posx>0</posx>
-      <posy>100r</posy>
+      <left>0</left>
+      <top>100r</top>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>
@@ -16,15 +16,15 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(50)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>750</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>750</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -34,29 +34,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(504) | Control.IsVisible(512)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>640</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>640</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>700</posx>
-          <posy>60</posy>
+          <left>700</left>
+          <top>60</top>
           <width>530</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>700</posx>
-          <posy>652</posy>
+          <left>700</left>
+          <top>652</top>
           <width>530</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -66,29 +66,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(560) | Control.IsVisible(511) | Control.IsVisible(506) | Control.IsVisible(513)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>840</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>840</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>900</posx>
-          <posy>60</posy>
+          <left>900</left>
+          <top>60</top>
           <width>330</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>900</posx>
-          <posy>652</posy>
+          <left>900</left>
+          <top>652</top>
           <width>330</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -98,15 +98,15 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(501)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>50</posy>
+          <left>50</left>
+          <top>50</top>
           <width>1180</width>
           <height>610</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>1180</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -116,29 +116,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(503)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>230</posy>
+          <left>50</left>
+          <top>230</top>
           <width>640</width>
           <height>430</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>640</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>700</posx>
-          <posy>230</posy>
+          <left>700</left>
+          <top>230</top>
           <width>550</width>
           <height>430</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>700</posx>
-          <posy>652</posy>
+          <left>700</left>
+          <top>652</top>
           <width>550</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -148,15 +148,15 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(51) | Control.IsVisible(500) | Control.IsVisible(505)</visible>
         <control type="image">
-          <posx>75</posx>
-          <posy>60</posy>
+          <left>75</left>
+          <top>60</top>
           <width>1130</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>75</posx>
-          <posy>652</posy>
+          <left>75</left>
+          <top>652</top>
           <width>1130</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -166,29 +166,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(514)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>490</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>490</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>550</posx>
-          <posy>60</posy>
+          <left>550</left>
+          <top>60</top>
           <width>680</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>550</posx>
-          <posy>652</posy>
+          <left>550</left>
+          <top>652</top>
           <width>680</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -197,8 +197,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(clean_poster) + !Skin.HasSetting(no_media_flags) + ![Control.IsVisible(65) | Control.IsVisible(508)]</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>60</posx>
-        <posy>680</posy>
+        <left>60</left>
+        <top>680</top>
         <width>1280</width>
         <align>left</align>
         <itemgap>5</itemgap>
@@ -216,8 +216,8 @@
   </include>
   <include name="ContentPanelBackgroundsPVR">
     <control type="image">
-      <posx>0</posx>
-      <posy>100r</posy>
+      <left>0</left>
+      <top>100r</top>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>
@@ -230,15 +230,15 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(10) | Control.IsVisible(14) | Control.IsVisible(15) | Control.IsVisible(16) | Control.IsVisible(17)</visible>
         <control type="image">
-          <posx>55</posx>
-          <posy>60</posy>
+          <left>55</left>
+          <top>60</top>
           <width>1170</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>55</posx>
-          <posy>652</posy>
+          <left>55</left>
+          <top>652</top>
           <width>1170</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -248,29 +248,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(11) | Control.IsVisible(12)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>450</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>450</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>510</posx>
-          <posy>60</posy>
+          <left>510</left>
+          <top>60</top>
           <width>730</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>510</posx>
-          <posy>652</posy>
+          <left>510</left>
+          <top>652</top>
           <width>730</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -280,29 +280,29 @@
         <include>VisibleFadeEffect</include>
         <visible>Control.IsVisible(13)</visible>
         <control type="image">
-          <posx>50</posx>
-          <posy>60</posy>
+          <left>50</left>
+          <top>60</top>
           <width>840</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>652</posy>
+          <left>50</left>
+          <top>652</top>
           <width>840</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
         </control>
         <control type="image">
-          <posx>900</posx>
-          <posy>60</posy>
+          <left>900</left>
+          <top>60</top>
           <width>330</width>
           <height>600</height>
           <texture border="15">ContentPanel.png</texture>
         </control>
         <control type="image">
-          <posx>900</posx>
-          <posy>652</posy>
+          <left>900</left>
+          <top>652</top>
           <width>330</width>
           <height>64</height>
           <texture border="15">ContentPanelMirror.png</texture>
@@ -312,8 +312,8 @@
   </include>
   <include name="CommonTVBackground">
     <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <imagepath fallback="special://skin/backgrounds/tv.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</imagepath>

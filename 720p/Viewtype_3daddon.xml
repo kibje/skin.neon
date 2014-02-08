@@ -4,16 +4,16 @@
   <include name="Viewtype_3daddon">
     <control type="image">
       <visible>Control.IsVisible(56) + Skin.HasSetting(3dmusic_Fanart)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>music/music_fanart_3d.png</texture>
       <aspectratio>stretch</aspectratio>
     </control>
     <control type="fixedlist" id="56">
-      <posx>-30</posx>
-      <posy>250</posy>
+      <left>-30</left>
+      <top>250</top>
       <height>615</height>
       <width>1400</width>
       <!-- 1400 -->
@@ -36,20 +36,20 @@
       <visible></visible>
       <itemlayout width="176" height="245">
         <control type="group">
-          <posx>150</posx>
-          <posy>60</posy>
+          <left>150</left>
+          <top>60</top>
           <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(56).OnNext | Container(56).OnPrevious]">Conditional</animation>
           <control type="image">
-            <posx>-2</posx>
-            <posy>133</posy>
+            <left>-2</left>
+            <top>133</top>
             <width>26</width>
             <height>160</height>
             <texture>movie-poster/newcase.png</texture>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>-2</posx>
-            <posy>284</posy>
+            <left>-2</left>
+            <top>284</top>
             <width>40</width>
             <height>304</height>
             <texture>movie-poster/test2.png</texture>
@@ -57,15 +57,15 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>-149</posx>
-            <posy>131</posy>
+            <left>-149</left>
+            <top>131</top>
             <width>162</width>
             <height>162</height>
             <texture>movie-poster/music_square_diffuse.png</texture>
           </control>
           <control type="image">
-            <posx>-149</posx>
-            <posy>131</posy>
+            <left>-149</left>
+            <top>131</top>
             <width>162</width>
             <height>162</height>
             <texture background="true" diffuse="movie-poster/music_square_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -74,8 +74,8 @@
             <visible>!Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-149</posx>
-            <posy>131</posy>
+            <left>-149</left>
+            <top>131</top>
             <width>162</width>
             <height>162</height>
             <texture background="true" fallback="extras/musicgenres/default.jpg" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
@@ -84,8 +84,8 @@
             <visible>Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>290</posy>
+            <left>-150</left>
+            <top>290</top>
             <width>162</width>
             <height>162</height>
             <texture flipy="true">movie-poster/posterview_diffuse_border.png</texture>
@@ -95,8 +95,8 @@
             <animation effect="fade" start="0" end="30" time="0" condition="true">Conditional</animation>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>290</posy>
+            <left>-150</left>
+            <top>290</top>
             <width>162</width>
             <height>162</height>
             <texture background="true" flipy="true" diffuse="movie-poster/music_square_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -106,8 +106,8 @@
             <visible>!Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>290</posy>
+            <left>-150</left>
+            <top>290</top>
             <width>162</width>
             <height>162</height>
             <texture background="true" fallback="extras/musicgenres/default.jpg" flipy="true" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
@@ -120,13 +120,13 @@
       </itemlayout>
       <focusedlayout width="220" height="515">
         <control type="group">
-          <posx>140</posx>
-          <posy>60</posy>
+          <left>140</left>
+          <top>60</top>
           <animation effect="zoom" start="100" end="120" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(56).OnNext | Container(56).OnPrevious]">Conditional</animation>
           <animation effect="slide" start="0,0" end="-280,-80" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(56).OnNext | Container(56).OnPrevious]">Conditional</animation>
           <control type="image">
-            <posx>44</posx>
-            <posy>93</posy>
+            <left>44</left>
+            <top>93</top>
             <width>36</width>
             <height>206</height>
             <texture>movie-poster/newcase.png</texture>
@@ -137,8 +137,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>48</posx>
-            <posy>289</posy>
+            <left>48</left>
+            <top>289</top>
             <width>48</width>
             <height>304</height>
             <texture>movie-poster/test2.png</texture>
@@ -149,8 +149,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-148</posx>
-            <posy>90</posy>
+            <left>-148</left>
+            <top>90</top>
             <width>211</width>
             <height>211</height>
             <texture>movie-poster/music_square_diffuse.png</texture>
@@ -161,8 +161,8 @@
             </animation>
           </control>
           <!--<control type="image">
-						<posx>-148</posx>
-						<posy>302</posy>
+						<left>-148</left>
+						<top>302</top>
 						<width>211</width>
 						<height>211</height>
 						<texture flipy="true">movie-poster/music_square_diffuse.png</texture>
@@ -174,8 +174,8 @@
 						</animation>
 					</control>-->
           <control type="image">
-            <posx>-148</posx>
-            <posy>90</posy>
+            <left>-148</left>
+            <top>90</top>
             <width>211</width>
             <height>211</height>
             <texture background="true" diffuse="movie-poster/music_square_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -187,8 +187,8 @@
             <visible>!Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-148</posx>
-            <posy>90</posy>
+            <left>-148</left>
+            <top>90</top>
             <width>211</width>
             <height>211</height>
             <texture background="true" fallback="extras/musicgenres/default.jpg" diffuse="movie-poster/music_square_diffuse.png">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
@@ -200,8 +200,8 @@
             <visible>Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-146</posx>
-            <posy>298</posy>
+            <left>-146</left>
+            <top>298</top>
             <width>211</width>
             <height>211</height>
             <texture flipy="true">movie-poster/music_square_diffuse.png</texture>
@@ -213,8 +213,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-148</posx>
-            <posy>298</posy>
+            <left>-148</left>
+            <top>298</top>
             <width>211</width>
             <height>211</height>
             <texture background="true" flipy="true" diffuse="movie-poster/music_square_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -227,8 +227,8 @@
             <visible>!Container.Content(Genres)</visible>
           </control>
           <control type="image">
-            <posx>-148</posx>
-            <posy>298</posy>
+            <left>-148</left>
+            <top>298</top>
             <width>211</width>
             <height>211</height>
             <texture background="true" fallback="extras/musicgenres/default.jpg" flipy="true" diffuse="movie-poster/music_square_diffuse.jpg">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
@@ -245,8 +245,8 @@
     </control>
     <control type="image">
       <visible>Control.IsVisible(56) + !Skin.HasSetting(Poster_Fanart)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>movie-poster/last-overlay.png</texture>
@@ -258,16 +258,16 @@
       <visible>Control.IsVisible(56) + Container.Content(albums)</visible>
       <control type="image">
         <visible>Skin.HasSetting(3dmusic_Fanart)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>160</height>
         <texture>movie-poster/Poster_Fanart_Title_Back.png</texture>
         <aspectratio>stretch</aspectratio>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -276,8 +276,8 @@
         <label>[B]$INFO[ListItem.Album][/B]</label>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -286,8 +286,8 @@
         <label>$INFO[ListItem.artist]</label>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>85</posy>
+        <left>20</left>
+        <top>85</top>
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -301,8 +301,8 @@
       <include>Animation_Viewtype_Showcase_ThumbArea</include>
       <visible>Control.IsVisible(56) + !Container.Content(albums)</visible>
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -311,8 +311,8 @@
         <label>[B]$INFO[ListItem.Label][/B]</label>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -322,8 +322,8 @@
       </control>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>528</posy>
+      <left>0</left>
+      <top>528</top>
       <width>1280</width>
       <height>192</height>
       <texture>common/scrollbar_back.png</texture>
@@ -331,8 +331,8 @@
     </control>
     <control type="scrollbar" id="66">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(56) + Control.HasFocus(66)</visible>

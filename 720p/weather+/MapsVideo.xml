@@ -5,8 +5,8 @@
 			<include>VisibleFadeEffect</include>
 			<control type="label">
 				<description>header label</description>
-				<posx>20</posx>
-				<posy>13</posy>
+				<left>20</left>
+				<top>13</top>
 				<width>610</width>
 				<height>30</height>
 				<font>font13_title</font>
@@ -17,13 +17,13 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="group">
-				<posx>20</posx>
-				<posy>50</posy>
+				<left>20</left>
+				<top>50</top>
 				<include>VisibleFadeEffect</include>
 			</control>
 			<control type="label">
-				<posx>45</posx>
-				<posy>50</posy>
+				<left>45</left>
+				<top>50</top>
 				<width>560</width>
 				<height>20</height>
 				<font>font12_title</font>
@@ -34,8 +34,8 @@
 			</control>
 			<control type="image">
 				<description>Background image</description>
-				<posx>40</posx>
-				<posy>75</posy>
+				<left>40</left>
+				<top>75</top>
 				<width>570</width>
 				<height>365</height>
 				<texture border="5">button-nofocus.png</texture>
@@ -44,8 +44,8 @@
 				<visible>StringCompare(Window.Property(MapPath),weather.com plus/loading)</visible>
 				<control type="multiimage">
 					<description>Empty Maps image</description>
-					<posx>45</posx>
-					<posy>80</posy>
+					<left>45</left>
+					<top>80</top>
 					<width>560</width>
 					<height>350</height>
 					<imagepath fallback="special://skin/backgrounds/weather.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</imagepath>
@@ -58,8 +58,8 @@
 					<aligny>center</aligny>
 				</control>
 				<control type="label">
-					<posx>45</posx>
-					<posy>200</posy>
+					<left>45</left>
+					<top>200</top>
 					<width>560</width>
 					<height>30</height>
 					<font>font13</font>
@@ -71,8 +71,8 @@
 			</control>
 			<control type="multiimage">
 				<description>maps multiimage</description>
-				<posx>45</posx>
-				<posy>80</posy>
+				<left>45</left>
+				<top>80</top>
 				<width>560</width>
 				<height>350</height>
 				<imagepath>$INFO[Window.Property(MapPath)]</imagepath>
@@ -86,16 +86,16 @@
 			</control>
 			<control type="image">
 				<description>legend image</description>
-				<posx>45</posx>
-				<posy>80</posy>
+				<left>45</left>
+				<top>80</top>
 				<width>560</width>
 				<height>50</height>
 				<texture>$INFO[Window.Property(LegendPath)]</texture>
 				<aspectratio aligny="top">keep</aspectratio>
 			</control>
 			<control type="list" id="53">
-				<posx>30</posx>
-				<posy>445</posy>
+				<left>30</left>
+				<top>445</top>
 				<width>585</width>
 				<height>160</height>
 				<onleft>9000</onleft>
@@ -107,22 +107,22 @@
 				<scrolltime>200</scrolltime>
 				<itemlayout height="40" width="585">
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>585</width>
 						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>5</posy>
+						<left>0</left>
+						<top>5</top>
 						<width>30</width>
 						<height>30</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>40</posx>
-						<posy>0</posy>
+						<left>40</left>
+						<top>0</top>
 						<width>540</width>
 						<height>40</height>
 						<font>font12</font>
@@ -135,8 +135,8 @@
 				</itemlayout>
 				<focusedlayout height="40" width="585">
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>585</width>
 						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
@@ -144,8 +144,8 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>585</width>
 						<height>41</height>
 						<texture border="0,2,0,2">MenuItemFO.png</texture>
@@ -153,15 +153,15 @@
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>5</posy>
+						<left>0</left>
+						<top>5</top>
 						<width>30</width>
 						<height>30</height>
 						<texture>$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>40</posx>
-						<posy>0</posy>
+						<left>40</left>
+						<top>0</top>
 						<width>540</width>
 						<height>40</height>
 						<font>font12</font>
@@ -404,8 +404,8 @@
 				</content>
 			</control>
 			<control type="scrollbar" id="63">
-				<posx>610</posx>
-				<posy>445</posy>
+				<left>610</left>
+				<top>445</top>
 				<width>25</width>
 				<height>160</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -421,8 +421,8 @@
 			</control>
 			<control type="label">
 				<description>number of files/pages</description>
-				<posx>660</posx>
-				<posy>627</posy>
+				<left>660</left>
+				<top>627</top>
 				<width>570</width>
 				<font>font12</font>
 				<align>right</align>

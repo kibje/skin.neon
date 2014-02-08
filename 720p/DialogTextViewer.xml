@@ -3,31 +3,31 @@
   <defaultcontrol>61</defaultcontrol>
   <controls>
     <control type="group">
-      <posx>160</posx>
-      <posy>35</posy>
+      <left>160</left>
+      <top>35</top>
       <control type="group">
         <animation effect="fade" delay="400" start="0" end="100" time="200">WindowOpen</animation>
         <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
         <control type="image">
           <description>background image</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>960</width>
           <height>610</height>
           <texture border="40">common/blackwood.jpg</texture>
         </control>
         <control type="image">
           <description>separator image</description>
-          <posx>40</posx>
-          <posy>60</posy>
+          <left>40</left>
+          <top>60</top>
           <width>900</width>
           <height>1</height>
           <texture>common/separator2.png</texture>
         </control>
         <control type="label" id="1">
           <description>header label</description>
-          <posx>360</posx>
-          <posy>20</posy>
+          <left>360</left>
+          <top>20</top>
           <width>640</width>
           <height>30</height>
           <font>font24caps_title</font>
@@ -37,8 +37,8 @@
         </control>
         <!--<control type="label" id="20">
 					<description>header label</description>
-					<posx>340</posx>
-					<posy>20</posy>
+					<left>340</left>
+					<top>20</top>
 					<width>640</width>
 					<height>30</height>
 					<font>font24caps_title</font>
@@ -49,8 +49,8 @@
 				</control>-->
         <control type="textbox" id="5">
           <description>textarea</description>
-          <posx>60</posx>
-          <posy>90</posy>
+          <left>60</left>
+          <top>90</top>
           <width>800</width>
           <height>500</height>
           <label>-</label>
@@ -60,8 +60,8 @@
           <pagecontrol>61</pagecontrol>
         </control>
         <control type="scrollbar" id="61">
-          <posx>1215</posx>
-          <posy>90</posy>
+          <left>1215</left>
+          <top>90</top>
           <width>25</width>
           <height>600</height>
           <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>

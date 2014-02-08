@@ -4,8 +4,8 @@
   <include name="Viewtype_Shelf">
     <control type="panel" id="51">
       <viewtype label="Shelf">icon</viewtype>
-      <posx>50</posx>
-      <posy>20</posy>
+      <left>50</left>
+      <top>20</top>
       <width>1280</width>
       <height>760</height>
       <scrolltime>0</scrolltime>
@@ -18,26 +18,26 @@
       <animation effect="slide" end="0,-60" time="800" tween="cubic" easing="inout" condition="!Container(51).Row(0)">Conditional</animation>
       <itemlayout width="170" height="130">
         <control type="group">
-          <posy>40</posy>
+          <top>40</top>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>170</width>
             <height>170</height>
             <texture>wall/musicwallmatte.png</texture>
             <colordiffuse>black</colordiffuse>
           </control>
           <control type="image">
-            <posx>-10</posx>
-            <posy>-18</posy>
+            <left>-10</left>
+            <top>-18</top>
             <width>185</width>
             <height>33</height>
             <texture>music/shelf_ledge_back1.png</texture>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>170</width>
             <height>170</height>
             <fadetime>200</fadetime>
@@ -48,8 +48,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>16</posx>
-            <posy>16</posy>
+            <left>16</left>
+            <top>16</top>
             <width>172</width>
             <height>172</height>
             <texture>wall/musicwallframeNF.png</texture>
@@ -59,10 +59,10 @@
       </itemlayout>
       <focusedlayout width="170" height="500">
         <control type="group">
-          <posy>40</posy>
+          <top>40</top>
           <control type="image">
-            <posx>-80</posx>
-            <posy>-176</posy>
+            <left>-80</left>
+            <top>-176</top>
             <width>335</width>
             <height>367</height>
             <texture>music/shelf_back1.png</texture>
@@ -76,8 +76,8 @@
             <animation effect="slide" end="0,-60" time="0" tween="cubic" easing="inout" condition="Container(51).Row(0)">Conditional</animation>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>-40</posy>
+            <left>0</left>
+            <top>-40</top>
             <width>170</width>
             <height>170</height>
             <texture background="true" diffuse="wall/musicwallmatte.png">$INFO[ListItem.Icon]</texture>
@@ -91,8 +91,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>30</posx>
-            <posy>102</posy>
+            <left>30</left>
+            <top>102</top>
             <width>100</width>
             <height>18</height>
             <texture>$INFO[ListItem.StarRating]</texture>
@@ -110,15 +110,15 @@
     <control type="group">
       <visible>Control.IsVisible(51)</visible>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>music/shelf_overlay.png</texture>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>672</posy>
+        <left>0</left>
+        <top>672</top>
         <width>1280</width>
         <height>50</height>
         <align>center</align>
@@ -132,8 +132,8 @@
     </control>
     <control type="scrollbar" id="61">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(51) + Control.HasFocus(61)</visible>

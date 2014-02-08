@@ -16,16 +16,16 @@
           <animation effect="fade" time="250">WindowOpen</animation>
           <animation effect="fade" time="250">WindowClose</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>1280</width>
             <height>720</height>
             <aspectratio>scale</aspectratio>
             <texture>special://skin/backgrounds/programs.jpg</texture>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>1280</width>
             <height>720</height>
             <texture background="true">$VAR[NextAiredFanart]</texture>
@@ -36,8 +36,8 @@
           </control>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <height>820</height>
           <aspectratio>scale</aspectratio>
           <texture fallback="background.png">$INFO[Skin.String(CustomBackground)]</texture>
@@ -48,8 +48,8 @@
           <animation effect="fade" time="250">WindowClose</animation>
           <control type="group">
             <control type="image">
-              <posx>35</posx>
-              <posy>25</posy>
+              <left>35</left>
+              <top>25</top>
               <width>860</width>
               <height>640</height>
               <texture border="50,0,50,0">frames/ClassicFrame_Poster.png</texture>
@@ -57,8 +57,8 @@
               <animation effect="fade" start="100" end="80" time="0" condition="true">conditional</animation>
             </control>
             <control type="image">
-              <posx>890</posx>
-              <posy>25</posy>
+              <left>890</left>
+              <top>25</top>
               <width>360</width>
               <height>640</height>
               <texture border="8">frames/ClassicFrame_Poster.png</texture>
@@ -71,8 +71,8 @@
           <animation effect="fade" time="250">WindowOpen</animation>
           <animation effect="fade" time="250">WindowClose</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>-15</posy>
+            <left>0</left>
+            <top>-15</top>
             <width>1280</width>
             <height>720</height>
             <texture>TVGuide-Grid.png</texture>
@@ -80,8 +80,8 @@
           </control>
           <control type="image">
             <description>Current weekday highlight</description>
-            <posx>0</posx>
-            <posy>-12</posy>
+            <left>0</left>
+            <top>-12</top>
             <width>1280</width>
             <height>720</height>
             <texture>TVGuide-Grid-Highlight.png</texture>
@@ -94,12 +94,12 @@
           </control>
           <control type="group">
             <description>Day labels</description>
-            <posx>115</posx>
-            <posy>65</posy>
+            <left>115</left>
+            <top>65</top>
             <control type="label">
               <description>Monday</description>
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[41][/UPPERCASE][/B]</label>
@@ -111,8 +111,8 @@
             </control>
             <control type="label">
               <description>Tuesday</description>
-              <posx>-5</posx>
-              <posy>79</posy>
+              <left>-5</left>
+              <top>79</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[42][/UPPERCASE][/B]</label>
@@ -124,8 +124,8 @@
             </control>
             <control type="label">
               <description>Wednesday</description>
-              <posx>2</posx>
-              <posy>159</posy>
+              <left>2</left>
+              <top>159</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[43][/UPPERCASE][/B]</label>
@@ -137,8 +137,8 @@
             </control>
             <control type="label">
               <description>Thursday</description>
-              <posx>-2</posx>
-              <posy>238</posy>
+              <left>-2</left>
+              <top>238</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[44][/UPPERCASE][/B]</label>
@@ -150,8 +150,8 @@
             </control>
             <control type="label">
               <description>Friday</description>
-              <posx>-8</posx>
-              <posy>318</posy>
+              <left>-8</left>
+              <top>318</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[45][/UPPERCASE][/B]</label>
@@ -163,8 +163,8 @@
             </control>
             <control type="label">
               <description>Saturday</description>
-              <posx>-2</posx>
-              <posy>397</posy>
+              <left>-2</left>
+              <top>397</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[46][/UPPERCASE][/B]</label>
@@ -176,8 +176,8 @@
             </control>
             <control type="label">
               <description>Sunday</description>
-              <posx>0</posx>
-              <posy>476</posy>
+              <left>0</left>
+              <top>476</top>
               <width>75</width>
               <height>75</height>
               <label>[B][UPPERCASE]$LOCALIZE[47][/UPPERCASE][/B]</label>
@@ -191,8 +191,8 @@
           <control type="group" id="9002">
             <control type="list" id="200">
               <description>Monday list</description>
-              <posx>124</posx>
-              <posy>65</posy>
+              <left>124</left>
+              <top>65</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -206,8 +206,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -217,8 +217,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -228,8 +228,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -238,8 +238,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -248,8 +248,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -261,8 +261,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(200)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -270,8 +270,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -281,8 +281,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -295,8 +295,8 @@
                   <visible>!Control.HasFocus(200)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -306,8 +306,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -318,8 +318,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -328,8 +328,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -338,8 +338,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -350,8 +350,8 @@
             </control>
             <control type="list" id="201">
               <description>Tuesday list</description>
-              <posx>124</posx>
-              <posy>144</posy>
+              <left>124</left>
+              <top>144</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -365,8 +365,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -376,8 +376,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -387,8 +387,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -397,8 +397,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -407,8 +407,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -420,8 +420,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(201)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -429,8 +429,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -440,8 +440,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -454,8 +454,8 @@
                   <visible>!Control.HasFocus(201)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -465,8 +465,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -477,8 +477,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -487,8 +487,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -497,8 +497,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -509,8 +509,8 @@
             </control>
             <control type="list" id="202">
               <description>Wednesday list</description>
-              <posx>124</posx>
-              <posy>224</posy>
+              <left>124</left>
+              <top>224</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -524,8 +524,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -535,8 +535,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -546,8 +546,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -556,8 +556,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -566,8 +566,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -579,8 +579,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(202)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -588,8 +588,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -599,8 +599,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -613,8 +613,8 @@
                   <visible>!Control.HasFocus(202)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -624,8 +624,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -636,8 +636,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -646,8 +646,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -656,8 +656,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -668,8 +668,8 @@
             </control>
             <control type="list" id="203">
               <description>Thursday list</description>
-              <posx>124</posx>
-              <posy>303</posy>
+              <left>124</left>
+              <top>303</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -683,8 +683,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -694,8 +694,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -705,8 +705,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -715,8 +715,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -725,8 +725,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -738,8 +738,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(203)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -747,8 +747,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -758,8 +758,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -772,8 +772,8 @@
                   <visible>!Control.HasFocus(203)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -783,8 +783,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -795,8 +795,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -805,8 +805,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -815,8 +815,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -827,8 +827,8 @@
             </control>
             <control type="list" id="204">
               <description>Friday list</description>
-              <posx>124</posx>
-              <posy>383</posy>
+              <left>124</left>
+              <top>383</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -842,8 +842,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -853,8 +853,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -864,8 +864,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -874,8 +874,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -884,8 +884,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -897,8 +897,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(204)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -906,8 +906,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -917,8 +917,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -931,8 +931,8 @@
                   <visible>!Control.HasFocus(204)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -942,8 +942,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -954,8 +954,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -964,8 +964,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -974,8 +974,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -986,8 +986,8 @@
             </control>
             <control type="list" id="205">
               <description>Saturday list</description>
-              <posx>124</posx>
-              <posy>462</posy>
+              <left>124</left>
+              <top>462</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -1001,8 +1001,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1012,8 +1012,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1023,8 +1023,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1033,8 +1033,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1043,8 +1043,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1056,8 +1056,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(205)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -1065,8 +1065,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1076,8 +1076,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1090,8 +1090,8 @@
                   <visible>!Control.HasFocus(205)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1101,8 +1101,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1113,8 +1113,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1123,8 +1123,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1133,8 +1133,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1145,8 +1145,8 @@
             </control>
             <control type="list" id="206">
               <description>Sunday list</description>
-              <posx>124</posx>
-              <posy>541</posy>
+              <left>124</left>
+              <top>541</top>
               <width>750</width>
               <height>77</height>
               <orientation>horizontal</orientation>
@@ -1160,8 +1160,8 @@
               <itemlayout height="77" width="150">
                 <control type="label">
                   <description>Next air date</description>
-                  <posx>75</posx>
-                  <posy>30</posy>
+                  <left>75</left>
+                  <top>30</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1171,8 +1171,8 @@
                 </control>
                 <control type="label">
                   <description>Airing time</description>
-                  <posx>75</posx>
-                  <posy>48</posy>
+                  <left>75</left>
+                  <top>48</top>
                   <width>150</width>
                   <height>20</height>
                   <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1182,8 +1182,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1192,8 +1192,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1202,8 +1202,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1215,8 +1215,8 @@
                 <control type="group">
                   <visible>Control.HasFocus(206)</visible>
                   <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>147</width>
                     <height>76</height>
                     <texture border="5">ButtonFo.png</texture>
@@ -1224,8 +1224,8 @@
                   </control>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1235,8 +1235,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1249,8 +1249,8 @@
                   <visible>!Control.HasFocus(206)</visible>
                   <control type="label">
                     <description>Next air date</description>
-                    <posx>75</posx>
-                    <posy>30</posy>
+                    <left>75</left>
+                    <top>30</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(NextDate)]</label>
@@ -1260,8 +1260,8 @@
                   </control>
                   <control type="label">
                     <description>Airing time</description>
-                    <posx>75</posx>
-                    <posy>48</posy>
+                    <left>75</left>
+                    <top>48</top>
                     <width>150</width>
                     <height>20</height>
                     <label>$INFO[ListItem.Property(ShortTime)]</label>
@@ -1272,8 +1272,8 @@
                 </control>
                 <control type="image">
                   <description>Thumb</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1282,8 +1282,8 @@
                 </control>
                 <control type="image">
                   <description>Banner</description>
-                  <posx>4</posx>
-                  <posy>0</posy>
+                  <left>4</left>
+                  <top>0</top>
                   <width>140</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1292,8 +1292,8 @@
                 </control>
                 <control type="image">
                   <description>Logo</description>
-                  <posx>21</posx>
-                  <posy>4</posy>
+                  <left>21</left>
+                  <top>4</top>
                   <width>108</width>
                   <height>30</height>
                   <aspectratio>keep</aspectratio>
@@ -1305,13 +1305,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(200) | !IsEmpty(Window(Home).Property(TVGuide.MondayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(200).ListItem.Label]</label>
@@ -1323,8 +1323,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(200).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(200).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1334,8 +1334,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1345,8 +1345,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2001">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1356,16 +1356,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(200).ListItem.Property(NextTitle)]</label>
@@ -1376,8 +1376,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(200).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -1386,8 +1386,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(200).ListItem.Property(Genre)]</label>
@@ -1397,8 +1397,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(200).ListItem.Property(ShortTime)]</label>
@@ -1407,8 +1407,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(200).ListItem.Property(NextDate)]</label>
@@ -1417,8 +1417,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(200).ListItem.Property(Network)]</label>
@@ -1429,8 +1429,8 @@
               <visible>IsEmpty(Control.GetLabel(80000))</visible>
             </control>
             <control type="image" id="80000">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(200).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -1438,13 +1438,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(201) | !IsEmpty(Window(Home).Property(TVGuide.TuesdayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(201).ListItem.Label]</label>
@@ -1456,8 +1456,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(201).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(201).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1467,8 +1467,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1478,8 +1478,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2011">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1489,16 +1489,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(201).ListItem.Property(NextTitle)]</label>
@@ -1509,8 +1509,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(201).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -1519,8 +1519,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(201).ListItem.Property(Genre)]</label>
@@ -1530,8 +1530,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(201).ListItem.Property(ShortTime)]</label>
@@ -1540,8 +1540,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(201).ListItem.Property(NextDate)]</label>
@@ -1550,8 +1550,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(201).ListItem.Property(Network)]</label>
@@ -1562,8 +1562,8 @@
               <visible>IsEmpty(Control.GetLabel(80001))</visible>
             </control>
             <control type="image" id="80001">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(201).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -1571,13 +1571,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(202) | !IsEmpty(Window(Home).Property(TVGuide.WednesdayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(202).ListItem.Label]</label>
@@ -1589,8 +1589,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(202).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(202).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1600,8 +1600,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1611,8 +1611,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2021">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1622,16 +1622,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(202).ListItem.Property(NextTitle)]</label>
@@ -1642,8 +1642,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(202).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -1652,8 +1652,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(202).ListItem.Property(Genre)]</label>
@@ -1663,8 +1663,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(202).ListItem.Property(ShortTime)]</label>
@@ -1673,8 +1673,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(202).ListItem.Property(NextDate)]</label>
@@ -1683,8 +1683,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(202).ListItem.Property(Network)]</label>
@@ -1695,8 +1695,8 @@
               <visible>IsEmpty(Control.GetLabel(80002))</visible>
             </control>
             <control type="image" id="80002">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(202).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -1704,13 +1704,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(203) | !IsEmpty(Window(Home).Property(TVGuide.ThursdayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(203).ListItem.Label]</label>
@@ -1722,8 +1722,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(203).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(203).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1733,8 +1733,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1744,8 +1744,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2031">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1755,16 +1755,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(203).ListItem.Property(NextTitle)]</label>
@@ -1775,8 +1775,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(203).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -1785,8 +1785,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(203).ListItem.Property(Genre)]</label>
@@ -1796,8 +1796,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(203).ListItem.Property(ShortTime)]</label>
@@ -1806,8 +1806,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(203).ListItem.Property(NextDate)]</label>
@@ -1816,8 +1816,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(203).ListItem.Property(Network)]</label>
@@ -1828,8 +1828,8 @@
               <visible>IsEmpty(Control.GetLabel(80003))</visible>
             </control>
             <control type="image" id="80003">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(203).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -1837,13 +1837,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(204) | !IsEmpty(Window(Home).Property(TVGuide.FridayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(204).ListItem.Label]</label>
@@ -1855,8 +1855,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(204).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(204).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1866,8 +1866,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1877,8 +1877,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2041">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -1888,16 +1888,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(204).ListItem.Property(NextTitle)]</label>
@@ -1908,8 +1908,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(204).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -1918,8 +1918,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(204).ListItem.Property(Genre)]</label>
@@ -1929,8 +1929,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(204).ListItem.Property(ShortTime)]</label>
@@ -1939,8 +1939,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(204).ListItem.Property(NextDate)]</label>
@@ -1949,8 +1949,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(204).ListItem.Property(Network)]</label>
@@ -1961,8 +1961,8 @@
               <visible>IsEmpty(Control.GetLabel(80004))</visible>
             </control>
             <control type="image" id="80004">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(204).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -1970,13 +1970,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(205) | !IsEmpty(Window(Home).Property(TVGuide.SaturdayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(205).ListItem.Label]</label>
@@ -1988,8 +1988,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(205).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(205).ListItem.Property(NextEpisodeNumber)]</label>
@@ -1999,8 +1999,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -2010,8 +2010,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2051">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -2021,16 +2021,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(205).ListItem.Property(NextTitle)]</label>
@@ -2041,8 +2041,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(205).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -2051,8 +2051,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(205).ListItem.Property(Genre)]</label>
@@ -2062,8 +2062,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(205).ListItem.Property(ShortTime)]</label>
@@ -2072,8 +2072,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(205).ListItem.Property(NextDate)]</label>
@@ -2082,8 +2082,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(205).ListItem.Property(Network)]</label>
@@ -2094,8 +2094,8 @@
               <visible>IsEmpty(Control.GetLabel(80005))</visible>
             </control>
             <control type="image" id="80005">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(205).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
@@ -2103,13 +2103,13 @@
           </control>
           <control type="group">
             <description>Additional show info</description>
-            <posx>919</posx>
-            <posy>65</posy>
+            <left>919</left>
+            <top>65</top>
             <visible>Control.HasFocus(206) | !IsEmpty(Window(Home).Property(TVGuide.SundayList))</visible>
             <control type="label">
               <description>Episode title</description>
-              <posx>0</posx>
-              <posy>-20</posy>
+              <left>0</left>
+              <top>-20</top>
               <width>302</width>
               <height>75</height>
               <label>$INFO[Container(206).ListItem.Label]</label>
@@ -2121,8 +2121,8 @@
             </control>
             <control type="label">
               <description>Season/Episode number</description>
-              <posx>0</posx>
-              <posy>40</posy>
+              <left>0</left>
+              <top>40</top>
               <width>302</width>
               <height>35</height>
               <label>$LOCALIZE[20373] $INFO[Container(206).ListItem.Property(NextSeasonNumber)] - $LOCALIZE[20359] $INFO[Container(206).ListItem.Property(NextEpisodeNumber)]</label>
@@ -2132,8 +2132,8 @@
               <textcolor>white</textcolor>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -2143,8 +2143,8 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image" id="2061">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
@@ -2154,16 +2154,16 @@
               <bordersize>2</bordersize>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>88</posy>
+              <left>0</left>
+              <top>88</top>
               <width>302</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>frames/ClassicFrameGlass_Horizontal2.png</texture>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>278</posy>
+              <left>0</left>
+              <top>278</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(206).ListItem.Property(NextTitle)]</label>
@@ -2174,8 +2174,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>326</posy>
+              <left>0</left>
+              <top>326</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(206).ListItem.Property(Runtime),, $LOCALIZE[12391]]</label>
@@ -2184,8 +2184,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>350</posy>
+              <left>0</left>
+              <top>350</top>
               <width>302</width>
               <height>30</height>
               <label>$INFO[Container(206).ListItem.Property(Genre)]</label>
@@ -2195,8 +2195,8 @@
               <wrapmultiline>true</wrapmultiline>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>390</posy>
+              <left>0</left>
+              <top>390</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(206).ListItem.Property(ShortTime)]</label>
@@ -2205,8 +2205,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>412</posy>
+              <left>0</left>
+              <top>412</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(206).ListItem.Property(NextDate)]</label>
@@ -2215,8 +2215,8 @@
               <aligny>center</aligny>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>440</posy>
+              <left>0</left>
+              <top>440</top>
               <width>302</width>
               <height>15</height>
               <label>$INFO[Container(206).ListItem.Property(Network)]</label>
@@ -2227,16 +2227,16 @@
               <visible>IsEmpty(Control.GetLabel(80006))</visible>
             </control>
             <control type="image" id="80006">
-              <posx>122</posx>
-              <posy>432</posy>
+              <left>122</left>
+              <top>432</top>
               <width>60</width>
               <height>41</height>
               <texture>$INFO[Container(206).ListItem.Property(Network),special://skin/extras/studios/,.png]</texture>
             </control>
           </control>
           <control type="label">
-            <posx>919</posx>
-            <posy>560</posy>
+            <left>919</left>
+            <top>560</top>
             <width>302</width>
             <height>15</height>
             <label>Listed shows: $INFO[Window(Home).Property(NextAired.Total)]</label>
@@ -2244,8 +2244,8 @@
             <align>center</align>
           </control>
           <control type="label">
-            <posx>919</posx>
-            <posy>585</posy>
+            <left>919</left>
+            <top>585</top>
             <width>302</width>
             <height>15</height>
             <label>Airing today: $INFO[Window(Home).Property(NextAired.TodayTotal)]</label>
@@ -2255,8 +2255,8 @@
         </control>
         <control type="label">
           <description>Header label</description>
-          <posx>30</posx>
-          <posy>10</posy>
+          <left>30</left>
+          <top>10</top>
           <include>Global_HeadingSectionVars</include>
           <label>$LOCALIZE[SCRIPT450]</label>
         </control>

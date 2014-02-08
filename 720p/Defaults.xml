@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <includes>
   <default type="button">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>30</height>
     <label>-</label>
@@ -18,8 +18,8 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="label">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <label>-</label>
     <font>Font_Settings</font>
     <textcolor>Text</textcolor>
@@ -29,8 +29,8 @@
     <scroll>false</scroll>
   </default>
   <default type="image">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>-</width>
     <height>-</height>
     <align>center</align>
@@ -38,8 +38,8 @@
     <texture>-</texture>
   </default>
   <default type="togglebutton">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>30</height>
     <label>-</label>
@@ -58,8 +58,8 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="radiobutton">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>30</height>
     <label>-</label>
@@ -80,8 +80,8 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="spincontrolex">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>30</height>
     <label>-</label>
@@ -105,8 +105,8 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="spincontrol">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <height>15</height>
     <width>15</width>
     <textureup>settings/spin-up.png</textureup>
@@ -126,8 +126,8 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="sliderex">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <height>30</height>
     <width>150</width>
     <texturefocus>ButtonInputFo.png</texturefocus>
@@ -146,8 +146,8 @@
     <disabledcolor>TextDisabled</disabledcolor>
   </default>
   <default type="progress">
-    <posx>100</posx>
-    <posy>325</posy>
+    <left>100</left>
+    <top>325</top>
     <colordiffuse>mainblue</colordiffuse>
     <texturebg border="6,0,6,0">osd/OSDProgressBack.png</texturebg>
     <lefttexture>-</lefttexture>
@@ -156,8 +156,8 @@
     <overlaytexture>-</overlaytexture>
   </default>
   <default type="slider">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>280</width>
     <height>15</height>
     <texturesliderbar>ProgressBack.png</texturesliderbar>

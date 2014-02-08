@@ -25,8 +25,8 @@
     </control>
     <control type="group">
       <visible>Player.ShowInfo + Player.HasMedia</visible>
-      <posx>30</posx>
-      <posy>492</posy>
+      <left>30</left>
+      <top>492</top>
       <animation type="Visible">
         <effect type="slide" start="-300,0" end="0,0" time="400" tween="cubic" easing="out" delay="600" />
         <effect type="fade" start="0" end="100" time="400" delay="600" />
@@ -36,8 +36,8 @@
         <effect type="fade" start="100" end="0" time="200" />
       </animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>168</width>
         <height>168</height>
         <texture>$INFO[MusicPlayer.Cover]</texture>
@@ -45,16 +45,16 @@
         <bordersize>8</bordersize>
       </control>
       <control type="label">
-        <posx>175</posx>
-        <posy>99</posy>
+        <left>175</left>
+        <top>99</top>
         <width>1034</width>
         <font>Font_ListDetail</font>
         <label>$INFO[MusicPlayer.Artist]</label>
         <textcolor>NowPlayingArtist</textcolor>
       </control>
       <control type="label">
-        <posx>175</posx>
-        <posy>143</posy>
+        <left>175</left>
+        <top>143</top>
         <width>1034</width>
         <font>Font_ListDetail</font>
         <label>$INFO[MusicPlayer.Album]</label>
@@ -62,8 +62,8 @@
       </control>
       <control type="label">
         <visible>!Window.IsActive(2006)</visible>
-        <posx>175</posx>
-        <posy>121</posy>
+        <left>175</left>
+        <top>121</top>
         <width>1034</width>
         <font>Font_ListDetail</font>
         <label>[B]$INFO[MusicPlayer.Title][/B]</label>

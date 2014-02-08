@@ -2,8 +2,8 @@
 <includes>
   <include name="HorizontalHomeBottom">
     <control type="wraplist" id="301">
-      <posx>-190</posx>
-      <posy>192</posy>
+      <left>-190</left>
+      <top>192</top>
       <height>466</height>
       <width>2800</width>
       <onup>4052</onup>
@@ -21,8 +21,8 @@
         <control type="label">
           <width>450</width>
           <height>61</height>
-          <posx>30</posx>
-          <posy>58</posy>
+          <left>30</left>
+          <top>58</top>
           <align>center</align>
           <font>Font_Neon_45</font>
           <textcolor>38b8b7b7</textcolor>
@@ -38,8 +38,8 @@
         <control type="label">
           <width>600</width>
           <height>341</height>
-          <posx>160</posx>
-          <posy>52</posy>
+          <left>160</left>
+          <top>52</top>
           <align>center</align>
           <font>Font_Neon_45_Focus</font>
           <textcolor>ffffffff</textcolor>
@@ -342,16 +342,16 @@
       <visible>Control.HasFocus(510) + [!Player.HasAudio + !Player.HasVideo] | Control.HasFocus(510) + [Player.HasAudio | Player.HasVideo]</visible>
     </control>
     <control type="group" id="9001">
-      <posx>15</posx>
-      <posy>265</posy>
+      <left>15</left>
+      <top>265</top>
       <animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
       <animation effect="fade" start="0" end="100" delay="300" time="200" condition="ControlGroup(9001).HasFocus()">conditional</animation>
       <animation effect="fade" start="100" end="0" time="0" condition="ControlGroup(9001).HasFocus()">WindowClose</animation>
       <animation effect="slide" end="0,350" time="0" condition="Window.IsActive(Home)">conditional</animation>
       <!--VIDEOS -->
       <control type="wraplist" id="9010">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -366,8 +366,8 @@
         <visible>Container(301).HasFocus(2)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -381,8 +381,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -428,8 +428,8 @@
       </control>
       <!--MOVIES -->
       <control type="wraplist" id="9011">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -444,8 +444,8 @@
         <visible>Container(301).HasFocus(3)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -459,8 +459,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -524,8 +524,8 @@
       </control>
       <!--TV SHOWS -->
       <control type="wraplist" id="9012">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -540,8 +540,8 @@
         <visible>Container(301).HasFocus(5)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -555,8 +555,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -603,8 +603,8 @@
       </control>
       <!--SETTINGS -->
       <control type="wraplist" id="9014">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -619,8 +619,8 @@
         <visible>Container(301).HasFocus(9)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -634,8 +634,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -678,8 +678,8 @@
       </control>
       <!--SCRIPTS -->
       <control type="fixedlist" id="9015">
-        <posx>-75</posx>
-        <posy>30</posy>
+        <left>-75</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -761,8 +761,8 @@
       </control>
       <!--MUSIC -->
       <control type="wraplist" id="9017">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -777,8 +777,8 @@
         <visible>Container(301).HasFocus(1)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -792,8 +792,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -858,8 +858,8 @@
       </control>
       <!--WEATHER -->
       <control type="list" id="9018">
-        <posx>180</posx>
-        <posy>30</posy>
+        <left>180</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -872,8 +872,8 @@
         <visible>Container(301).HasFocus(8) | Container(301).HasFocus(14)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>100</posx>
-            <posy>-5</posy>
+            <left>100</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -887,8 +887,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>100</posx>
-            <posy>-5</posy>
+            <left>100</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -917,8 +917,8 @@
       </control>
       <!--Shutdown -->
       <control type="wraplist" id="9019">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>
@@ -933,8 +933,8 @@
         <visible>Container(301).HasFocus(13)</visible>
         <itemlayout width="320" height="245">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -948,8 +948,8 @@
         </itemlayout>
         <focusedlayout width="320" height="515">
           <control type="group">
-            <posx>20</posx>
-            <posy>-5</posy>
+            <left>20</left>
+            <top>-5</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -992,8 +992,8 @@
       </control>
       <!--DVD			-->
       <control type="fixedlist" id="9014">
-        <posx>-30</posx>
-        <posy>30</posy>
+        <left>-30</left>
+        <top>30</top>
         <width>1380</width>
         <height>465</height>
         <orientation>horizontal</orientation>

@@ -68,8 +68,8 @@
       <visible>Container.Content(genres)</visible>
     </control>
     <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <imagepath background="true">$INFO[ListItem.Path]/extrafanart</imagepath>
@@ -81,8 +81,8 @@
       <visible>Skin.HasSetting(extrafanart) + ![Control.IsVisible(59) | Control.IsVisible(54) | Control.IsVisible(57) | Control.IsVisible(56) | Control.IsVisible(592) | Control.IsVisible(597) | Control.IsVisible(596)]</visible>
     </control>
     <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <imagepath background="true">$INFO[ListItem.Path]../extrafanart</imagepath>
@@ -173,8 +173,8 @@
       <include>SideBladeLeft</include>
       <!--	<control type="image">
 				<description>LOGO</description>
-				<posx>-250</posx>
-				<posy>40</posy>
+				<left>-250</left>
+				<top>40</top>
 				<width>220</width>
 				<height>60</height>
 				<aspectratio>keep</aspectratio>
@@ -182,8 +182,8 @@
 				<texture>neon.png</texture>
 			</control> -->
       <control type="grouplist" id="7000">
-        <posx>-250</posx>
-        <posy>30</posy>
+        <left>-250</left>
+        <top>30</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="204">
           <width>250</width>
@@ -196,8 +196,8 @@
         </control>
         <control type="image" id="203">
           <description>separator</description>
-          <posx>-250</posx>
-          <posy>40</posy>
+          <left>-250</left>
+          <top>40</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -380,8 +380,8 @@
         </control>
         <control type="image" id="222">
           <description>separator</description>
-          <posx>-250</posx>
-          <posy>240</posy>
+          <left>-250</left>
+          <top>240</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -421,11 +421,11 @@
         <include>CommonNowPlaying</include>
       </control>
       <!--	<control type="grouplist">
-				<posx>-250</posx>
-				<posy>120</posy>
+				<left>-250</left>
+				<top>120</top>
 				<visible>!Skin.HasSetting(LockViews)</visible>
 				<include>WindowMenuVars_Vertical</include>
-				<posy>658</posy>
+				<top>658</top>
 				<control type="label">
 					<include>WindowMenuLabel_Vertical</include>
 					<label>$LOCALIZE[31088]</label>

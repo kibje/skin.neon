@@ -3,15 +3,15 @@
   <defaultcontrol always="true">9</defaultcontrol>
   <coordinates>
     <system>1</system>
-    <posx>160</posx>
-    <posy>55</posy>
+    <left>160</left>
+    <top>55</top>
   </coordinates>
   <include>dialogeffect</include>
   <controls>
     <control type="image">
       <description>background image</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>960</width>
       <height>610</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -19,8 +19,8 @@
     </control>
     <control type="image">
       <description>background image</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>960</width>
       <height>610</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -28,24 +28,24 @@
     </control>
     <control type="image">
       <description>separator image</description>
-      <posx>60</posx>
-      <posy>60</posy>
+      <left>60</left>
+      <top>60</top>
       <width>900</width>
       <height>1</height>
       <texture>common/separator.png</texture>
     </control>
     <control type="image">
       <description>separator image</description>
-      <posx>268</posx>
-      <posy>538</posy>
+      <left>268</left>
+      <top>538</top>
       <width>650</width>
       <height>1</height>
       <texture>common/separator.png</texture>
     </control>
     <control type="label" id="20">
       <description>header label</description>
-      <posx>340</posx>
-      <posy>20</posy>
+      <left>340</left>
+      <top>20</top>
       <width>640</width>
       <height>30</height>
       <font>font24caps_title</font>
@@ -56,8 +56,8 @@
     </control>
     <control type="grouplist" id="9">
       <description>button area</description>
-      <posx>10</posx>
-      <posy>90</posy>
+      <left>10</left>
+      <top>90</top>
       <width>258</width>
       <height>481</height>
       <itemgap>-1</itemgap>
@@ -68,8 +68,8 @@
     </control>
     <control type="grouplist" id="2">
       <description>control area</description>
-      <posx>280</posx>
-      <posy>70</posy>
+      <left>280</left>
+      <top>70</top>
       <width>630</width>
       <height>460</height>
       <itemgap>-1</itemgap>
@@ -80,8 +80,8 @@
       <onright>30</onright>
     </control>
     <control type="scrollbar" id="30">
-      <posx>920</posx>
-      <posy>70</posy>
+      <left>920</left>
+      <top>70</top>
       <width>25</width>
       <height>470</height>
       <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -95,12 +95,12 @@
       <orientation>vertical</orientation>
     </control>
     <control type="group" id="9001">
-      <posy>545</posy>
-      <posx>180</posx>
+      <top>545</top>
+      <left>180</left>
       <control type="button" id="10">
         <description>OK Button</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>200</width>
         <height>40</height>
         <align>center</align>
@@ -118,8 +118,8 @@
       </control>
       <control type="button" id="11">
         <description>Cancel Button</description>
-        <posx>210</posx>
-        <posy>0</posy>
+        <left>210</left>
+        <top>0</top>
         <width>200</width>
         <height>40</height>
         <align>center</align>
@@ -137,8 +137,8 @@
       </control>
       <control type="button" id="12">
         <description>Defaults Button</description>
-        <posx>420</posx>
-        <posy>0</posy>
+        <left>420</left>
+        <top>0</top>
         <width>200</width>
         <height>40</height>
         <align>center</align>

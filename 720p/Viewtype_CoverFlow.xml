@@ -7,8 +7,8 @@
       <include>Animation_ZoomedByMenu</include>
       <include>Animation_HiddenByInfo</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>75r</posy>
+        <left>0</left>
+        <top>75r</top>
         <width>1280</width>
         <height>75</height>
         <texture>floor.png</texture>
@@ -19,19 +19,19 @@
       <control type="group">
         <visible>[!IntegerGreaterThan(Container(558).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [!IntegerGreaterThan(Container(558).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
         <control type="group" id="6001">
-          <posy>400</posy>
+          <top>400</top>
           <camera x="640" y="600" />
           <visible>Control.IsVisible(558) + Container.OnNext</visible>
           <animation effect="slide" end="-90,0" time="250" reversible="false">Hidden</animation>
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,14) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,13) + system.getbool(filelists.showparentdiritems)]</visible>
             <visible>Container.OnNext</visible>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -40,15 +40,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -58,13 +58,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -73,15 +73,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -91,13 +91,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -106,15 +106,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -124,13 +124,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -139,15 +139,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -157,13 +157,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -172,15 +172,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -190,13 +190,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>460</posx>
+            <left>460</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -205,15 +205,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -223,14 +223,14 @@
             </control>
           </control>
           <control type="group">
-            <posx>1090</posx>
+            <left>1090</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
             <visible>!Container.OnNext</visible>
             <animation effect="rotatey" center="1470" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -239,15 +239,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -257,13 +257,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -272,15 +272,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -290,13 +290,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -305,15 +305,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -323,13 +323,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -338,15 +338,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -356,13 +356,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -371,15 +371,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -389,13 +389,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -404,15 +404,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -425,14 +425,14 @@
             <visible>Container.OnNext</visible>
             <animation effect="slide" end="50,0" time="250" reversible="false">Hidden</animation>
             <control type="group">
-              <posx>550</posx>
+              <left>550</left>
               <visible>Container.OnNext</visible>
               <animation effect="rotatey" center="930" start="0" end="-55" time="250" reversible="false" tween="quadratic" easing="in">Hidden</animation>
               <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -441,15 +441,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -459,14 +459,14 @@
               </control>
             </control>
             <control type="group">
-              <posx>505</posx>
+              <left>505</left>
               <visible>[IntegerGreaterThan(Container(558).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
               <visible>Container.OnNext</visible>
               <animation effect="rotatey" center="405" start="0" end="-55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -475,15 +475,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -495,19 +495,19 @@
           </control>
         </control>
         <control type="group" id="6002">
-          <posy>400</posy>
+          <top>400</top>
           <camera x="640" y="600" />
           <visible>Control.IsVisible(558) + Container.OnPrevious</visible>
           <animation effect="slide" end="90,0" time="250" reversible="false">Hidden</animation>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,13) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,12) + system.getbool(filelists.showparentdiritems)]</visible>
             <visible>Container.OnPrevious</visible>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -516,15 +516,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -534,13 +534,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -549,15 +549,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -567,13 +567,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -582,15 +582,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -600,13 +600,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -615,15 +615,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -633,13 +633,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -648,15 +648,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -666,13 +666,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>550</posx>
+            <left>550</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -681,15 +681,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -699,14 +699,14 @@
             </control>
           </control>
           <control type="group">
-            <posx>-80</posx>
+            <left>-80</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
             <visible>!Container.OnPrevious</visible>
             <animation effect="rotatey" center="-180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -715,15 +715,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -733,13 +733,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -748,15 +748,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -766,13 +766,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -781,15 +781,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -799,13 +799,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -814,15 +814,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -832,13 +832,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -847,15 +847,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -865,13 +865,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -880,15 +880,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -901,14 +901,14 @@
             <visible>Container.OnPrevious</visible>
             <animation effect="slide" end="-50,0" time="250" reversible="false">Hidden</animation>
             <control type="group">
-              <posx>460</posx>
+              <left>460</left>
               <visible>Container.OnPrevious</visible>
               <animation effect="rotatey" center="360" start="0" end="55" time="250" reversible="false" tween="quadratic" easing="in">Hidden</animation>
               <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -917,15 +917,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -935,14 +935,14 @@
               </control>
             </control>
             <control type="group">
-              <posx>505</posx>
+              <left>505</left>
               <visible>[IntegerGreaterThan(Container(558).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
               <visible>Container.OnPrevious</visible>
               <animation effect="rotatey" center="885" start="0" end="55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -951,15 +951,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -971,19 +971,19 @@
           </control>
         </control>
         <control type="group" id="6000">
-          <posy>400</posy>
+          <top>400</top>
           <animation effect="fade" time="500">WindowOpen</animation>
           <animation effect="fade" time="200">WindowClose</animation>
           <visible>Control.IsVisible(558) + !Control.IsVisible(6001) + !Control.IsVisible(6002)</visible>
           <camera x="640" y="600" />
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -992,15 +992,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1010,13 +1010,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,10) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,9) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1025,15 +1025,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1043,13 +1043,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,8) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,7) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1058,15 +1058,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1076,13 +1076,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,6) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,5) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1091,15 +1091,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1109,13 +1109,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,4) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,3) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1124,15 +1124,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1142,13 +1142,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>460</posx>
+            <left>460</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,2) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,1) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1157,15 +1157,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1175,13 +1175,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,11) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,10) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1190,15 +1190,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1208,13 +1208,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,9) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,8) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1223,15 +1223,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1241,13 +1241,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,7) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,6) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1256,15 +1256,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1274,13 +1274,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,5) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,4) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1289,15 +1289,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1307,13 +1307,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,3) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,2) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1322,15 +1322,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1340,13 +1340,13 @@
             </control>
           </control>
           <control type="group">
-            <posx>550</posx>
+            <left>550</left>
             <visible>[IntegerGreaterThan(Container(558).NumItems,1) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,0) + system.getbool(filelists.showparentdiritems)]</visible>
             <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1355,15 +1355,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1373,11 +1373,11 @@
             </control>
           </control>
           <control type="group">
-            <posx>505</posx>
+            <left>505</left>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1386,15 +1386,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>PosterDiffuse</colordiffuse>
@@ -1408,19 +1408,19 @@
       <control type="group">
         <visible>[IntegerGreaterThan(Container(558).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [IntegerGreaterThan(Container(558).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
         <control type="group" id="6001">
-          <posy>400</posy>
+          <top>400</top>
           <camera x="640" y="600" />
           <visible>Control.IsVisible(558) + Container.OnNext</visible>
           <animation effect="slide" end="-90,0" time="250" reversible="false">Hidden</animation>
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <visible>Container.OnNext</visible>
             <animation effect="fade" start="100" end="0" time="250" reversible="false">Hidden</animation>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1429,15 +1429,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1447,12 +1447,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1461,15 +1461,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1479,12 +1479,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1493,15 +1493,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1511,12 +1511,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1525,15 +1525,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1543,12 +1543,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1557,15 +1557,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1575,12 +1575,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>460</posx>
+            <left>460</left>
             <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1589,15 +1589,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1607,14 +1607,14 @@
             </control>
           </control>
           <control type="group">
-            <posx>1090</posx>
+            <left>1090</left>
             <visible>!Container.OnNext</visible>
             <animation effect="fade" start="0" end="100" delay="0" time="250" reversible="false">Visible</animation>
             <animation effect="rotatey" center="1470" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1623,15 +1623,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1641,12 +1641,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1655,15 +1655,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1673,12 +1673,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1687,15 +1687,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1705,12 +1705,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1719,15 +1719,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1737,12 +1737,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1751,15 +1751,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1769,12 +1769,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1783,15 +1783,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1804,14 +1804,14 @@
             <visible>Container.OnNext</visible>
             <animation effect="slide" end="50,0" time="250" reversible="false">Hidden</animation>
             <control type="group">
-              <posx>550</posx>
+              <left>550</left>
               <visible>Container.OnNext</visible>
               <animation effect="rotatey" center="930" start="0" end="-55" time="250" reversible="false" tween="quadratic" easing="in">Hidden</animation>
               <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -1820,15 +1820,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1838,13 +1838,13 @@
               </control>
             </control>
             <control type="group">
-              <posx>505</posx>
+              <left>505</left>
               <visible>Container.OnNext</visible>
               <animation effect="rotatey" center="405" start="0" end="-55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -1853,15 +1853,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1873,19 +1873,19 @@
           </control>
         </control>
         <control type="group" id="6002">
-          <posy>400</posy>
+          <top>400</top>
           <camera x="640" y="600" />
           <visible>Control.IsVisible(558) + Container.OnPrevious</visible>
           <animation effect="slide" end="90,0" time="250" reversible="false">Hidden</animation>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <visible>Container.OnPrevious</visible>
             <animation effect="fade" start="100" end="0" time="250" reversible="false">Hidden</animation>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1894,15 +1894,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1912,12 +1912,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1926,15 +1926,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1944,12 +1944,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1958,15 +1958,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -1976,12 +1976,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -1990,15 +1990,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2008,12 +2008,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2022,15 +2022,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2040,12 +2040,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>550</posx>
+            <left>550</left>
             <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2054,15 +2054,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2072,14 +2072,14 @@
             </control>
           </control>
           <control type="group">
-            <posx>-80</posx>
+            <left>-80</left>
             <visible>!Container.OnPrevious</visible>
             <animation effect="fade" start="0" end="100" time="250" reversible="false">Visible</animation>
             <animation effect="rotatey" center="-180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2088,15 +2088,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2106,12 +2106,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2120,15 +2120,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2138,12 +2138,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2152,15 +2152,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2170,12 +2170,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2184,15 +2184,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2202,12 +2202,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2216,15 +2216,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2234,12 +2234,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2248,15 +2248,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2269,14 +2269,14 @@
             <visible>Container.OnPrevious</visible>
             <animation effect="slide" end="-50,0" time="250" reversible="false">Hidden</animation>
             <control type="group">
-              <posx>460</posx>
+              <left>460</left>
               <visible>Container.OnPrevious</visible>
               <animation effect="rotatey" center="360" start="0" end="55" time="250" reversible="false" tween="quadratic" easing="in">Hidden</animation>
               <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -2285,15 +2285,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2303,13 +2303,13 @@
               </control>
             </control>
             <control type="group">
-              <posx>505</posx>
+              <left>505</left>
               <visible>Container.OnPrevious</visible>
               <animation effect="rotatey" center="885" start="0" end="55" time="250" reversible="false" tween="quadratic" easing="out">Hidden</animation>
               <control type="group">
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <align>center</align>
@@ -2318,15 +2318,15 @@
                 </control>
                 <control type="image">
                   <description>Glass overlay</description>
-                  <posx>49</posx>
-                  <posy>8</posy>
+                  <left>49</left>
+                  <top>8</top>
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
-                  <posx>49</posx>
-                  <posy>260</posy>
+                  <left>49</left>
+                  <top>260</top>
                   <width>173</width>
                   <height>254</height>
                   <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2338,18 +2338,18 @@
           </control>
         </control>
         <control type="group" id="6000">
-          <posy>400</posy>
+          <top>400</top>
           <animation effect="fade" time="500">WindowOpen</animation>
           <animation effect="fade" time="200">WindowClose</animation>
           <visible>Control.IsVisible(558) + !Control.IsVisible(6001) + !Control.IsVisible(6002)</visible>
           <camera x="640" y="600" />
           <control type="group">
-            <posx>10</posx>
+            <left>10</left>
             <animation effect="rotatey" center="-90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2358,15 +2358,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2376,12 +2376,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>100</posx>
+            <left>100</left>
             <animation effect="rotatey" center="0" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2390,15 +2390,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2408,12 +2408,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>190</posx>
+            <left>190</left>
             <animation effect="rotatey" center="90" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2422,15 +2422,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2440,12 +2440,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>280</posx>
+            <left>280</left>
             <animation effect="rotatey" center="180" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2454,15 +2454,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2472,12 +2472,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>370</posx>
+            <left>370</left>
             <animation effect="rotatey" center="270" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2486,15 +2486,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2504,12 +2504,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>460</posx>
+            <left>460</left>
             <animation effect="rotatey" center="360" start="-55" end="-55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2518,15 +2518,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2536,12 +2536,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>1000</posx>
+            <left>1000</left>
             <animation effect="rotatey" center="1380" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2550,15 +2550,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2568,12 +2568,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>910</posx>
+            <left>910</left>
             <animation effect="rotatey" center="1290" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2582,15 +2582,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2600,12 +2600,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>820</posx>
+            <left>820</left>
             <animation effect="rotatey" center="1200" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2614,15 +2614,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2632,12 +2632,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>730</posx>
+            <left>730</left>
             <animation effect="rotatey" center="1110" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2646,15 +2646,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2664,12 +2664,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>640</posx>
+            <left>640</left>
             <animation effect="rotatey" center="1020" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2678,15 +2678,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2696,12 +2696,12 @@
             </control>
           </control>
           <control type="group">
-            <posx>550</posx>
+            <left>550</left>
             <animation effect="rotatey" center="930" start="55" end="55" time="0" condition="true">Conditional</animation>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2710,15 +2710,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>d0FFFFFF</colordiffuse>
@@ -2728,11 +2728,11 @@
             </control>
           </control>
           <control type="group">
-            <posx>505</posx>
+            <left>505</left>
             <control type="group">
               <control type="image">
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <align>center</align>
@@ -2741,15 +2741,15 @@
               </control>
               <control type="image">
                 <description>Glass overlay</description>
-                <posx>49</posx>
-                <posy>8</posy>
+                <left>49</left>
+                <top>8</top>
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
-                <posx>49</posx>
-                <posy>260</posy>
+                <left>49</left>
+                <top>260</top>
                 <width>173</width>
                 <height>254</height>
                 <colordiffuse>PosterDiffuse</colordiffuse>
@@ -2762,12 +2762,12 @@
       </control>
       <!-- Browser label and flags -->
       <control type="group">
-        <posx>30</posx>
-        <posy>665</posy>
+        <left>30</left>
+        <top>665</top>
         <include>Animation_HiddenByInfo</include>
         <control type="fadelabel">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1220</width>
           <height>50</height>
           <align>center</align>
@@ -2782,8 +2782,8 @@
       </control>
       <control type="group">
         <control type="fixedlist" id="558">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>130</width>
           <height>10</height>
           <onup>7000</onup>
@@ -2801,8 +2801,8 @@
       <control type="grouplist">
         <visible>Control.IsVisible(558) + Container.Content(movies) + !Skin.HasSetting(no_media_flags) + !Player.HasVideo</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>430r</posx>
-        <posy>682</posy>
+        <left>430r</left>
+        <top>682</top>
         <width>420</width>
         <itemgap>0</itemgap>
         <orientation>horizontal</orientation>

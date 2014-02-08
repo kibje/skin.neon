@@ -12,8 +12,8 @@
     <control type="group">
       <control type="button" id="451">
         <description>conditionally run RecentlyAdded script at startup</description>
-        <posx>-20</posx>
-        <posy>-20</posy>
+        <left>-20</left>
+        <top>-20</top>
         <width>1</width>
         <height>1</height>
         <label>-</label>
@@ -28,8 +28,8 @@
       </control>
       <control type="image">
         <description>Panel</description>
-        <posx>240</posx>
-        <posy>72</posy>
+        <left>240</left>
+        <top>72</top>
         <width>800</width>
         <height>544</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -38,8 +38,8 @@
       </control>
       <control type="image">
         <description>Panel</description>
-        <posx>240</posx>
-        <posy>72</posy>
+        <left>240</left>
+        <top>72</top>
         <width>800</width>
         <height>544</height>
         <texture>dialogback.png</texture>
@@ -47,8 +47,8 @@
       </control>
       <control type="label">
         <description>Favourites Label</description>
-        <posx>280</posx>
-        <posy>106</posy>
+        <left>280</left>
+        <top>106</top>
         <width>720</width>
         <height>60</height>
         <align>center</align>
@@ -57,15 +57,15 @@
         <font>Font_Neon_45_Context</font>
       </control>
       <control type="image">
-        <posx>270</posx>
-        <posy>160</posy>
+        <left>270</left>
+        <top>160</top>
         <width>740</width>
         <height>2</height>
         <texture>common/divider.png</texture>
       </control>
       <control type="list" id="450">
-        <posx>260</posx>
-        <posy>150</posy>
+        <left>260</left>
+        <top>150</top>
         <width>781</width>
         <height>375</height>
         <onleft>-</onleft>
@@ -76,8 +76,8 @@
         <scrolltime>0</scrolltime>
         <itemlayout height="40">
           <control type="label">
-            <posx>30</posx>
-            <posy>15</posy>
+            <left>30</left>
+            <top>15</top>
             <width>721</width>
             <height>30</height>
             <textcolor>FavListItem</textcolor>
@@ -89,16 +89,16 @@
         </itemlayout>
         <focusedlayout height="40">
           <control type="image">
-            <posx>4</posx>
-            <posy>10</posy>
+            <left>4</left>
+            <top>10</top>
             <width>754</width>
             <height>40</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture>button-focus.png</texture>
           </control>
           <control type="label">
-            <posx>30</posx>
-            <posy>16</posy>
+            <left>30</left>
+            <top>16</top>
             <width>721</width>
             <height>30</height>
             <textcolor>white</textcolor>
@@ -231,8 +231,8 @@
         </content>
       </control>
       <control type="scrollbar" id="61">
-        <posx>898</posx>
-        <posy>135</posy>
+        <left>898</left>
+        <top>135</top>
         <width>20</width>
         <height>470</height>
         <texturesliderbackground border="0,10,0,10">scrollbar-back.png</texturesliderbackground>

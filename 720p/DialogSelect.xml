@@ -5,8 +5,8 @@
   <include>Animation_SettingsFade</include>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <!--<include>dialogeffect</include>-->
   <controls>
@@ -15,12 +15,12 @@
       <texture>common/7000_focus.png</texture>
     </control>
     <control type="group">
-      <posx>335</posx>
-      <posy>35</posy>
+      <left>335</left>
+      <top>35</top>
       <control type="image">
         <description>background image</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>610</width>
         <height>650</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -28,8 +28,8 @@
       </control>
       <control type="image">
         <description>background image</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>610</width>
         <height>650</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -37,8 +37,8 @@
       </control>
       <control type="label" id="1">
         <description>header label</description>
-        <posx>20</posx>
-        <posy>18</posy>
+        <left>20</left>
+        <top>18</top>
         <width>600</width>
         <height>30</height>
         <font>font24caps_title</font>
@@ -48,15 +48,15 @@
         <textcolor>white</textcolor>
       </control>
       <control type="image">
-        <posx>66</posx>
-        <posy>50</posy>
+        <left>66</left>
+        <top>50</top>
         <width>500</width>
         <height>4</height>
         <texture>common/list_divider.png</texture>
       </control>
       <control type="list" id="3">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>670</width>
         <height>520</height>
         <onup>3</onup>
@@ -67,8 +67,8 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="40" width="570">
           <control type="label">
-            <posx>40</posx>
-            <posy>0</posy>
+            <left>40</left>
+            <top>0</top>
             <width>530</width>
             <height>40</height>
             <font>Font_Neon_20_title</font>
@@ -81,8 +81,8 @@
         </itemlayout>
         <focusedlayout height="80" width="770">
           <control type="image">
-            <posx>120</posx>
-            <posy>20</posy>
+            <left>120</left>
+            <top>20</top>
             <width>430</width>
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -91,8 +91,8 @@
             <animation effect="slide" start="0,0" end="-100,0" time="0" tween="cubic" easing="inout" condition="IsEmpty(ListItem.Icon)">Conditional</animation>
           </control>
           <control type="label">
-            <posx>140</posx>
-            <posy>20</posy>
+            <left>140</left>
+            <top>20</top>
             <width>430</width>
             <height>40</height>
             <font>Font_Neon_20_title</font>
@@ -104,8 +104,8 @@
             <animation effect="slide" start="0,0" end="-100,0" time="0" tween="cubic" easing="inout" condition="IsEmpty(ListItem.Icon)">Conditional</animation>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>2</posy>
+            <left>0</left>
+            <top>2</top>
             <width>120</width>
             <height>76</height>
             <texture>$INFO[Listitem.Icon]</texture>
@@ -115,8 +115,8 @@
         </focusedlayout>
       </control>
       <control type="list" id="6">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>570</width>
         <height>520</height>
         <onup>3</onup>
@@ -127,8 +127,8 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="104" width="570">
           <control type="label">
-            <posx>160</posx>
-            <posy>30</posy>
+            <left>160</left>
+            <top>30</top>
             <width>430</width>
             <height>40</height>
             <font>Font_Neon_20_title</font>
@@ -140,8 +140,8 @@
             <animation effect="slide" start="0,0" end="-100,0" time="0" tween="cubic" easing="inout" condition="IsEmpty(ListItem.Icon)">Conditional</animation>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>2</posy>
+            <left>0</left>
+            <top>2</top>
             <width>150</width>
             <height>95</height>
             <texture>$INFO[Listitem.Icon]</texture>
@@ -151,8 +151,8 @@
         </itemlayout>
         <focusedlayout height="104" width="570">
           <control type="image">
-            <posx>150</posx>
-            <posy>30</posy>
+            <left>150</left>
+            <top>30</top>
             <width>420</width>
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -160,8 +160,8 @@
             <animation effect="slide" start="0,0" end="-100,0" time="0" tween="cubic" easing="inout" condition="IsEmpty(ListItem.Icon)">Conditional</animation>
           </control>
           <control type="label">
-            <posx>160</posx>
-            <posy>30</posy>
+            <left>160</left>
+            <top>30</top>
             <width>430</width>
             <height>40</height>
             <font>Font_Neon_20_title</font>
@@ -173,8 +173,8 @@
             <animation effect="slide" start="0,0" end="-100,0" time="0" tween="cubic" easing="inout" condition="IsEmpty(ListItem.Icon)">Conditional</animation>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>2</posy>
+            <left>0</left>
+            <top>2</top>
             <width>150</width>
             <height>95</height>
             <texture>$INFO[Listitem.Icon]</texture>
@@ -185,8 +185,8 @@
       </control>
       <control type="label">
         <description>number of files/pages in list text label</description>
-        <posx>580</posx>
-        <posy>592</posy>
+        <left>580</left>
+        <top>592</top>
         <width>300</width>
         <height>35</height>
         <font>Font_Neon_20_title</font>
@@ -198,8 +198,8 @@
       </control>
       <control type="button" id="5">
         <description>Manual button</description>
-        <posx>20</posx>
-        <posy>590</posy>
+        <left>20</left>
+        <top>590</top>
         <width>200</width>
         <height>40</height>
         <label>186</label>

@@ -6,8 +6,8 @@
     <include>CommonSettingsBackground</include>
     <include>CommonMediaPlayingBackground</include>
     <control type="group">
-      <posx>90</posx>
-      <posy>50</posy>
+      <left>90</left>
+      <top>50</top>
       <animation type="WindowOpen" reversible="false">
         <!-- 	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
         <effect type="fade" start="0" end="100" time="300" />
@@ -17,16 +17,16 @@
         <effect type="fade" start="100" end="0" time="300" />
       </animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1100</width>
         <height>640</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture>DialogBackwht.png</texture>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1100</width>
         <height>640</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -34,8 +34,8 @@
       </control>
       <control type="image">
         <description>LOGO</description>
-        <posx>30</posx>
-        <posy>15</posy>
+        <left>30</left>
+        <top>15</top>
         <width>220</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
@@ -43,8 +43,8 @@
         <texture>neon.png</texture>
       </control>
       <control type="grouplist" id="9000">
-        <posx>25</posx>
-        <posy>102</posy>
+        <left>25</left>
+        <top>102</top>
         <width>260</width>
         <height>481</height>
         <itemgap>-1</itemgap>
@@ -159,23 +159,23 @@
         </control>
       </control>
       <control type="image">
-        <posx>268</posx>
-        <posy>10</posy>
+        <left>268</left>
+        <top>10</top>
         <width>790</width>
         <height>618</height>
         <texture border="5">black-back2.png</texture>
       </control>
       <control type="image">
-        <posx>268</posx>
-        <posy>50</posy>
+        <left>268</left>
+        <top>50</top>
         <width>805</width>
         <aspectratio>stretch</aspectratio>
         <texture>common/separator.png</texture>
       </control>
       <control type="label">
         <description>header label</description>
-        <posx>300</posx>
-        <posy>20</posy>
+        <left>300</left>
+        <top>20</top>
         <width>740</width>
         <height>30</height>
         <font>Font_Neon_24</font>
@@ -190,12 +190,12 @@
         <visible>false</visible>
       </control>
       <control type="group">
-        <posx>290</posx>
-        <posy>100</posy>
+        <left>290</left>
+        <top>100</top>
         <control type="label" id="2">
           <description>Label 2</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -203,8 +203,8 @@
         </control>
         <control type="label" id="3">
           <description>Label 3</description>
-          <posx>0</posx>
-          <posy>35</posy>
+          <left>0</left>
+          <top>35</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -212,8 +212,8 @@
         </control>
         <control type="label" id="4">
           <description>Label 4</description>
-          <posx>0</posx>
-          <posy>70</posy>
+          <left>0</left>
+          <top>70</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -221,8 +221,8 @@
         </control>
         <control type="label" id="5">
           <description>Label 5</description>
-          <posx>0</posx>
-          <posy>105</posy>
+          <left>0</left>
+          <top>105</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -230,8 +230,8 @@
         </control>
         <control type="label" id="6">
           <description>Label 6</description>
-          <posx>0</posx>
-          <posy>140</posy>
+          <left>0</left>
+          <top>140</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -239,8 +239,8 @@
         </control>
         <control type="label" id="7">
           <description>Label 7</description>
-          <posx>0</posx>
-          <posy>175</posy>
+          <left>0</left>
+          <top>175</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -248,8 +248,8 @@
         </control>
         <control type="label" id="8">
           <description>Label 8</description>
-          <posx>0</posx>
-          <posy>210</posy>
+          <left>0</left>
+          <top>210</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -257,8 +257,8 @@
         </control>
         <control type="label" id="9">
           <description>Label 9</description>
-          <posx>0</posx>
-          <posy>245</posy>
+          <left>0</left>
+          <top>245</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -266,8 +266,8 @@
         </control>
         <control type="label" id="10">
           <description>Label 10</description>
-          <posx>0</posx>
-          <posy>280</posy>
+          <left>0</left>
+          <top>280</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -275,8 +275,8 @@
         </control>
         <control type="label" id="11">
           <description>Label 11</description>
-          <posx>0</posx>
-          <posy>315</posy>
+          <left>0</left>
+          <top>315</top>
           <width>750</width>
           <label>-</label>
           <textcolor>white</textcolor>
@@ -284,8 +284,8 @@
         </control>
         <control type="label" id="52">
           <description>XBMC BUILD Version</description>
-          <posx>20</posx>
-          <posy>350</posy>
+          <left>20</left>
+          <top>350</top>
           <width>700</width>
           <label>144</label>
           <align>center</align>
@@ -295,8 +295,8 @@
         </control>
         <control type="label">
           <description>CPU Text</description>
-          <posx>20</posx>
-          <posy>395</posy>
+          <left>20</left>
+          <top>395</top>
           <width>700</width>
           <height>25</height>
           <label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label>
@@ -308,16 +308,16 @@
         </control>
         <control type="progress">
           <description>CPU BAR</description>
-          <posx>30</posx>
-          <posy>425</posy>
+          <left>30</left>
+          <top>425</top>
           <width>700</width>
           <height>16</height>
           <info>System.CPUUsage</info>
         </control>
         <control type="label">
           <description>Memory Text</description>
-          <posx>20</posx>
-          <posy>455</posy>
+          <left>20</left>
+          <top>455</top>
           <width>700</width>
           <height>25</height>
           <label>$LOCALIZE[31309] $INFO[system.memory(used.percent)]</label>
@@ -329,8 +329,8 @@
         </control>
         <control type="progress">
           <description>Memory BAR</description>
-          <posx>30</posx>
-          <posy>485</posy>
+          <left>30</left>
+          <top>485</top>
           <width>700</width>
           <height>16</height>
           <info>system.memory(used)</info>
@@ -338,26 +338,26 @@
       </control>
     </control>
     <control type="group">
-      <posx>60</posx>
-      <posy>0</posy>
+      <left>60</left>
+      <top>0</top>
       <animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
     </control>
     <control type="group">
-      <posx>20</posx>
-      <posy>0</posy>
+      <left>20</left>
+      <top>0</top>
       <animation effect="slide" end="-270,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-270,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>80</width>
         <height>35</height>
         <texture border="0,0,32,0">header.png</texture>
       </control>
       <control type="button">
-        <posx>20</posx>
-        <posy>5</posy>
+        <left>20</left>
+        <top>5</top>
         <width>25</width>
         <height>20</height>
         <texturenofocus>HomeIcon.png</texturenofocus>

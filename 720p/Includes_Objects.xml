@@ -41,7 +41,7 @@
     <font>Font_KeyboardShapes</font>
   </include>
   <include name="Objects_DoubleKeyOff">
-    <posy>0</posy>
+    <top>0</top>
     <width>110</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_doublenf.png</texturefocus>
@@ -49,7 +49,7 @@
     <include>Objects_KeyOffVars</include>
   </include>
   <include name="Objects_DoubleKeyOffSymbol">
-    <posy>0</posy>
+    <top>0</top>
     <width>110</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_doublenf.png</texturefocus>
@@ -57,7 +57,7 @@
     <include>Objects_KeyOffSymbolVars</include>
   </include>
   <include name="Objects_SingleKeyOff">
-    <posy>0</posy>
+    <top>0</top>
     <width>68</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_singlenf.png</texturefocus>
@@ -65,7 +65,7 @@
     <include>Objects_KeyOffVars</include>
   </include>
   <include name="Objects_TripleKeyOff">
-    <posy>0</posy>
+    <top>0</top>
     <width>152</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_triplenf.png</texturefocus>
@@ -73,7 +73,7 @@
     <include>Objects_KeyOffVars</include>
   </include>
   <include name="Objects_SpaceBarOff">
-    <posy>0</posy>
+    <top>0</top>
     <width>278</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_spacef.png</texturefocus>
@@ -81,7 +81,7 @@
     <include>Objects_KeyOffVars</include>
   </include>
   <include name="Objects_DoubleKeyOn">
-    <posy>0</posy>
+    <top>0</top>
     <width>110</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_doublef.png</texturefocus>
@@ -89,7 +89,7 @@
     <include>Objects_KeyOnVars</include>
   </include>
   <include name="Objects_DoubleKeyOnSymbol">
-    <posy>0</posy>
+    <top>0</top>
     <width>110</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_doublef.png</texturefocus>
@@ -97,7 +97,7 @@
     <include>Objects_KeyOnSymbolVars</include>
   </include>
   <include name="Objects_SingleKeyOn">
-    <posy>0</posy>
+    <top>0</top>
     <width>68</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_singlef.png</texturefocus>
@@ -105,7 +105,7 @@
     <include>Objects_KeyOnVars</include>
   </include>
   <include name="Objects_TripleKeyOn">
-    <posy>0</posy>
+    <top>0</top>
     <width>152</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_triplef.png</texturefocus>
@@ -113,7 +113,7 @@
     <include>Objects_KeyOnVars</include>
   </include>
   <include name="Objects_SpaceBarOn">
-    <posy>0</posy>
+    <top>0</top>
     <width>278</width>
     <height>68</height>
     <texturefocus>keyboard/keyboard_spacef.png</texturefocus>
@@ -122,8 +122,8 @@
   </include>
   <!--Movie Info-->
   <include name="Objects_FSInfoCertificate">
-    <posx>433</posx>
-    <posy>56</posy>
+    <left>433</left>
+    <top>56</top>
     <width>249</width>
     <height>57</height>
   </include>
@@ -144,7 +144,7 @@
     <height>56</height>
   </include>
   <include name="Objects_FSInfoLabel">
-    <posx>3</posx>
+    <left>3</left>
     <width>110</width>
     <height>29</height>
     <align>left</align>
@@ -153,7 +153,7 @@
     <include>Colour_Text</include>
   </include>
   <include name="Objects_FSInfoValue">
-    <posx>120</posx>
+    <left>120</left>
     <width>500</width>
     <height>29</height>
     <align>left</align>

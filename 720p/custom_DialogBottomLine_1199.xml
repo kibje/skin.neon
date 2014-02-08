@@ -3,8 +3,8 @@
   <defaultcontrol always="true">9000</defaultcontrol>
   <controls>
     <control type="image">
-      <posx>0</posx>
-      <posy>690</posy>
+      <left>0</left>
+      <top>690</top>
       <width>1280</width>
       <height>35</height>
       <texture flipy="true">MediaInfoBackUpper.png</texture>
@@ -13,14 +13,14 @@
       <animation effect="fade" start="70" end="0" time="400">WindowClose</animation>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>695</posy>
+      <left>0</left>
+      <top>695</top>
       <texture>bottomline.png</texture>
       <animation effect="fade" start="0" end="70">WindowOpen</animation>
     </control>
     <control type="rss" id="2">
-      <posx>220</posx>
-      <posy>692</posy>
+      <left>220</left>
+      <top>692</top>
       <width>1400</width>
       <height>35</height>
       <aligny>bottom</aligny>

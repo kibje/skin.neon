@@ -6,8 +6,8 @@
     <control type="image">
       <!-- 1st Background -->
       <visible>Control.IsVisible(633)</visible>
-      <posx>0</posx>
-      <posy>371</posy>
+      <left>0</left>
+      <top>371</top>
       <width>1280</width>
       <height>355</height>
       <!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
@@ -19,8 +19,8 @@
     <control type="image">
       <!-- 1st Background -->
       <visible>Control.IsVisible(633)</visible>
-      <posx>0</posx>
-      <posy>371</posy>
+      <left>0</left>
+      <top>371</top>
       <width>1280</width>
       <height>355</height>
       <!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
@@ -29,8 +29,8 @@
       <include>Animation_Fade75</include>
     </control>
     <control type="wraplist" id="633">
-      <posx>10</posx>
-      <posy>560</posy>
+      <left>10</left>
+      <top>560</top>
       <height>500</height>
       <width>1280</width>
       <onleft>633</onleft>
@@ -51,8 +51,8 @@
       <itemlayout width="250" height="225">
         <control type="image">
           <visible>[Container.Content(tvshows) | Container.Content(artists)] + !IsEmpty(ListItem.Title) </visible>
-          <posx>1</posx>
-          <posy>50</posy>
+          <left>1</left>
+          <top>50</top>
           <width>230</width>
           <height>89</height>
           <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
@@ -62,8 +62,8 @@
         </control>
         <control type="label">
           <visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
-          <posx>115</posx>
-          <posy>100</posy>
+          <left>115</left>
+          <top>100</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -73,8 +73,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <posx>115</posx>
-          <posy>100</posy>
+          <left>115</left>
+          <top>100</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -83,8 +83,8 @@
           <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
-          <posx>115</posx>
-          <posy>139</posy>
+          <left>115</left>
+          <top>139</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -94,8 +94,8 @@
           <visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <control type="image">
-          <posx>-8</posx>
-          <posy>120</posy>
+          <left>-8</left>
+          <top>120</top>
           <width>240</width>
           <height>4</height>
           <info>ListItem.Overlay</info>
@@ -106,8 +106,8 @@
       </itemlayout>
       <focusedlayout width="280" height="1285">
         <!--<control type="image">
-					<posx>20</posx>
-					<posy>150</posy>
+					<left>20</left>
+					<top>150</top>
 					<width>234</width>
 					<height>4</height>
 					<texture>tv-landscape/highlight.png</texture>
@@ -116,8 +116,8 @@
 				</control>-->
         <control type="image">
           <visible>[Container.Content(tvshows) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
-          <posx>20</posx>
-          <posy>50</posy>
+          <left>20</left>
+          <top>50</top>
           <width>230</width>
           <height>89</height>
           <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
@@ -126,8 +126,8 @@
         </control>
         <control type="label">
           <visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
-          <posx>135</posx>
-          <posy>100</posy>
+          <left>135</left>
+          <top>100</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -138,8 +138,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(artists) | Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <posx>135</posx>
-          <posy>100</posy>
+          <left>135</left>
+          <top>100</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -150,8 +150,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons)</visible>
-          <posx>135</posx>
-          <posy>100</posy>
+          <left>135</left>
+          <top>100</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -161,8 +161,8 @@
           <label>[B]$INFO[ListItem.Label][/B]</label>
         </control>
         <control type="label">
-          <posx>130</posx>
-          <posy>139</posy>
+          <left>130</left>
+          <top>139</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -172,8 +172,8 @@
           <visible>Skin.HasSetting(tvoverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <control type="image">
-          <posx>10</posx>
-          <posy>120</posy>
+          <left>10</left>
+          <top>120</top>
           <width>250</width>
           <height>4</height>
           <info>ListItem.Overlay</info>
@@ -187,15 +187,15 @@
       <include>Animation_HiddenByInfo</include>
       <visible>Control.IsVisible(633) + [Container.Content(seasons) | Container.Content(episodes)]</visible>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>481</height>
         <texture>tv-landscape/landscape_fanart_top.png</texture>
       </control>
       <control type="image" id="37015">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>230</width>
         <height>89</height>
         <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
@@ -203,8 +203,8 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <control type="image" id="39015">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>230</width>
         <height>89</height>
         <texture background="true">$INFO[ListItem.path]../logo.png</texture>
@@ -212,8 +212,8 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -223,8 +223,8 @@
         <visible>IsEmpty(Control.GetLabel(37015)) + IsEmpty(Control.GetLabel(39015))</visible>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>120</posy>
+        <left>20</left>
+        <top>120</top>
         <width>230</width>
         <height>89</height>
         <align>center</align>
@@ -241,38 +241,38 @@
       <include>Animation_HiddenByInfo</include>
       <visible>Control.IsVisible(633) + Container.Content(episodes) + ![Container(633).OnNext | Container(633).OnPrevious]</visible>
       <control type="image">
-        <posx>288</posx>
-        <posy>302</posy>
+        <left>288</left>
+        <top>302</top>
         <width>752</width>
         <height>420</height>
         <texture>tv-landscape/lanscape_tv_fanart_glow.png</texture>
       </control>
       <control type="image">
-        <posx>454</posx>
-        <posy>424</posy>
+        <left>454</left>
+        <top>424</top>
         <width>398</width>
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
         <fadetime>200</fadetime>
       </control>
       <control type="image">
-        <posx>454</posx>
-        <posy>424</posy>
+        <left>454</left>
+        <top>424</top>
         <width>398</width>
         <height>224</height>
         <texture>tv-landscape/tv_fanart_land_back.png</texture>
         <visible>!IsEmpty(ListItem.Title)</visible>
       </control>
       <control type="image">
-        <posx>438</posx>
-        <posy>410</posy>
+        <left>438</left>
+        <top>410</top>
         <width>430</width>
         <height>252</height>
         <texture>tv-landscape/landscapeframeFO.png</texture>
       </control>
       <control type="label">
-        <posx>460</posx>
-        <posy>612</posy>
+        <left>460</left>
+        <top>612</top>
         <width>390</width>
         <label>[B]$INFO[ListItem.Title][/B]</label>
         <align>center</align>
@@ -297,15 +297,15 @@
       <animation effect="fade" start="0" end="100" time="400" delay="2400" condition="![Container(633).OnNext | Container(633).OnPrevious]">Conditional</animation>
       <visible>Control.IsVisible(633) + Container.Content(episodes) + !Skin.HasSetting(3dland_down_plot) + !IsEmpty(ListItem.Title) + ![Container(633).OnNext | Container(633).OnPrevious]</visible>
       <control type="image">
-        <posx>458</posx>
-        <posy>426</posy>
+        <left>458</left>
+        <top>426</top>
         <width>392</width>
         <height>221</height>
         <texture>tv-landscape/fanart_land_plot_back.png</texture>
       </control>
       <control type="textbox">
-        <posx>460</posx>
-        <posy>424</posy>
+        <left>460</left>
+        <top>424</top>
         <width>386</width>
         <height>188</height>
         <font>Font_KeyboardKeys_Plot</font>
@@ -321,15 +321,15 @@
       <animation effect="fade" start="0" end="100" time="400" delay="200" condition="ControlGroup(8374).HasFocus()">Conditional</animation>
       <visible>Control.IsVisible(633) + Container.Content(episodes) + Skin.HasSetting(3dland_down_plot) + !IsEmpty(ListItem.Title) + ControlGroup(8374).HasFocus()</visible>
       <control type="image">
-        <posx>458</posx>
-        <posy>426</posy>
+        <left>458</left>
+        <top>426</top>
         <width>392</width>
         <height>221</height>
         <texture>tv-landscape/fanart_land_plot_back.png</texture>
       </control>
       <control type="textbox">
-        <posx>460</posx>
-        <posy>424</posy>
+        <left>460</left>
+        <top>424</top>
         <width>386</width>
         <height>188</height>
         <font>Font_KeyboardKeys_Plot</font>
@@ -341,8 +341,8 @@
     </control>
     <control type="scrollbar" id="6330">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(633) + Control.HasFocus(6330)</visible>

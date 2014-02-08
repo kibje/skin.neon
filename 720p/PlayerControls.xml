@@ -4,24 +4,24 @@
   <visible>Player.HasMedia + Window.IsActive(PlayerControls) + !Window.IsActive(FullscreenVideo) + !Window.IsActive(Visualisation)</visible>
   <coordinates>
     <system>1</system>
-    <posx>390</posx>
-    <posy>250</posy>
+    <left>390</left>
+    <top>250</top>
   </coordinates>
   <controls>
     <control type="image">
-      <posx>5</posx>
-      <posy>156</posy>
+      <left>5</left>
+      <top>156</top>
       <width>483</width>
       <height>53</height>
       <colordiffuse>mainblue</colordiffuse>
       <texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
     </control>
     <control type="group" id="100">
-      <posx>25</posx>
-      <posy>162</posy>
+      <left>25</left>
+      <top>162</top>
       <control type="button" id="600">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -34,8 +34,8 @@
         <onclick>XBMC.PlayerControl(Previous)</onclick>
       </control>
       <control type="button" id="601">
-        <posx>40</posx>
-        <posy>0</posy>
+        <left>40</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -50,8 +50,8 @@
         <onclick>XBMC.PlayerControl(Rewind)</onclick>
       </control>
       <control type="togglebutton" id="603">
-        <posx>80</posx>
-        <posy>0</posy>
+        <left>80</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -67,8 +67,8 @@
         <onclick>XBMC.PlayerControl(Play)</onclick>
       </control>
       <control type="button" id="602">
-        <posx>120</posx>
-        <posy>0</posy>
+        <left>120</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -82,8 +82,8 @@
         <onclick>XBMC.PlayerControl(Stop)</onclick>
       </control>
       <control type="button" id="604">
-        <posx>160</posx>
-        <posy>0</posy>
+        <left>160</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -96,8 +96,8 @@
         <onclick>XBMC.PlayerControl(Forward)</onclick>
       </control>
       <control type="button" id="605">
-        <posx>200</posx>
-        <posy>0</posy>
+        <left>200</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -110,8 +110,8 @@
         <onclick>XBMC.PlayerControl(Next)</onclick>
       </control>
       <control type="button" id="606">
-        <posx>240</posx>
-        <posy>0</posy>
+        <left>240</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -126,8 +126,8 @@
         <animation effect="fade" start="100" end="30" time="100" condition="!Player.CanRecord">Conditional</animation>
       </control>
       <control type="button" id="607">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -140,8 +140,8 @@
         <ondown>100</ondown>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatNF.png</texture>
@@ -149,8 +149,8 @@
         <visible>!Control.HasFocus(607)</visible>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatFO.png</texture>
@@ -158,8 +158,8 @@
         <visible>Control.HasFocus(607)</visible>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatOneNF.png</texture>
@@ -167,8 +167,8 @@
         <visible>!Control.HasFocus(607)</visible>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatOneFO.png</texture>
@@ -176,8 +176,8 @@
         <visible>Control.HasFocus(607)</visible>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatAllNF.png</texture>
@@ -185,8 +185,8 @@
         <visible>!Control.HasFocus(607)</visible>
       </control>
       <control type="image">
-        <posx>365</posx>
-        <posy>0</posy>
+        <left>365</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <texture>osd/OSDRepeatAllFO.png</texture>
@@ -194,8 +194,8 @@
         <visible>Control.HasFocus(607)</visible>
       </control>
       <control type="togglebutton" id="608">
-        <posx>405</posx>
-        <posy>0</posy>
+        <left>405</left>
+        <top>0</top>
         <width>40</width>
         <height>40</height>
         <label>-</label>
@@ -214,8 +214,8 @@
     <!-- Music Info -->
     <control type="image">
       <description>gradient</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>500</width>
       <height>165</height>
       <colordiffuse>mainblue</colordiffuse>

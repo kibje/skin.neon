@@ -5,15 +5,15 @@
     <control type="group">
       <!-- <include>Zoom</include> -->
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1290</width>
         <height>730</height>
         <texture>background-solid.png</texture>
       </control>
       <control type="label">
-        <posx>125</posx>
-        <posy>35</posy>
+        <left>125</left>
+        <top>35</top>
         <width>500</width>
         <height>30</height>
         <font>Font_Neon_40</font>
@@ -23,8 +23,8 @@
         <label>Upcoming TV Schedule</label>
       </control>
       <control type="button" id="512">
-        <posx>140</posx>
-        <posy>650</posy>
+        <left>140</left>
+        <top>650</top>
         <width>150</width>
         <height>40</height>
         <onup>515</onup>
@@ -43,8 +43,8 @@
         <onclick>PreviousMenu</onclick>
       </control>
       <control type="button" id="513">
-        <posx>330</posx>
-        <posy>650</posy>
+        <left>330</left>
+        <top>650</top>
         <width>150</width>
         <height>40</height>
         <onup>515</onup>
@@ -63,8 +63,8 @@
         <onclick>ActivateWindow(Home)</onclick>
       </control>
       <control type="button" id="514">
-        <posx>520</posx>
-        <posy>650</posy>
+        <left>520</left>
+        <top>650</top>
         <width>150</width>
         <height>40</height>
         <onup>515</onup>
@@ -84,8 +84,8 @@
         <onclick>XBMC.ReloadSkin</onclick>
       </control>
       <control type="button" id="515">
-        <posx>145</posx>
-        <posy>100</posy>
+        <left>145</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -102,8 +102,8 @@
         <onclick>ActivateWindow(1117)</onclick>
       </control>
       <control type="button" id="516">
-        <posx>290</posx>
-        <posy>100</posy>
+        <left>290</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -120,8 +120,8 @@
         <onclick>ActivateWindow(1118)</onclick>
       </control>
       <control type="button" id="517">
-        <posx>435</posx>
-        <posy>100</posy>
+        <left>435</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -138,8 +138,8 @@
         <onclick>ActivateWindow(1119)</onclick>
       </control>
       <control type="button" id="518">
-        <posx>580</posx>
-        <posy>100</posy>
+        <left>580</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -156,8 +156,8 @@
         <onclick>ActivateWindow(1120)</onclick>
       </control>
       <control type="button" id="519">
-        <posx>725</posx>
-        <posy>100</posy>
+        <left>725</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -174,8 +174,8 @@
         <onclick>ActivateWindow(1121)</onclick>
       </control>
       <control type="button" id="520">
-        <posx>870</posx>
-        <posy>100</posy>
+        <left>870</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -192,8 +192,8 @@
         <onclick>ActivateWindow(1122)</onclick>
       </control>
       <control type="button" id="521">
-        <posx>1015</posx>
-        <posy>100</posy>
+        <left>1015</left>
+        <top>100</top>
         <width>119</width>
         <height>30</height>
         <align>center</align>
@@ -210,17 +210,17 @@
         <onclick>ActivateWindow(1123)</onclick>
       </control>
       <control type="group">
-        <posy>30</posy>
+        <top>30</top>
       </control>
       <control type="group">
         <visible>!Control.HasFocus(515) + !Control.HasFocus(516) + !Control.HasFocus(517) + !Control.HasFocus(518) + !Control.HasFocus(519) + !Control.HasFocus(520) + !Control.HasFocus(521)</visible>
         <include>VisibleFadeEffect</include>
         <control type="group">
-          <posx>20</posx>
-          <posy>20</posy>
+          <left>20</left>
+          <top>20</top>
           <control type="list" id="11000">
-            <posx>95</posx>
-            <posy>30</posy>
+            <left>95</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -233,16 +233,16 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <!---	<texture>$INFO[ListItem.Thumb]</texture> -->
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -252,8 +252,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -263,15 +263,15 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -279,23 +279,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -305,8 +305,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -316,8 +316,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -527,8 +527,8 @@
             </content>
           </control>
           <control type="list" id="11001">
-            <posx>240</posx>
-            <posy>30</posy>
+            <left>240</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -541,23 +541,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -567,8 +567,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -578,8 +578,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -587,23 +587,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -613,8 +613,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -624,8 +624,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -835,8 +835,8 @@
             </content>
           </control>
           <control type="list" id="11002">
-            <posx>385</posx>
-            <posy>30</posy>
+            <left>385</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -849,23 +849,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -875,8 +875,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -886,8 +886,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -895,23 +895,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -921,8 +921,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -932,8 +932,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1143,8 +1143,8 @@
             </content>
           </control>
           <control type="list" id="11003">
-            <posx>530</posx>
-            <posy>30</posy>
+            <left>530</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -1157,23 +1157,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1183,8 +1183,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1194,8 +1194,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1203,23 +1203,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1229,8 +1229,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1240,8 +1240,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1451,8 +1451,8 @@
             </content>
           </control>
           <control type="list" id="11004">
-            <posx>675</posx>
-            <posy>30</posy>
+            <left>675</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -1465,23 +1465,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1491,8 +1491,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1502,8 +1502,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1511,23 +1511,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1537,8 +1537,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1548,8 +1548,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1759,8 +1759,8 @@
             </content>
           </control>
           <control type="list" id="11005">
-            <posx>820</posx>
-            <posy>30</posy>
+            <left>820</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -1773,23 +1773,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1799,8 +1799,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1810,8 +1810,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -1819,23 +1819,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -1845,8 +1845,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -1856,8 +1856,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -2067,8 +2067,8 @@
             </content>
           </control>
           <control type="list" id="11006">
-            <posx>965</posx>
-            <posy>30</posy>
+            <left>965</left>
+            <top>30</top>
             <width>500</width>
             <height>568</height>
             <onleft>-</onleft>
@@ -2081,23 +2081,23 @@
             <scrolltime>300</scrolltime>
             <itemlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -2107,8 +2107,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -2118,8 +2118,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -2127,23 +2127,23 @@
             </itemlayout>
             <focusedlayout height="124" width="182">
               <control type="image">
-                <posx>31.5</posx>
-                <posy>85</posy>
+                <left>31.5</left>
+                <top>85</top>
                 <width>119</width>
                 <height>46</height>
                 <aspectratio>keep</aspectratio>
                 <texture>$INFO[ListItem.Thumb]</texture>
               </control>
               <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
               <control type="label">
-                <posx>90</posx>
-                <posy>135</posy>
+                <left>90</left>
+                <top>135</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -2153,8 +2153,8 @@
                 <label>$INFO[ListItem.label2]</label>
               </control>
               <control type="label">
-                <posx>90</posx>
-                <posy>155</posy>
+                <left>90</left>
+                <top>155</top>
                 <width>182</width>
                 <height>30</height>
                 <font>Font_Neon_16</font>
@@ -2164,8 +2164,8 @@
                 <label>$INFO[ListItem.label]</label>
               </control>
               <control type="image">
-                <posx>30</posx>
-                <posy>195</posy>
+                <left>30</left>
+                <top>195</top>
                 <width>119</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -2385,11 +2385,11 @@
       <!--Posters - Monday-->
       <control type="group">
         <visible>Control.HasFocus(515)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12000">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -2403,8 +2403,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2414,8 +2414,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2427,8 +2427,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2438,8 +2438,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2653,8 +2653,8 @@
           </content>
         </control>
         <control type="panel" id="12001">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -2668,40 +2668,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2711,8 +2711,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2724,40 +2724,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2767,8 +2767,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -2984,11 +2984,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(515)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12000">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -3002,8 +3002,8 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3015,8 +3015,8 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3230,8 +3230,8 @@
           </content>
         </control>
         <control type="panel" id="12001">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -3246,40 +3246,40 @@
           <itemlayout height="160" width="600">
             <control type="group">
               <control type="image">
-                <posx>22</posx>
-                <posy>107</posy>
+                <left>22</left>
+                <top>107</top>
                 <width>504</width>
                 <height>84</height>
                 <aspectratio>stretch</aspectratio>
                 <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
               </control>
               <control type="image">
-                <posx>20</posx>
-                <posy>105</posy>
+                <left>20</left>
+                <top>105</top>
                 <width>500</width>
                 <height>80</height>
                 <aspectratio>stretch</aspectratio>
                 <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
               </control>
               <control type="image">
-                <posx>20</posx>
-                <posy>105</posy>
+                <left>20</left>
+                <top>105</top>
                 <width>500</width>
                 <height>80</height>
                 <aspectratio>stretch</aspectratio>
                 <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
               </control>
               <control type="image">
-                <posx>430</posx>
-                <posy>185</posy>
+                <left>430</left>
+                <top>185</top>
                 <width>90</width>
                 <height>60</height>
                 <aspectratio>stretch</aspectratio>
                 <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
               </control>
               <control type="label">
-                <posx>30</posx>
-                <posy>185</posy>
+                <left>30</left>
+                <top>185</top>
                 <width>382</width>
                 <height>30</height>
                 <font>Font_Neon_18</font>
@@ -3289,8 +3289,8 @@
                 <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
               </control>
               <control type="image">
-                <posx>25</posx>
-                <posy>240</posy>
+                <left>25</left>
+                <top>240</top>
                 <width>490</width>
                 <height>1</height>
                 <texture>line.png</texture>
@@ -3299,40 +3299,40 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3342,8 +3342,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -3557,11 +3557,11 @@
       <!--Posters - Tuesday-->
       <control type="group">
         <visible>Control.HasFocus(516)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12002">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -3575,8 +3575,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3586,8 +3586,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3599,8 +3599,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3610,8 +3610,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3825,8 +3825,8 @@
           </content>
         </control>
         <control type="panel" id="12003">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -3840,40 +3840,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3883,8 +3883,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3896,40 +3896,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -3939,8 +3939,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4156,11 +4156,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(516)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12002">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -4174,16 +4174,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4193,8 +4193,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -4202,23 +4202,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4434,11 +4434,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(516)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12003">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -4452,40 +4452,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4495,15 +4495,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -4511,47 +4511,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4561,8 +4561,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -4775,11 +4775,11 @@
       <!--Posters - Wednesday-->
       <control type="group">
         <visible>Control.HasFocus(517)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12004">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -4793,8 +4793,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4804,8 +4804,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4817,8 +4817,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -4828,8 +4828,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5043,8 +5043,8 @@
           </content>
         </control>
         <control type="panel" id="12005">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -5058,40 +5058,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5101,8 +5101,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5114,40 +5114,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5157,8 +5157,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5375,11 +5375,11 @@
       <!--Wednesday-->
       <control type="group">
         <visible>Control.HasFocus(517)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12004">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -5393,16 +5393,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5412,8 +5412,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -5421,23 +5421,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5653,11 +5653,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(517)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12005">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -5671,40 +5671,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5714,15 +5714,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -5730,47 +5730,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -5780,8 +5780,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -5994,11 +5994,11 @@
       <!--Posters - Thursday-->
       <control type="group">
         <visible>Control.HasFocus(518)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12006">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -6012,8 +6012,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6023,8 +6023,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6036,8 +6036,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6047,8 +6047,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6262,8 +6262,8 @@
           </content>
         </control>
         <control type="panel" id="12007">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -6277,40 +6277,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6320,8 +6320,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6333,40 +6333,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6376,8 +6376,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6594,11 +6594,11 @@
       <!--Thursday-->
       <control type="group">
         <visible>Control.HasFocus(518)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12006">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -6612,16 +6612,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6631,8 +6631,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -6640,23 +6640,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6872,11 +6872,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(518)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12007">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -6890,40 +6890,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6933,15 +6933,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -6949,47 +6949,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -6999,8 +6999,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -7213,11 +7213,11 @@
       <!--Posters - Friday-->
       <control type="group">
         <visible>Control.HasFocus(519)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12008">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -7231,8 +7231,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7242,8 +7242,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7255,8 +7255,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7266,8 +7266,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7481,8 +7481,8 @@
           </content>
         </control>
         <control type="panel" id="12009">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -7496,40 +7496,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7539,8 +7539,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7552,40 +7552,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7595,8 +7595,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7813,11 +7813,11 @@
       <!--Friday-->
       <control type="group">
         <visible>Control.HasFocus(519)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12008">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -7831,16 +7831,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -7850,8 +7850,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -7859,23 +7859,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8091,11 +8091,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(519)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12009">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -8109,40 +8109,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8152,15 +8152,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -8168,47 +8168,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8218,8 +8218,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -8432,11 +8432,11 @@
       <!--Posters - Saturday-->
       <control type="group">
         <visible>Control.HasFocus(520)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12010">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -8450,8 +8450,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8461,8 +8461,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8474,8 +8474,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8485,8 +8485,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8700,8 +8700,8 @@
           </content>
         </control>
         <control type="panel" id="12011">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -8715,40 +8715,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8758,8 +8758,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8771,40 +8771,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -8814,8 +8814,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9032,11 +9032,11 @@
       <!--Saturday-->
       <control type="group">
         <visible>Control.HasFocus(520)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12010">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -9050,16 +9050,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9069,8 +9069,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -9078,23 +9078,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9310,11 +9310,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(520)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12011">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -9328,40 +9328,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9371,15 +9371,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -9387,47 +9387,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9437,8 +9437,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -9651,11 +9651,11 @@
       <!--Posters - Sunday-->
       <control type="group">
         <visible>Control.HasFocus(521)</visible>
-        <posx>-15</posx>
-        <posy>40</posy>
+        <left>-15</left>
+        <top>40</top>
         <control type="panel" id="12012">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -9669,8 +9669,8 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9680,8 +9680,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9693,8 +9693,8 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="label">
-              <posx>165</posx>
-              <posy>115</posy>
+              <left>165</left>
+              <top>115</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9704,8 +9704,8 @@
               <label>[COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>145</posy>
+              <left>165</left>
+              <top>145</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9919,8 +9919,8 @@
           </content>
         </control>
         <control type="panel" id="12013">
-          <posx>65</posx>
-          <posy>20</posy>
+          <left>65</left>
+          <top>20</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -9934,40 +9934,40 @@
           <!-- <visible>Skin.HasSetting(TVPosters)</visible> -->
           <itemlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9977,8 +9977,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -9990,40 +9990,40 @@
           </itemlayout>
           <focusedlayout height="246" width="403">
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>143</width>
               <height>206</height>
               <aspectratio>stretch</aspectratio>
               <texture>guide-poster-shadow.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>135</width>
               <height>198</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>18</posx>
-              <posy>103</posy>
+              <left>18</left>
+              <top>103</top>
               <width>139</width>
               <height>202</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="guide-poster-diffuse.png">poster-border4.png</texture>
             </control>
             <control type="image">
-              <posx>163</posx>
-              <posy>250</posy>
+              <left>163</left>
+              <top>250</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>175</posy>
+              <left>165</left>
+              <top>175</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10033,8 +10033,8 @@
               <label>Date: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <control type="label">
-              <posx>165</posx>
-              <posy>205</posy>
+              <left>165</left>
+              <top>205</top>
               <width>200</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10251,11 +10251,11 @@
       <!--Sunday-->
       <control type="group">
         <visible>Control.HasFocus(521)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12012">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -10269,16 +10269,16 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <!--	<control type="image">
-				<posx>31.5</posx>
-				<posy>115</posy>
+				<left>31.5</left>
+				<top>115</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10288,8 +10288,8 @@
               <label>Premiered: [COLOR=white]$INFO[ListItem.label][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
@@ -10297,23 +10297,23 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <!--<control type="image">
-				<posx>31.5</posx>
-				<posy>85</posy>
+				<left>31.5</left>
+				<top>85</top>
 				<width>119</width>
 				<height>46</height>
 				<aspectratio>keep</aspectratio>
 				<texture>$INFO[ListItem.Thumb]</texture>
 			</control>-->
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>210</posy>
+              <left>30</left>
+              <top>210</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10529,11 +10529,11 @@
       </control>
       <control type="group">
         <visible>Control.HasFocus(521)</visible>
-        <posx>10</posx>
-        <posy>40</posy>
+        <left>10</left>
+        <top>40</top>
         <control type="panel" id="12013">
-          <posx>65</posx>
-          <posy>10</posy>
+          <left>65</left>
+          <top>10</top>
           <width>1200</width>
           <height>628</height>
           <onleft>-</onleft>
@@ -10547,40 +10547,40 @@
           <visible>Skin.HasSetting(TV2Banners)</visible>
           <itemlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10590,15 +10590,15 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>
@@ -10606,47 +10606,47 @@
           </itemlayout>
           <focusedlayout height="160" width="600">
             <control type="image">
-              <posx>22</posx>
-              <posy>107</posy>
+              <left>22</left>
+              <top>107</top>
               <width>504</width>
               <height>84</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-shadow7.png</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.Thumb]</texture>
             </control>
             <control type="image">
-              <posx>20</posx>
-              <posy>105</posy>
+              <left>20</left>
+              <top>105</top>
               <width>500</width>
               <height>80</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">banner-gloss.png</texture>
             </control>
             <control type="image">
-              <posx>430</posx>
-              <posy>185</posy>
+              <left>430</left>
+              <top>185</top>
               <width>90</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture diffuse="bannerdiffuse.png">$INFO[ListItem.ActualIcon]</texture>
             </control>
             <!--<control type="image">
-				<posx>119</posx>
-				<posy>72</posy>
+				<left>119</left>
+				<top>72</top>
 				<width>70</width>
 				<height>25</height>
 				<texture>$INFO[ListItem.ActualIcon]</texture>
 			</control>-->
             <control type="label">
-              <posx>30</posx>
-              <posy>185</posy>
+              <left>30</left>
+              <top>185</top>
               <width>382</width>
               <height>30</height>
               <font>Font_Neon_18</font>
@@ -10656,8 +10656,8 @@
               <label>Airing: [COLOR=white]$INFO[ListItem.label][/COLOR] at [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
             </control>
             <control type="image">
-              <posx>25</posx>
-              <posy>240</posy>
+              <left>25</left>
+              <top>240</top>
               <width>490</width>
               <height>1</height>
               <texture>line.png</texture>

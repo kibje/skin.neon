@@ -33,8 +33,8 @@
     <include>Time</include>
     <control type="image">
       <!-- Floor -->
-      <posx>0</posx>
-      <posy>650</posy>
+      <left>0</left>
+      <top>650</top>
       <width>1280</width>
       <height>70</height>
       <texture>notification_background.png</texture>
@@ -46,7 +46,7 @@
       <control type="grouplist" id="7000">
         <include>WindowMenuVars</include>
         <visible>!Skin.HasSetting(LockViews)</visible>
-        <posy>680</posy>
+        <top>680</top>
         <control type="button" id="20">
           <include>WindowMenuButton</include>
           <label>$INFO[Container.ViewMode]</label>
@@ -68,7 +68,7 @@
       <control type="grouplist">
         <include>WindowMenuVars</include>
         <visible>!Skin.HasSetting(LockViews)</visible>
-        <posy>658</posy>
+        <top>658</top>
         <control type="button" id="40">
           <include>WindowMenuLabel</include>
           <label>$LOCALIZE[31088]</label>

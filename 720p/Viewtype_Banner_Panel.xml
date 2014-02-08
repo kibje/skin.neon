@@ -6,16 +6,16 @@
     <control type="image">
       <!-- 1st overlay -->
       <visible>Control.IsVisible(592) + [Container.Content(movies) | Container.Content(tvshows)]</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>panel/panel-back.png</texture>
     </control>
     <control type="largeimage">
       <visible>Control.IsVisible(592) + [Container.Content(movies) | Container.Content(tvshows)] + !Player.HasVideo</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>570</width>
       <height>318</height>
       <texture diffuse="Showcase/showcase-diffuse.png">$INFO[Container(592).Listitem.Property(Fanart_Image)]</texture>
@@ -26,8 +26,8 @@
     </control>
     <control type="fixedlist" id="592">
       <visible>!Skin.HasSetting(no_BannerPanel) + Container.Content(tvshows) + Skin.HasSetting(TVBanners)</visible>
-      <posx>560</posx>
-      <posy>25</posy>
+      <left>560</left>
+      <top>25</top>
       <height>885</height>
       <width>880</width>
       <onup>592</onup>
@@ -46,18 +46,18 @@
       <animation effect="slide" start="0,0" end="-40,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(5920)">Conditional</animation>
       <itemlayout width="660" height="138">
         <control type="group">
-          <posx>60</posx>
-          <posy>10</posy>
+          <left>60</left>
+          <top>10</top>
           <control type="image">
-            <posx>1</posx>
-            <posy>0</posy>
+            <left>1</left>
+            <top>0</top>
             <width>646</width>
             <height>126</height>
             <texture>panel/bannermatte.png</texture>
           </control>
           <control type="image" id="5921">
-            <posx>1</posx>
-            <posy>0</posy>
+            <left>1</left>
+            <top>0</top>
             <width>646</width>
             <height>126</height>
             <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Art(banner)]</texture>
@@ -65,8 +65,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <!-- <control type="image">
-						<posx>1</posx>
-						<posy>0</posy>
+						<left>1</left>
+						<top>0</top>
 						<width>646</width>
 						<height>126</height>
 						<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
@@ -75,8 +75,8 @@
 						<visible>IsEmpty(Control.GetLabel(5921))</visible>
 					</control>
 					<control type="image">
-						<posx>1</posx>
-						<posy>0</posy>
+						<left>1</left>
+						<top>0</top>
 						<width>646</width>
 						<height>126</height>
 						<texture>panel/bannermatte.png</texture>
@@ -84,16 +84,16 @@
 						<animation effect="fade" start="10" end="70" time="0" condition="true">Conditional</animation>
 					</control>  -->
           <control type="image">
-            <posx>575</posx>
-            <posy>66</posy>
+            <left>575</left>
+            <top>66</top>
             <width>75</width>
             <height>75</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
             <visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]+ !IsEmpty(ListItem.Overlay)</visible>
           </control>
           <control type="image">
-            <posx>-26</posx>
-            <posy>-8</posy>
+            <left>-26</left>
+            <top>-8</top>
             <width>698</width>
             <height>142</height>
             <texture>tv-landscape/landscapeframeFO.png</texture>
@@ -103,11 +103,11 @@
       </itemlayout>
       <focusedlayout width="660" height="138">
         <control type="group">
-          <posx>60</posx>
-          <posy>10</posy>
+          <left>60</left>
+          <top>10</top>
           <control type="image">
-            <posx>-60</posx>
-            <posy>-60</posy>
+            <left>-60</left>
+            <top>-60</top>
             <width>768</width>
             <height>245</height>
             <texture>list/banner_glow.png</texture>
@@ -118,8 +118,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>1</posx>
-            <posy>0</posy>
+            <left>1</left>
+            <top>0</top>
             <width>646</width>
             <height>126</height>
             <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Art(banner)]</texture>
@@ -131,8 +131,8 @@
             </animation>
           </control>
           <!--	<control type="image">
-					<posx>1</posx>
-					<posy>0</posy>
+					<left>1</left>
+					<top>0</top>
 					<width>646</width>
 					<height>126</height>
 					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
@@ -144,8 +144,8 @@
 					</animation>
 				</control> -->
           <control type="image">
-            <posx>585</posx>
-            <posy>65</posy>
+            <left>585</left>
+            <top>65</top>
             <width>75</width>
             <height>75</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -155,8 +155,8 @@
             <visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]+ !IsEmpty(ListItem.Overlay)</visible>
           </control>
           <control type="image">
-            <posx>-26</posx>
-            <posy>-8</posy>
+            <left>-26</left>
+            <top>-8</top>
             <width>698</width>
             <height>142</height>
             <texture>tv-landscape/landscapeframeFO.png</texture>
@@ -174,8 +174,8 @@
       <visible>Control.IsVisible(592)</visible>
       <control type="largeimage" id="7047">
         <visible>Container.Content(tvshows)</visible>
-        <posx>160</posx>
-        <posy>300</posy>
+        <left>160</left>
+        <top>300</top>
         <width>230</width>
         <height>89</height>
         <texture>$INFO[ListItem.Art(clearlogo)]</texture>
@@ -184,8 +184,8 @@
       </control>
       <control type="label">
         <visible>Container.Content(tvshows) + IsEmpty(Control.GetLabel(7047))</visible>
-        <posx>15</posx>
-        <posy>320</posy>
+        <left>15</left>
+        <top>320</top>
         <width>555</width>
         <height>50</height>
         <align>center</align>
@@ -195,8 +195,8 @@
       </control>
       <control type="label">
         <visible>Container.Content(tvshows) + IsEmpty(Control.GetLabel(7047))</visible>
-        <posx>15</posx>
-        <posy>358</posy>
+        <left>15</left>
+        <top>358</top>
         <width>555</width>
         <height>50</height>
         <align>center</align>
@@ -211,8 +211,8 @@
       <control type="textbox">
         <!--TV Plot-->
         <visible>Container.Content(tvshows)</visible>
-        <posx>15</posx>
-        <posy>410</posy>
+        <left>15</left>
+        <top>410</top>
         <width>555</width>
         <height>264</height>
         <font>Font_Bartowski_Showcase_plot</font>
@@ -225,8 +225,8 @@
       <control type="image">
         <!-- last overlay -->
         <visible>Container.Content(movies) | Container.Content(tvshows)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>panel/last-overlay.png</texture>
@@ -235,8 +235,8 @@
     <include>Trailer_Panel</include>
     <control type="scrollbar" id="5920">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(592) + Control.HasFocus(5920)</visible>

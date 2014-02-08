@@ -4,8 +4,8 @@
   <controls>
     <!-- codec infos -->
     <control type="group">
-      <posx>4</posx>
-      <posy>-8</posy>
+      <left>4</left>
+      <top>-8</top>
       <width>1280</width>
       <height>125</height>
       <visible>Control.IsVisible(10)</visible>
@@ -26,16 +26,16 @@
         <effect type="slide" time="400" start="0,0" end="0,-125" easing="in" tween="cubic" />
       </animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>8</posy>
+        <left>0</left>
+        <top>8</top>
         <width>1280</width>
         <height>172</height>
         <texture flipx="true">common/codec_back.png</texture>
       </control>
       <control type="label" id="10">
         <description>row 1 label</description>
-        <posx>0</posx>
-        <posy>12</posy>
+        <left>0</left>
+        <top>12</top>
         <label>-</label>
         <align>left</align>
         <width>1280</width>
@@ -44,8 +44,8 @@
       </control>
       <control type="label" id="11">
         <description>row 2 label</description>
-        <posx>0</posx>
-        <posy>37</posy>
+        <left>0</left>
+        <top>37</top>
         <label>-</label>
         <align>left</align>
         <width>1280</width>
@@ -54,8 +54,8 @@
       </control>
       <control type="label" id="12">
         <description>row 3 label</description>
-        <posx>0</posx>
-        <posy>62</posy>
+        <left>0</left>
+        <top>62</top>
         <label>-</label>
         <align>left</align>
         <width>1280</width>

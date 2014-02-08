@@ -35,8 +35,8 @@
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <posx>-250</posx>
-        <posy>30</posy>
+        <left>-250</left>
+        <top>30</top>
         <width>220</width>
         <height>60</height>
         <aspectratio>keep</aspectratio>
@@ -44,13 +44,13 @@
         <texture>neon.png</texture>
       </control>
       <control type="group" id="7000">
-        <posx>-250</posx>
-        <posy>130</posy>
+        <left>-250</left>
+        <top>130</top>
         <include>CommonNowPlaying</include>
         <control type="button" id="2">
           <description>View As button</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <include>ButtonCommonValues</include>
           <label>-</label>
           <onleft>50</onleft>
@@ -60,8 +60,8 @@
         </control>
         <control type="button" id="3">
           <description>Sort by button</description>
-          <posx>0</posx>
-          <posy>40</posy>
+          <left>0</left>
+          <top>40</top>
           <include>ButtonCommonValues</include>
           <label>103</label>
           <onleft>50</onleft>
@@ -71,8 +71,8 @@
         </control>
         <control type="togglebutton" id="4">
           <description>Sort asc</description>
-          <posx>220</posx>
-          <posy>53</posy>
+          <left>220</left>
+          <top>53</top>
           <label>-</label>
           <onleft>3</onleft>
           <onright>50</onright>
@@ -80,8 +80,8 @@
           <ondown>5</ondown>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>90</posy>
+          <left>0</left>
+          <top>90</top>
           <width>250</width>
           <height>45</height>
           <font>font12caps</font>
@@ -92,8 +92,8 @@
         </control>
         <control type="radiobutton" id="5">
           <description>Enable auto-updates</description>
-          <posx>0</posx>
-          <posy>130</posy>
+          <left>0</left>
+          <top>130</top>
           <include>ButtonCommonValues</include>
           <label>24063</label>
           <onleft>50</onleft>
@@ -103,8 +103,8 @@
         </control>
         <control type="radiobutton" id="6">
           <description>No notifications</description>
-          <posx>0</posx>
-          <posy>170</posy>
+          <left>0</left>
+          <top>170</top>
           <include>ButtonCommonValues</include>
           <label>25000</label>
           <onleft>50</onleft>
@@ -114,8 +114,8 @@
         </control>
         <control type="radiobutton" id="7">
           <description>Hide foreign</description>
-          <posx>0</posx>
-          <posy>210</posy>
+          <left>0</left>
+          <top>210</top>
           <include>ButtonCommonValues</include>
           <label>$LOCALIZE[25001]</label>
         </control>
@@ -126,8 +126,8 @@
           <visible>false</visible>
         </control>
         <control type="group">
-          <posx>0</posx>
-          <posy>260</posy>
+          <left>0</left>
+          <top>260</top>
           <include>CommonNowPlaying_Controls</include>
         </control>
         <control type="button" id="611">

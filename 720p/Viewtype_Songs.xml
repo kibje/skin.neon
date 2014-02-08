@@ -10,8 +10,8 @@
     </control>
     <control type="image">
       <visible>Control.IsVisible(52) + Container.Content(artists)</visible>
-      <posx>40</posx>
-      <posy>10</posy>
+      <left>40</left>
+      <top>10</top>
       <width>520</width>
       <height>291</height>
       <texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/music.jpg">$INFO[Container(52).listitem.property(fanart_image)]</texture>
@@ -21,8 +21,8 @@
       <include>Animation_Viewtype_Panel_Fanart</include>
     </control>
     <control type="fixedlist" id="52">
-      <posx>700</posx>
-      <posy>50</posy>
+      <left>700</left>
+      <top>50</top>
       <height>650</height>
       <width>800</width>
       <onup>52</onup>
@@ -41,8 +41,8 @@
       <animation effect="slide" start="0,0" end="-100,0" time="1000" delay="600" tween="cubic" easing="inout" condition="Container.Content(artists)">Conditional</animation>
       <itemlayout width="1210" height="36">
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>680</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -52,8 +52,8 @@
           <visible>Container.Content(songs)</visible>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>720</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -65,8 +65,8 @@
       </itemlayout>
       <focusedlayout width="1210" height="36">
         <control type="image">
-          <posx>0</posx>
-          <posy>-10</posy>
+          <left>0</left>
+          <top>-10</top>
           <width>800</width>
           <height>68</height>
           <texture>list/highlight_new.png</texture>
@@ -75,8 +75,8 @@
           </animation>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>720</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -86,8 +86,8 @@
           <visible>!Container.Content(songs)</visible>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>680</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -102,16 +102,16 @@
       <include>Animation_Viewtype_Showcase_ThumbArea</include>
       <visible>Control.IsVisible(52) + Container.Content(songs)</visible>
       <!--<control type="image">
-			<posx>150</posx>
-			<posy>20</posy>
+			<left>150</left>
+			<top>20</top>
 			<width>700</width>
 			<height>646</height>
 			<texture>music/music_wall_glow.png</texture>
 			<aspectratio scalediffuse="false">stretch</aspectratio>
 		</control>-->
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>1200</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -120,8 +120,8 @@
         <label>$INFO[ListItem.Album]</label>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -130,8 +130,8 @@
         <label>$INFO[ListItem.artist]</label>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>85</posy>
+        <left>20</left>
+        <top>85</top>
         <width>604</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -140,8 +140,8 @@
         <label>$INFO[ListItem.year]</label>
       </control>
       <control type="image" id="9171">
-        <posx>200</posx>
-        <posy>160</posy>
+        <left>200</left>
+        <top>160</top>
         <width>400</width>
         <height>400</height>
         <fadetime>100</fadetime>
@@ -150,8 +150,8 @@
         <animation effect="slide" start="0,0" end="-140,0" time="800" delay="800" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(9171))">Conditional</animation>
       </control>
       <control type="image">
-        <posx>200</posx>
-        <posy>160</posy>
+        <left>200</left>
+        <top>160</top>
         <width>400</width>
         <height>400</height>
         <fadetime>100</fadetime>
@@ -160,8 +160,8 @@
         <animation effect="slide" start="0,0" end="60,0" time="800" delay="800" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(9171))">Conditional</animation>
       </control>
       <control type="image">
-        <posx>168</posx>
-        <posy>128</posy>
+        <left>168</left>
+        <top>128</top>
         <width>466</width>
         <height>466</height>
         <texture>music/musicwallframeF.png</texture>
@@ -169,8 +169,8 @@
         <animation effect="slide" start="0,0" end="60,0" time="800" delay="800" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(9171))">Conditional</animation>
       </control>
       <control type="image">
-        <posx>300</posx>
-        <posy>580</posy>
+        <left>300</left>
+        <top>580</top>
         <width>183</width>
         <height>33</height>
         <texture>$INFO[ListItem.StarRating]</texture>
@@ -179,14 +179,14 @@
       </control>
     </control>
     <control type="group">
-      <posx>0</posx>
-      <posy>300</posy>
+      <left>0</left>
+      <top>300</top>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Showcase_ThumbArea</include>
       <visible>Control.IsVisible(52) + Container.Content(artists)</visible>
       <control type="label">
-        <posx>20</posx>
-        <posy>0</posy>
+        <left>20</left>
+        <top>0</top>
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -196,8 +196,8 @@
         <visible>!IsEmpty(ListItem.Property(Artist_YearsActive))</visible>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -207,8 +207,8 @@
         <visible>!IsEmpty(ListItem.Property(Artist_Born))</visible>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>30</posy>
+        <left>20</left>
+        <top>30</top>
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -218,8 +218,8 @@
         <visible>!IsEmpty(ListItem.Property(Artist_Formed))</visible>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>546</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -231,8 +231,8 @@
     </control>
     <control type="textbox">
       <visible>Control.IsVisible(52) + Container.Content(artists) + !Player.HasAudio</visible>
-      <posx>20</posx>
-      <posy>400</posy>
+      <left>20</left>
+      <top>400</top>
       <width>540</width>
       <height>246</height>
       <font>Font_Bartowski_Showcase_plot</font>
@@ -246,8 +246,8 @@
     </control>
     <control type="textbox">
       <visible>Control.IsVisible(52) + Container.Content(artists) + !Player.HasAudio</visible>
-      <posx>20</posx>
-      <posy>400</posy>
+      <left>20</left>
+      <top>400</top>
       <width>540</width>
       <height>318</height>
       <font>Font_Bartowski_Showcase_plot</font>
@@ -261,8 +261,8 @@
     </control>
     <control type="scrollbar" id="62">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(52) + Control.HasFocus(62)</visible>

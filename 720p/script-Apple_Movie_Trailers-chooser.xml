@@ -2,25 +2,25 @@
 <window type="dialog">
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <controls>
     <control type="group">
-      <posx>780</posx>
+      <left>780</left>
       <animation effect="slide" start="500,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
       <animation effect="slide" start="0,0" end="500,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>500</width>
         <height>720</height>
         <texture border="15,0,0,0" flipx="true">MediaBladeSub.png</texture>
       </control>
       <control type="button">
         <description>Close Window button</description>
-        <posx>20</posx>
-        <posy>0</posy>
+        <left>20</left>
+        <top>0</top>
         <width>64</width>
         <height>32</height>
         <label>-</label>
@@ -39,8 +39,8 @@
         <animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
         <control type="label" id="500">
           <description>header label</description>
-          <posx>460</posx>
-          <posy>60</posy>
+          <left>460</left>
+          <top>60</top>
           <width>440</width>
           <height>30</height>
           <font>Font_Neon_24</font>
@@ -54,8 +54,8 @@
         <!-- skin selection controls -->
         <!-- ** Required ** Do not change <description> or <type> -->
         <control type="multiimage" id="501">
-          <posx>30</posx>
-          <posy>390</posy>
+          <left>30</left>
+          <top>390</top>
           <width>430</width>
           <height>300</height>
           <imagepath>thumbs</imagepath>
@@ -66,8 +66,8 @@
           <aspectratio>keep</aspectratio>
         </control>
         <control type="textbox" id="505">
-          <posx>30</posx>
-          <posy>390</posy>
+          <left>30</left>
+          <top>390</top>
           <width>430</width>
           <height>300</height>
           <font>Font_Neon_15</font>
@@ -75,8 +75,8 @@
         </control>
         <!-- ** Required ** Do not change <id> or <type> -->
         <control type="list" id="503">
-          <posx>30</posx>
-          <posy>130</posy>
+          <left>30</left>
+          <top>130</top>
           <width>430</width>
           <height>240</height>
           <onup>503</onup>
@@ -87,15 +87,15 @@
           <scrolltime>200</scrolltime>
           <itemlayout height="40">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <texture>MenuItemNF.png</texture>
             </control>
             <control type="label">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <width>410</width>
               <height>35</height>
               <font>Font_Neon_15</font>
@@ -107,16 +107,16 @@
           </itemlayout>
           <focusedlayout height="40">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <texture>MenuItemNF.png</texture>
               <visible>!Control.HasFocus(503)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <colordiffuse>mainblue</colordiffuse>
@@ -124,8 +124,8 @@
               <visible>Control.HasFocus(503)</visible>
 =						</control>
             <control type="label">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <width>410</width>
               <height>35</height>
               <font>Font_Neon_15</font>
@@ -138,8 +138,8 @@
         </control>
         <control type="label">
           <description>Page label</description>
-          <posx>460</posx>
-          <posy>375</posy>
+          <left>460</left>
+          <top>375</top>
           <width>440</width>
           <height>30</height>
           <align>right</align>
@@ -151,8 +151,8 @@
         </control>
         <!-- ** Required ** Do not change <id> or <type> -->
         <control type="list" id="504">
-          <posx>30</posx>
-          <posy>130</posy>
+          <left>30</left>
+          <top>130</top>
           <width>430</width>
           <height>520</height>
           <onup>504</onup>
@@ -163,15 +163,15 @@
           <scrolltime>200</scrolltime>
           <itemlayout height="40">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <texture>MenuItemNF.png</texture>
             </control>
             <control type="label">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <width>410</width>
               <height>35</height>
               <font>Font_Neon_15</font>
@@ -183,16 +183,16 @@
           </itemlayout>
           <focusedlayout height="40">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <texture>MenuItemNF.png</texture>
               <visible>!Control.HasFocus(504)</visible>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>430</width>
               <height>41</height>
               <colordiffuse>mainblue</colordiffuse>
@@ -200,8 +200,8 @@
               <visible>Control.HasFocus(504)</visible>
 =						</control>
             <control type="label">
-              <posx>10</posx>
-              <posy>0</posy>
+              <left>10</left>
+              <top>0</top>
               <width>410</width>
               <height>35</height>
               <font>Font_Neon_15</font>
@@ -214,8 +214,8 @@
         </control>
         <control type="label">
           <description>Page label</description>
-          <posx>460</posx>
-          <posy>680</posy>
+          <left>460</left>
+          <top>680</top>
           <width>440</width>
           <height>30</height>
           <align>right</align>
@@ -232,8 +232,8 @@
     <!-- ** Required ** Do not change <description> -->
     <control type="label" id="502">
       <description>Chooser Warning Label</description>
-      <posx>500</posx>
-      <posy>430</posy>
+      <left>500</left>
+      <top>430</top>
       <width>310</width>
       <height>20</height>
       <align>center</align>

@@ -3,8 +3,8 @@
   <include name="MediaListView3">
     <control type="group">
       <control type="image">
-        <posx>0</posx>
-        <posy>-5</posy>
+        <left>0</left>
+        <top>-5</top>
         <width>1280</width>
         <height>725</height>
         <texture border="0,5,0,0">ContentPanel4.png</texture>
@@ -14,8 +14,8 @@
       <visible>Control.IsVisible(503)</visible>
       <include>VisibleFadeEffect</include>
       <control type="fixedlist" id="503">
-        <posx>660</posx>
-        <posy>260</posy>
+        <left>660</left>
+        <top>260</top>
         <width>580</width>
         <height>401</height>
         <onleft>7000</onleft>
@@ -29,15 +29,15 @@
         <visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         <itemlayout height="40" width="580">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>580</width>
             <height>41</height>
             <texture border="0,2,0,2">MenuItemNF.png</texture>
           </control>
           <control type="label">
-            <posx>15</posx>
-            <posy>0</posy>
+            <left>15</left>
+            <top>0</top>
             <width>520</width>
             <height>40</height>
             <font>Font_Neon_24</font>
@@ -48,8 +48,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="label">
-            <posx>535</posx>
-            <posy>0</posy>
+            <left>535</left>
+            <top>0</top>
             <width>500</width>
             <height>40</height>
             <font>Font_Neon_18</font>
@@ -60,8 +60,8 @@
             <label>$INFO[ListItem.Label2]</label>
           </control>
           <control type="image">
-            <posx>545</posx>
-            <posy>14</posy>
+            <left>545</left>
+            <top>14</top>
             <width>25</width>
             <height>25</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -69,8 +69,8 @@
         </itemlayout>
         <focusedlayout height="40" width="580">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>580</width>
             <height>41</height>
             <texture border="0,2,0,2">MenuItemNF.png</texture>
@@ -78,8 +78,8 @@
             <include>VisibleFadeEffect</include>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>580</width>
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -88,16 +88,16 @@
             <include>VisibleFadeEffect</include>
           </control>
           <control type="image">
-            <posx>370</posx>
-            <posy>5</posy>
+            <left>370</left>
+            <top>5</top>
             <width>200</width>
             <height>31</height>
             <texture border="0,0,14,0">MediaItemDetailBG.png</texture>
             <visible>Control.HasFocus(503) + !IsEmpty(ListItem.Label2)</visible>
           </control>
           <control type="label">
-            <posx>15</posx>
-            <posy>0</posy>
+            <left>15</left>
+            <top>0</top>
             <width>520</width>
             <height>40</height>
             <font>Font_Neon_24</font>
@@ -108,8 +108,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="label">
-            <posx>535</posx>
-            <posy>0</posy>
+            <left>535</left>
+            <top>0</top>
             <width>500</width>
             <height>40</height>
             <font>Font_Neon_18</font>
@@ -120,8 +120,8 @@
             <label>$INFO[ListItem.Label2]</label>
           </control>
           <control type="image">
-            <posx>545</posx>
-            <posy>14</posy>
+            <left>545</left>
+            <top>14</top>
             <width>25</width>
             <height>25</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -129,8 +129,8 @@
         </focusedlayout>
       </control>
       <control type="scrollbar" id="60">
-        <posx>1230</posx>
-        <posy>260</posy>
+        <left>1230</left>
+        <top>260</top>
         <width>25</width>
         <height>400</height>
         <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -145,12 +145,12 @@
         <visible>Control.IsVisible(503)</visible>
       </control>
       <control type="group">
-        <posx>50</posx>
-        <posy>250</posy>
+        <left>50</left>
+        <top>250</top>
         <visible>Container.Content(TVShows) + !Skin.HasSetting(tvposters)</visible>
         <control type="image" id="7019">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>600</width>
           <height>130</height>
           <aspectratio aligny="bottom">keep</aspectratio>
@@ -160,8 +160,8 @@
           <bordersize>8</bordersize>
         </control>
         <control type="image" id="7020">
-          <posx>8</posx>
-          <posy>122</posy>
+          <left>8</left>
+          <top>122</top>
           <width>584</width>
           <height>114</height>
           <aspectratio aligny="top">keep</aspectratio>
@@ -169,8 +169,8 @@
           <texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Art(banner)]</texture>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>600</width>
           <height>130</height>
           <aspectratio aligny="bottom">keep</aspectratio>
@@ -181,8 +181,8 @@
           <visible>IsEmpty(Control.GetLabel(7019))</visible>
         </control>
         <control type="image" id="7020">
-          <posx>8</posx>
-          <posy>122</posy>
+          <left>8</left>
+          <top>122</top>
           <width>584</width>
           <height>114</height>
           <aspectratio aligny="top">keep</aspectratio>
@@ -191,8 +191,8 @@
           <visible>IsEmpty(Control.GetLabel(7020))</visible>
         </control>
         <control type="image">
-          <posx>560</posx>
-          <posy>90</posy>
+          <left>560</left>
+          <top>90</top>
           <width>25</width>
           <height>25</height>
           <aspectratio>keep</aspectratio>
@@ -200,8 +200,8 @@
         </control>
         <control type="label">
           <description>Episodes txt</description>
-          <posx>150</posx>
-          <posy>145</posy>
+          <left>150</left>
+          <top>145</top>
           <width>140</width>
           <height>25</height>
           <label>$LOCALIZE[20360]:</label>
@@ -212,8 +212,8 @@
         </control>
         <control type="label">
           <description>Episodes Value</description>
-          <posx>160</posx>
-          <posy>145</posy>
+          <left>160</left>
+          <top>145</top>
           <width>440</width>
           <height>25</height>
           <label fallback="416">$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
@@ -224,8 +224,8 @@
         </control>
         <control type="label">
           <description>Aired txt</description>
-          <posx>150</posx>
-          <posy>170</posy>
+          <left>150</left>
+          <top>170</top>
           <width>140</width>
           <height>25</height>
           <label>$LOCALIZE[31322]:</label>
@@ -236,8 +236,8 @@
         </control>
         <control type="label">
           <description>Aired Value</description>
-          <posx>160</posx>
-          <posy>170</posy>
+          <left>160</left>
+          <top>170</top>
           <width>440</width>
           <height>25</height>
           <label fallback="416">$INFO[listitem.premiered]</label>
@@ -248,8 +248,8 @@
         </control>
         <control type="label">
           <description>Genre txt</description>
-          <posx>150</posx>
-          <posy>195</posy>
+          <left>150</left>
+          <top>195</top>
           <width>140</width>
           <height>25</height>
           <label>$LOCALIZE[515]:</label>
@@ -260,8 +260,8 @@
         </control>
         <control type="label">
           <description>Genre Value</description>
-          <posx>160</posx>
-          <posy>195</posy>
+          <left>160</left>
+          <top>195</top>
           <width>440</width>
           <height>25</height>
           <label fallback="416">$INFO[listitem.Genre]</label>
@@ -271,16 +271,16 @@
           <scroll>true</scroll>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>232</posy>
+          <left>0</left>
+          <top>232</top>
           <width>550</width>
           <height>4</height>
           <texture>separator.png</texture>
         </control>
         <control type="textbox">
           <description>Description Value for TVShows</description>
-          <posx>0</posx>
-          <posy>250</posy>
+          <left>0</left>
+          <top>250</top>
           <width>600</width>
           <height>160</height>
           <font>Font_Neon_18</font>
@@ -291,16 +291,16 @@
         </control>
       </control>
       <control type="group">
-        <posx>80</posx>
-        <posy>170</posy>
+        <left>80</left>
+        <top>170</top>
         <visible>Container.Content(TVShows) + Skin.HasSetting(tvposters)</visible>
         <control type="group">
-          <posx>15</posx>
+          <left>15</left>
           <camera x="640" y="200" />
           <animation effect="rotatey" center="90" start="-30" end="-30" time="0" condition="true">Conditional</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>260</width>
             <height>480</height>
             <aspectratio aligny="bottom">stretch</aspectratio>
@@ -310,8 +310,8 @@
             <bordersize>8</bordersize>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>8</posy>
+            <left>8</left>
+            <top>8</top>
             <width>180</width>
             <height>350</height>
             <aspectratio>stretch</aspectratio>
@@ -319,8 +319,8 @@
             <colordiffuse>AAFFFFFF</colordiffuse>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>472</posy>
+            <left>8</left>
+            <top>472</top>
             <width>244</width>
             <height>464</height>
             <aspectratio aligny="top">stretch</aspectratio>
@@ -330,8 +330,8 @@
         </control>
         <control type="label">
           <description>Episodes Count</description>
-          <posx>320</posx>
-          <posy>320</posy>
+          <left>320</left>
+          <top>320</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Episode,, $LOCALIZE[20453]]</label>
@@ -343,8 +343,8 @@
         </control>
         <control type="label">
           <description>Watched Count</description>
-          <posx>320</posx>
-          <posy>380</posy>
+          <left>320</left>
+          <top>380</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]]</label>
@@ -356,8 +356,8 @@
         </control>
         <control type="label">
           <description>UnWatched Count</description>
-          <posx>320</posx>
-          <posy>400</posy>
+          <left>320</left>
+          <top>400</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]]</label>
@@ -369,16 +369,16 @@
         </control>
       </control>
       <control type="group">
-        <posx>80</posx>
-        <posy>170</posy>
+        <left>80</left>
+        <top>170</top>
         <visible>Container.Content(Seasons)</visible>
         <control type="group">
-          <posx>15</posx>
+          <left>15</left>
           <camera x="640" y="200" />
           <animation effect="rotatey" center="90" start="-30" end="-30" time="0" condition="true">Conditional</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>260</width>
             <height>480</height>
             <aspectratio aligny="bottom">stretch</aspectratio>
@@ -388,8 +388,8 @@
             <bordersize>8</bordersize>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>8</posy>
+            <left>8</left>
+            <top>8</top>
             <width>180</width>
             <height>350</height>
             <aspectratio>stretch</aspectratio>
@@ -397,8 +397,8 @@
             <colordiffuse>AAFFFFFF</colordiffuse>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>472</posy>
+            <left>8</left>
+            <top>472</top>
             <width>244</width>
             <height>464</height>
             <aspectratio aligny="top">stretch</aspectratio>
@@ -408,8 +408,8 @@
         </control>
         <control type="label">
           <description>Main Label txt</description>
-          <posx>320</posx>
-          <posy>260</posy>
+          <left>320</left>
+          <top>260</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Label]</label>
@@ -421,8 +421,8 @@
         </control>
         <control type="label">
           <description>Episodes Count</description>
-          <posx>320</posx>
-          <posy>320</posy>
+          <left>320</left>
+          <top>320</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Episode,, $LOCALIZE[20453]]</label>
@@ -434,8 +434,8 @@
         </control>
         <control type="label">
           <description>Watched Count</description>
-          <posx>320</posx>
-          <posy>380</posy>
+          <left>320</left>
+          <top>380</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]]</label>
@@ -447,8 +447,8 @@
         </control>
         <control type="label">
           <description>UnWatched Count</description>
-          <posx>320</posx>
-          <posy>400</posy>
+          <left>320</left>
+          <top>400</top>
           <width>250</width>
           <height>25</height>
           <label>$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]]</label>
@@ -460,12 +460,12 @@
         </control>
       </control>
       <control type="group">
-        <posx>50</posx>
-        <posy>250</posy>
+        <left>50</left>
+        <top>250</top>
         <visible>Container.Content(Episodes)</visible>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>600</width>
           <height>210</height>
           <aspectratio aligny="bottom">keep</aspectratio>
@@ -475,8 +475,8 @@
           <bordersize>8</bordersize>
         </control>
         <control type="image">
-          <posx>8</posx>
-          <posy>202</posy>
+          <left>8</left>
+          <top>202</top>
           <width>600</width>
           <height>194</height>
           <aspectratio aligny="top">keep</aspectratio>
@@ -485,8 +485,8 @@
         </control>
         <control type="grouplist">
           <description>Media Codec Flagging Images</description>
-          <posx>0</posx>
-          <posy>210</posy>
+          <left>0</left>
+          <top>210</top>
           <width>600</width>
           <align>center</align>
           <itemgap>0</itemgap>
@@ -500,8 +500,8 @@
         </control>
         <control type="label">
           <description>INFO txt</description>
-          <posx>0</posx>
-          <posy>245</posy>
+          <left>0</left>
+          <top>245</top>
           <width>600</width>
           <height>25</height>
           <label>$INFO[ListItem.Season,[COLOR=mainblue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=mainblue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=mainblue] $LOCALIZE[31322] :[/COLOR] ]</label>
@@ -513,16 +513,16 @@
           <wrapmultiline>true</wrapmultiline>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>275</posy>
+          <left>0</left>
+          <top>275</top>
           <width>600</width>
           <height>4</height>
           <texture>separator.png</texture>
         </control>
         <control type="textbox">
           <description>Description Value for TVShows</description>
-          <posx>0</posx>
-          <posy>280</posy>
+          <left>0</left>
+          <top>280</top>
           <width>600</width>
           <height>140</height>
           <font>Font_Neon_18</font>
@@ -533,16 +533,16 @@
         </control>
       </control>
       <control type="group">
-        <posx>40</posx>
-        <posy>170</posy>
+        <left>40</left>
+        <top>170</top>
         <visible>Container.Content(Movies)</visible>
         <control type="group">
-          <posx>15</posx>
+          <left>15</left>
           <camera x="640" y="200" />
           <animation effect="rotatey" center="50" start="-30" end="-30" time="0" condition="true">Conditional</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>260</width>
             <height>480</height>
             <aspectratio aligny="bottom">stretch</aspectratio>
@@ -552,8 +552,8 @@
             <bordersize>8</bordersize>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>8</posy>
+            <left>8</left>
+            <top>8</top>
             <width>180</width>
             <height>350</height>
             <aspectratio>stretch</aspectratio>
@@ -561,8 +561,8 @@
             <colordiffuse>AAFFFFFF</colordiffuse>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>472</posy>
+            <left>8</left>
+            <top>472</top>
             <width>244</width>
             <height>464</height>
             <aspectratio aligny="top">stretch</aspectratio>
@@ -572,8 +572,8 @@
         </control>
         <control type="grouplist">
           <description>Media Codec Flagging Images</description>
-          <posx>0</posx>
-          <posy>480</posy>
+          <left>0</left>
+          <top>480</top>
           <width>590</width>
           <align>center</align>
           <itemgap>0</itemgap>
@@ -587,8 +587,8 @@
         </control>
         <control type="textbox">
           <description>Description Value for Movie</description>
-          <posx>320</posx>
-          <posy>80</posy>
+          <left>320</left>
+          <top>80</top>
           <width>270</width>
           <height>370</height>
           <font>Font_Neon_18</font>
@@ -599,14 +599,14 @@
         </control>
       </control>
       <control type="group">
-        <posx>200</posx>
-        <posy>170</posy>
+        <left>200</left>
+        <top>170</top>
         <visible>Control.IsVisible(503) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
         <control type="group">
-          <posx>15</posx>
+          <left>15</left>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>260</width>
             <height>480</height>
             <aspectratio aligny="bottom">keep</aspectratio>
@@ -616,8 +616,8 @@
             <bordersize>8</bordersize>
           </control>
           <control type="image">
-            <posx>8</posx>
-            <posy>472</posy>
+            <left>8</left>
+            <top>472</top>
             <width>244</width>
             <height>464</height>
             <aspectratio aligny="top">stretch</aspectratio>
@@ -627,8 +627,8 @@
         </control>
         <control type="textbox">
           <description>Description Value for Movie</description>
-          <posx>320</posx>
-          <posy>80</posy>
+          <left>320</left>
+          <top>80</top>
           <width>270</width>
           <height>370</height>
           <font>Font_Neon_18</font>

@@ -7,8 +7,8 @@
   <controls>
     <control type="image">
       <description>artist level fanart</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture fallback="backdrops/curtains.jpg" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -25,8 +25,8 @@
     <!-- <include>7000_has_focus</include>-->
     <control type="image">
       <!-- Floor -->
-      <posx>0</posx>
-      <posy>650</posy>
+      <left>0</left>
+      <top>650</top>
       <width>1280</width>
       <height>70</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -38,13 +38,13 @@
       <visible>Window.IsActive(500)</visible>
       <width>1280</width>
       <height>40</height>
-      <posx>190</posx>
+      <left>190</left>
       <onup>50</onup>
       <ondown>50</ondown>
       <itemgap>0</itemgap>
       <visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
       <orientation>horizontal</orientation>
-      <posy>678</posy>
+      <top>678</top>
       <!-- shuffle -->
       <control type="button" id="30">
         <include>WindowMenuButton</include>
@@ -85,10 +85,10 @@
     <control type="grouplist">
       <width>1280</width>
       <height>40</height>
-      <posx>0</posx>
+      <left>0</left>
       <visible>!Skin.HasSetting(LockViews)</visible>
       <include>WindowMenuVars</include>
-      <posy>655</posy>
+      <top>655</top>
       <!-- shuffle -->
       <control type="button" id="7040">
         <include>WindowMenuLabel</include>

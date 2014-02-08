@@ -4,8 +4,8 @@
     <control type="group">
       <visible>Control.IsVisible(58)</visible>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>music/music_backdrop3.png</texture>
@@ -15,8 +15,8 @@
         <visible>SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
         <animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,-110" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies)">Conditional</animation>
-        <posx>0</posx>
-        <posy>370</posy>
+        <left>0</left>
+        <top>370</top>
         <width>1280</width>
         <height>50</height>
         <align>center</align>
@@ -30,8 +30,8 @@
         <visible>Skin.HasSetting(ShowcaseFanart) + Skin.HasSetting(showcase_fanart_title)</visible>
         <animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,-110" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies)">Conditional</animation>
-        <posx>0</posx>
-        <posy>470</posy>
+        <left>0</left>
+        <top>470</top>
         <width>1280</width>
         <height>50</height>
         <align>center</align>
@@ -43,8 +43,8 @@
       </control>
       <control type="image">
         <visible>!Player.HasVideo + !Skin.HasSetting(ShowcaseFanart) + !SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
-        <posx>0</posx>
-        <posy>30</posy>
+        <left>0</left>
+        <top>30</top>
         <width>436</width>
         <height>244</height>
         <texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/movies.jpg">$INFO[Container(58).listitem.property(fanart_image)]</texture>
@@ -54,8 +54,8 @@
       </control>
     </control>
     <control type="wraplist" id="58">
-      <posx>-135</posx>
-      <posy>290</posy>
+      <left>-135</left>
+      <top>290</top>
       <height>515</height>
       <width>1480</width>
       <onleft>50</onleft>
@@ -73,8 +73,8 @@
       <visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
       <itemlayout width="168" height="2875">
         <control type="image">
-          <posx>1</posx>
-          <posy>131</posy>
+          <left>1</left>
+          <top>131</top>
           <width>162</width>
           <height>241</height>
           <texture background="true" diffuse="postermatteNF.png">$INFO[ListItem.Icon]</texture>
@@ -83,8 +83,8 @@
           <!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
         </control>
         <control type="image">
-          <posx>-8</posx>
-          <posy>122</posy>
+          <left>-8</left>
+          <top>122</top>
           <width>180</width>
           <height>260</height>
           <texture>posterframeF.png</texture>
@@ -92,8 +92,8 @@
           <visible>Control.IsVisible(60) | !Control.IsVisible(61)</visible>
         </control>
         <control type="image">
-          <posx>-7</posx>
-          <posy>108</posy>
+          <left>-7</left>
+          <top>108</top>
           <width>181</width>
           <height>281</height>
           <texture fallback="case-sets.png">case$INFO[ListItem.VideoResolution].png</texture>
@@ -101,8 +101,8 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>-7</posx>
-          <posy>108</posy>
+          <left>-7</left>
+          <top>108</top>
           <width>181</width>
           <height>281</height>
           <texture>case-tv.png</texture>
@@ -110,8 +110,8 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image">
-          <posx>1</posx>
-          <posy>374</posy>
+          <left>1</left>
+          <top>374</top>
           <width>162</width>
           <height>241</height>
           <texture background="true" flipy="true" diffuse="movie-poster/Movie_Thumb_Mask.png">$INFO[ListItem.Icon]</texture>
@@ -121,16 +121,16 @@
           <!--	<animation effect="slide" start="0,0" end="0,20" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
         </control>
         <control type="image">
-          <posx>115</posx>
-          <posy>328</posy>
+          <left>115</left>
+          <top>328</top>
           <width>50</width>
           <height>50</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
           <visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
         </control>
         <control type="image">
-          <posx>105</posx>
-          <posy>360</posy>
+          <left>105</left>
+          <top>360</top>
           <width>80</width>
           <height>60</height>
           <colordiffuse>69FFFFFF</colordiffuse>
@@ -138,8 +138,8 @@
           <visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
         </control>
         <control type="image">
-          <posx>100</posx>
-          <posy>332</posy>
+          <left>100</left>
+          <top>332</top>
           <width>80</width>
           <height>60</height>
           <texture>dialogs/movies/movieset.png</texture>
@@ -150,8 +150,8 @@
         <control type="group">
           <!--	<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation> -->
           <control type="image">
-            <posx>-94</posx>
-            <posy>24</posy>
+            <left>-94</left>
+            <top>24</top>
             <width>389</width>
             <height>405</height>
             <texture>showcase/showcase_glow2.png</texture>
@@ -162,8 +162,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>2</posx>
-            <posy>90</posy>
+            <left>2</left>
+            <top>90</top>
             <width>201</width>
             <height>300</height>
             <texture>$INFO[ListItem.Icon]</texture>
@@ -174,8 +174,8 @@
             </animation>
           </control>
           <control type="image" id="60">
-            <posx>-7</posx>
-            <posy>60</posy>
+            <left>-7</left>
+            <top>60</top>
             <width>225</width>
             <height>350</height>
             <texture fallback="case-sets.png">case$INFO[ListItem.VideoResolution].png</texture>
@@ -186,8 +186,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>-7</posx>
-            <posy>60</posy>
+            <left>-7</left>
+            <top>60</top>
             <width>225</width>
             <height>350</height>
             <texture>case-tv.png</texture>
@@ -198,8 +198,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>90</posx>
-            <posy>70</posy>
+            <left>90</left>
+            <top>70</top>
             <width>27</width>
             <height>16</height>
             <texture>movieset.png</texture>
@@ -209,8 +209,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>2</posx>
-            <posy>394</posy>
+            <left>2</left>
+            <top>394</top>
             <width>201</width>
             <height>300</height>
             <texture background="true" flipy="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
@@ -222,8 +222,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-10</posx>
-            <posy>78</posy>
+            <left>-10</left>
+            <top>78</top>
             <width>225</width>
             <height>325</height>
             <texture>posterframeF.png</texture>
@@ -234,8 +234,8 @@
             <visible>!Control.IsVisible(60) | !Control.IsVisible(61)</visible>
           </control>
           <control type="image">
-            <posx>140</posx>
-            <posy>330</posy>
+            <left>140</left>
+            <top>330</top>
             <width>68</width>
             <height>68</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -245,8 +245,8 @@
             <visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
           </control>
           <control type="image">
-            <posx>137</posx>
-            <posy>380</posy>
+            <left>137</left>
+            <top>380</top>
             <width>68</width>
             <height>68</height>
             <colordiffuse>69FFFFFF</colordiffuse>
@@ -257,8 +257,8 @@
             <visible>Skin.HasSetting(movieoverlays) + !IsEmpty(ListItem.Overlay)</visible>
           </control>
           <control type="image">
-            <posx>134</posx>
-            <posy>344</posy>
+            <left>134</left>
+            <top>344</top>
             <width>90</width>
             <height>68</height>
             <texture>dialogs/movies/movieset.png</texture>
@@ -274,8 +274,8 @@
       <visible>Control.IsVisible(58)</visible>
       <control type="textbox">
         <visible>!Skin.HasSetting(ShowcaseFanart)</visible>
-        <posx>450</posx>
-        <posy>55</posy>
+        <left>450</left>
+        <top>55</top>
         <width>540</width>
         <height>300</height>
         <font>Font_Bartowski_Showcase_plot</font>
@@ -288,8 +288,8 @@
       <control type="image">
         <!-- Floor -->
         <visible>!Skin.HasSetting(ShowcaseFanart)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>Showcase/last-overlay.png</texture>
@@ -299,8 +299,8 @@
         <include>Animation_Viewtype_Showcase_LeftArea</include>
         <control type="label">
           <!--Movie title-->
-          <posx>15</posx>
-          <posy>275</posy>
+          <left>15</left>
+          <top>275</top>
           <width>420</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -309,8 +309,8 @@
           <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
-          <posx>15</posx>
-          <posy>303</posy>
+          <left>15</left>
+          <top>303</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -321,8 +321,8 @@
         </control>
         <control type="label">
           <!--Duration-->
-          <posx>15</posx>
-          <posy>303</posy>
+          <left>15</left>
+          <top>303</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -333,8 +333,8 @@
         </control>
         <control type="label">
           <!--Duration-->
-          <posx>15</posx>
-          <posy>303</posy>
+          <left>15</left>
+          <top>303</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -345,8 +345,8 @@
         </control>
         <control type="label">
           <!--Release Date-->
-          <posx>15</posx>
-          <posy>300</posy>
+          <left>15</left>
+          <top>300</top>
           <width>406</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -357,8 +357,8 @@
         </control>
         <control type="label">
           <!--Year-->
-          <posx>15</posx>
-          <posy>326</posy>
+          <left>15</left>
+          <top>326</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -370,8 +370,8 @@
         </control>
         <control type="label">
           <!--Year-->
-          <posx>15</posx>
-          <posy>326</posy>
+          <left>15</left>
+          <top>326</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -381,8 +381,8 @@
           <visible>substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
         </control>
         <control type="group">
-          <posx>110</posx>
-          <posy>330</posy>
+          <left>110</left>
+          <top>330</top>
           <include>VideoMPAAFlaggingConditions</include>
           <animation effect="slide" start="0,0" end="-64,0" time="0" condition="IsEmpty(ListItem.Year)">Conditional</animation>
           <animation effect="slide" start="0,0" end="0,-23" time="0" condition="IsEmpty(ListItem.Duration)">Conditional</animation>
@@ -391,8 +391,8 @@
       <control type="label">
         <!--Trailer Start-->
         <visible>!IsEmpty(ListItem.Trailer) + !Player.HasVideo + !Skin.HasSetting(ShowcaseFanart)</visible>
-        <posx>20</posx>
-        <posy>350</posy>
+        <left>20</left>
+        <top>350</top>
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -407,8 +407,8 @@
       <control type="label">
         <!--Trailer Stop-->
         <visible>Player.HasVideo + !Skin.HasSetting(ShowcaseFanart)</visible>
-        <posx>20</posx>
-        <posy>350</posy>
+        <left>20</left>
+        <top>350</top>
         <width>370</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -421,14 +421,14 @@
       <!--Plot and extrathumbs-->
       <control type="grouplist">
         <visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + !Skin.HasSetting(extrathumbs) + !Skin.HasSetting(ShowcaseFanart) </visible>
-        <posx>1020</posx>
-        <posy>52</posy>
+        <left>1020</left>
+        <top>52</top>
         <itemgap>0</itemgap>
         <include>Animation_Viewtype_Showcase_RightArea</include>
         <control type="label">
           <!--Director-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -437,8 +437,8 @@
         </control>
         <control type="label">
           <!--Director-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -446,8 +446,8 @@
           <label fallback="Not Available">$INFO[ListItem.Director]</label>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>10</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -456,8 +456,8 @@
         </control>
         <control type="label">
           <!--Writer-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -466,8 +466,8 @@
         </control>
         <control type="label">
           <!--Writer-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -476,8 +476,8 @@
         </control>
         <control type="label">
           <!--Director-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>10</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -486,8 +486,8 @@
         </control>
         <control type="label">
           <!--Genre-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -496,8 +496,8 @@
         </control>
         <control type="label">
           <!--Genre-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -506,8 +506,8 @@
         </control>
         <control type="label">
           <!--Director-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>10</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -516,8 +516,8 @@
         </control>
         <control type="label">
           <!--Rating-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -526,8 +526,8 @@
         </control>
         <control type="label">
           <!--Rating-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -536,8 +536,8 @@
         </control>
         <control type="label">
           <!--Director-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>10</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -546,8 +546,8 @@
         </control>
         <control type="label">
           <!--Studio-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -556,8 +556,8 @@
         </control>
         <control type="label">
           <!--Rating-->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>390</width>
           <height>24</height>
           <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -569,8 +569,8 @@
         <visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + Skin.HasSetting(extrathumbs) + !Skin.HasSetting(ShowcaseFanart)</visible>
         <include>Animation_Viewtype_Showcase_RightArea</include>
         <control type="image">
-          <posx>1010</posx>
-          <posy>40</posy>
+          <left>1010</left>
+          <top>40</top>
           <width>261</width>
           <height>147</height>
           <aspectratio>stretch</aspectratio>
@@ -578,15 +578,15 @@
           <fadetime>200</fadetime>
         </control>
         <control type="image">
-          <posx>998</posx>
-          <posy>30</posy>
+          <left>998</left>
+          <top>30</top>
           <width>284</width>
           <height>166</height>
           <texture>tv-landscape/landscapeframeFO.png</texture>
         </control>
         <control type="image">
-          <posx>1010</posx>
-          <posy>210</posy>
+          <left>1010</left>
+          <top>210</top>
           <width>261</width>
           <height>147</height>
           <aspectratio>stretch</aspectratio>
@@ -594,8 +594,8 @@
           <fadetime>200</fadetime>
         </control>
         <control type="image">
-          <posx>998</posx>
-          <posy>200</posy>
+          <left>998</left>
+          <top>200</top>
           <width>284</width>
           <height>166</height>
           <texture>tv-landscape/landscapeframeFO.png</texture>
@@ -604,8 +604,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(no_media_flags) + !Skin.HasSetting(ShowcaseFanart)</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>0</posx>
-        <posy>360</posy>
+        <left>0</left>
+        <top>360</top>
         <width>1280</width>
         <align>right</align>
         <itemgap>0</itemgap>
@@ -624,8 +624,8 @@
     <include>Trailer_Showcase</include>
     <control type="scrollbar" id="68">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(58) + Control.HasFocus(68)</visible>

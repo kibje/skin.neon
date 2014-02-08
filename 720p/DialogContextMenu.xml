@@ -4,44 +4,44 @@
   <include>Animation_SettingsFade</include>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <origin x="460" y="160" />
   </coordinates>
   <controls>
     <control type="image" id="997">
       <description>background top image</description>
-      <posx>0</posx>
-      <posy>-54</posy>
+      <left>0</left>
+      <top>-54</top>
       <width>370</width>
       <height>54</height>
       <texture border="45,45,45,0">DialogContextTop.png</texture>
     </control>
     <control type="image">
-      <posx>34</posx>
-      <posy>-6</posy>
+      <left>34</left>
+      <top>-6</top>
       <width>290</width>
       <height>4</height>
       <texture>common/separator.png</texture>
     </control>
     <control type="image" id="999">
       <description>background image</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>370</width>
       <texture border="45,0,45,0">DialogContextMiddle.png</texture>
     </control>
     <control type="image" id="998">
       <description>background bottom image</description>
-      <posx>0</posx>
+      <left>0</left>
       <width>370</width>
       <height>50</height>
       <texture border="45,0,45,49">DialogContextBottom.png</texture>
     </control>
     <control type="button" id="1000">
       <description>button template</description>
-      <posx>35</posx>
-      <posy>-</posy>
+      <left>35</left>
+      <top>-</top>
       <width>295</width>
       <height>38</height>
       <font>Font_Bartowski_Episode_ContextMenu</font>

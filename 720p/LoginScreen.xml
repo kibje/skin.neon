@@ -4,13 +4,13 @@
   <allowoverlay>no</allowoverlay>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <controls>
     <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <imagepath fallback="special://skin/backgrounds/logoff.jpg" background="true">$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</imagepath>
@@ -22,30 +22,30 @@
     <control type="group">
       <include>Window_OpenClose_Animation</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture border="20">black-back.png</texture>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>128r</posy>
+        <left>0</left>
+        <top>128r</top>
         <width>1280</width>
         <height>128</height>
         <texture>floor.png</texture>
       </control>
       <control type="image">
-        <posx>265</posx>
-        <posy>60</posy>
+        <left>265</left>
+        <top>60</top>
         <width>750</width>
         <height>600</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture border="20">ContentPanel.png</texture>
       </control>
       <control type="image">
-        <posx>265</posx>
-        <posy>645</posy>
+        <left>265</left>
+        <top>645</top>
         <width>750</width>
         <height>600</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -54,8 +54,8 @@
       </control>
       <control type="image">
         <description>LOGO</description>
-        <posx>200r</posx>
-        <posy>60r</posy>
+        <left>200r</left>
+        <top>60r</top>
         <width>140</width>
         <height>40</height>
         <aspectratio>keep</aspectratio>
@@ -64,15 +64,15 @@
       </control>
       <control type="image">
         <description>LOGO</description>
-        <posx>50</posx>
-        <posy>60r</posy>
+        <left>50</left>
+        <top>60r</top>
         <width>140</width>
         <height>40</height>
         <texture>XBMC_Logo.png</texture>
       </control>
       <control type="label">
-        <posx>295</posx>
-        <posy>100</posy>
+        <left>295</left>
+        <top>100</top>
         <width>690</width>
         <height>40</height>
         <font>Font_Neon_24</font>
@@ -82,8 +82,8 @@
         <label>$LOCALIZE[31421]</label>
       </control>
       <control type="list" id="52">
-        <posx>295</posx>
-        <posy>170</posy>
+        <left>295</left>
+        <top>170</top>
         <width>690</width>
         <height>401</height>
         <onleft>20</onleft>
@@ -95,22 +95,22 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="100" width="690">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>690</width>
             <height>131</height>
             <texture border="0,5,0,5">MenuItemNF.png</texture>
           </control>
           <control type="image">
-            <posx>10</posx>
-            <posy>15</posy>
+            <left>10</left>
+            <top>15</top>
             <width>100</width>
             <height>100</height>
             <texture>$INFO[ListItem.Icon]</texture>
           </control>
           <control type="label">
-            <posx>120</posx>
-            <posy>10</posy>
+            <left>120</left>
+            <top>10</top>
             <width>580</width>
             <height>40</height>
             <font>Font_Neon_24</font>
@@ -121,8 +121,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="label">
-            <posx>120</posx>
-            <posy>50</posy>
+            <left>120</left>
+            <top>50</top>
             <width>580</width>
             <height>40</height>
             <font>Font_Neon_22</font>
@@ -135,8 +135,8 @@
         </itemlayout>
         <focusedlayout height="100" width="580">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>690</width>
             <height>131</height>
             <texture border="0,5,0,5">MenuItemNF.png</texture>
@@ -144,8 +144,8 @@
             <include>VisibleFadeEffect</include>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>690</width>
             <height>131</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -154,15 +154,15 @@
             <include>VisibleFadeEffect</include>
           </control>
           <control type="image">
-            <posx>10</posx>
-            <posy>15</posy>
+            <left>10</left>
+            <top>15</top>
             <width>100</width>
             <height>100</height>
             <texture>$INFO[ListItem.Icon]</texture>
           </control>
           <control type="label">
-            <posx>120</posx>
-            <posy>10</posy>
+            <left>120</left>
+            <top>10</top>
             <width>580</width>
             <height>40</height>
             <font>Font_Neon_24</font>
@@ -173,8 +173,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="label">
-            <posx>120</posx>
-            <posy>50</posy>
+            <left>120</left>
+            <top>50</top>
             <width>580</width>
             <height>40</height>
             <font>Font_Neon_22</font>
@@ -187,11 +187,11 @@
         </focusedlayout>
       </control>
       <control type="group">
-        <posx>940</posx>
-        <posy>600</posy>
+        <left>940</left>
+        <top>600</top>
         <control type="label">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>580</width>
           <height>35</height>
           <font>Font_Neon_20</font>
@@ -202,8 +202,8 @@
         </control>
         <control type="button" id="20">
           <description>Power push button</description>
-          <posx>10</posx>
-          <posy>0</posy>
+          <left>10</left>
+          <top>0</top>
           <width>40</width>
           <height>40</height>
           <label>-</label>
@@ -219,8 +219,8 @@
           <colordiffuse>CCFFFFFF</colordiffuse>
         </control>
         <control type="image">
-          <posx>13</posx>
-          <posy>3</posy>
+          <left>13</left>
+          <top>3</top>
           <width>30</width>
           <height>29</height>
           <texture>home-power-focus.gif</texture>

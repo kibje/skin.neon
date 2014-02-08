@@ -4,8 +4,8 @@
     <control type="group">
       <visible>Control.IsVisible(588)</visible>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>music/music_backdrop3.png</texture>
@@ -15,8 +15,8 @@
         <visible>SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
         <animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,-110" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies)">Conditional</animation>
-        <posx>0</posx>
-        <posy>370</posy>
+        <left>0</left>
+        <top>370</top>
         <width>1280</width>
         <height>50</height>
         <align>center</align>
@@ -30,8 +30,8 @@
         <visible>Skin.HasSetting(MultiPlexFanart) + Skin.HasSetting(showcase_fanart_title)</visible>
         <animation effect="slide" start="0,0" end="0,-70" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation>
         <animation effect="slide" start="0,0" end="0,-110" time="1000" delay="600" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies)">Conditional</animation>
-        <posx>0</posx>
-        <posy>470</posy>
+        <left>0</left>
+        <top>470</top>
         <width>1280</width>
         <height>50</height>
         <align>center</align>
@@ -43,8 +43,8 @@
       </control>
     </control>
     <control type="group">
-      <posx>0</posx>
-      <posy>85</posy>
+      <left>0</left>
+      <top>85</top>
       <width>1280</width>
       <height>381</height>
       <visible>Skin.HasSetting(MultiPlexFanart) + Control.IsVisible(588)</visible>
@@ -52,8 +52,8 @@
       <animation effect="fade" end="0" time="200">WindowClose</animation>
       <animation effect="fade" start="0" end="100" time="400">VisibleChange</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>-85</posy>
+        <left>0</left>
+        <top>-85</top>
         <width>1280</width>
         <height>720</height>
         <texture>mod/bg.png</texture>
@@ -61,8 +61,8 @@
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
       </control>
       <control type="label">
-        <posx>170</posx>
-        <posy>-90</posy>
+        <left>170</left>
+        <top>-90</top>
         <width>940</width>
         <height>150</height>
         <align>center</align>
@@ -79,8 +79,8 @@
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
         <control type="image">
-          <posx>39</posx>
-          <posy>-34</posy>
+          <left>39</left>
+          <top>-34</top>
           <visible />
           <width>313</width>
           <height>490</height>
@@ -90,8 +90,8 @@
         </control>
         <control type="textbox">
           <visible>Skin.HasSetting(extrathumbs)</visible>
-          <posx>45</posx>
-          <posy>150</posy>
+          <left>45</left>
+          <top>150</top>
           <width>300</width>
           <height>195</height>
           <animation effect="rotatey" center="0" start="50" end="-45" time="0" condition="true">Conditional</animation>
@@ -102,8 +102,8 @@
         </control>
         <control type="multiimage">
           <visible>!Skin.HasSetting(extrathumbs)</visible>
-          <posx>40</posx>
-          <posy>150</posy>
+          <left>40</left>
+          <top>150</top>
           <width>310</width>
           <height>195</height>
           <fadetime>2000</fadetime>
@@ -113,8 +113,8 @@
           <imagepath diffuse="mod/list_episodeicon_mask.png" background="true">$INFO[Container(588).ListItem.Path,,extrathumbs]</imagepath>
         </control>
         <control type="image">
-          <posx>40</posx>
-          <posy>-34</posy>
+          <left>40</left>
+          <top>-34</top>
           <visible />
           <width>310</width>
           <height>485</height>
@@ -124,13 +124,13 @@
           <bordertexture border="-20">mod/list_movieicon_frame2.png</bordertexture>
         </control>
         <control type="group">
-          <posx>45</posx>
-          <posy>-40</posy>
+          <left>45</left>
+          <top>-40</top>
           <animation effect="rotatey" center="0" start="-30" end="-45" time="0" condition="true">Conditional</animation>
           <control type="grouplist">
             <description>Media Codec Flagging Images</description>
-            <posx>-10</posx>
-            <posy>446</posy>
+            <left>-10</left>
+            <top>446</top>
             <width>310</width>
             <height>54</height>
             <align>center</align>
@@ -141,8 +141,8 @@
           </control>
           <control type="grouplist">
             <description>Media Codec Flagging Images</description>
-            <posx>-10</posx>
-            <posy>484</posy>
+            <left>-10</left>
+            <top>484</top>
             <width>310</width>
             <height>54</height>
             <align>center</align>
@@ -153,8 +153,8 @@
           </control>
           <control type="grouplist">
             <description>Media Codec Flagging Images</description>
-            <posx>-10</posx>
-            <posy>390</posy>
+            <left>-10</left>
+            <top>390</top>
             <width>310</width>
             <height>54</height>
             <align>center</align>
@@ -166,15 +166,15 @@
             <include>AspectCodecFlaggingConditions</include>
           </control>
           <control type="group">
-            <posy>22</posy>
+            <top>22</top>
             <control type="label">
               <font>Font_Neon_16</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>Directed By:</label>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>17</posy>
+              <left>0</left>
+              <top>17</top>
               <width>200</width>
               <scroll>true</scroll>
               <font>Font_Neon_19</font>
@@ -183,15 +183,15 @@
             </control>
           </control>
           <control type="group">
-            <posy>70</posy>
+            <top>70</top>
             <control type="label">
               <font>Font_Neon_16</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>Year:</label>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>17</posy>
+              <left>0</left>
+              <top>17</top>
               <width>150</width>
               <font>Font_Neon_19</font>
               <textcolor>FFFFFFFF</textcolor>
@@ -199,16 +199,16 @@
             </control>
           </control>
           <control type="group">
-            <posy>22</posy>
-            <posx>200</posx>
+            <top>22</top>
+            <left>200</left>
             <control type="label">
               <font>Font_Neon_16</font>
               <textcolor>FFFFFAA6</textcolor>
               <label>Genre:</label>
             </control>
             <control type="textbox">
-              <posx>0</posx>
-              <posy>17</posy>
+              <left>0</left>
+              <top>17</top>
               <width>88</width>
               <height>126</height>
               <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -218,11 +218,11 @@
             </control>
           </control>
           <control type="group">
-            <posy>120</posy>
-            <posx>0</posx>
+            <top>120</top>
+            <left>0</left>
             <control type="label">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>180</width>
               <height>13</height>
               <font>Font_Neon_16</font>
@@ -230,8 +230,8 @@
               <label>User Rating:</label>
             </control>
             <control type="label">
-              <posx>0</posx>
-              <posy>17</posy>
+              <left>0</left>
+              <top>17</top>
               <width>180</width>
               <height>13</height>
               <font>Font_Neon_19</font>
@@ -241,7 +241,7 @@
             <control type="image">
               <description>IMDB rating</description>
               <posx />
-              <posy>40</posy>
+              <top>40</top>
               <width>76</width>
               <height>18</height>
               <info>ListItem.StarRating</info>
@@ -252,8 +252,8 @@
         </control>
       </control>
       <control type="group">
-        <posx>982</posx>
-        <posy>24</posy>
+        <left>982</left>
+        <top>24</top>
         <camera x="840" y="180" />
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
@@ -266,7 +266,7 @@
           <bordertexture border="-13">mod/list_movieicon_frame.png</bordertexture>
         </control>
         <control type="largeimage">
-          <posy>364</posy>
+          <top>364</top>
           <width>240</width>
           <height>360</height>
           <fadetime>400</fadetime>
@@ -283,14 +283,14 @@
         </control>
       </control>
       <control type="group">
-        <posx>320</posx>
-        <posy>20</posy>
+        <left>320</left>
+        <top>20</top>
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
         <control type="textbox">
           <visible>!Skin.HasSetting(extrathumbs)</visible>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>640</width>
           <height>340</height>
           <label>$INFO[ListItem.Plot]</label>
@@ -302,8 +302,8 @@
         </control>
         <control type="textbox">
           <visible>!Skin.HasSetting(extrathumbs) + IsEmpty(ListItem.Plot)</visible>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>640</width>
           <height>340</height>
           <label>$INFO[ListItem.PlotOutline]</label>
@@ -324,7 +324,7 @@
         </control>
         <control type="multiimage">
           <visible>Skin.HasSetting(extrathumbs)</visible>
-          <posy>362</posy>
+          <top>362</top>
           <width>640</width>
           <height>360</height>
           <fadetime>500</fadetime>
@@ -342,21 +342,21 @@
         </control>
       </control>
       <control type="videowindow" id="2">
-        <posx>320</posx>
-        <posy>20</posy>
+        <left>320</left>
+        <top>20</top>
         <width>640</width>
         <height>360</height>
         <visible>Control.IsVisible(588) + Player.HasVideo</visible>
         <animation effect="zoom" start="0" end="100" center="640,210" time="1000" condition="Player.HasVideo">Conditional</animation>
       </control>
       <control type="group">
-        <posx>394</posx>
-        <posy>366</posy>
+        <left>394</left>
+        <top>366</top>
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
         <control type="image">
-          <posx>114</posx>
-          <posy>4</posy>
+          <left>114</left>
+          <top>4</top>
           <align>center</align>
           <width>262</width>
           <height>28</height>
@@ -365,8 +365,8 @@
           <visible>!IsEmpty(ListItem.Trailer) + !Player.HasVideo</visible>
         </control>
         <control type="label">
-          <posx>2</posx>
-          <posy>6</posy>
+          <left>2</left>
+          <top>6</top>
           <align>center</align>
           <width>486</width>
           <height>271</height>
@@ -378,8 +378,8 @@
         </control>
       </control>
       <control type="label">
-        <posx>320</posx>
-        <posy>372</posy>
+        <left>320</left>
+        <top>372</top>
         <align>center</align>
         <width>640</width>
         <height>271</height>
@@ -390,8 +390,8 @@
         <animation effect="fade" start="0" end="100" time="400" delay="1000">Visible</animation>
       </control>
       <control type="label">
-        <posx>40</posx>
-        <posy>385</posy>
+        <left>40</left>
+        <top>385</top>
         <width>1200</width>
         <height>71</height>
         <scroll>true</scroll>
@@ -409,8 +409,8 @@
         <visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + Skin.HasSetting(extrathumbs) + !Skin.HasSetting(MultiPlexFanart)</visible>
         <include>Animation_Viewtype_Showcase_RightArea</include>
         <control type="label">
-          <posx>40</posx>
-          <posy>475</posy>
+          <left>40</left>
+          <top>475</top>
           <width>1200</width>
           <height>71</height>
           <scroll>true</scroll>
@@ -422,8 +422,8 @@
           <label>$INFO[Container(588).ListItem.Label]</label>
         </control>
         <control type="image">
-          <posx>1010</posx>
-          <posy>50</posy>
+          <left>1010</left>
+          <top>50</top>
           <width>261</width>
           <height>147</height>
           <aspectratio>stretch</aspectratio>
@@ -431,16 +431,16 @@
           <fadetime>200</fadetime>
         </control>
         <control type="image">
-          <posx>998</posx>
-          <posy>40</posy>
+          <left>998</left>
+          <top>40</top>
           <width>284</width>
           <height>166</height>
           <colordiffuse>black</colordiffuse>
           <texture>tv-landscape/landscapeframeFO.png</texture>
         </control>
         <control type="image">
-          <posx>1010</posx>
-          <posy>220</posy>
+          <left>1010</left>
+          <top>220</top>
           <width>261</width>
           <height>147</height>
           <aspectratio>stretch</aspectratio>
@@ -448,16 +448,16 @@
           <fadetime>200</fadetime>
         </control>
         <control type="image">
-          <posx>998</posx>
-          <posy>210</posy>
+          <left>998</left>
+          <top>210</top>
           <width>284</width>
           <height>166</height>
           <colordiffuse>black</colordiffuse>
           <texture>tv-landscape/landscapeframeFO.png</texture>
         </control>
         <control type="image">
-          <posx>1010</posx>
-          <posy>390</posy>
+          <left>1010</left>
+          <top>390</top>
           <width>261</width>
           <height>147</height>
           <aspectratio>stretch</aspectratio>
@@ -465,8 +465,8 @@
           <fadetime>200</fadetime>
         </control>
         <control type="image">
-          <posx>998</posx>
-          <posy>380</posy>
+          <left>998</left>
+          <top>380</top>
           <width>284</width>
           <height>166</height>
           <colordiffuse>black</colordiffuse>
@@ -476,8 +476,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(no_media_flags) + !Skin.HasSetting(MultiPlexFanart)</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>0</posx>
-        <posy>370</posy>
+        <left>0</left>
+        <top>370</top>
         <width>1280</width>
         <align>right</align>
         <itemgap>0</itemgap>
@@ -488,8 +488,8 @@
       </control>
     </control>
     <control type="wraplist" id="588">
-      <posx>65</posx>
-      <posy>534</posy>
+      <left>65</left>
+      <top>534</top>
       <height>169</height>
       <width>1150</width>
       <onleft>50</onleft>
@@ -507,8 +507,8 @@
       <visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
       <itemlayout width="106" height="129">
         <control type="image">
-          <posx>55</posx>
-          <posy>0</posy>
+          <left>55</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <aspectratio>keep</aspectratio>
@@ -530,8 +530,8 @@
       </itemlayout>
       <focusedlayout width="106" height="129">
         <control type="image">
-          <posx>55</posx>
-          <posy>-13</posy>
+          <left>55</left>
+          <top>-13</top>
           <width>55</width>
           <height>55</height>
           <aspectratio>keep</aspectratio>
@@ -580,8 +580,8 @@
     </control>
     <control type="scrollbar" id="68">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(588) + Control.HasFocus(68)</visible>

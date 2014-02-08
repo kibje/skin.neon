@@ -4,15 +4,15 @@
   <defaultcontrol always="false">500</defaultcontrol>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <controls>
     <!-- mainviewbackground -->
     <control type="image" id="75">
       <description>background image</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <aspectratio>stretch</aspectratio>
@@ -34,8 +34,8 @@
     </control>
     <control type="image">
       <!-- Fanart -->
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>movie-poster/movie-back3.png</texture>
@@ -44,8 +44,8 @@
       <visible>Control.IsVisible(51)</visible>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>music/pic_back.png</texture>
@@ -53,8 +53,8 @@
     </control>
     <control type="image">
       <!-- Fanart -->
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>movie-poster/movie-back3.png</texture>
@@ -64,8 +64,8 @@
     <!-- gamelist groups -->
     <control type="group" id="200">
       <control type="fixedlist" id="50">
-        <posx>0</posx>
-        <posy>-14</posy>
+        <left>0</left>
+        <top>-14</top>
         <height>885</height>
         <width>1680</width>
         <onup>50</onup>
@@ -82,8 +82,8 @@
         <include>Animation_Viewtype_Files_LeftArea</include>
         <itemlayout width="1210" height="36">
           <control type="label">
-            <posx>20</posx>
-            <posy>0</posy>
+            <left>20</left>
+            <top>0</top>
             <width>700</width>
             <height>46</height>
             <aligny>center</aligny>
@@ -93,8 +93,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>38</posy>
+            <left>0</left>
+            <top>38</top>
             <width>880</width>
             <height>4</height>
             <aspectratio>stretch</aspectratio>
@@ -103,16 +103,16 @@
         </itemlayout>
         <focusedlayout width="1210" height="36">
           <control type="image">
-            <posx>0</posx>
-            <posy>38</posy>
+            <left>0</left>
+            <top>38</top>
             <width>880</width>
             <height>4</height>
             <aspectratio>stretch</aspectratio>
             <texture>common/separator.png</texture>
           </control>
           <control type="image">
-            <posx>-70</posx>
-            <posy>-34</posy>
+            <left>-70</left>
+            <top>-34</top>
             <width>930</width>
             <height>121</height>
             <texture>list/highlight.png</texture>
@@ -122,8 +122,8 @@
             </animation>
           </control>
           <control type="label">
-            <posx>20</posx>
-            <posy>0</posy>
+            <left>20</left>
+            <top>0</top>
             <width>680</width>
             <height>46</height>
             <aligny>center</aligny>
@@ -138,8 +138,8 @@
         <visible>Control.IsVisible(50)</visible>
         <include>Animation_Viewtype_Files_RightArea</include>
         <control type="image">
-          <posx>870</posx>
-          <posy>360</posy>
+          <left>870</left>
+          <top>360</top>
           <width>400</width>
           <height>360</height>
           <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -149,8 +149,8 @@
           <fadetime>100</fadetime>
         </control>
         <control type="image">
-          <posx>870</posx>
-          <posy>360</posy>
+          <left>870</left>
+          <top>360</top>
           <width>400</width>
           <height>360</height>
           <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -164,8 +164,8 @@
           <visible>Container(50).OnNext</visible>
         </control>
         <control type="image">
-          <posx>870</posx>
-          <posy>360</posy>
+          <left>870</left>
+          <top>360</top>
           <width>400</width>
           <height>360</height>
           <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -182,8 +182,8 @@
       <!-- gamelist 50 -->
       <control type="group">
         <control type="fixedlist" id="51">
-          <posx>-100</posx>
-          <posy>250</posy>
+          <left>-100</left>
+          <top>250</top>
           <height>715</height>
           <width>1500</width>
           <onleft>51</onleft>
@@ -202,19 +202,19 @@
           <animation effect="rotatey" center="50" start="12" end="10" time="0" condition="true">Conditional</animation>
           <itemlayout width="316" height="245">
             <control type="group">
-              <posx>150</posx>
-              <posy>60</posy>
+              <left>150</left>
+              <top>60</top>
               <control type="image">
-                <posx>136</posx>
-                <posy>132</posy>
+                <left>136</left>
+                <top>132</top>
                 <width>28</width>
                 <height>168</height>
                 <texture>movie-poster/newcase.png</texture>
                 <aspectratio scalediffuse="false">stretch</aspectratio>
               </control>
               <control type="image">
-                <posx>136</posx>
-                <posy>290</posy>
+                <left>136</left>
+                <top>290</top>
                 <width>36</width>
                 <height>304</height>
                 <texture>movie-poster/reflect_bottom2.png</texture>
@@ -222,16 +222,16 @@
                 <aspectratio scalediffuse="false">stretch</aspectratio>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>130</posy>
+                <left>-150</left>
+                <top>130</top>
                 <width>304</width>
                 <height>172</height>
                 <texture>movie-poster/xper_test.png</texture>
                 <colordiffuse>BackgroundColor</colordiffuse>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>130</posy>
+                <left>-150</left>
+                <top>130</top>
                 <width>304</width>
                 <height>172</height>
                 <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.thumb]</texture>
@@ -239,8 +239,8 @@
                 <aspectratio scalediffuse="false">stretch</aspectratio>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>298</posy>
+                <left>-150</left>
+                <top>298</top>
                 <width>304</width>
                 <height>172</height>
                 <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.thumb]</texture>
@@ -252,11 +252,11 @@
           </itemlayout>
           <focusedlayout width="360" height="515">
             <control type="group">
-              <posx>124</posx>
-              <posy>60</posy>
+              <left>124</left>
+              <top>60</top>
               <control type="image">
-                <posx>-186</posx>
-                <posy>60</posy>
+                <left>-186</left>
+                <top>60</top>
                 <width>500</width>
                 <height>305</height>
                 <texture>movie-poster/3d_side_shadow.png</texture>
@@ -266,8 +266,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>236</posx>
-                <posy>90</posy>
+                <left>236</left>
+                <top>90</top>
                 <width>38</width>
                 <height>226</height>
                 <texture>movie-poster/newcase.png</texture>
@@ -278,8 +278,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>238</posx>
-                <posy>306</posy>
+                <left>238</left>
+                <top>306</top>
                 <width>54</width>
                 <height>304</height>
                 <texture>movie-poster/test2.png</texture>
@@ -290,8 +290,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>86</posy>
+                <left>-150</left>
+                <top>86</top>
                 <width>407</width>
                 <height>232</height>
                 <texture>movie-poster/xper_test.png</texture>
@@ -301,8 +301,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-148</posx>
-                <posy>314</posy>
+                <left>-148</left>
+                <top>314</top>
                 <width>402</width>
                 <height>226</height>
                 <texture>movie-poster/mask_border2_3d1.png</texture>
@@ -314,8 +314,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-148</posx>
-                <posy>310</posy>
+                <left>-148</left>
+                <top>310</top>
                 <width>400</width>
                 <height>224</height>
                 <texture flipy="true">movie-poster/xper_test.png</texture>
@@ -328,8 +328,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>312</posy>
+                <left>-150</left>
+                <top>312</top>
                 <width>407</width>
                 <height>224</height>
                 <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Thumb]</texture>
@@ -341,8 +341,8 @@
                 </animation>
               </control>
               <control type="image">
-                <posx>-150</posx>
-                <posy>86</posy>
+                <left>-150</left>
+                <top>86</top>
                 <width>407</width>
                 <height>232</height>
                 <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Thumb]</texture>
@@ -357,8 +357,8 @@
         </control>
         <control type="image">
           <visible>Control.IsVisible(51)</visible>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1280</width>
           <height>720</height>
           <texture>movie-poster/last-overlay.png</texture>
@@ -370,8 +370,8 @@
           <include>Animation_Viewtype_Showcase_LeftArea</include>
           <control type="label">
             <!--Movie title-->
-            <posx>15</posx>
-            <posy>5</posy>
+            <left>15</left>
+            <top>5</top>
             <width>1280</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -381,8 +381,8 @@
           </control>
           <control type="label">
             <!--Duration-->
-            <posx>15</posx>
-            <posy>33</posy>
+            <left>15</left>
+            <top>33</top>
             <width>394</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -392,8 +392,8 @@
           </control>
           <control type="label">
             <!--Year-->
-            <posx>15</posx>
-            <posy>56</posy>
+            <left>15</left>
+            <top>56</top>
             <width>394</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -406,12 +406,12 @@
       <!-- gamelist 52 -->
       <control type="group">
         <control type="group">
-          <posx>-20</posx>
-          <posy>0</posy>
+          <left>-20</left>
+          <top>0</top>
           <visible>Control.IsVisible(52)</visible>
           <control type="image">
-            <posx>20</posx>
-            <posy>0</posy>
+            <left>20</left>
+            <top>0</top>
             <width>436</width>
             <height>244</height>
             <texture background="true" diffuse="Showcase/showcase-diffuse.png" fallback="special://skin/backgrounds/missing.jpg">$INFO[ListItem.Property(mainviewbackground)]</texture>
@@ -421,8 +421,8 @@
             <include>Animation_HiddenByInfo</include>
           </control>
           <control type="wraplist" id="52">
-            <posx>-70</posx>
-            <posy>220</posy>
+            <left>-70</left>
+            <top>220</top>
             <height>515</height>
             <width>1380</width>
             <onleft>52</onleft>
@@ -437,11 +437,11 @@
             <include>Animation_ZoomInZoomOut</include>
             <itemlayout width="150" height="245">
               <control type="group">
-                <posx>0</posx>
-                <posy>180</posy>
+                <left>0</left>
+                <top>180</top>
                 <control type="image">
-                  <posx>0</posx>
-                  <posy>0</posy>
+                  <left>0</left>
+                  <top>0</top>
                   <width>150</width>
                   <height>260</height>
                   <aspectratio align="center" aligny="bottom">keep</aspectratio>
@@ -451,8 +451,8 @@
                   <include>Animation_HiddenByInfo</include>
                 </control>
                 <control type="image">
-                  <posx>0</posx>
-                  <posy>260</posy>
+                  <left>0</left>
+                  <top>260</top>
                   <width>150</width>
                   <height>260</height>
                   <aspectratio align="center" aligny="top">keep</aspectratio>
@@ -466,11 +466,11 @@
             </itemlayout>
             <focusedlayout width="250" height="500">
               <control type="group">
-                <posx>0</posx>
-                <posy>160</posy>
+                <left>0</left>
+                <top>160</top>
                 <control type="image">
-                  <posx>0</posx>
-                  <posy>0</posy>
+                  <left>0</left>
+                  <top>0</top>
                   <width>250</width>
                   <height>300</height>
                   <aspectratio align="center" aligny="bottom">keep</aspectratio>
@@ -483,8 +483,8 @@
                   <include>Animation_HiddenByInfo</include>
                 </control>
                 <control type="image">
-                  <posx>0</posx>
-                  <posy>300</posy>
+                  <left>0</left>
+                  <top>300</top>
                   <width>250</width>
                   <height>300</height>
                   <aspectratio align="center" aligny="top">keep</aspectratio>
@@ -507,8 +507,8 @@
           <include>Animation_Viewtype_Showcase_LeftArea</include>
           <control type="label">
             <!--Movie title-->
-            <posx>15</posx>
-            <posy>245</posy>
+            <left>15</left>
+            <top>245</top>
             <width>394</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -518,8 +518,8 @@
           </control>
           <control type="label">
             <!--Duration-->
-            <posx>15</posx>
-            <posy>268</posy>
+            <left>15</left>
+            <top>268</top>
             <width>394</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -529,8 +529,8 @@
           </control>
           <control type="label">
             <!--Year-->
-            <posx>15</posx>
-            <posy>292</posy>
+            <left>15</left>
+            <top>292</top>
             <width>394</width>
             <height>50</height>
             <aligny>center</aligny>
@@ -541,15 +541,15 @@
         </control>
         <control type="grouplist">
           <visible>Control.IsVisible(52)</visible>
-          <posx>1020</posx>
-          <posy>22</posy>
+          <left>1020</left>
+          <top>22</top>
           <itemgap>0</itemgap>
           <include>Animation_Viewtype_Showcase_RightArea</include>
           <include>Animation_HiddenByInfo</include>
           <control type="label">
             <!--Director-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -558,8 +558,8 @@
           </control>
           <control type="label">
             <!--Director-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -567,8 +567,8 @@
             <label fallback="Not Available">$INFO[ListItem.Property(genre)]</label>
           </control>
           <control type="label">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>10</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -577,8 +577,8 @@
           </control>
           <control type="label">
             <!--Writer-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -587,8 +587,8 @@
           </control>
           <control type="label">
             <!--Writer-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -597,8 +597,8 @@
           </control>
           <control type="label">
             <!--Director-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>10</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -607,8 +607,8 @@
           </control>
           <control type="label">
             <!--Genre-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -617,8 +617,8 @@
           </control>
           <control type="label">
             <!--Genre-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -627,8 +627,8 @@
           </control>
           <control type="label">
             <!--Director-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>10</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -637,8 +637,8 @@
           </control>
           <control type="label">
             <!--Rating-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -647,8 +647,8 @@
           </control>
           <control type="label">
             <!--Rating-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -657,8 +657,8 @@
           </control>
           <control type="label">
             <!--Director-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>10</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -667,8 +667,8 @@
           </control>
           <control type="label">
             <!--Studio-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Main</font>
@@ -677,8 +677,8 @@
           </control>
           <control type="label">
             <!--Rating-->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>390</width>
             <height>24</height>
             <font>Font_Bartowski_Showcase_Right_Under</font>
@@ -689,8 +689,8 @@
         <control type="group" id="350">
           <visible>Control.IsVisible(52)</visible>
           <control type="textbox">
-            <posx>460</posx>
-            <posy>25</posy>
+            <left>460</left>
+            <top>25</top>
             <width>540</width>
             <height>336</height>
             <font>Font_Bartowski_Showcase_plot</font>
@@ -705,8 +705,8 @@
       </control>
       <!-- gamelists without video support go from id 55-58-->
       <control type="fixedlist" id="55">
-        <posx>-30</posx>
-        <posy>250</posy>
+        <left>-30</left>
+        <top>250</top>
         <height>615</height>
         <width>1400</width>
         <!-- 1400 -->
@@ -728,20 +728,20 @@
         <animation effect="slide" start="0,0" end="0,160" time="700" condition="Skin.HasSetting(Poster_Fanart)">Conditional</animation>
         <itemlayout width="176" height="245">
           <control type="group">
-            <posx>150</posx>
-            <posy>0</posy>
+            <left>150</left>
+            <top>0</top>
             <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
             <control type="image">
-              <posx>-2</posx>
-              <posy>133</posy>
+              <left>-2</left>
+              <top>133</top>
               <width>28</width>
               <height>238</height>
               <texture>movie-poster/newcase.png</texture>
               <aspectratio scalediffuse="false">stretch</aspectratio>
             </control>
             <control type="image">
-              <posx>-2</posx>
-              <posy>360</posy>
+              <left>-2</left>
+              <top>360</top>
               <width>36</width>
               <height>304</height>
               <texture>movie-poster/reflect_bottom2.png</texture>
@@ -749,15 +749,15 @@
               <aspectratio scalediffuse="false">stretch</aspectratio>
             </control>
             <control type="image">
-              <posx>-149</posx>
-              <posy>131</posy>
+              <left>-149</left>
+              <top>131</top>
               <width>162</width>
               <height>241</height>
               <texture>movie-poster/posterview_diffuse.png</texture>
             </control>
             <control type="image">
-              <posx>-149</posx>
-              <posy>131</posy>
+              <left>-149</left>
+              <top>131</top>
               <width>162</width>
               <height>241</height>
               <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -765,8 +765,8 @@
               <aspectratio scalediffuse="false">stretch</aspectratio>
             </control>
             <control type="image">
-              <posx>-150</posx>
-              <posy>368</posy>
+              <left>-150</left>
+              <top>368</top>
               <width>162</width>
               <height>241</height>
               <texture flipy="true">movie-poster/posterview_diffuse_border.png</texture>
@@ -776,8 +776,8 @@
               <animation effect="fade" start="0" end="30" time="0" condition="true">Conditional</animation>
             </control>
             <control type="image">
-              <posx>-150</posx>
-              <posy>368</posy>
+              <left>-150</left>
+              <top>368</top>
               <width>162</width>
               <height>241</height>
               <texture background="true" flipy="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -789,13 +789,13 @@
         </itemlayout>
         <focusedlayout width="220" height="515">
           <control type="group">
-            <posx>140</posx>
-            <posy>0</posy>
+            <left>140</left>
+            <top>0</top>
             <animation effect="zoom" start="100" end="120" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
             <animation effect="slide" start="0,0" end="-280,-80" time="600" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(55).OnNext | Container(55).OnPrevious]">Conditional</animation>
             <control type="image">
-              <posx>44</posx>
-              <posy>93</posy>
+              <left>44</left>
+              <top>93</top>
               <width>36</width>
               <height>294</height>
               <texture>movie-poster/newcase.png</texture>
@@ -806,8 +806,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>48</posx>
-              <posy>378</posy>
+              <left>48</left>
+              <top>378</top>
               <width>48</width>
               <height>304</height>
               <texture>movie-poster/test2.png</texture>
@@ -818,8 +818,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>-148</posx>
-              <posy>90</posy>
+              <left>-148</left>
+              <top>90</top>
               <width>211</width>
               <height>300</height>
               <texture>movie-poster/posterview_diffuse.png</texture>
@@ -830,8 +830,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>-148</posx>
-              <posy>390</posy>
+              <left>-148</left>
+              <top>390</top>
               <width>211</width>
               <height>300</height>
               <texture flipy="true">movie-poster/posterview_diffuse.png</texture>
@@ -843,8 +843,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>-148</posx>
-              <posy>90</posy>
+              <left>-148</left>
+              <top>90</top>
               <width>211</width>
               <height>300</height>
               <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -855,8 +855,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>-148</posx>
-              <posy>386</posy>
+              <left>-148</left>
+              <top>386</top>
               <width>211</width>
               <height>300</height>
               <texture flipy="true">movie-poster/posterview_diffuse_border.png</texture>
@@ -868,8 +868,8 @@
               </animation>
             </control>
             <control type="image">
-              <posx>-148</posx>
-              <posy>386</posy>
+              <left>-148</left>
+              <top>386</top>
               <width>211</width>
               <height>300</height>
               <texture background="true" flipy="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -889,8 +889,8 @@
         <include>Animation_Viewtype_Showcase_LeftArea</include>
         <control type="label">
           <!--Movie title-->
-          <posx>15</posx>
-          <posy>5</posy>
+          <left>15</left>
+          <top>5</top>
           <width>1280</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -900,8 +900,8 @@
         </control>
         <control type="label">
           <!--Duration-->
-          <posx>15</posx>
-          <posy>33</posy>
+          <left>15</left>
+          <top>33</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -911,8 +911,8 @@
         </control>
         <control type="label">
           <!--Year-->
-          <posx>15</posx>
-          <posy>56</posy>
+          <left>15</left>
+          <top>56</top>
           <width>394</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -931,8 +931,8 @@
       <control type="image">
         <animation effect="zoom" start="0,0,720,1" end="0,0,720,180" time="300" tween="quadratic" easing="out" condition="ControlGroup(100).HasFocus()">Conditional</animation>
         <description>filter background image</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>720</width>
         <height>160</height>
         <texture flipy="true">InfoMessagePanel.png</texture>
@@ -941,16 +941,16 @@
       <!-- Console filter -->
       <control type="label">
         <description>Consoles</description>
-        <posx>50</posx>
-        <posy>20</posy>
+        <left>50</left>
+        <top>20</top>
         <width>125</width>
         <align>center</align>
         <textcolor>black</textcolor>
         <label>Consoles</label>
       </control>
       <control type="wraplist" id="500">
-        <posx>50</posx>
-        <posy>50</posy>
+        <left>50</left>
+        <top>50</top>
         <width>125</width>
         <height>96</height>
         <onleft>3000</onleft>
@@ -964,13 +964,13 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -985,8 +985,8 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>Control.HasFocus(500)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="5">script_rom_browser/rcb-button-focus.png</texture>
@@ -994,14 +994,14 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>!Control.HasFocus(500)</visible>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1016,16 +1016,16 @@
       <!-- Genre filter -->
       <control type="label">
         <description>Genre</description>
-        <posx>200</posx>
-        <posy>20</posy>
+        <left>200</left>
+        <top>20</top>
         <width>125</width>
         <textcolor>black</textcolor>
         <label>Genre</label>
         <align>center</align>
       </control>
       <control type="wraplist" id="600">
-        <posx>200</posx>
-        <posy>50</posy>
+        <left>200</left>
+        <top>50</top>
         <width>125</width>
         <height>96</height>
         <onleft>500</onleft>
@@ -1039,13 +1039,13 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1060,8 +1060,8 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>Control.HasFocus(600)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="5">script_rom_browser/rcb-button-focus.png</texture>
@@ -1069,14 +1069,14 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>!Control.HasFocus(600)</visible>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1091,16 +1091,16 @@
       <!-- Year filter -->
       <control type="label">
         <description>Year</description>
-        <posx>350</posx>
-        <posy>20</posy>
+        <left>350</left>
+        <top>20</top>
         <width>125</width>
         <align>center</align>
         <textcolor>black</textcolor>
         <label>Year</label>
       </control>
       <control type="wraplist" id="700">
-        <posx>350</posx>
-        <posy>50</posy>
+        <left>350</left>
+        <top>50</top>
         <width>125</width>
         <height>96</height>
         <onleft>600</onleft>
@@ -1114,13 +1114,13 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1135,8 +1135,8 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>Control.HasFocus(700)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="5">script_rom_browser/rcb-button-focus.png</texture>
@@ -1144,14 +1144,14 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>!Control.HasFocus(700)</visible>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1166,16 +1166,16 @@
       <!-- Publisher filter -->
       <control type="label">
         <description>Publisher</description>
-        <posx>500</posx>
-        <posy>20</posy>
+        <left>500</left>
+        <top>20</top>
         <width>125</width>
         <align>center</align>
         <textcolor>black</textcolor>
         <label>Publisher</label>
       </control>
       <control type="wraplist" id="800">
-        <posx>500</posx>
-        <posy>50</posy>
+        <left>500</left>
+        <top>50</top>
         <width>125</width>
         <height>96</height>
         <onleft>700</onleft>
@@ -1189,13 +1189,13 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1210,8 +1210,8 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>Control.HasFocus(800)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="5">script_rom_browser/rcb-button-focus.png</texture>
@@ -1219,14 +1219,14 @@
           <control type="image">
             <width>125</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>!Control.HasFocus(800)</visible>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>120</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1241,16 +1241,16 @@
       <!-- Character filter -->
       <control type="label">
         <description>Character</description>
-        <posx>650</posx>
-        <posy>20</posy>
+        <left>650</left>
+        <top>20</top>
         <width>30</width>
         <align>center</align>
         <textcolor>black</textcolor>
         <label>A-Z</label>
       </control>
       <control type="wraplist" id="900">
-        <posx>650</posx>
-        <posy>50</posy>
+        <left>650</left>
+        <top>50</top>
         <width>30</width>
         <height>96</height>
         <onleft>800</onleft>
@@ -1265,13 +1265,13 @@
           <control type="image">
             <width>30</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>30</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1286,8 +1286,8 @@
           <control type="image">
             <width>30</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>Control.HasFocus(900)</visible>
             <colordiffuse>mainblue</colordiffuse>
             <texture border="5">script_rom_browser/rcb-button-focus.png</texture>
@@ -1295,14 +1295,14 @@
           <control type="image">
             <width>30</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <visible>!Control.HasFocus(900)</visible>
             <texture border="5">script_rom_browser/rcb-button-nofocus.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>30</width>
             <height>30</height>
             <font>Font_Neon_20</font>
@@ -1317,13 +1317,13 @@
     </control>
     <!-- Button group -->
     <control type="group" id="400">
-      <posx>0</posx>
-      <posy>150</posy>
+      <left>0</left>
+      <top>150</top>
       <animation effect="slide" start="0,500" end="0,500" delay="0" time="400" tween="quadratic" easing="out" condition="ControlGroup(400).HasFocus()">Conditional</animation>
       <animation effect="slide" start="0,0" end="0,800" delay="0" time="400" tween="quadratic" easing="out" condition="!ControlGroup(400).HasFocus()">Conditional</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>70</height>
         <texture>backdrops/test2.png</texture>
@@ -1331,8 +1331,8 @@
       </control>
       <control type="button" id="3000">
         <description>Import Settings</description>
-        <posx>160</posx>
-        <posy>25</posy>
+        <left>160</left>
+        <top>25</top>
         <width>300</width>
         <height>30</height>
         <visible>true</visible>
@@ -1354,8 +1354,8 @@
       </control>
       <control type="button" id="3100">
         <description>Import Games</description>
-        <posx>460</posx>
-        <posy>25</posy>
+        <left>460</left>
+        <top>25</top>
         <width>300</width>
         <height>30</height>
         <visible>true</visible>
@@ -1377,8 +1377,8 @@
       </control>
       <control type="button" id="2">
         <description>Change View</description>
-        <posx>760</posx>
-        <posy>25</posy>
+        <left>760</left>
+        <top>25</top>
         <width>300</width>
         <height>30</height>
         <visible>true</visible>
@@ -1402,8 +1402,8 @@
     <!-- Messages -->
     <control type="label" id="4000">
       <description>Notes</description>
-      <posx>10</posx>
-      <posy>560</posy>
+      <left>10</left>
+      <top>560</top>
       <width>680</width>
       <height>10</height>
       <align>left</align>

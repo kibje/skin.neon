@@ -4,22 +4,22 @@
   <allowoverlay>no</allowoverlay>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>10</posy>
+    <left>0</left>
+    <top>10</top>
   </coordinates>
   <include>dialogeffect</include>
   <controls>
     <control type="image">
-      <posx>20</posx>
-      <posy>20</posy>
+      <left>20</left>
+      <top>20</top>
       <width>1240</width>
       <height>660</height>
       <colordiffuse>mainblue</colordiffuse>
       <texture border="40">DialogBackwht.png</texture>
     </control>
     <control type="image">
-      <posx>20</posx>
-      <posy>20</posy>
+      <left>20</left>
+      <top>20</top>
       <width>1240</width>
       <height>660</height>
       <texture border="40">DialogBack.png</texture>
@@ -32,8 +32,8 @@
       <!-- ** Required ** Do not change id or type -->
       <control type="label" id="30">
         <description>Category Label</description>
-        <posx>50</posx>
-        <posy>75</posy>
+        <left>50</left>
+        <top>75</top>
         <width>600</width>
         <height>20</height>
         <align>left</align>
@@ -46,12 +46,12 @@
       <!-- ** Required ** Do not change id or type -->
       <control type="group" id="3000">
         <control type="group">
-          <posx>50</posx>
-          <posy>45</posy>
+          <left>50</left>
+          <top>45</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -60,8 +60,8 @@
           </control>
           <control type="checkmark" id="102">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -78,8 +78,8 @@
             <ondown>100</ondown>
           </control>
           <control type="list" id="100">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>122</onleft>
@@ -91,15 +91,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -112,8 +112,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(100)</visible>
@@ -121,16 +121,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(100)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -143,8 +143,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="101">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -159,12 +159,12 @@
           </control>
         </control>
         <control type="group">
-          <posx>450</posx>
-          <posy>45</posy>
+          <left>450</left>
+          <top>45</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -173,8 +173,8 @@
           </control>
           <control type="checkmark" id="112">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -191,8 +191,8 @@
             <ondown>110</ondown>
           </control>
           <control type="list" id="110">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>101</onleft>
@@ -204,15 +204,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -225,8 +225,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(110)</visible>
@@ -234,16 +234,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(110)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -256,8 +256,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="111">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -272,12 +272,12 @@
           </control>
         </control>
         <control type="group">
-          <posx>850</posx>
-          <posy>45</posy>
+          <left>850</left>
+          <top>45</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -286,8 +286,8 @@
           </control>
           <control type="checkmark" id="122">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -304,8 +304,8 @@
             <ondown>120</ondown>
           </control>
           <control type="list" id="120">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>111</onleft>
@@ -317,15 +317,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -338,8 +338,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(120)</visible>
@@ -347,16 +347,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(120)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -369,8 +369,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="121">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -385,12 +385,12 @@
           </control>
         </control>
         <control type="group">
-          <posx>50</posx>
-          <posy>255</posy>
+          <left>50</left>
+          <top>255</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -399,8 +399,8 @@
           </control>
           <control type="checkmark" id="132">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -417,8 +417,8 @@
             <ondown>100</ondown>
           </control>
           <control type="list" id="130">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>152</onleft>
@@ -430,15 +430,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -451,8 +451,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(130)</visible>
@@ -460,16 +460,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(130)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -482,8 +482,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="131">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -498,12 +498,12 @@
           </control>
         </control>
         <control type="group">
-          <posx>450</posx>
-          <posy>255</posy>
+          <left>450</left>
+          <top>255</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -512,8 +512,8 @@
           </control>
           <control type="checkmark" id="142">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -530,8 +530,8 @@
             <ondown>140</ondown>
           </control>
           <control type="list" id="140">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>131</onleft>
@@ -543,15 +543,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -564,8 +564,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(140)</visible>
@@ -573,16 +573,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(140)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -595,8 +595,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="141">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -611,12 +611,12 @@
           </control>
         </control>
         <control type="group">
-          <posx>850</posx>
-          <posy>255</posy>
+          <left>850</left>
+          <top>255</top>
           <control type="image">
             <description>background image</description>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>360</width>
             <height>35</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -625,8 +625,8 @@
           </control>
           <control type="checkmark" id="152">
             <description>Genre</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>350</width>
             <height>24</height>
             <align>right</align>
@@ -643,8 +643,8 @@
             <ondown>150</ondown>
           </control>
           <control type="list" id="150">
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>360</width>
             <height>160</height>
             <onleft>141</onleft>
@@ -656,15 +656,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>1</posy>
+                <left>0</left>
+                <top>1</top>
                 <width>360</width>
                 <height>41</height>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -677,8 +677,8 @@
             </itemlayout>
             <focusedlayout height="40">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>Control.HasFocus(150)</visible>
@@ -686,16 +686,16 @@
                 <texture>MenuItemFO.png</texture>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>360</width>
                 <height>41</height>
                 <visible>!Control.HasFocus(150)</visible>
                 <texture>MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>350</width>
                 <height>40</height>
                 <font>Font_Neon_16</font>
@@ -708,8 +708,8 @@
             </focusedlayout>
           </control>
           <control type="scrollbar" id="151">
-            <posx>365</posx>
-            <posy>45</posy>
+            <left>365</left>
+            <top>45</top>
             <width>25</width>
             <height>160</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -726,12 +726,12 @@
       </control>
       <!-- ** Required ** Do not change id's or type's -->
       <control type="group">
-        <posx>50</posx>
-        <posy>480</posy>
+        <left>50</left>
+        <top>480</top>
         <control type="image">
           <description>background image</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>895</width>
           <height>140</height>
           <texture border="5">button-nofocus.png</texture>
@@ -739,8 +739,8 @@
         <!-- ** Required ** Do not change id or type-->
         <control type="textbox" id="75">
           <description>SQL statement</description>
-          <posx>10</posx>
-          <posy>10</posy>
+          <left>10</left>
+          <top>10</top>
           <width>875</width>
           <height>120</height>
           <font>font11</font>
@@ -748,8 +748,8 @@
           <pagecontrol>2075</pagecontrol>
         </control>
         <control type="scrollbar" id="2075">
-          <posx>900</posx>
-          <posy>0</posy>
+          <left>900</left>
+          <top>0</top>
           <width>20</width>
           <height>140</height>
           <texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
@@ -765,8 +765,8 @@
         <!-- ** Required ** Do not change id or type -->
         <control type="label" id="40">
           <description>SQL run Label</description>
-          <posx>0</posx>
-          <posy>145</posy>
+          <left>0</left>
+          <top>145</top>
           <width>895</width>
           <align>left</align>
           <font>Font_Neon_16</font>
@@ -776,12 +776,12 @@
       </control>
       <!-- ** Required ** Do not change id's or type's -->
       <control type="group" id="2000">
-        <posx>980</posx>
-        <posy>480</posy>
+        <left>980</left>
+        <top>480</top>
         <control type="button" id="250">
           <description>Ok Button</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>255</width>
           <height>40</height>
           <align>center</align>
@@ -797,8 +797,8 @@
         </control>
         <control type="button" id="251">
           <description>Cancel Button</description>
-          <posx>0</posx>
-          <posy>40</posy>
+          <left>0</left>
+          <top>40</top>
           <width>255</width>
           <height>40</height>
           <align>center</align>
@@ -814,8 +814,8 @@
         </control>
         <control type="button" id="257">
           <description>Save Button</description>
-          <posx>0</posx>
-          <posy>80</posy>
+          <left>0</left>
+          <top>80</top>
           <width>255</width>
           <height>40</height>
           <align>center</align>
@@ -831,8 +831,8 @@
         </control>
         <control type="button" id="258">
           <description>Clear/Load Button</description>
-          <posx>0</posx>
-          <posy>120</posy>
+          <left>0</left>
+          <top>120</top>
           <width>255</width>
           <height>40</height>
           <align>center</align>

@@ -12,8 +12,8 @@
     </control>
     <control type="image">
       <description>Panel</description>
-      <posx>390</posx>
-      <posy>72</posy>
+      <left>390</left>
+      <top>72</top>
       <width>500</width>
       <height>544</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -22,8 +22,8 @@
     </control>
     <control type="image">
       <description>Panel</description>
-      <posx>390</posx>
-      <posy>72</posy>
+      <left>390</left>
+      <top>72</top>
       <width>500</width>
       <height>544</height>
       <texture>DialogBack.png</texture>
@@ -31,16 +31,16 @@
       <!-- <colordiffuse>clearblack</colordiffuse> -->
     </control>
     <control type="image">
-      <posx>420</posx>
-      <posy>130</posy>
+      <left>420</left>
+      <top>130</top>
       <width>440</width>
       <height>2</height>
       <texture>common/divider.png</texture>
     </control>
     <control type="label">
       <description>Favourites Label</description>
-      <posx>430</posx>
-      <posy>80</posy>
+      <left>430</left>
+      <top>80</top>
       <width>420</width>
       <height>60</height>
       <align>center</align>
@@ -49,8 +49,8 @@
       <font>Font_InfoYear2</font>
     </control>
     <control type="list" id="450">
-      <posx>410</posx>
-      <posy>140</posy>
+      <left>410</left>
+      <top>140</top>
       <width>481</width>
       <height>375</height>
       <onleft>-</onleft>
@@ -61,8 +61,8 @@
       <scrolltime>0</scrolltime>
       <itemlayout height="40">
         <control type="label">
-          <posx>30</posx>
-          <posy>15</posy>
+          <left>30</left>
+          <top>15</top>
           <width>421</width>
           <height>30</height>
           <textcolor>FavListItem</textcolor>
@@ -74,16 +74,16 @@
       </itemlayout>
       <focusedlayout height="40">
         <control type="image">
-          <posx>4</posx>
-          <posy>10</posy>
+          <left>4</left>
+          <top>10</top>
           <width>454</width>
           <height>40</height>
           <colordiffuse>mainblue</colordiffuse>
           <texture>button-focus.png</texture>
         </control>
         <control type="label">
-          <posx>30</posx>
-          <posy>16</posy>
+          <left>30</left>
+          <top>16</top>
           <width>421</width>
           <height>30</height>
           <textcolor>white</textcolor>

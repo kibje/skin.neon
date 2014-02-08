@@ -8,19 +8,19 @@
       <animation effect="slide" start="0,0" end="0,-145" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(VisualisationSettings) | Window.IsVisible(VisualisationPresetList)">Conditional</animation>
       <control type="image">
         <description>media info background image</description>
-        <posx>0</posx>
-        <posy>-145</posy>
+        <left>0</left>
+        <top>-145</top>
         <width>1280</width>
         <height>256</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture>MediaInfoBackUpper.png</texture>
       </control>
       <control type="group" id="200">
-        <posx>367</posx>
-        <posy>4</posy>
+        <left>367</left>
+        <top>4</top>
         <control type="button" id="700">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>10517</label>
@@ -34,8 +34,8 @@
           <onclick>ActivateWindow(MusicPlaylist)</onclick>
         </control>
         <control type="button" id="500">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>12006</label>
@@ -48,8 +48,8 @@
           <ondown>600</ondown>
         </control>
         <control type="button" id="701">
-          <posx>100</posx>
-          <posy>0</posy>
+          <left>100</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>$LOCALIZE[250] $LOCALIZE[21417]</label>
@@ -63,8 +63,8 @@
           <onclick>Addon.Default.OpenSettings(xbmc.player.musicviz)</onclick>
         </control>
         <control type="button" id="702">
-          <posx>150</posx>
-          <posy>0</posy>
+          <left>150</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>31048</label>
@@ -80,19 +80,19 @@
       </control>
       <control type="image" id="11">
         <description>separator image</description>
-        <posx>567</posx>
-        <posy>25</posy>
+        <left>567</left>
+        <top>25</top>
         <width>150</width>
         <height>1</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture>separator2.png</texture>
       </control>
       <control type="group" id="201">
-        <posx>718</posx>
-        <posy>4</posy>
+        <left>718</left>
+        <top>4</top>
         <control type="button" id="703">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>31128</label>
@@ -109,8 +109,8 @@
           <animation effect="fade" start="100" end="50" time="100" condition="![Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))]">Conditional</animation>
         </control>
         <control type="button" id="704">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>$LOCALIZE[486]$INFO[Playlist.Repeat, : ]</label>
@@ -124,8 +124,8 @@
           <ondown>605</ondown>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatNF.png</texture>
@@ -133,8 +133,8 @@
           <visible>!Control.HasFocus(704)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatFO.png</texture>
@@ -142,8 +142,8 @@
           <visible>Control.HasFocus(704)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatOneNF.png</texture>
@@ -151,8 +151,8 @@
           <visible>!Control.HasFocus(704)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatOneFO.png</texture>
@@ -160,8 +160,8 @@
           <visible>Control.HasFocus(704)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatAllNF.png</texture>
@@ -169,8 +169,8 @@
           <visible>!Control.HasFocus(704)</visible>
         </control>
         <control type="image">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <texture>osd/OSDRepeatAllFO.png</texture>
@@ -178,8 +178,8 @@
           <visible>Control.HasFocus(704)</visible>
         </control>
         <control type="togglebutton" id="705">
-          <posx>100</posx>
-          <posy>0</posy>
+          <left>100</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>$LOCALIZE[590]$INFO[Playlist.Random, : ]</label>
@@ -196,8 +196,8 @@
           <ondown>605</ondown>
         </control>
         <control type="button" id="706">
-          <posx>150</posx>
-          <posy>0</posy>
+          <left>150</left>
+          <top>0</top>
           <width>45</width>
           <height>45</height>
           <label>264</label>
@@ -214,11 +214,11 @@
         </control>
       </control>
       <control type="group" id="100">
-        <posx>490</posx>
-        <posy>40</posy>
+        <left>490</left>
+        <top>40</top>
         <control type="button" id="600">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>210</label>
@@ -232,8 +232,8 @@
           <onclick>PlayerControl(Previous)</onclick>
         </control>
         <control type="button" id="601">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>31354</label>
@@ -247,8 +247,8 @@
           <onclick>PlayerControl(Rewind)</onclick>
         </control>
         <control type="togglebutton" id="602">
-          <posx>100</posx>
-          <posy>0</posy>
+          <left>100</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>31351</label>
@@ -266,8 +266,8 @@
           <onclick>PlayerControl(Play)</onclick>
         </control>
         <control type="button" id="603">
-          <posx>150</posx>
-          <posy>0</posy>
+          <left>150</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>31352</label>
@@ -282,8 +282,8 @@
           <onclick>PlayerControl(Stop)</onclick>
         </control>
         <control type="button" id="604">
-          <posx>200</posx>
-          <posy>0</posy>
+          <left>200</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>31353</label>
@@ -297,8 +297,8 @@
           <onclick>PlayerControl(Forward)</onclick>
         </control>
         <control type="button" id="605">
-          <posx>250</posx>
-          <posy>0</posy>
+          <left>250</left>
+          <top>0</top>
           <width>50</width>
           <height>50</height>
           <label>209</label>
@@ -313,8 +313,8 @@
         </control>
       </control>
       <control type="label">
-        <posx>20</posx>
-        <posy>60</posy>
+        <left>20</left>
+        <top>60</top>
         <width>460</width>
         <height>25</height>
         <label>$INFO[System.CurrentControl]</label>
@@ -327,8 +327,8 @@
         <visible>Window.IsTopmost(MusicOSD)</visible>
       </control>
       <control type="label">
-        <posx>1260</posx>
-        <posy>60</posy>
+        <left>1260</left>
+        <top>60</top>
         <width>460</width>
         <height>25</height>
         <label>$INFO[Player.Time] - $INFO[Player.Duration]</label>

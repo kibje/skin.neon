@@ -5,8 +5,8 @@
   <controls>
     <control type="image">
       <description>AMT Background</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>backgrounds/amt.jpg</texture>
@@ -15,8 +15,8 @@
     <control type="group">
       <include>Animation_CommonFade</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>128r</posy>
+        <left>0</left>
+        <top>128r</top>
         <width>1280</width>
         <height>128</height>
         <texture>floor.png</texture>
@@ -29,16 +29,16 @@
         <include>VisibleFadeEffect</include>
         <animation effect="fade" time="0" delay="1000" start="0" end="100">WindowOpen</animation>
         <control type="image">
-          <posx>265</posx>
-          <posy>60</posy>
+          <left>265</left>
+          <top>60</top>
           <width>750</width>
           <height>600</height>
           <colordiffuse>mainblue</colordiffuse>
           <texture border="20">DialogBack.png</texture>
         </control>
         <control type="image">
-          <posx>265</posx>
-          <posy>645</posy>
+          <left>265</left>
+          <top>645</top>
           <width>750</width>
           <height>600</height>
           <aspectratio aligny="top">keep</aspectratio>
@@ -47,8 +47,8 @@
         </control>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>ContentPanel2.png</texture>
@@ -57,8 +57,8 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <posx>40r</posx>
-        <posy>30r</posy>
+        <left>40r</left>
+        <top>30r</top>
         <width>500</width>
         <height>20</height>
         <font>Font_Neon_12</font>
@@ -73,8 +73,8 @@
       <!-- ** Required ** Do not change id or type-->
       <control type="group" id="3000">
         <control type="grouplist">
-          <posx>50</posx>
-          <posy>670</posy>
+          <left>50</left>
+          <top>670</top>
           <width>640</width>
           <itemgap>3</itemgap>
           <orientation>horizontal</orientation>
@@ -109,8 +109,8 @@
         </control>
         <control type="group">
           <control type="list" id="50">
-            <posx>440</posx>
-            <posy>80</posy>
+            <left>440</left>
+            <top>80</top>
             <width>760</width>
             <height>400</height>
             <onleft>9000</onleft>
@@ -122,15 +122,15 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="40" width="760">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>760</width>
                 <height>41</height>
                 <texture border="0,2,0,2">MenuItemNF.png</texture>
               </control>
               <control type="label">
-                <posx>10</posx>
-                <posy>0</posy>
+                <left>10</left>
+                <top>0</top>
                 <width>740</width>
                 <height>40</height>
                 <font>Font_Neon_24</font>
@@ -141,8 +141,8 @@
                 <label>$INFO[ListItem.Label]</label>
               </control>
               <control type="label">
-                <posx>750</posx>
-                <posy>0</posy>
+                <left>750</left>
+                <top>0</top>
                 <width>500</width>
                 <height>40</height>
                 <font>Font_Neon_20</font>
@@ -155,8 +155,8 @@
             </itemlayout>
             <focusedlayout height="40" width="760">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>760</width>
                 <height>41</height>
                 <texture border="0,2,0,2">MenuItemNF.png</texture>
@@ -164,8 +164,8 @@
                 <include>VisibleFadeEffect</include>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>760</width>
                 <height>41</height>
                 <colordiffuse>mainblue</colordiffuse>
@@ -174,8 +174,8 @@
                 <include>VisibleFadeEffect</include>
               </control>
               <control type="label">
-                <posx>10</posx>
-                <posy>0</posy>
+                <left>10</left>
+                <top>0</top>
                 <width>740</width>
                 <height>40</height>
                 <font>Font_Neon_24</font>
@@ -186,8 +186,8 @@
                 <label>$INFO[ListItem.Label]</label>
               </control>
               <control type="label">
-                <posx>750</posx>
-                <posy>0</posy>
+                <left>750</left>
+                <top>0</top>
                 <width>500</width>
                 <height>40</height>
                 <font>Font_Neon_20</font>
@@ -200,12 +200,12 @@
             </focusedlayout>
           </control>
           <control type="group">
-            <posx>70</posx>
-            <posy>70</posy>
+            <left>70</left>
+            <top>70</top>
             <visible>Control.IsVisible(50)</visible>
             <control type="largeimage">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>300</width>
               <height>420</height>
               <aspectratio>stretch</aspectratio>
@@ -215,8 +215,8 @@
               <texture>$INFO[ListItem.ActualIcon]</texture>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>200</width>
               <height>230</height>
               <aspectratio>stretch</aspectratio>
@@ -224,8 +224,8 @@
               <colordiffuse>AAFFFFFF</colordiffuse>
             </control>
             <control type="image">
-              <posx>215</posx>
-              <posy>380</posy>
+              <left>215</left>
+              <top>380</top>
               <width>100</width>
               <height>50</height>
               <aspectratio>keep</aspectratio>
@@ -233,8 +233,8 @@
             </control>
           </control>
           <control type="scrollbar" id="2050">
-            <posx>1210</posx>
-            <posy>80</posy>
+            <left>1210</left>
+            <top>80</top>
             <width>25</width>
             <height>400</height>
             <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -251,16 +251,16 @@
           <control type="group">
             <visible>Control.IsVisible(50)</visible>
             <control type="image">
-              <posx>100</posx>
-              <posy>500</posy>
+              <left>100</left>
+              <top>500</top>
               <width>800</width>
               <height>60</height>
               <aspectratio>stretch</aspectratio>
               <texture>GlassTitleBar.png</texture>
             </control>
             <control type="label">
-              <posx>50</posx>
-              <posy>510</posy>
+              <left>50</left>
+              <top>510</top>
               <width>400</width>
               <height>30</height>
               <font>Font_Neon_24</font>
@@ -273,8 +273,8 @@
             </control>
             <control type="textbox">
               <description>Description Value for Movies</description>
-              <posx>50</posx>
-              <posy>540</posy>
+              <left>50</left>
+              <top>540</top>
               <width>850</width>
               <height>125</height>
               <font>Font_Bartowski_Zune</font>
@@ -286,8 +286,8 @@
               <visible>Control.IsVisible(50)</visible>
             </control>
             <control type="scrollbar" id="2059">
-              <posx>910</posx>
-              <posy>540</posy>
+              <left>910</left>
+              <top>540</top>
               <width>25</width>
               <height>125</height>
               <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -301,16 +301,16 @@
               <orientation>vertical</orientation>
             </control>
             <control type="image">
-              <posx>940</posx>
-              <posy>515</posy>
+              <left>940</left>
+              <top>515</top>
               <width>4</width>
               <height>170</height>
               <aspectratio>stretch</aspectratio>
               <texture>common/separator_vertical.png</texture>
             </control>
             <control type="label">
-              <posx>970</posx>
-              <posy>510</posy>
+              <left>970</left>
+              <top>510</top>
               <width>400</width>
               <height>30</height>
               <font>Font_Neon_24</font>
@@ -323,8 +323,8 @@
             </control>
             <control type="list" id="70">
               <description>Cast List</description>
-              <posx>970</posx>
-              <posy>540</posy>
+              <left>970</left>
+              <top>540</top>
               <width>260</width>
               <height>125</height>
               <onleft>121</onleft>
@@ -337,8 +337,8 @@
               <visible>Control.IsVisible(50)</visible>
               <itemlayout height="25" width="260">
                 <control type="label">
-                  <posx>0</posx>
-                  <posy>0</posy>
+                  <left>0</left>
+                  <top>0</top>
                   <width>270</width>
                   <height>25</height>
                   <font>Font_Bartowski_Zune</font>
@@ -350,8 +350,8 @@
               </itemlayout>
               <focusedlayout height="25" width="260">
                 <control type="label">
-                  <posx>0</posx>
-                  <posy>0</posy>
+                  <left>0</left>
+                  <top>0</top>
                   <width>270</width>
                   <height>25</height>
                   <font>Font_Bartowski_Zune</font>
@@ -365,8 +365,8 @@
           </control>
         </control>
         <control type="wraplist" id="51">
-          <posx>-123</posx>
-          <posy>80</posy>
+          <left>-123</left>
+          <top>80</top>
           <width>1526</width>
           <height>460</height>
           <onleft>51</onleft>
@@ -380,8 +380,8 @@
           <orientation>horizontal</orientation>
           <itemlayout height="310" width="218">
             <control type="image">
-              <posx>2</posx>
-              <posy>40</posy>
+              <left>2</left>
+              <top>40</top>
               <width>214</width>
               <height>310</height>
               <aspectratio>stretch</aspectratio>
@@ -392,8 +392,8 @@
           </itemlayout>
           <focusedlayout height="310" width="218">
             <control type="image">
-              <posx>-2</posx>
-              <posy>36</posy>
+              <left>-2</left>
+              <top>36</top>
               <width>222</width>
               <height>318</height>
               <aspectratio>stretch</aspectratio>
@@ -404,8 +404,8 @@
               <animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
             </control>
             <control type="image">
-              <posx>6</posx>
-              <posy>44</posy>
+              <left>6</left>
+              <top>44</top>
               <width>170</width>
               <height>180</height>
               <aspectratio>stretch</aspectratio>
@@ -414,8 +414,8 @@
               <animation reversible="false" effect="zoom" end="6,44,170,180" start="-24,4,240,250" time="200">unfocus</animation>
             </control>
             <control type="image">
-              <posx>140</posx>
-              <posy>305</posy>
+              <left>140</left>
+              <top>305</top>
               <width>80</width>
               <height>50</height>
               <aspectratio>keep</aspectratio>
@@ -435,16 +435,16 @@
           <visible>Control.IsVisible(51)</visible>
           <include>VisibleFadeEffect</include>
           <control type="image">
-            <posx>100</posx>
-            <posy>500</posy>
+            <left>100</left>
+            <top>500</top>
             <width>800</width>
             <height>60</height>
             <aspectratio>stretch</aspectratio>
             <texture>GlassTitleBar.png</texture>
           </control>
           <control type="label">
-            <posx>0</posx>
-            <posy>530</posy>
+            <left>0</left>
+            <top>530</top>
             <width>1280</width>
             <height>35</height>
             <font>Font_Neon_30</font>
@@ -455,8 +455,8 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
           <control type="label">
-            <posx>0</posx>
-            <posy>580</posy>
+            <left>0</left>
+            <top>580</top>
             <width>1280</width>
             <height>35</height>
             <font>Font_Neon_30</font>
@@ -468,8 +468,8 @@
           </control>
         </control>
         <control type="scrollbar" id="2051">
-          <posx>200</posx>
-          <posy>470</posy>
+          <left>200</left>
+          <top>470</top>
           <width>880</width>
           <height>25</height>
           <texturesliderbackground border="14,0,14,0">ScrollBarH.png</texturesliderbackground>
@@ -491,8 +491,8 @@
         <include>VisibleFadeEffect</include>
         <control type="list" id="60">
           <description>Catagory Chooser List</description>
-          <posx>295</posx>
-          <posy>78</posy>
+          <left>295</left>
+          <top>78</top>
           <width>690</width>
           <height>561</height>
           <onleft>9000</onleft>
@@ -504,22 +504,22 @@
           <scrolltime>200</scrolltime>
           <itemlayout height="40" width="580">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>690</width>
               <height>41</height>
               <texture border="0,2,0,2">MenuItemNF.png</texture>
             </control>
             <control type="image">
-              <posx>10</posx>
-              <posy>4</posy>
+              <left>10</left>
+              <top>4</top>
               <width>40</width>
               <height>32</height>
               <texture>$INFO[ListItem.Icon]</texture>
             </control>
             <control type="label">
-              <posx>60</posx>
-              <posy>0</posy>
+              <left>60</left>
+              <top>0</top>
               <width>610</width>
               <height>40</height>
               <font>Font_Bartowski_Zune</font>
@@ -530,8 +530,8 @@
               <label>$INFO[ListItem.Label]</label>
             </control>
             <control type="label">
-              <posx>670</posx>
-              <posy>0</posy>
+              <left>670</left>
+              <top>0</top>
               <width>400</width>
               <height>40</height>
               <font>Font_Bartowski_Zune</font>
@@ -544,8 +544,8 @@
           </itemlayout>
           <focusedlayout height="40" width="580">
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>690</width>
               <height>41</height>
               <texture border="0,2,0,2">MenuItemNF.png</texture>
@@ -553,8 +553,8 @@
               <include>VisibleFadeEffect</include>
             </control>
             <control type="image">
-              <posx>0</posx>
-              <posy>0</posy>
+              <left>0</left>
+              <top>0</top>
               <width>690</width>
               <height>41</height>
               <colordiffuse>mainblue</colordiffuse>
@@ -563,15 +563,15 @@
               <include>VisibleFadeEffect</include>
             </control>
             <control type="image">
-              <posx>10</posx>
-              <posy>4</posy>
+              <left>10</left>
+              <top>4</top>
               <width>40</width>
               <height>32</height>
               <texture>$INFO[ListItem.Icon]</texture>
             </control>
             <control type="label">
-              <posx>60</posx>
-              <posy>0</posy>
+              <left>60</left>
+              <top>0</top>
               <width>610</width>
               <height>40</height>
               <font>Font_Bartowski_Zune</font>
@@ -582,8 +582,8 @@
               <label>$INFO[ListItem.Label]</label>
             </control>
             <control type="label">
-              <posx>670</posx>
-              <posy>0</posy>
+              <left>670</left>
+              <top>0</top>
               <width>400</width>
               <height>40</height>
               <font>Font_Neon_15</font>
@@ -596,8 +596,8 @@
           </focusedlayout>
         </control>
         <control type="scrollbar" id="2060">
-          <posx>980</posx>
-          <posy>85</posy>
+          <left>980</left>
+          <top>85</top>
           <width>25</width>
           <height>550</height>
           <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -620,16 +620,16 @@
         <animation effect="slide" end="-240,0" time="300" tween="quadratic" easing="out">WindowClose</animation>
         <animation effect="slide" start="-15,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
         <control type="image">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1</width>
           <height>720</height>
           <texture>MediaBladeSub_Part1.png</texture>
           <animation effect="zoom" start="0,0,1,720" end="0,0,229,720" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">Conditional</animation>
         </control>
         <control type="image">
-          <posx>1</posx>
-          <posy>0</posy>
+          <left>1</left>
+          <top>0</top>
           <width>12</width>
           <height>720</height>
           <texture>MediaBladeSub_Part2.png</texture>
@@ -637,16 +637,16 @@
         </control>
       </control>
       <control type="group" id="9001">
-        <posx>-220</posx>
-        <posy>0</posy>
+        <left>-220</left>
+        <top>0</top>
         <animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus() + !Control.HasFocus(98)">conditional</animation>
         <animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">conditional</animation>
         <animation effect="fade" start="100" end="0" time="0" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">WindowClose</animation>
         <animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">conditional</animation>
         <control type="button">
           <description>Fake button for mouse control</description>
-          <posx>-15</posx>
-          <posy>0</posy>
+          <left>-15</left>
+          <top>0</top>
           <width>245</width>
           <height>720</height>
           <label>-</label>
@@ -656,15 +656,15 @@
           <visible>true</visible>
         </control>
         <control type="image">
-          <posx>185</posx>
-          <posy>200</posy>
+          <left>185</left>
+          <top>200</top>
           <width>40</width>
           <height>40</height>
           <texture>MediaSubSet.png</texture>
         </control>
         <control type="grouplist" id="9010">
-          <posx>10</posx>
-          <posy>250</posy>
+          <left>10</left>
+          <top>250</top>
           <width>240</width>
           <height>550</height>
           <onleft>9000</onleft>
@@ -731,8 +731,8 @@
       <include>BehindDialogFadeOut</include>
       <control type="button" id="8999">
         <description>Fake button for mouse control</description>
-        <posx>-250</posx>
-        <posy>0</posy>
+        <left>-250</left>
+        <top>0</top>
         <width>265</width>
         <height>720</height>
         <label>-</label>
@@ -744,8 +744,8 @@
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <posx>-230</posx>
-        <posy>50</posy>
+        <left>-230</left>
+        <top>50</top>
         <width>220</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
@@ -753,13 +753,13 @@
         <texture>neon.png</texture>
       </control>
       <control type="group" id="9000">
-        <posx>-250</posx>
-        <posy>130</posy>
+        <left>-250</left>
+        <top>130</top>
         <include>CommonNowPlaying</include>
         <control type="button" id="2">
           <description>View As button</description>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <include>ButtonInfoDialogsCommonValues</include>
           <label>-</label>
           <onleft>50</onleft>
@@ -770,13 +770,13 @@
         </control>
         <control type="radiobutton" id="98">
           <description>Section links</description>
-          <posx>0</posx>
-          <posy>40</posy>
+          <left>0</left>
+          <top>40</top>
           <include>ButtonInfoDialogsCommonValues</include>
           <radiowidth>18</radiowidth>
           <radioheight>18</radioheight>
-          <radioposx>222</radioposx>
-          <radioposy>12</radioposy>
+          <radioleft>222</radioleft>
+          <radiotop>12</radiotop>
           <label>31204</label>
           <onleft>50</onleft>
           <onright>9010</onright>
@@ -785,8 +785,8 @@
         </control>
         <control type="button" id="106">
           <description>Search Button</description>
-          <posx>0</posx>
-          <posy>80</posy>
+          <left>0</left>
+          <top>80</top>
           <include>ButtonInfoDialogsCommonValues</include>
           <label>$LOCALIZE[SCRIPT106]</label>
           <onclick>Setfocus(50)</onclick>
@@ -797,8 +797,8 @@
         </control>
         <control type="button" id="107">
           <description>Settings Button</description>
-          <posx>0</posx>
-          <posy>120</posy>
+          <left>0</left>
+          <top>120</top>
           <include>ButtonInfoDialogsCommonValues</include>
           <label>$LOCALIZE[SCRIPT107]</label>
           <onclick>Setfocus(50)</onclick>
@@ -814,8 +814,8 @@
           <visible>false</visible>
         </control>
         <control type="group">
-          <posx>0</posx>
-          <posy>260</posy>
+          <left>0</left>
+          <top>260</top>
           <include>CommonNowPlaying_Controls</include>
         </control>
         <control type="button" id="611">
@@ -830,44 +830,44 @@
       <!-- Button Group -->
       <!-- ** Required ** Do not change id or type-->
       <control type="group" id="9000">
-        <posx>0</posx>
-        <posy>130</posy>
+        <left>0</left>
+        <top>130</top>
       </control>
     </control>
     <control type="group">
-      <posx>10</posx>
-      <posy>0</posy>
+      <left>10</left>
+      <top>0</top>
       <animation effect="slide" end="-270,0" time="500" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-270,0" time="500" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>250</width>
         <height>35</height>
         <texture border="0,0,32,0">header.png</texture>
       </control>
       <control type="label">
         <include>WindowTitleCommons</include>
-        <posx>220</posx>
+        <left>220</left>
         <label>$LOCALIZE[SCRIPT0]</label>
       </control>
     </control>
     <control type="group">
-      <posx>300</posx>
-      <posy>0</posy>
+      <left>300</left>
+      <top>0</top>
       <include>VisibleFadeEffect</include>
       <animation effect="slide" end="-570,0" time="500" tween="quadratic" easing="out">WindowClose</animation>
       <animation effect="slide" start="-570,0" time="500" tween="quadratic" easing="out">WindowOpen</animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>250</width>
         <height>35</height>
         <texture border="0,0,32,0">header.png</texture>
       </control>
       <control type="label">
         <include>WindowTitleCommons</include>
-        <posx>220</posx>
+        <left>220</left>
         <label>$INFO[Container.Property(Category)]</label>
       </control>
     </control>

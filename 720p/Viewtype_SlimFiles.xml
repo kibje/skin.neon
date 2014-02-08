@@ -7,8 +7,8 @@
       <visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>515</posy>
+      <left>0</left>
+      <top>515</top>
       <height>200</height>
       <width>480</width>
       <colordiffuse>mainblue</colordiffuse>
@@ -28,8 +28,8 @@
       <visible>Control.IsVisible(598) + Container.Content(movies) + Skin.HasSetting(Files_Fanart)</visible>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>515</posy>
+      <left>0</left>
+      <top>515</top>
       <height>200</height>
       <width>480</width>
       <colordiffuse>mainblue</colordiffuse>
@@ -39,8 +39,8 @@
       <include>Animation_Viewtype_Files_LeftArea</include>
     </control>
     <control type="fixedlist" id="598">
-      <posx>0</posx>
-      <posy>520</posy>
+      <left>0</left>
+      <top>520</top>
       <height>185</height>
       <width>480</width>
       <onup>50</onup>
@@ -57,8 +57,8 @@
       <include>Animation_Viewtype_Files_LeftArea</include>
       <itemlayout width="1210" height="36">
         <control type="label">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -70,8 +70,8 @@
           <visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -82,8 +82,8 @@
           <visible>Window.IsActive(Programs) | Window.IsActive(musicplaylist)</visible>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>480</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -91,8 +91,8 @@
           <visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>480</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -100,8 +100,8 @@
           <visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>880</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -109,8 +109,8 @@
           <visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
         </control>
         <!--	<control type="label">
-					<posx>756</posx>
-					<posy>1</posy>
+					<left>756</left>
+					<top>1</top>
 					<width>700</width>
 					<height>46</height>
 					<aligny>center</aligny>
@@ -120,8 +120,8 @@
 					<visible>Container.Content(movies) + !Skin.HasSetting(Files_Fanart) + !IsEmpty(ListItem.Title)</visible>
 				</control> -->
         <control type="image">
-          <posx>24</posx>
-          <posy>11</posy>
+          <left>24</left>
+          <top>11</top>
           <width>22</width>
           <height>25</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -130,8 +130,8 @@
           <visible>Skin.HasSetting(tvoverlays) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
         </control>
         <control type="image">
-          <posx>24</posx>
-          <posy>11</posy>
+          <left>24</left>
+          <top>11</top>
           <width>22</width>
           <height>25</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -141,8 +141,8 @@
       </itemlayout>
       <focusedlayout width="1210" height="36">
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>480</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -150,8 +150,8 @@
           <visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>450</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -159,8 +159,8 @@
           <visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
         </control>
         <control type="image">
-          <posx>0</posx>
-          <posy>38</posy>
+          <left>0</left>
+          <top>38</top>
           <width>480</width>
           <height>4</height>
           <aspectratio>stretch</aspectratio>
@@ -168,8 +168,8 @@
           <visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
         </control>
         <control type="label" id="222">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -180,8 +180,8 @@
           <visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         </control>
         <control type="label">
-          <posx>50</posx>
-          <posy>0</posy>
+          <left>50</left>
+          <top>0</top>
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
@@ -192,8 +192,8 @@
           <visible>Window.IsActive(Programs) | Window.IsActive(musicplaylist)</visible>
         </control>
         <!--	<control type="label">
-					<posx>756</posx>
-					<posy>1</posy>
+					<left>756</left>
+					<top>1</top>
 					<width>700</width>
 					<height>46</height>
 					<aligny>center</aligny>
@@ -203,8 +203,8 @@
 					<visible>Container.Content(movies) + !Skin.HasSetting(Files_Fanart) + !IsEmpty(ListItem.Title)</visible>
 				</control> -->
         <control type="image">
-          <posx>24</posx>
-          <posy>11</posy>
+          <left>24</left>
+          <top>11</top>
           <width>22</width>
           <height>25</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -212,8 +212,8 @@
           <visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
         </control>
         <control type="image">
-          <posx>24</posx>
-          <posy>11</posy>
+          <left>24</left>
+          <top>11</top>
           <width>22</width>
           <height>25</height>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -227,8 +227,8 @@
       <include>Animation_HiddenByInfo</include>
       <visible>Container.Content(movies) + Control.IsVisible(598) + !Skin.HasSetting(Files_Fanart)</visible>
       <control type="image">
-        <posx>1100</posx>
-        <posy>447</posy>
+        <left>1100</left>
+        <top>447</top>
         <width>175</width>
         <height>263</height>
         <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -239,8 +239,8 @@
         <visible>!Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1100</posx>
-        <posy>447</posy>
+        <left>1100</left>
+        <top>447</top>
         <width>175</width>
         <height>263</height>
         <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -251,8 +251,8 @@
         <visible>Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1092</posx>
-        <posy>420</posy>
+        <left>1092</left>
+        <top>420</top>
         <width>200</width>
         <height>310</height>
         <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -260,8 +260,8 @@
         <visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1092</posx>
-        <posy>420</posy>
+        <left>1092</left>
+        <top>420</top>
         <width>200</width>
         <height>310</height>
         <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
@@ -269,8 +269,8 @@
         <visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1100</posx>
-        <posy>450</posy>
+        <left>1100</left>
+        <top>450</top>
         <width>175</width>
         <height>263</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -285,8 +285,8 @@
         <visible>Container(598).OnNext + Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1100</posx>
-        <posy>450</posy>
+        <left>1100</left>
+        <top>450</top>
         <width>175</width>
         <height>263</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -299,8 +299,8 @@
         <visible>Container(598).OnNext + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1100</posx>
-        <posy>450</posy>
+        <left>1100</left>
+        <top>450</top>
         <width>175</width>
         <height>263</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -313,8 +313,8 @@
         <visible>Container(598).OnPrevious + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
-        <posx>1100</posx>
-        <posy>450</posy>
+        <left>1100</left>
+        <top>450</top>
         <width>175</width>
         <height>263</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -332,8 +332,8 @@
     <control type="grouplist">
       <visible>Control.IsVisible(598) + Container.Content(movies) + !Window.IsActive(videofiles) + !Skin.HasSetting(no_media_flags) + !Skin.HasSetting(Files_Fanart)</visible>
       <description>Media Codec Flagging Images</description>
-      <posx>660</posx>
-      <posy>680</posy>
+      <left>660</left>
+      <top>680</top>
       <width>420</width>
       <align>right</align>
       <itemgap>0</itemgap>
@@ -348,8 +348,8 @@
       <include>Animation_Viewtype_Wall_Fags</include>
     </control>
     <control type="label">
-      <posx>864</posx>
-      <posy>670</posy>
+      <left>864</left>
+      <top>670</top>
       <width>380</width>
       <height>50</height>
       <align>center</align>
@@ -362,8 +362,8 @@
     <control type="textbox">
       <!-- Plot and TV -->
       <include>Animation_HiddenByInfo</include>
-      <posx>460</posx>
-      <posy>545</posy>
+      <left>460</left>
+      <top>545</top>
       <width>610</width>
       <height>120</height>
       <align>justify</align>
@@ -381,8 +381,8 @@
       <visible>Control.IsVisible(598) + Container.Content(movies)</visible>
     </control>
     <!--<control type="image">
-		<posx>980</posx>
-		<posy>180</posy>
+		<left>980</left>
+		<top>180</top>
 		<width>300</width>
 		<height>540</height>
 		<aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -397,8 +397,8 @@
       <include>Animation_HiddenByInfo</include>
       <visible>Container.Content(Genres) + Control.IsVisible(598) + Window.IsActive(videolibrary) + !Skin.HasSetting(Files_Fanart)</visible>
       <control type="image">
-        <posx>826</posx>
-        <posy>26</posy>
+        <left>826</left>
+        <top>26</top>
         <width>434</width>
         <height>670</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -408,8 +408,8 @@
         <fadetime>100</fadetime>
       </control>
       <control type="image">
-        <posx>826</posx>
-        <posy>26</posy>
+        <left>826</left>
+        <top>26</top>
         <width>434</width>
         <height>670</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -424,8 +424,8 @@
         <visible>Container(598).OnNext</visible>
       </control>
       <control type="image">
-        <posx>826</posx>
-        <posy>26</posy>
+        <left>826</left>
+        <top>26</top>
         <width>434</width>
         <height>670</height>
         <aspectratio align="right" aligny="bottom">stretch</aspectratio>
@@ -441,29 +441,29 @@
       </control>
     </control>
     <control type="group">
-      <posx>930</posx>
-      <posy>370</posy>
+      <left>930</left>
+      <top>370</top>
       <include>Animation_HiddenByInfo</include>
       <visible>Control.IsVisible(598) + Container.Content(genres) + Window.IsActive(musiclibrary)</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem.Label].jpg</texture>
         <fadetime>400</fadetime>
       </control>
       <control type="image">
-        <posx>-30</posx>
-        <posy>-30</posy>
+        <left>-30</left>
+        <top>-30</top>
         <width>400</width>
         <height>400</height>
         <texture>music/musicwallframeF.png</texture>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(-1).Label].jpg</texture>
@@ -474,8 +474,8 @@
         <visible>Container(598).OnNext + !Container.Content(songs)</visible>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(1).Label].jpg</texture>
@@ -491,8 +491,8 @@
       <visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>770</posx>
-        <posy>190</posy>
+        <left>770</left>
+        <top>190</top>
         <width>500</width>
         <height>530</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -502,8 +502,8 @@
         <fadetime>100</fadetime>
       </control>
       <!--<control type="image">
-			<posx>780</posx>
-			<posy>40</posy>
+			<left>780</left>
+			<top>40</top>
 			<width>500</width>
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -513,8 +513,8 @@
 			<fadetime>100</fadetime>
 		</control>-->
       <control type="image">
-        <posx>770</posx>
-        <posy>190</posy>
+        <left>770</left>
+        <top>190</top>
         <width>500</width>
         <height>530</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -528,8 +528,8 @@
         <visible>Container(598).OnNext + !IsEmpty(ListItem.Title)</visible>
       </control>
       <control type="image">
-        <posx>770</posx>
-        <posy>190</posy>
+        <left>770</left>
+        <top>190</top>
         <width>500</width>
         <height>530</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -548,8 +548,8 @@
       <visible>Control.IsVisible(598) + ![Window.IsActive(musicfiles) | Container.Content(movies) | Container.Content(Genres) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs) | [Window.IsActive(musiclibrary) + Skin.HasSetting(music_files_fanart)]]</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>770</posx>
-        <posy>370</posy>
+        <left>770</left>
+        <top>370</top>
         <width>500</width>
         <height>350</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -560,8 +560,8 @@
         <visible>!Skin.HasSetting(MusicLogo)</visible>
       </control>
       <control type="image">
-        <posx>1020</posx>
-        <posy>600</posy>
+        <left>1020</left>
+        <top>600</top>
         <width>230</width>
         <height>89</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -571,14 +571,14 @@
       </control>
       <!-- For Debugging logo path
 		<control type="label">
-			<posx>770</posx>
-			<posy>560</posy>
+			<left>770</left>
+			<top>560</top>
 			<label>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</label>
 			<visible>Skin.HasSetting(MusicLogo)</visible>
 		</control> -->
       <control type="image">
-        <posx>770</posx>
-        <posy>360</posy>
+        <left>770</left>
+        <top>360</top>
         <width>500</width>
         <height>360</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -592,8 +592,8 @@
         <visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
       </control>
       <control type="image">
-        <posx>1020</posx>
-        <posy>600</posy>
+        <left>1020</left>
+        <top>600</top>
         <width>230</width>
         <height>89</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -601,8 +601,8 @@
         <visible>Container(598).OnNext + Skin.HasSetting(MusicLogo)</visible>
       </control>
       <control type="image">
-        <posx>770</posx>
-        <posy>360</posy>
+        <left>770</left>
+        <top>360</top>
         <width>500</width>
         <height>360</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -615,8 +615,8 @@
         <visible>Container(598).OnNext + !Skin.HasSetting(MusicLogo)</visible>
       </control>
       <control type="image">
-        <posx>1020</posx>
-        <posy>600</posy>
+        <left>1020</left>
+        <top>600</top>
         <width>230</width>
         <height>89</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -629,8 +629,8 @@
       <visible>Control.IsVisible(598) + Window.IsActive(musicfiles)</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>770</posx>
-        <posy>370</posy>
+        <left>770</left>
+        <top>370</top>
         <width>500</width>
         <height>350</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -641,8 +641,8 @@
         <visible>!Skin.HasSetting(MusicLogo)</visible>
       </control>
       <control type="image">
-        <posx>770</posx>
-        <posy>370</posy>
+        <left>770</left>
+        <top>370</top>
         <width>400</width>
         <height>155</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -652,8 +652,8 @@
         <visible>Skin.HasSetting(MusicLogo)</visible>
       </control>
       <!--<control type="image">
-			<posx>780</posx>
-			<posy>40</posy>
+			<left>780</left>
+			<top>40</top>
 			<width>500</width>
 			<height>300</height>
 			<aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -663,8 +663,8 @@
 			<fadetime>100</fadetime>
 		</control>-->
       <control type="image">
-        <posx>770</posx>
-        <posy>370</posy>
+        <left>770</left>
+        <top>370</top>
         <width>500</width>
         <height>350</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -678,8 +678,8 @@
         <visible>Container(598).OnNext</visible>
       </control>
       <control type="image">
-        <posx>770</posx>
-        <posy>370</posy>
+        <left>770</left>
+        <top>370</top>
         <width>500</width>
         <height>350</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
@@ -694,29 +694,29 @@
       </control>
     </control>
     <control type="group">
-      <posx>930</posx>
-      <posy>370</posy>
+      <left>930</left>
+      <top>370</top>
       <include>Animation_HiddenByInfo</include>
       <visible>Control.IsVisible(598) + !Skin.HasSetting(music_files_fanart) + [Container.Content(albums) | Container.Content(songs)]</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem.Icon]</texture>
         <fadetime>400</fadetime>
       </control>
       <control type="image">
-        <posx>-30</posx>
-        <posy>-30</posy>
+        <left>-30</left>
+        <top>-30</top>
         <width>400</width>
         <height>400</height>
         <texture>music/musicwallframeF.png</texture>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
@@ -727,8 +727,8 @@
         <visible>Container(598).OnNext + !Container.Content(songs)</visible>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>340</width>
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
@@ -740,29 +740,29 @@
       </control>
     </control>
     <control type="group">
-      <posx>-6</posx>
-      <posy>26</posy>
+      <left>-6</left>
+      <top>26</top>
       <include>Animation_HiddenByInfo</include>
       <visible>Control.IsVisible(598) + Container.Content(episodes)</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <posx>854</posx>
-        <posy>454</posy>
+        <left>854</left>
+        <top>454</top>
         <width>400</width>
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
         <fadetime>400</fadetime>
       </control>
       <control type="image">
-        <posx>838</posx>
-        <posy>440</posy>
+        <left>838</left>
+        <top>440</top>
         <width>430</width>
         <height>252</height>
         <texture>tv-landscape/landscapeframeFO.png</texture>
       </control>
       <control type="image">
-        <posx>854</posx>
-        <posy>454</posy>
+        <left>854</left>
+        <top>454</top>
         <width>400</width>
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(-1).Icon]</texture>
@@ -773,8 +773,8 @@
         <visible>Container(598).OnNext</visible>
       </control>
       <control type="image">
-        <posx>854</posx>
-        <posy>454</posy>
+        <left>854</left>
+        <top>454</top>
         <width>400</width>
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(1).Icon]</texture>
@@ -787,8 +787,8 @@
     </control>
     <control type="image" id="7019">
       <visible>Control.IsVisible(598) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]</visible>
-      <posx>975</posx>
-      <posy>30</posy>
+      <left>975</left>
+      <top>30</top>
       <width>230</width>
       <height>89</height>
       <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
@@ -799,8 +799,8 @@
     </control>
     <control type="image" id="9019">
       <visible>Control.IsVisible(598) + Container.Content(episodes)</visible>
-      <posx>930</posx>
-      <posy>30</posy>
+      <left>930</left>
+      <top>30</top>
       <width>230</width>
       <height>89</height>
       <texture background="true">$INFO[ListItem.path]../logo.png</texture>
@@ -810,8 +810,8 @@
       <include>Animation_Viewtype_Files_RightArea</include>
     </control>
     <control type="label">
-      <posx>790</posx>
-      <posy>20</posy>
+      <left>790</left>
+      <top>20</top>
       <width>470</width>
       <height>50</height>
       <align>center</align>
@@ -823,15 +823,15 @@
     </control>
     <control type="group">
       <visible>Control.IsVisible(598) + !Window.IsActive(videoplaylist) + !IsEmpty(ListItem.Title)</visible>
-      <posx>775</posx>
-      <posy>96</posy>
+      <left>775</left>
+      <top>96</top>
       <include>Animation_Viewtype_Wall_UnderInfo</include>
       <include>Animation_HiddenByInfo</include>
       <animation effect="slide" start="0,0" end="0,-40" time="0" condition="IsEmpty(Control.GetLabel(7019))">Conditional</animation>
       <control type="label">
         <visible>Container.Content(seasons)</visible>
-        <posx>0</posx>
-        <posy>40</posy>
+        <left>0</left>
+        <top>40</top>
         <width>630</width>
         <height>89</height>
         <align>center</align>
@@ -842,8 +842,8 @@
       <!-- Remove Genre 
 		<control type="label">
 				<visible>Container.Content(tvshows)</visible>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>630</width>
 				<height>89</height>
 				<align>center</align>
@@ -852,8 +852,8 @@
 			</control> -->
       <control type="label">
         <visible>Container.Content(tvshows)</visible>
-        <posx>0</posx>
-        <posy>30</posy>
+        <left>0</left>
+        <top>30</top>
         <width>630</width>
         <height>89</height>
         <align>center</align>
@@ -862,8 +862,8 @@
       </control>
       <control type="label">
         <visible>Container.Content(tvshows)</visible>
-        <posx>0</posx>
-        <posy>60</posy>
+        <left>0</left>
+        <top>60</top>
         <width>630</width>
         <height>89</height>
         <align>center</align>
@@ -872,15 +872,15 @@
       </control>
     </control>
     <control type="group">
-      <posx>60</posx>
-      <posy>0</posy>
+      <left>60</left>
+      <top>0</top>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Files_RightArea</include>
       <visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title)</visible>
       <control type="label">
         <visible>Container.Content(episodes)</visible>
-        <posx>830</posx>
-        <posy>120</posy>
+        <left>830</left>
+        <top>120</top>
         <width>530</width>
         <height>89</height>
         <font>Font_Bartowski_Title_TVShow</font>
@@ -889,8 +889,8 @@
       </control>
       <control type="label">
         <visible>Container.Content(episodes)</visible>
-        <posx>830</posx>
-        <posy>166</posy>
+        <left>830</left>
+        <top>166</top>
         <width>530</width>
         <height>89</height>
         <font>Font_TVShow</font>
@@ -898,8 +898,8 @@
       </control>
       <control type="label">
         <visible>Container.Content(episodes)</visible>
-        <posx>830</posx>
-        <posy>192</posy>
+        <left>830</left>
+        <top>192</top>
         <width>530</width>
         <height>89</height>
         <font>Font_TVShow</font>
@@ -908,8 +908,8 @@
       <control type="textbox">
         <!-- Plot TV -->
         <visible>Container.Content(episodes)</visible>
-        <posx>785</posx>
-        <posy>220</posy>
+        <left>785</left>
+        <top>220</top>
         <width>400</width>
         <height>250</height>
         <align>justify</align>
@@ -923,8 +923,8 @@
     <control type="grouplist">
       <visible>Container.Content(episodes) + Control.IsVisible(598) + !Skin.HasSetting(no_media_flags)</visible>
       <description>Media Codec Flagging Images</description>
-      <posx>445</posx>
-      <posy>680</posy>
+      <left>445</left>
+      <top>680</top>
       <width>380</width>
       <align>center</align>
       <itemgap>0</itemgap>
@@ -938,8 +938,8 @@
     </control>
     <control type="scrollbar" id="60">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(598) + Control.HasFocus(60)</visible>

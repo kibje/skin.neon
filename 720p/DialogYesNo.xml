@@ -5,8 +5,8 @@
   <include>Animation_SettingsFade</include>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <origin x="0" y="0" />
   </coordinates>
   <controls>
@@ -16,8 +16,8 @@
     </control>
     <control type="image">
       <description>background top image</description>
-      <posx>360</posx>
-      <posy>170</posy>
+      <left>360</left>
+      <top>170</top>
       <width>550</width>
       <height>292</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -25,8 +25,8 @@
     </control>
     <control type="image" id="997">
       <description>background top image</description>
-      <posx>360</posx>
-      <posy>170</posy>
+      <left>360</left>
+      <top>170</top>
       <width>550</width>
       <height>292</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -34,8 +34,8 @@
     </control>
     <control type="label" id="1">
       <description>Heading</description>
-      <posx>390</posx>
-      <posy>200</posy>
+      <left>390</left>
+      <top>200</top>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
       <label>-</label>
@@ -45,8 +45,8 @@
     </control>
     <control type="label" id="2">
       <description>Line 1</description>
-      <posx>390</posx>
-      <posy>250</posy>
+      <left>390</left>
+      <top>250</top>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
       <label>-</label>
@@ -56,8 +56,8 @@
     </control>
     <control type="label" id="3">
       <description>Line 2</description>
-      <posx>390</posx>
-      <posy>300</posy>
+      <left>390</left>
+      <top>300</top>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
       <label>-</label>
@@ -67,8 +67,8 @@
     </control>
     <control type="label" id="4">
       <description>Line 3</description>
-      <posx>390</posx>
-      <posy>350</posy>
+      <left>390</left>
+      <top>350</top>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
       <label>-</label>
@@ -78,8 +78,8 @@
     </control>
     <control type="button" id="10">
       <description>no</description>
-      <posx>420</posx>
-      <posy>400</posy>
+      <left>420</left>
+      <top>400</top>
       <height>39</height>
       <width>200</width>
       <font>Font_Bartowski_Press_S</font>
@@ -98,8 +98,8 @@
     </control>
     <control type="button" id="11">
       <description>yes</description>
-      <posx>660</posx>
-      <posy>400</posy>
+      <left>660</left>
+      <top>400</top>
       <height>39</height>
       <width>200</width>
       <align>center</align>

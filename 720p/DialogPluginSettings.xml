@@ -3,16 +3,16 @@
   <defaultcontrol always="true">2</defaultcontrol>
   <coordinates>
     <system>1</system>
-    <posx>240</posx>
-    <posy>55</posy>
+    <left>240</left>
+    <top>55</top>
   </coordinates>
   <controls>
     <control type="group">
       <include>Animation_Bartowski_Context_Zoom</include>
       <control type="image">
         <description>background image</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>800</width>
         <height>610</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -20,16 +20,16 @@
       </control>
       <control type="image">
         <description>background image</description>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>800</width>
         <height>610</height>
         <colordiffuse>mainblue</colordiffuse>
         <texture>DialogBack.png</texture>
       </control>
       <!--<control type="image">
-				<posx>80</posx>
-				<posy>10</posy>
+				<left>80</left>
+				<top>10</top>
 				<width>640</width>
 				<height>90</height>
 				<aspectratio>stretch</aspectratio>
@@ -37,8 +37,8 @@
 			</control>-->
       <control type="label" id="20">
         <description>header label</description>
-        <posx>20</posx>
-        <posy>18</posy>
+        <left>20</left>
+        <top>18</top>
         <width>760</width>
         <height>30</height>
         <font>font24caps_title</font>
@@ -49,8 +49,8 @@
       </control>
       <control type="grouplist" id="2">
         <description>control area</description>
-        <posx>30</posx>
-        <posy>80</posy>
+        <left>30</left>
+        <top>80</top>
         <width>740</width>
         <height>420</height>
         <itemgap>-1</itemgap>
@@ -105,11 +105,11 @@
         <texture>common/separator2.png</texture>
       </control>
       <control type="group" id="9001">
-        <posy>540</posy>
+        <top>540</top>
         <control type="button" id="10">
           <description>OK Button</description>
-          <posx>300</posx>
-          <posy>0</posy>
+          <left>300</left>
+          <top>0</top>
           <width>200</width>
           <height>40</height>
           <align>center</align>
@@ -127,8 +127,8 @@
         </control>
         <control type="button" id="11">
           <description>Cancel Button</description>
-          <posx>510</posx>
-          <posy>0</posy>
+          <left>510</left>
+          <top>0</top>
           <width>200</width>
           <height>40</height>
           <align>center</align>
@@ -146,8 +146,8 @@
         </control>
         <control type="button" id="12">
           <description>Defaults Button</description>
-          <posx>90</posx>
-          <posy>0</posy>
+          <left>90</left>
+          <top>0</top>
           <width>200</width>
           <height>40</height>
           <align>center</align>

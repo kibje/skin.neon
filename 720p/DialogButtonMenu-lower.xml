@@ -19,8 +19,8 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>0</posx>
-      <posy>565</posy>
+      <left>0</left>
+      <top>565</top>
       <width>1280</width>
       <height>150</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -28,15 +28,15 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>0</posx>
-      <posy>565</posy>
+      <left>0</left>
+      <top>565</top>
       <width>1280</width>
       <height>150</height>
       <texture>mainmenu/home_bottom_align.png</texture>
     </control>
     <control type="grouplist" id="1">
-      <posx>10</posx>
-      <posy>670</posy>
+      <left>10</left>
+      <top>670</top>
       <onleft>1</onleft>
       <onright>1</onright>
       <onup>-</onup>

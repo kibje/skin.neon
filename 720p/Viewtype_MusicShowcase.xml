@@ -3,16 +3,16 @@
   <include name="Viewtype_MusicShowcase">
     <control type="image">
       <visible>Control.IsVisible(58) + Skin.HasSetting(MusicShowcaseFanart)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>music/music_backdrop3.png</texture>
     </control>
     <control type="image">
       <visible>Control.IsVisible(58) + !Skin.HasSetting(MusicShowcaseFanart)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>music/music_backdrop5.png</texture>
@@ -21,8 +21,8 @@
       <!--Big Title-->
       <visible>Control.IsVisible(58)</visible>
       <animation effect="slide" start="0,0" end="0,-40" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(58) + Container.Content(movies) + Skin.HasSetting(ShowcaseFanart)">Conditional</animation>
-      <posx>0</posx>
-      <posy>330</posy>
+      <left>0</left>
+      <top>330</top>
       <width>1280</width>
       <height>50</height>
       <align>center</align>
@@ -34,15 +34,15 @@
     </control>
     <control type="image">
       <visible>Control.IsVisible(58) + !Skin.HasSetting(MusicShowcaseFanart)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <!--	<texture>music/music_darkshowcase3.png</texture> -->
     </control>
     <control type="wraplist" id="58">
-      <posx>-64</posx>
-      <posy>290</posy>
+      <left>-64</left>
+      <top>290</top>
       <height>515</height>
       <width>1920</width>
       <onleft>50</onleft>
@@ -59,11 +59,11 @@
       <visible>!Skin.HasSetting(no_MusicShowcase) + [Container.Content(artists) | Container.Content(albums) | Window.IsActive(musicfiles)]</visible>
       <itemlayout width="204" height="245">
         <control type="group">
-          <posx>0</posx>
-          <posy>180</posy>
+          <left>0</left>
+          <top>180</top>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>200</width>
             <height>200</height>
             <texture background="true" diffuse="postermatteNF.png">$INFO[ListItem.Icon]</texture>
@@ -72,8 +72,8 @@
             <include>Animation_HiddenByInfo</include>
           </control>
           <control type="image">
-            <posx>-11</posx>
-            <posy>-8</posy>
+            <left>-11</left>
+            <top>-8</top>
             <width>222</width>
             <height>216</height>
             <texture>posterframeF.png</texture>
@@ -82,8 +82,8 @@
             <visible>Skin.HasSetting(MusicShowcaseFanart)</visible>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>202</posy>
+            <left>0</left>
+            <top>202</top>
             <width>200</width>
             <height>200</height>
             <texture background="true" flipy="true" diffuse="movie-poster/Movie_Thumb_Mask.png">$INFO[ListItem.Icon]</texture>
@@ -96,8 +96,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-11</posx>
-            <posy>194</posy>
+            <left>-11</left>
+            <top>194</top>
             <width>222</width>
             <height>216</height>
             <texture flipy="true">posterframeF.png</texture>
@@ -109,8 +109,8 @@
           </control>
           <control type="image">
             <!--204 260 -->
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>200</width>
             <height>200</height>
             <texture>music/darkoverlay3.png</texture>
@@ -121,11 +121,11 @@
       </itemlayout>
       <focusedlayout width="224" height="515">
         <control type="group">
-          <posx>0</posx>
-          <posy>170</posy>
+          <left>0</left>
+          <top>170</top>
           <control type="image">
-            <posx>0</posx>
-            <posy>252</posy>
+            <left>0</left>
+            <top>252</top>
             <width>220</width>
             <height>220</height>
             <texture background="true" flipy="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
@@ -138,8 +138,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-12</posx>
-            <posy>246</posy>
+            <left>-12</left>
+            <top>246</top>
             <width>246</width>
             <height>236</height>
             <texture flipy="true">posterframeF.png</texture>
@@ -150,8 +150,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-220</posx>
-            <posy>-156</posy>
+            <left>-220</left>
+            <top>-156</top>
             <width>651</width>
             <height>417</height>
             <texture>music/musci_focus_glow.png</texture>
@@ -163,8 +163,8 @@
             <visible>!Skin.HasSetting(MusicShowcaseFanart)</visible>
           </control>
           <control type="image">
-            <posx>-14</posx>
-            <posy>-16</posy>
+            <left>-14</left>
+            <top>-16</top>
             <width>250</width>
             <height>250</height>
             <texture background="true" diffuse="postermatte.png">$INFO[ListItem.Icon]</texture>
@@ -176,8 +176,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-29</posx>
-            <posy>-26</posy>
+            <left>-29</left>
+            <top>-26</top>
             <width>280</width>
             <height>270</height>
             <texture>posterframeF.png</texture>
@@ -192,8 +192,8 @@
     </control>
     <control type="scrollbar" id="68">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(58) + Control.HasFocus(68)</visible>

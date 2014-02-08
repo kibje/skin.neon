@@ -5,14 +5,14 @@
   <allowoverlay>no</allowoverlay>
   <coordinates>
     <system>1</system>
-    <posx>360</posx>
-    <posy>120</posy>
+    <left>360</left>
+    <top>120</top>
   </coordinates>
   <controls>
     <control type="image" id="0">
       <description>Back Panel</description>
-      <posx>-30</posx>
-      <posy>-30</posy>
+      <left>-30</left>
+      <top>-30</top>
       <width>620</width>
       <height>500</height>
       <texture>favourites/favourites_panel.png</texture>
@@ -20,15 +20,15 @@
     </control>
     <control type="label" id="2">
       <description>Settings</description>
-      <posx>10</posx>
-      <posy>40</posy>
+      <left>10</left>
+      <top>40</top>
       <width>500</width>
       <align>left</align>
     </control>
     <control type="grouplist" id="5">
       <description>Control Area</description>
-      <posx>10</posx>
-      <posy>72</posy>
+      <left>10</left>
+      <top>72</top>
       <width>500</width>
       <height>300</height>
       <itemgap>2</itemgap>

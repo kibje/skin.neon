@@ -5,8 +5,8 @@
     <include>CommonSettingsBackground</include>
     <include>CommonMediaPlayingBackground</include>
     <control type="group">
-      <posx>90</posx>
-      <posy>50</posy>
+      <left>90</left>
+      <top>50</top>
       <animation type="WindowOpen" reversible="false">
         <!--	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
         <effect type="fade" start="0" end="100" time="300" />
@@ -16,8 +16,8 @@
         <effect type="fade" start="100" end="0" time="300" />
       </animation>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1100</width>
         <height>640</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -25,8 +25,8 @@
       </control>
       <control type="image">
         <description>LOGO</description>
-        <posx>30</posx>
-        <posy>15</posy>
+        <left>30</left>
+        <top>15</top>
         <width>220</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
@@ -34,8 +34,8 @@
         <texture>neon.png</texture>
       </control>
       <control type="list" id="9000">
-        <posx>10</posx>
-        <posy>102</posy>
+        <left>10</left>
+        <top>102</top>
         <width>281</width>
         <height>481</height>
         <itemgap>-1</itemgap>
@@ -47,15 +47,15 @@
         <scrolltime>300</scrolltime>
         <itemlayout height="60" width="261">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>280</width>
             <height>45</height>
             <texture>MenuItemNF.png</texture>
           </control>
           <control type="label">
-            <posx>135</posx>
-            <posy>25</posy>
+            <left>135</left>
+            <top>25</top>
             <width>230</width>
             <!-- <height>25</height> -->
             <font>font24caps_title</font>
@@ -68,8 +68,8 @@
         </itemlayout>
         <focusedlayout height="60" width="261">
           <control type="image">
-            <posx>0</posx>
-            <posy>4</posy>
+            <left>0</left>
+            <top>4</top>
             <width>280</width>
             <height>45</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -77,8 +77,8 @@
             <animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
           </control>
           <control type="label">
-            <posx>135</posx>
-            <posy>25</posy>
+            <left>135</left>
+            <top>25</top>
             <width>230</width>
             <!--<height>25</height> -->
             <!-- <textoffsetx>10</textoffsetx> -->
@@ -143,8 +143,8 @@
       </control>
       <control type="label">
         <description>header label</description>
-        <posx>320</posx>
-        <posy>20</posy>
+        <left>320</left>
+        <top>20</top>
         <width>740</width>
         <height>30</height>
         <font>Font_Neon_25</font>
@@ -155,15 +155,15 @@
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="image">
-        <posx>290</posx>
-        <posy>10</posy>
+        <left>290</left>
+        <top>10</top>
         <width>770</width>
         <height>615</height>
         <texture>black-back2.png</texture>
       </control>
       <control type="image">
-        <posx>268</posx>
-        <posy>50</posy>
+        <left>268</left>
+        <top>50</top>
         <width>805</width>
         <aspectratio>stretch</aspectratio>
         <texture>common/separator.png</texture>
@@ -171,8 +171,8 @@
       <control type="group" id="9010">
         <control type="grouplist" id="9001">
           <visible>Container(9000).Hasfocus(1)</visible>
-          <posx>290</posx>
-          <posy>60</posy>
+          <left>290</left>
+          <top>60</top>
           <width>860</width>
           <height>530</height>
           <itemgap>-1</itemgap>
@@ -350,8 +350,8 @@
         </control>
         <control type="grouplist" id="9002">
           <visible>Container(9000).Hasfocus(2)</visible>
-          <posx>290</posx>
-          <posy>60</posy>
+          <left>290</left>
+          <top>60</top>
           <width>860</width>
           <height>530</height>
           <itemgap>-1</itemgap>
@@ -661,8 +661,8 @@
           </control>
         </control>
         <!--<control type="scrollbar" id="60">
-					<posx>1060</posx>
-					<posy>60</posy>
+					<left>1060</left>
+					<top>60</top>
 					<width>25</width>
 					<height>530</height>
 					<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -677,13 +677,13 @@
 					<visible>Container(9000).Hasfocus(2)</visible>
 				</control>-->
         <control type="group">
-          <posx>310</posx>
-          <posy>60</posy>
+          <left>310</left>
+          <top>60</top>
           <height>530</height>
           <visible>Container(9000).Hasfocus(3)</visible>
           <control type="label">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>680</width>
             <height>45</height>
             <font>Font_KeyboardKeys</font>
@@ -695,8 +695,8 @@
           </control>
           <control type="button" id="304">
             <description>Menu Item Next Button</description>
-            <posx>670</posx>
-            <posy>53</posy>
+            <left>670</left>
+            <top>53</top>
             <width>33</width>
             <height>22</height>
             <label>-</label>
@@ -711,8 +711,8 @@
           </control>
           <control type="button" id="305">
             <description>Menu Item Prev Button</description>
-            <posx>703</posx>
-            <posy>53</posy>
+            <left>703</left>
+            <top>53</top>
             <width>33</width>
             <height>22</height>
             <label>-</label>
@@ -727,8 +727,8 @@
           </control>
           <control type="list" id="9003">
             <hitrect x="0" y="0" w="0" h="0" />
-            <posx>0</posx>
-            <posy>45</posy>
+            <left>0</left>
+            <top>45</top>
             <width>860</width>
             <height>40</height>
             <onleft>9000</onleft>
@@ -740,16 +740,16 @@
             <itemlayout height="1" width="860"></itemlayout>
             <focusedlayout height="40" width="860">
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>740</width>
                 <height>40</height>
                 <texture>MenuItemNF.png</texture>
                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="image">
-                <posx>0</posx>
-                <posy>0</posy>
+                <left>0</left>
+                <top>0</top>
                 <width>740</width>
                 <height>40</height>
                 <colordiffuse>mainblue</colordiffuse>
@@ -757,8 +757,8 @@
                 <visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <posx>10</posx>
-                <posy>0</posy>
+                <left>10</left>
+                <top>0</top>
                 <width>600</width>
                 <height>40</height>
                 <font>Font_KeyboardKeys</font>
@@ -769,8 +769,8 @@
                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <posx>10</posx>
-                <posy>0</posy>
+                <left>10</left>
+                <top>0</top>
                 <width>600</width>
                 <height>40</height>
                 <font>Font_KeyboardKeys</font>
@@ -781,8 +781,8 @@
                 <visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <posx>650</posx>
-                <posy>0</posy>
+                <left>650</left>
+                <top>0</top>
                 <width>640</width>
                 <height>40</height>
                 <font>Font_KeyboardKeys</font>
@@ -793,8 +793,8 @@
                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <posx>650</posx>
-                <posy>0</posy>
+                <left>650</left>
+                <top>0</top>
                 <width>640</width>
                 <height>40</height>
                 <font>Font_KeyboardKeys</font>
@@ -950,21 +950,21 @@
             </content>
           </control>
           <control type="image">
-            <posx>85</posx>
-            <posy>100</posy>
+            <left>85</left>
+            <top>100</top>
             <width>580</width>
             <height>435</height>
             <texture>black-back.png</texture>
           </control>
           <control type="group">
-            <posx>95</posx>
-            <posy>110</posy>
+            <left>95</left>
+            <top>110</top>
             <control type="group">
               <visible>Container(9003).HasFocus(1)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -983,8 +983,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1003,8 +1003,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1026,8 +1026,8 @@
               <visible>Container(9003).HasFocus(2)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1046,8 +1046,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1066,8 +1066,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1089,8 +1089,8 @@
               <visible>Container(9003).HasFocus(3)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1109,8 +1109,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1129,8 +1129,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1152,8 +1152,8 @@
               <visible>Container(9003).HasFocus(4)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1172,8 +1172,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1192,8 +1192,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1215,8 +1215,8 @@
               <visible>Container(9003).HasFocus(5)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1235,8 +1235,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1255,8 +1255,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1278,8 +1278,8 @@
               <visible>Container(9003).HasFocus(6)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1298,8 +1298,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1318,8 +1318,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1341,8 +1341,8 @@
               <visible>Container(9003).HasFocus(18)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1361,8 +1361,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1381,8 +1381,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1404,8 +1404,8 @@
               <visible>Container(9003).HasFocus(7)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1424,8 +1424,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1444,8 +1444,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1467,8 +1467,8 @@
               <visible>Container(9003).HasFocus(8)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1487,8 +1487,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1507,8 +1507,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1530,8 +1530,8 @@
               <visible>Container(9003).HasFocus(10)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1550,8 +1550,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1570,8 +1570,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1593,8 +1593,8 @@
               <visible>Container(9003).HasFocus(11)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1613,8 +1613,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1633,8 +1633,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1656,8 +1656,8 @@
               <visible>Container(9003).HasFocus(15)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1676,8 +1676,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1696,8 +1696,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1719,8 +1719,8 @@
               <visible>Container(9003).HasFocus(16)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1739,8 +1739,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1759,8 +1759,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1782,8 +1782,8 @@
               <visible>Container(9003).HasFocus(17)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1802,8 +1802,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1822,8 +1822,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1845,8 +1845,8 @@
               <visible>Container(9003).HasFocus(19)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1865,8 +1865,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1885,8 +1885,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1908,8 +1908,8 @@
               <visible>Container(9003).HasFocus(20)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1928,8 +1928,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -1948,8 +1948,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -1971,8 +1971,8 @@
               <visible>Container(9003).HasFocus(21)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -1991,8 +1991,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -2011,8 +2011,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -2034,8 +2034,8 @@
               <visible>Container(9003).HasFocus(22)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -2054,8 +2054,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -2074,8 +2074,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -2097,8 +2097,8 @@
               <visible>Container(9003).HasFocus(23)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -2117,8 +2117,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -2137,8 +2137,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -2160,8 +2160,8 @@
               <visible>Container(9003).HasFocus(24)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -2180,8 +2180,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -2200,8 +2200,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -2223,8 +2223,8 @@
               <visible>Container(9003).HasFocus(25)</visible>
               <control type="button" id="300">
                 <description>Single Image button</description>
-                <posx>5</posx>
-                <posy>0</posy>
+                <left>5</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31113</label>
@@ -2243,8 +2243,8 @@
               </control>
               <control type="button" id="301">
                 <description>Multi Image button</description>
-                <posx>190</posx>
-                <posy>0</posy>
+                <left>190</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>31114</label>
@@ -2263,8 +2263,8 @@
               </control>
               <control type="button" id="302">
                 <description>Default Image button</description>
-                <posx>375</posx>
-                <posy>0</posy>
+                <left>375</left>
+                <top>0</top>
                 <width>180</width>
                 <height>40</height>
                 <label>571</label>
@@ -2284,8 +2284,8 @@
             </control>
           </control>
           <control type="multiimage">
-            <posx>100</posx>
-            <posy>170</posy>
+            <left>100</left>
+            <top>170</top>
             <width>550</width>
             <height>316</height>
             <imagepath background="true">$INFO[Container(9003).ListItem.Icon]</imagepath>
@@ -2294,8 +2294,8 @@
             <fadetime>500</fadetime>
           </control>
           <control type="label">
-            <posx>95</posx>
-            <posy>500</posy>
+            <left>95</left>
+            <top>500</top>
             <width>560</width>
             <height>20</height>
             <align>center</align>
@@ -2309,8 +2309,8 @@
         <control type="group">
           <control type="grouplist" id="9004">
             <visible>Container(9000).Hasfocus(4)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -2540,8 +2540,8 @@
           </control>
         </control>
         <control type="scrollbar" id="61">
-          <posx>1060</posx>
-          <posy>60</posy>
+          <left>1060</left>
+          <top>60</top>
           <width>25</width>
           <height>530</height>
           <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
@@ -2559,8 +2559,8 @@
           <!--Movies/TV-->
           <control type="grouplist" id="9005">
             <visible>Container(9000).Hasfocus(5)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -2707,7 +2707,7 @@
               <aligny>center</aligny>
             </control>
             <control type="button" id="514">
-              <posx>0</posx>
+              <left>0</left>
               <width>740</width>
               <height>40</height>
               <font>Font_Neon_24</font>
@@ -2722,7 +2722,7 @@
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="517">
-              <posx>0</posx>
+              <left>0</left>
               <width>740</width>
               <height>40</height>
               <font>Font_Neon_24</font>
@@ -2737,7 +2737,7 @@
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="518">
-              <posx>0</posx>
+              <left>0</left>
               <width>740</width>
               <height>40</height>
               <font>Font_Neon_24</font>
@@ -2752,7 +2752,7 @@
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="519">
-              <posx>0</posx>
+              <left>0</left>
               <width>740</width>
               <height>40</height>
               <font>Font_Neon_24</font>
@@ -2767,7 +2767,7 @@
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="520">
-              <posx>0</posx>
+              <left>0</left>
               <width>740</width>
               <height>40</height>
               <font>Font_Neon_24</font>
@@ -2783,8 +2783,8 @@
             </control>
           </control>
           <!--	<control type="textbox" id="521">
-							<posx>380</posx>
-							<posy>560</posy>
+							<left>380</left>
+							<top>560</top>
 							<width>690</width>
 							<height>50</height>
 							<textoffsetx>40</textoffsetx>
@@ -2799,8 +2799,8 @@
           <!--Music-->
           <control type="grouplist" id="9008">
             <visible>Container(9000).Hasfocus(6)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -2921,8 +2921,8 @@
           <!--Reset Skin-->
           <control type="grouplist" id="9009">
             <visible>Container(9000).Hasfocus(9)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -2952,8 +2952,8 @@
           <!--Disable Views-->
           <control type="grouplist" id="9006">
             <visible>Container(9000).Hasfocus(8)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -3101,8 +3101,8 @@
         <control type="group">
           <control type="grouplist" id="9007">
             <visible>Container(9000).Hasfocus(7)</visible>
-            <posx>290</posx>
-            <posy>60</posy>
+            <left>290</left>
+            <top>60</top>
             <width>860</width>
             <height>530</height>
             <itemgap>-1</itemgap>
@@ -3661,11 +3661,11 @@
       </control>
     </control>
     <control type="group">
-      <posx>60</posx>
-      <posy>0</posy>
+      <left>60</left>
+      <top>0</top>
       <control type="image">
-        <posx>-50</posx>
-        <posy>-10</posy>
+        <left>-50</left>
+        <top>-10</top>
         <texture>XBMC_Logo.png</texture>
       </control>
     </control>

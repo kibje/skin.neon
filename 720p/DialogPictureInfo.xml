@@ -9,11 +9,11 @@
       <animation effect="fade" start="100" end="0" time="600">Hidden</animation>
     </control>
     <control type="group">
-      <posx>-100</posx>
+      <left>-100</left>
       <include>Animation_Bartowski_Context_Zoom</include>
       <control type="image">
-        <posx>160</posx>
-        <posy>180</posy>
+        <left>160</left>
+        <top>180</top>
         <width>490</width>
         <height>360</height>
         <aspectratio align="center" aligny="center">keep</aspectratio>
@@ -25,8 +25,8 @@
       </control>
       <control type="label">
         <description>header label</description>
-        <posx>700</posx>
-        <posy>40</posy>
+        <left>700</left>
+        <top>40</top>
         <width>710</width>
         <height>30</height>
         <font>Font_Neon_45_Context</font>
@@ -36,8 +36,8 @@
         <shadowcolor>black</shadowcolor>
       </control>
       <control type="list" id="5">
-        <posx>670</posx>
-        <posy>90</posy>
+        <left>670</left>
+        <top>90</top>
         <width>560</width>
         <height>601</height>
         <onleft>60</onleft>
@@ -48,8 +48,8 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="40">
           <control type="label">
-            <posx>170</posx>
-            <posy>0</posy>
+            <left>170</left>
+            <top>0</top>
             <width>160</width>
             <height>35</height>
             <font>Font_Neon_20_title</font>
@@ -61,8 +61,8 @@
             <label>$INFO[ListItem.Label][COLOR=grey2] : [/COLOR]</label>
           </control>
           <control type="label">
-            <posx>170</posx>
-            <posy>0</posy>
+            <left>170</left>
+            <top>0</top>
             <width>390</width>
             <height>35</height>
             <font>Font_KeyboardEdit</font>
@@ -75,16 +75,16 @@
         </itemlayout>
         <focusedlayout height="40">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>560</width>
             <height>41</height>
             <visible>!Control.HasFocus(5)</visible>
             <texture border="5">MenuItemNF.png</texture>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>560</width>
             <height>41</height>
             <visible>Control.HasFocus(5)</visible>
@@ -92,8 +92,8 @@
             <texture>button-focus.png</texture>
           </control>
           <control type="label">
-            <posx>170</posx>
-            <posy>0</posy>
+            <left>170</left>
+            <top>0</top>
             <width>160</width>
             <height>35</height>
             <font>Font_Neon_20_title</font>
@@ -105,8 +105,8 @@
             <label>$INFO[ListItem.Label][COLOR=grey2] : [/COLOR]</label>
           </control>
           <control type="label">
-            <posx>170</posx>
-            <posy>0</posy>
+            <left>170</left>
+            <top>0</top>
             <width>390</width>
             <height>35</height>
             <font>Font_KeyboardEdit</font>

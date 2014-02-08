@@ -7,8 +7,8 @@
       <visible>Control.IsVisible(599)</visible>
       <control type="image">
         <visible>!Skin.HasSetting(3dLandscape_Fanart)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>movie-poster/movie-back3.png</texture>
@@ -17,8 +17,8 @@
       <control type="image">
         <!-- Fanart -->
         <visible>Skin.HasSetting(3dLandscape_Fanart)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>movie-poster/3dlandscape_fanart.png</texture>
@@ -26,8 +26,8 @@
       </control>
     </control>
     <control type="fixedlist" id="599">
-      <posx>-100</posx>
-      <posy>250</posy>
+      <left>-100</left>
+      <top>250</top>
       <height>715</height>
       <width>1500</width>
       <onleft>599</onleft>
@@ -46,19 +46,19 @@
       <visible>!Skin.HasSetting(no_3DLandscape) + [[Skin.HasSetting(landscape_jpg) + Container.Content(tvshows)] | [Skin.HasSetting(landscape_thumbs) + [Container.Content(tvshows) | Container.Content(seasons)]]] | Container.Content(episodes) | Window.IsActive(Programs) | substring(container.folderpath,plugin://)</visible>
       <itemlayout width="316" height="245">
         <control type="group">
-          <posx>150</posx>
-          <posy>60</posy>
+          <left>150</left>
+          <top>60</top>
           <control type="image">
-            <posx>137</posx>
-            <posy>132</posy>
+            <left>137</left>
+            <top>132</top>
             <width>28</width>
             <height>168</height>
             <texture>movie-poster/newcase.png</texture>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>136</posx>
-            <posy>290</posy>
+            <left>136</left>
+            <top>290</top>
             <width>36</width>
             <height>304</height>
             <texture>movie-poster/reflect_bottom2.png</texture>
@@ -66,8 +66,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>130</posy>
+            <left>-150</left>
+            <top>130</top>
             <width>304</width>
             <height>170</height>
             <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
@@ -76,8 +76,8 @@
             <visible>!Skin.HasSetting(landscape_jpg) + [Container.Content(tvshows) | Container.Content(seasons)] | Container.Content(episodes) | Window.IsActive(videoplaylist) | Window.IsActive(Programs) | substring(container.folderpath,plugin://)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>130</posy>
+            <left>-150</left>
+            <top>130</top>
             <width>304</width>
             <height>172</height>
             <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -86,8 +86,8 @@
             <visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>127</posy>
+            <left>-150</left>
+            <top>127</top>
             <width>302</width>
             <height>174</height>
             <texture>list/3d_back_overlay1.png</texture>
@@ -97,8 +97,8 @@
           </control>
           <control type="label">
             <!-- Episode Description -->
-            <posx>5</posx>
-            <posy>273</posy>
+            <left>5</left>
+            <top>273</top>
             <width>300</width>
             <height>50</height>
             <align>center</align>
@@ -110,8 +110,8 @@
           </control>
           <control type="label">
             <!-- Episode Description -->
-            <posx>5</posx>
-            <posy>330</posy>
+            <left>5</left>
+            <top>330</top>
             <width>294</width>
             <height>50</height>
             <align>center</align>
@@ -122,8 +122,8 @@
             <visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>298</posy>
+            <left>-150</left>
+            <top>298</top>
             <width>304</width>
             <height>172</height>
             <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
@@ -133,8 +133,8 @@
             <visible>!Skin.HasSetting(landscape_jpg) + [Container.Content(tvshows) | Container.Content(seasons)] | Container.Content(episodes) | Window.IsActive(videoplaylist) | Window.IsActive(Programs) | substring(container.folderpath,plugin://)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>298</posy>
+            <left>-150</left>
+            <top>298</top>
             <width>304</width>
             <height>172</height>
             <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -144,16 +144,16 @@
             <visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
           </control>
           <control type="image">
-            <posx>95</posx>
-            <posy>264</posy>
+            <left>95</left>
+            <top>264</top>
             <width>45</width>
             <height>45</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
             <visible>Skin.HasSetting(tvoverlays) + !IsEmpty(ListItem.Overlay)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>298</posy>
+            <left>-150</left>
+            <top>298</top>
             <width>304</width>
             <height>172</height>
             <texture flipy="true">list/3d_back_overlay1.png</texture>
@@ -165,11 +165,11 @@
       </itemlayout>
       <focusedlayout width="360" height="515">
         <control type="group">
-          <posx>124</posx>
-          <posy>60</posy>
+          <left>124</left>
+          <top>60</top>
           <control type="image">
-            <posx>-186</posx>
-            <posy>60</posy>
+            <left>-186</left>
+            <top>60</top>
             <width>500</width>
             <height>305</height>
             <texture>movie-poster/3d_side_shadow.png</texture>
@@ -179,8 +179,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>236</posx>
-            <posy>93</posy>
+            <left>236</left>
+            <top>93</top>
             <width>38</width>
             <height>223</height>
             <texture>movie-poster/newcase.png</texture>
@@ -191,8 +191,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-148</posx>
-            <posy>310</posy>
+            <left>-148</left>
+            <top>310</top>
             <width>400</width>
             <height>224</height>
             <texture flipy="true">movie-poster/xper_test.png</texture>
@@ -205,8 +205,8 @@
             </animation>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>312</posy>
+            <left>-150</left>
+            <top>312</top>
             <width>407</width>
             <height>224</height>
             <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
@@ -219,8 +219,8 @@
             <visible>!Skin.HasSetting(landscape_jpg) + [Container.Content(tvshows) | Container.Content(seasons)] | Container.Content(episodes) | Window.IsActive(videoplaylist) | Window.IsActive(Programs) | substring(container.folderpath,plugin://)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>312</posy>
+            <left>-150</left>
+            <top>312</top>
             <width>405</width>
             <height>224</height>
             <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -233,8 +233,8 @@
             <visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>90</posy>
+            <left>-150</left>
+            <top>90</top>
             <width>405</width>
             <height>226</height>
             <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
@@ -246,8 +246,8 @@
             <visible>!Skin.HasSetting(landscape_jpg) + [Container.Content(tvshows) | Container.Content(seasons)] | Container.Content(episodes) | Window.IsActive(videoplaylist) | Window.IsActive(Programs) | substring(container.folderpath,plugin://)</visible>
           </control>
           <control type="image">
-            <posx>-150</posx>
-            <posy>86</posy>
+            <left>-150</left>
+            <top>86</top>
             <width>407</width>
             <height>232</height>
             <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -260,8 +260,8 @@
           </control>
           <!--<control type="image">
 						<visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
-						<posx>-150</posx>
-						<posy>86</posy>
+						<left>-150</left>
+						<top>86</top>
 						<width>407</width>
 						<height>232</height>
 						<texture>movie-poster/xper_test.png</texture>
@@ -273,8 +273,8 @@
 						</animation>
 					</control>-->
           <control type="image">
-            <posx>-147</posx>
-            <posy>81</posy>
+            <left>-147</left>
+            <top>81</top>
             <width>401</width>
             <height>232</height>
             <texture>list/3d_back_overlay1.png</texture>
@@ -286,8 +286,8 @@
             <visible>!SubString(ListItem.Icon,DefaultFolderBack.png,Left) + [Container.Content(episodes) | Window.IsActive(videoplaylist)]</visible>
           </control>
           <control type="image">
-            <posx>195</posx>
-            <posy>263</posy>
+            <left>195</left>
+            <top>263</top>
             <width>60</width>
             <height>60</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -298,8 +298,8 @@
           </control>
           <control type="label">
             <!-- Episode Description -->
-            <posx>56</posx>
-            <posy>282</posy>
+            <left>56</left>
+            <top>282</top>
             <width>392</width>
             <height>50</height>
             <align>center</align>
@@ -314,8 +314,8 @@
           </control>
           <control type="label">
             <!-- Episode Description -->
-            <posx>56</posx>
-            <posy>350</posy>
+            <left>56</left>
+            <top>350</top>
             <width>392</width>
             <height>50</height>
             <align>center</align>
@@ -330,8 +330,8 @@
           </control>
           <!--<control type="textbox">
 						<visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
-						<posx>-140</posx>
-						<posy>90</posy>
+						<left>-140</left>
+						<top>90</top>
 						<width>384</width>
 						<height>190</height>
 						<font>Font_Neon_20</font>
@@ -345,8 +345,8 @@
 						</animation>
 					</control>-->
           <control type="image">
-            <posx>-150</posx>
-            <posy>312</posy>
+            <left>-150</left>
+            <top>312</top>
             <width>407</width>
             <height>224</height>
             <texture flipy="true">list/3d_back_overlay1.png</texture>
@@ -374,8 +374,8 @@
       <visible>Control.IsVisible(599)</visible>
       <control type="image">
         <visible>!Skin.HasSetting(3dLandscape_Fanart)</visible>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>1280</width>
         <height>720</height>
         <texture>movie-poster/last-overlay.png</texture>
@@ -383,21 +383,21 @@
       </control>
       <!-- Browser label and flags -->
       <control type="group">
-        <posx>0</posx>
-        <posy>30</posy>
+        <left>0</left>
+        <top>30</top>
         <include>Animation_Viewtype_3dland_Lefttop</include>
         <control type="image">
           <visible>Skin.HasSetting(3dLandscape_Fanart)</visible>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1280</width>
           <height>160</height>
           <texture>movie-poster/Poster_Fanart_Title_Back.png</texture>
           <aspectratio>stretch</aspectratio>
         </control>
         <control type="image" id="7018">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>230</width>
           <height>89</height>
           <texture background="true">$INFO[ListItem.Art(clearlogo)]</texture>
@@ -405,8 +405,8 @@
           <aspectratio scalediffuse="false">stretch</aspectratio>
         </control>
         <control type="image" id="9018">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>230</width>
           <height>89</height>
           <texture background="true">$INFO[ListItem.path]../logo.png</texture>
@@ -415,8 +415,8 @@
           <visible>Container.Content(episodes)</visible>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>0</posy>
+          <left>20</left>
+          <top>0</top>
           <width>1200</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -427,8 +427,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons)</visible>
-          <posx>20</posx>
-          <posy>90</posy>
+          <left>20</left>
+          <top>90</top>
           <width>230</width>
           <height>89</height>
           <align>center</align>
@@ -439,13 +439,13 @@
         </control>
       </control>
       <control type="group">
-        <posx>10</posx>
-        <posy>30</posy>
+        <left>10</left>
+        <top>30</top>
         <include>Animation_Viewtype_3dland_Lefttop</include>
         <visible>[Window.IsActive(Programs) + substring(container.folderpath,plugin://plugin.program.advanced.launcher)] | substring(container.folderpath,plugin://)</visible>
         <control type="label">
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>1200</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -454,16 +454,16 @@
           <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>40</posy>
+          <left>0</left>
+          <top>40</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_22</font>
           <label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
         </control>
         <control type="label">
-          <posx>0</posx>
-          <posy>64</posy>
+          <left>0</left>
+          <top>64</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_22</font>
@@ -472,8 +472,8 @@
         </control>
         <control type="textbox">
           <description>Plot Movie</description>
-          <posx>20</posx>
-          <posy>90</posy>
+          <left>20</left>
+          <top>90</top>
           <width>600</width>
           <height>234</height>
           <align>justify</align>
@@ -487,14 +487,14 @@
         </control>
       </control>
       <control type="group">
-        <posx>0</posx>
-        <posy>60</posy>
+        <left>0</left>
+        <top>60</top>
         <!-- 240 -->
         <include>Animation_Viewtype_3dland_Lefttop</include>
         <visible>!Skin.HasSetting(3dLandscape_Fanart) + [Container.Content(episodes) | Window.IsActive(videoplaylist)] + !SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
         <control type="label">
-          <posx>20</posx>
-          <posy>55</posy>
+          <left>20</left>
+          <top>55</top>
           <width>604</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -504,8 +504,8 @@
           <animation effect="slide" start="0,0" end="0,-50" time="0" condition="IsEmpty(Control.GetLabel(7018)) + IsEmpty(Control.GetLabel(9018))">Conditional</animation>
         </control>
         <control type="label">
-          <posx>20</posx>
-          <posy>76</posy>
+          <left>20</left>
+          <top>76</top>
           <width>604</width>
           <height>50</height>
           <aligny>center</aligny>
@@ -516,8 +516,8 @@
         </control>
         <control type="textbox">
           <description>Plot Movie</description>
-          <posx>20</posx>
-          <posy>120</posy>
+          <left>20</left>
+          <top>120</top>
           <width>600</width>
           <height>234</height>
           <align>justify</align>
@@ -529,14 +529,14 @@
       </control>
       <control type="group">
         <visible>!Skin.HasSetting(3dLandscape_Fanart) + !Window.IsActive(videoplaylist) + !SubString(ListItem.Icon,DefaultFolderBack.png,Left)</visible>
-        <posx>20</posx>
-        <posy>120</posy>
+        <left>20</left>
+        <top>120</top>
         <include>Animation_Viewtype_3dland_Lefttop</include>
         <animation effect="slide" start="0,0" end="0,-40" time="0" condition="IsEmpty(Control.GetLabel(7018))">Conditional</animation>
         <control type="label">
           <visible>Container.Content(seasons) + IsEmpty(Control.GetLabel(7018)) + IsEmpty(Control.GetLabel(9018))</visible>
-          <posx>0</posx>
-          <posy>-4</posy>
+          <left>0</left>
+          <top>-4</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_20</font>
@@ -545,8 +545,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(tvshows)</visible>
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_22</font>
@@ -554,8 +554,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(tvshows)</visible>
-          <posx>0</posx>
-          <posy>30</posy>
+          <left>0</left>
+          <top>30</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_22</font>
@@ -563,8 +563,8 @@
         </control>
         <control type="label">
           <visible>Container.Content(tvshows)</visible>
-          <posx>0</posx>
-          <posy>60</posy>
+          <left>0</left>
+          <top>60</top>
           <width>630</width>
           <height>89</height>
           <font>Font_Neon_22</font>
@@ -575,8 +575,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_media_flags)</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>20</posx>
-        <posy>674</posy>
+        <left>20</left>
+        <top>674</top>
         <width>1280</width>
         <align>left</align>
         <itemgap>0</itemgap>
@@ -586,8 +586,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_media_flags)</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>20</posx>
-        <posy>674</posy>
+        <left>20</left>
+        <top>674</top>
         <width>1280</width>
         <align>left</align>
         <itemgap>0</itemgap>
@@ -597,8 +597,8 @@
       <control type="grouplist">
         <visible>!Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_frame_flags) + !Skin.HasSetting(no_media_flags)</visible>
         <description>Media Codec Flagging Images</description>
-        <posx>20</posx>
-        <posy>674</posy>
+        <left>20</left>
+        <top>674</top>
         <width>1280</width>
         <align>left</align>
         <itemgap>0</itemgap>
@@ -609,8 +609,8 @@
     </control>
     <control type="scrollbar" id="63">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>900</posy>
+      <left>100</left>
+      <top>900</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(599) + Control.HasFocus(63)</visible>

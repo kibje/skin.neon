@@ -12,8 +12,8 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>458</posx>
-      <posy>84</posy>
+      <left>458</left>
+      <top>84</top>
       <width>370</width>
       <height>80</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -21,8 +21,8 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>458</posx>
-      <posy>163</posy>
+      <left>458</left>
+      <top>163</top>
       <width>370</width>
       <height>300</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -30,8 +30,8 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>458</posx>
-      <posy>463</posy>
+      <left>458</left>
+      <top>463</top>
       <width>370</width>
       <height>50</height>
       <colordiffuse>mainblue</colordiffuse>
@@ -39,16 +39,16 @@
     </control>
     <control type="image">
       <!-- Floor -->
-      <posx>530</posx>
-      <posy>123</posy>
+      <left>530</left>
+      <top>123</top>
       <width>220</width>
       <height>35</height>
       <aspectratio scalediffuse="false">keep</aspectratio>
       <texture>XBMC_Logo.png</texture>
     </control>
     <control type="image">
-      <posx>500</posx>
-      <posy>170</posy>
+      <left>500</left>
+      <top>170</top>
       <width>270</width>
       <height>2</height>
       <aspectratio>stretch</aspectratio>
@@ -56,8 +56,8 @@
       <texture>separator2.png</texture>
     </control>
     <control type="grouplist" id="1">
-      <posx>492</posx>
-      <posy>-70</posy>
+      <left>492</left>
+      <top>-70</top>
       <onleft>-</onleft>
       <onright>-</onright>
       <onup>1</onup>
@@ -218,8 +218,8 @@
       </control>
     </control>
     <!--<control type="image">
-  		<posx>590</posx>
-			<posy>430</posy>
+  		<left>590</left>
+			<top>430</top>
 			<height>100</height>
 			<width>110</width>
 			

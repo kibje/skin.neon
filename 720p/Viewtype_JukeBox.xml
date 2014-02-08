@@ -8,8 +8,8 @@
     </control>
     <control type="panel" id="54">
       <viewtype label="$LOCALIZE[31066]">list</viewtype>
-      <posx>366</posx>
-      <posy>460</posy>
+      <left>366</left>
+      <top>460</top>
       <width>800</width>
       <height>300</height>
       <pagecontrol>61</pagecontrol>
@@ -22,15 +22,15 @@
       <visible>!Skin.HasSetting(no_Jukebox)</visible>
       <itemlayout width="400" height="64">
         <control type="image">
-          <posx>0</posx>
-          <posy>6</posy>
+          <left>0</left>
+          <top>6</top>
           <width>188</width>
           <height>64</height>
           <texture>music/selection_back2.png</texture>
         </control>
         <control type="label">
-          <posx>24</posx>
-          <posy>16</posy>
+          <left>24</left>
+          <top>16</top>
           <width>146</width>
           <height>40</height>
           <aligny>center</aligny>
@@ -40,8 +40,8 @@
           <visible>IsEmpty(ListItem.Title) | Window.IsActive(501)</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>8</posy>
+          <left>92</left>
+          <top>8</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -51,8 +51,8 @@
           <visible>Container.Content(songs) | Container.Content(albums)</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>44</posy>
+          <left>92</left>
+          <top>44</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -62,8 +62,8 @@
           <visible>Container.Content(albums)</visible>
         </control>
         <control type="label">
-          <posx>24</posx>
-          <posy>16</posy>
+          <left>24</left>
+          <top>16</top>
           <width>146</width>
           <height>40</height>
           <aligny>center</aligny>
@@ -73,8 +73,8 @@
           <visible>!IsEmpty(ListItem.Duration) + !IsEmpty(ListItem.TrackNumber) + [Container.Content(songs) | Window.IsActive(500) | [Window.IsActive(502) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs)]]</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>44</posy>
+          <left>92</left>
+          <top>44</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -86,15 +86,15 @@
       </itemlayout>
       <focusedlayout width="400" height="64">
         <control type="image">
-          <posx>0</posx>
-          <posy>6</posy>
+          <left>0</left>
+          <top>6</top>
           <width>188</width>
           <height>64</height>
           <texture>music/focus_selection1.png</texture>
         </control>
         <control type="label">
-          <posx>24</posx>
-          <posy>16</posy>
+          <left>24</left>
+          <top>16</top>
           <width>146</width>
           <height>40</height>
           <aligny>center</aligny>
@@ -104,8 +104,8 @@
           <visible>IsEmpty(ListItem.Title)</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>8</posy>
+          <left>92</left>
+          <top>8</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -115,8 +115,8 @@
           <visible>Container.Content(songs) | Container.Content(albums)</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>44</posy>
+          <left>92</left>
+          <top>44</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -126,8 +126,8 @@
           <visible>Container.Content(albums)</visible>
         </control>
         <control type="label">
-          <posx>24</posx>
-          <posy>16</posy>
+          <left>24</left>
+          <top>16</top>
           <width>146</width>
           <height>40</height>
           <aligny>center</aligny>
@@ -137,8 +137,8 @@
           <visible>!IsEmpty(ListItem.Duration) + !IsEmpty(ListItem.TrackNumber) + [Container.Content(songs) | Window.IsActive(500) | [Window.IsActive(502) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs)]]</visible>
         </control>
         <control type="label">
-          <posx>92</posx>
-          <posy>44</posy>
+          <left>92</left>
+          <top>44</top>
           <width>170</width>
           <height>40</height>
           <align>center</align>
@@ -151,8 +151,8 @@
     </control>
     <control type="image">
       <description>1</description>
-      <posx>350</posx>
-      <posy>266</posy>
+      <left>350</left>
+      <top>266</top>
       <width>638</width>
       <height>178</height>
       <aspectratio>stretch</aspectratio>
@@ -160,12 +160,12 @@
       <visible>Control.IsVisible(54) + [Container.Content(albums) | Container.Content(artists)]</visible>
     </control>
     <control type="group">
-      <posx>-20</posx>
-      <posy>10</posy>
+      <left>-20</left>
+      <top>10</top>
       <control type="image">
         <visible>Control.IsVisible(54) + [Container.Content(albums) | Container.Content(artists)]</visible>
-        <posx>570</posx>
-        <posy>190</posy>
+        <left>570</left>
+        <top>190</top>
         <width>220</width>
         <height>220</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem.Icon]</texture>
@@ -174,8 +174,8 @@
       </control>
       <control type="image">
         <visible>Control.IsVisible(54) + [Container.Content(albums) | Container.Content(artists)]</visible>
-        <posx>552</posx>
-        <posy>172</posy>
+        <left>552</left>
+        <top>172</top>
         <width>256</width>
         <height>256</height>
         <texture>music/musicwallframeF.png</texture>
@@ -183,8 +183,8 @@
       </control>
       <!--<control type="image">
 		<visible>Control.IsVisible(54) + Container.OnPrevious</visible>
-		<posx>570</posx>
-		<posy>190</posy>
+		<left>570</left>
+		<top>190</top>
 		<width>218</width>
 		<height>220</height>
 		<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
@@ -193,8 +193,8 @@
 	</control>
 	<control type="image">
 		<visible>Control.IsVisible(54) + Container.OnNext</visible>
-		<posx>570</posx>
-		<posy>190</posy>
+		<left>570</left>
+		<top>190</top>
 		<width>218</width>
 		<height>220</height>
 		<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
@@ -203,32 +203,32 @@
 	</control>-->
     </control>
     <control type="image">
-      <posx>550</posx>
-      <posy>476</posy>
+      <left>550</left>
+      <top>476</top>
       <width>218</width>
       <height>200</height>
       <texture>music/no_cd.png</texture>
       <visible>Control.IsVisible(54) + !Player.HasMedia + !Container.Content(songs)</visible>
     </control>
     <control type="image">
-      <posx>552</posx>
-      <posy>476</posy>
+      <left>552</left>
+      <top>476</top>
       <width>211</width>
       <height>192</height>
       <texture diffuse="music/music_cover_diffuse.png">$INFO[MusicPlayer.Cover]</texture>
       <visible>Control.IsVisible(54) + Player.HasMedia</visible>
     </control>
     <control type="image">
-      <posx>552</posx>
-      <posy>476</posy>
+      <left>552</left>
+      <top>476</top>
       <width>211</width>
       <height>192</height>
       <texture background="true" diffuse="music/music_cover_diffuse.png">$INFO[ListItem.Icon]</texture>
       <visible>Control.IsVisible(54) + !Player.HasMedia + Container.Content(songs)</visible>
     </control>
     <control type="image">
-      <posx>370</posx>
-      <posy>146</posy>
+      <left>370</left>
+      <top>146</top>
       <width>585</width>
       <height>286</height>
       <texture diffuse="music/jukebox_fanart_diffuse.png" fallback="special://skin/backgrounds/music.jpg" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -241,8 +241,8 @@
     </control>
     <control type="label">
       <description>Now Playing</description>
-      <posx>572</posx>
-      <posy>448</posy>
+      <left>572</left>
+      <top>448</top>
       <width>170</width>
       <height>40</height>
       <align>center</align>
@@ -253,8 +253,8 @@
     </control>
     <control type="label">
       <description>Artists</description>
-      <posx>572</posx>
-      <posy>448</posy>
+      <left>572</left>
+      <top>448</top>
       <width>170</width>
       <height>40</height>
       <align>center</align>
@@ -265,8 +265,8 @@
     </control>
     <control type="label">
       <description>Albums</description>
-      <posx>572</posx>
-      <posy>448</posy>
+      <left>572</left>
+      <top>448</top>
       <width>170</width>
       <height>40</height>
       <align>center</align>
@@ -277,8 +277,8 @@
     </control>
     <control type="label">
       <description>Songs</description>
-      <posx>572</posx>
-      <posy>448</posy>
+      <left>572</left>
+      <top>448</top>
       <width>170</width>
       <height>40</height>
       <align>center</align>
@@ -289,8 +289,8 @@
     </control>
     <control type="label">
       <description>Please Choose a Song</description>
-      <posx>560</posx>
-      <posy>680</posy>
+      <left>560</left>
+      <top>680</top>
       <width>200</width>
       <height>40</height>
       <align>center</align>
@@ -300,8 +300,8 @@
       <visible>Control.IsVisible(54) + !Player.HasMedia</visible>
     </control>
     <control type="label">
-      <posx>560</posx>
-      <posy>674</posy>
+      <left>560</left>
+      <top>674</top>
       <width>200</width>
       <height>40</height>
       <align>center</align>
@@ -311,8 +311,8 @@
       <visible>Control.IsVisible(54) + Player.HasMedia</visible>
     </control>
     <control type="label">
-      <posx>560</posx>
-      <posy>694</posy>
+      <left>560</left>
+      <top>694</top>
       <width>200</width>
       <height>40</height>
       <align>center</align>
@@ -328,8 +328,8 @@
       <animation effect="fade" start="100" end="0" time="0">windowclose</animation>
     </control>
     <control type="label">
-      <posx>560</posx>
-      <posy>694</posy>
+      <left>560</left>
+      <top>694</top>
       <width>200</width>
       <height>40</height>
       <align>center</align>

@@ -4,14 +4,14 @@
   <defaultcontrol always="false">3000</defaultcontrol>
   <coordinates>
     <system>1</system>
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
   </coordinates>
   <controls>
     <control type="image">
       <description>black background</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>720</width>
       <height>580</height>
       <texture>background.png</texture>
@@ -19,16 +19,16 @@
     <!-- gameinfoviewbackground -->
     <control type="image" id="2000">
       <description>gameinfoviewbackground</description>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>720</width>
       <height>580</height>
       <texture>$INFO[ListItem.Property(gameinfoviewbackground)]</texture>
     </control>
     <control type="image">
       <description>black background overlay</description>
-      <posx>20</posx>
-      <posy>15</posy>
+      <left>20</left>
+      <top>15</top>
       <width>680</width>
       <height>550</height>
       <texture>background.png</texture>
@@ -37,8 +37,8 @@
     <!-- gameinfoviewgamelist -->
     <control type="group" id="1000">
       <control type="wraplist" id="59">
-        <posx>20</posx>
-        <posy>15</posy>
+        <left>20</left>
+        <top>15</top>
         <width>680</width>
         <height>30</height>
         <onleft>1000</onleft>
@@ -53,15 +53,15 @@
           <control type="image">
             <width>50</width>
             <height>30</height>
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <texture background="true">$INFO[ListItem.ActualIcon]</texture>
           </control>
         </itemlayout>
         <focusedlayout width="580">
           <control type="label">
-            <posx>290</posx>
-            <posy>0</posy>
+            <left>290</left>
+            <top>0</top>
             <width>580</width>
             <height>30</height>
             <font>font30caps</font>
@@ -76,234 +76,234 @@
     </control>
     <!-- Game info -->
     <control type="group">
-      <posx>25</posx>
-      <posy>60</posy>
+      <left>25</left>
+      <top>60</top>
       <width>300</width>
       <control type="label">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Genre:</label>
       </control>
       <control type="label" id="6100">
         <description>Genre value</description>
-        <posx>100</posx>
-        <posy>0</posy>
+        <left>100</left>
+        <top>0</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(genre)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>20</posy>
+        <left>0</left>
+        <top>20</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Year:</label>
       </control>
       <control type="label" id="6200">
         <description>Year value</description>
-        <posx>100</posx>
-        <posy>20</posy>
+        <left>100</left>
+        <top>20</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(year)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>40</posy>
+        <left>0</left>
+        <top>40</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Publisher:</label>
       </control>
       <control type="label" id="6300">
         <description>Publisher value</description>
-        <posx>100</posx>
-        <posy>40</posy>
+        <left>100</left>
+        <top>40</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(publisher)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>60</posy>
+        <left>0</left>
+        <top>60</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Developer:</label>
       </control>
       <control type="label" id="6400">
         <description>Developer value</description>
-        <posx>100</posx>
-        <posy>60</posy>
+        <left>100</left>
+        <top>60</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(developer)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>80</posy>
+        <left>0</left>
+        <top>80</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Region:</label>
       </control>
       <control type="label" id="6500">
         <description>Region value</description>
-        <posx>100</posx>
-        <posy>80</posy>
+        <left>100</left>
+        <top>80</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(region)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>100</posy>
+        <left>0</left>
+        <top>100</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Media:</label>
       </control>
       <control type="label" id="6600">
         <description>Media value</description>
-        <posx>100</posx>
-        <posy>100</posy>
+        <left>100</left>
+        <top>100</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(media)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>120</posy>
+        <left>0</left>
+        <top>120</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Controller:</label>
       </control>
       <control type="label" id="6700">
         <description>Controller value</description>
-        <posx>100</posx>
-        <posy>120</posy>
+        <left>100</left>
+        <top>120</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(controllertype)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>140</posy>
+        <left>0</left>
+        <top>140</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Rating:</label>
       </control>
       <control type="label" id="6800">
         <description>Rating value</description>
-        <posx>100</posx>
-        <posy>140</posy>
+        <left>100</left>
+        <top>140</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(rating)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>160</posy>
+        <left>0</left>
+        <top>160</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Votes:</label>
       </control>
       <control type="label" id="6900">
         <description>Votes value</description>
-        <posx>100</posx>
-        <posy>160</posy>
+        <left>100</left>
+        <top>160</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(votes)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>180</posy>
+        <left>0</left>
+        <top>180</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Max. Players:</label>
       </control>
       <control type="label" id="7000">
         <description>Players value</description>
-        <posx>100</posx>
-        <posy>180</posy>
+        <left>100</left>
+        <top>180</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(maxplayers)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>200</posy>
+        <left>0</left>
+        <top>200</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Perspective:</label>
       </control>
       <control type="label" id="7100">
         <description>Perspective value</description>
-        <posx>100</posx>
-        <posy>200</posy>
+        <left>100</left>
+        <top>200</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(perspective)]</label>
       </control>
       <control type="label">
-        <posx>00</posx>
-        <posy>220</posy>
+        <left>00</left>
+        <top>220</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Reviewer:</label>
       </control>
       <control type="label" id="7200">
         <description>Reviewer value</description>
-        <posx>100</posx>
-        <posy>220</posy>
+        <left>100</left>
+        <top>220</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(reviewer)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>240</posy>
+        <left>0</left>
+        <top>240</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Translated by:</label>
       </control>
       <control type="label" id="7500">
         <description>Translated by value</description>
-        <posx>100</posx>
-        <posy>240</posy>
+        <left>100</left>
+        <top>240</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(translatedby)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>260</posy>
+        <left>0</left>
+        <top>260</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Original Title:</label>
       </control>
       <control type="label" id="7600">
         <description>Original Title value</description>
-        <posx>100</posx>
-        <posy>260</posy>
+        <left>100</left>
+        <top>260</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(originaltitle)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>280</posy>
+        <left>0</left>
+        <top>280</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Alternate Title:</label>
       </control>
       <control type="label" id="7700">
         <description>Alternate Title value</description>
-        <posx>100</posx>
-        <posy>280</posy>
+        <left>100</left>
+        <top>280</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(alternatetitle)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>300</posy>
+        <left>0</left>
+        <top>300</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Version:</label>
       </control>
       <control type="label" id="7800">
         <description>Version value</description>
-        <posx>100</posx>
-        <posy>300</posy>
+        <left>100</left>
+        <top>300</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(version)]</label>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>320</posy>
+        <left>0</left>
+        <top>320</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>Launch count:</label>
       </control>
       <control type="label" id="7400">
         <description>Launch count value</description>
-        <posx>100</posx>
-        <posy>320</posy>
+        <left>100</left>
+        <top>320</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(playcount)]</label>
       </control>
       <control type="label" id="7300">
         <description>URL value</description>
-        <posx>0</posx>
-        <posy>340</posy>
+        <left>0</left>
+        <top>340</top>
         <textcolor>DDFFFFFF</textcolor>
         <label>$INFO[ListItem.Property(url)]</label>
       </control>
@@ -311,8 +311,8 @@
     <!-- game description -->
     <control type="textbox" id="8000">
       <description>game desc</description>
-      <posx>350</posx>
-      <posy>60</posy>
+      <left>350</left>
+      <top>60</top>
       <width>330</width>
       <height>255</height>
       <pagecontrol>8100</pagecontrol>
@@ -323,8 +323,8 @@
     </control>
     <control type="scrollbar" id="8100">
       <description>GameDesc Scrollbar</description>
-      <posx>685</posx>
-      <posy>65</posy>
+      <left>685</left>
+      <top>65</top>
       <width>5</width>
       <height>250</height>
       <visible>Control.IsVisible(8000)</visible>
@@ -344,8 +344,8 @@
     <!-- gameinfoview1 -->
     <control type="image" id="9000">
       <description>gameinfo1</description>
-      <posx>50</posx>
-      <posy>440</posy>
+      <left>50</left>
+      <top>440</top>
       <width>100</width>
       <height>80</height>
       <texture>$INFO[ListItem.Property(gameinfoview1)]</texture>
@@ -353,8 +353,8 @@
     <!-- gameinfoview2 -->
     <control type="image" id="9100">
       <description>gameinfo2</description>
-      <posx>200</posx>
-      <posy>440</posy>
+      <left>200</left>
+      <top>440</top>
       <width>100</width>
       <height>80</height>
       <texture>$INFO[ListItem.Property(gameinfoview2)]</texture>
@@ -362,8 +362,8 @@
     <!-- gameinfoview3 -->
     <control type="image" id="9200">
       <description>gameinfo3</description>
-      <posx>350</posx>
-      <posy>440</posy>
+      <left>350</left>
+      <top>440</top>
       <width>100</width>
       <height>80</height>
       <texture>$INFO[ListItem.Property(gameinfoview3)]</texture>
@@ -371,8 +371,8 @@
     <!-- gameinfoview4 -->
     <control type="image" id="9300">
       <description>gameinfo4</description>
-      <posx>500</posx>
-      <posy>440</posy>
+      <left>500</left>
+      <top>440</top>
       <width>100</width>
       <height>80</height>
       <texture>$INFO[ListItem.Property(gameinfoview4)]</texture>
@@ -380,16 +380,16 @@
     <!-- gameinfoviewvideowindow -->
     <control type="videowindow" id="10000">
       <description>video control</description>
-      <posx>460</posx>
-      <posy>390</posy>
+      <left>460</left>
+      <top>390</top>
       <width>240</width>
       <height>170</height>
       <visible>true</visible>
     </control>
     <control type="button" id="3000">
       <description>Play Game</description>
-      <posx>50</posx>
-      <posy>525</posy>
+      <left>50</left>
+      <top>525</top>
       <width>100</width>
       <height>30</height>
       <visible>true</visible>
@@ -412,8 +412,8 @@
     </control>
     <!--<control type="button" id="3100"> 
 			<description>Make Favorite</description>
-			<posx>175</posx>
-			<posy>525</posy>
+			<left>175</left>
+			<top>525</top>
 			<width>100</width>
 			<height>30</height>
 			<visible>true</visible>
@@ -435,8 +435,8 @@
 		</control>
 		<control type="button" id="3200"> 
 			<description>Edit Game</description>
-			<posx>300</posx>
-			<posy>525</posy>
+			<left>300</left>
+			<top>525</top>
 			<width>100</width>
 			<height>30</height>
 			<visible>true</visible>
@@ -458,8 +458,8 @@
 		</control>-->
     <control type="label" id="4000">
       <description>Messages</description>
-      <posx>10</posx>
-      <posy>560</posy>
+      <left>10</left>
+      <top>560</top>
       <width>680</width>
       <height>10</height>
       <align>left</align>

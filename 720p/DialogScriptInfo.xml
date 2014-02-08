@@ -4,14 +4,14 @@
   <defaultcontrol>5</defaultcontrol>
   <coordinates>
     <system>1</system>
-    <posx>360</posx>
-    <posy>120</posy>
+    <left>360</left>
+    <top>120</top>
   </coordinates>
   <controls>
     <control type="image" id="0">
       <description>Back Panel</description>
-      <posx>-30</posx>
-      <posy>-30</posy>
+      <left>-30</left>
+      <top>-30</top>
       <width>620</width>
       <height>500</height>
       <texture>favourites/favourites_panel.png</texture>
@@ -19,8 +19,8 @@
     </control>
     <control type="textbox" id="5">
       <description>Textarea</description>
-      <posx>10</posx>
-      <posy>40</posy>
+      <left>10</left>
+      <top>40</top>
       <width>520</width>
       <height>382</height>
       <font>Small</font>

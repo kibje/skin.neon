@@ -4,8 +4,8 @@
   <include name="Viewtype_Wall">
     <!-- <include>ContentPanelBackgrounds</include> -->
     <control type="image">
-      <posx>0</posx>
-      <posy>50r</posy>
+      <left>0</left>
+      <top>50r</top>
       <width>1280</width>
       <height>50</height>
       <texture>floor.png</texture>
@@ -15,8 +15,8 @@
     </control>
     <control type="panel" id="54">
       <visible>!Skin.HasSetting(no_Wall) + [Container.Content(Movies) | Window.IsVisible(VideoFiles) | Container.Content(TVShows)]</visible>
-      <posx>55</posx>
-      <posy>55</posy>
+      <left>55</left>
+      <top>55</top>
       <!-- -105 -->
       <width>1170</width>
       <height>720</height>
@@ -33,12 +33,12 @@
       <itemlayout width="130" height="200">
         <control type="group">
           <!-- <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(PosterPlus) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart) + ![Container(54).OnNext | Container(54).OnPrevious]">Conditional</animation> -->
-          <posx>0</posx>
-          <posy>0</posy>
+          <left>0</left>
+          <top>0</top>
           <control type="image">
             <description>Poster</description>
-            <posx>5</posx>
-            <posy>5</posy>
+            <left>5</left>
+            <top>5</top>
             <width>130</width>
             <height>200</height>
             <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Art(thumb)]</texture>
@@ -47,8 +47,8 @@
             <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(Wall_fanart) + Container.Content(movies) + ![Container(54).OnNext | Container(54).OnPrevious]">Conditional</animation>
           </control>
           <control type="image">
-            <posx>88</posx>
-            <posy>155</posy>
+            <left>88</left>
+            <top>155</top>
             <width>53</width>
             <height>53</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -59,13 +59,13 @@
       </itemlayout>
       <focusedlayout width="120" height="200">
         <control type="group">
-          <posx>10</posx>
-          <posy>80</posy>
+          <left>10</left>
+          <top>80</top>
           <!-- Poster on Focus -->
           <control type="image">
             <description>Poster</description>
-            <posx>0</posx>
-            <posy>-65</posy>
+            <left>0</left>
+            <top>-65</top>
             <width>118</width>
             <height>174</height>
             <texture background="true" diffuse="movie-poster/posterview_diffuse.png">$INFO[ListItem.Art(thumb)]</texture>
@@ -76,8 +76,8 @@
             <animation effect="fade" start="100" end="0" time="400" delay="2800" condition="Skin.HasSetting(Wall_fanart) + Container.Content(movies) + ![Container(54).OnNext | Container(54).OnPrevious]">Conditional</animation>
           </control>
           <control type="image">
-            <posx>95</posx>
-            <posy>105</posy>
+            <left>95</left>
+            <top>105</top>
             <width>45</width>
             <height>45</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -91,8 +91,8 @@
       </focusedlayout>
     </control>
     <control type="label">
-      <posx>1280</posx>
-      <posy>674</posy>
+      <left>1280</left>
+      <top>674</top>
       <width>1280</width>
       <height>50</height>
       <align>right</align>
@@ -103,12 +103,12 @@
       <visible>Control.IsVisible(54) + Window.IsVisible(VideoFiles)</visible>
     </control>
     <control type="group">
-      <posx>10</posx>
-      <posy>678</posy>
+      <left>10</left>
+      <top>678</top>
       <visible>!IsEmpty(ListItem.Title) + [Container.Content(movies) | Container.Content(tvshows)] + Control.IsVisible(54)</visible>
       <control type="label">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>700</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -118,8 +118,8 @@
         <include>Animation_Viewtype_Wall_Title</include>
       </control>
       <control type="label">
-        <posx>0</posx>
-        <posy>108</posy>
+        <left>0</left>
+        <top>108</top>
         <width>360</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -129,8 +129,8 @@
         <visible>IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + !Container.Content(genres) + Window.IsActive(videolibrary)</visible>
       </control>
       <!--	<control type="label">
-				<posx>0</posx>
-				<posy>108</posy>
+				<left>0</left>
+				<top>108</top>
 				<width>360</width>
 				<height>50</height>
 				<aligny>center</aligny>
@@ -141,8 +141,8 @@
 				<visible>!IsEmpty(ListItem.Duration)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>133</posy>
+				<left>0</left>
+				<top>133</top>
 				<width>360</width>
 				<height>50</height>
 				<aligny>center</aligny>
@@ -152,15 +152,15 @@
 				<include>Animation_Viewtype_Wall_UnderInfo</include>
 			</control>
 			<control type="group">
-				<posx>119</posx>
-				<posy>179</posy>
+				<left>119</left>
+				<top>179</top>
 				<include>VideoMPAAFlaggingConditions</include>
 				<include>Animation_Viewtype_Wall_UnderInfo</include>
 				<animation effect="zoom" start="79" end="79" time="0" condition="true">Conditional</animation>
 			</control>
 			<control type="textbox">
-				<posx>0</posx>
-				<posy>224</posy>
+				<left>0</left>
+				<top>224</top>
 				<width>360</width>
 				<height>310</height>
 				<align>justify</align>
@@ -174,8 +174,8 @@
     <control type="grouplist">
       <visible>Control.IsVisible(54) + Container.Content(movies) + !Skin.HasSetting(no_media_flags) + !Player.HasVideo</visible>
       <description>Media Codec Flagging Images</description>
-      <posx>430r</posx>
-      <posy>682</posy>
+      <left>430r</left>
+      <top>682</top>
       <width>420</width>
       <itemgap>0</itemgap>
       <orientation>horizontal</orientation>

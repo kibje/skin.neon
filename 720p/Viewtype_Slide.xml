@@ -4,8 +4,8 @@
   <include name="Viewtype_Slide">
     <control type="image">
       <visible>Control.IsVisible(595)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>tv-landscape/tv-background.png</texture>
@@ -13,8 +13,8 @@
       <include>Animation_BackdropFade</include>
     </control>
     <control type="wraplist" id="595">
-      <posx>-100</posx>
-      <posy>0</posy>
+      <left>-100</left>
+      <top>0</top>
       <height>615</height>
       <width>1400</width>
       <!-- 1400 -->
@@ -32,12 +32,12 @@
       <visible>!Skin.HasSetting(no_Slide) + !Container.Content(Music)</visible>
       <itemlayout width="210" height="700">
         <control type="group">
-          <posx>0</posx>
-          <posy>200</posy>
+          <left>0</left>
+          <top>200</top>
           <animation effect="fade" start="100" end="0" time="400" delay="400" condition="Control.HasFocus(8241)">Conditional</animation>
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>235</width>
             <height>329</height>
             <texture>Comics/poster_back_item.png</texture>
@@ -45,8 +45,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>16</posx>
-            <posy>10</posy>
+            <left>16</left>
+            <top>10</top>
             <width>201</width>
             <height>301</height>
             <texture background="true" diffuse="Comics/poster_diffuse_itemlist.png">$INFO[ListItem.Icon]</texture>
@@ -54,8 +54,8 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <control type="image">
-            <posx>160</posx>
-            <posy>260</posy>
+            <left>160</left>
+            <top>260</top>
             <width>60</width>
             <height>60</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -65,16 +65,16 @@
       </itemlayout>
       <focusedlayout width="304" height="800">
         <control type="group">
-          <posx>10</posx>
-          <posy>200</posy>
+          <left>10</left>
+          <top>200</top>
         </control>
       </focusedlayout>
     </control>
     <control type="image">
       <!-- Last Overlay -->
       <visible>Control.IsVisible(595)</visible>
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <texture>tv-landscape/2nd-overlay.png</texture>
@@ -93,14 +93,14 @@
       </control>
     </control>
     <control type="group">
-      <posx>300</posx>
-      <posy>120</posy>
+      <left>300</left>
+      <top>120</top>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Bartowski_Context_Zoom</include>
       <visible>Control.IsVisible(595)</visible>
       <control type="image">
-        <posx>-108</posx>
-        <posy>-120</posy>
+        <left>-108</left>
+        <top>-120</top>
         <width>583</width>
         <height>720</height>
         <texture>Comics/comic_glow.png</texture>
@@ -109,8 +109,8 @@
         <animation effect="fade" start="0" end="100" time="1000" delay="1000" condition="![Container(595).OnNext | Container(595).OnPrevious]">Conditional</animation>
       </control>
       <control type="image">
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
         <width>360</width>
         <height>502</height>
         <texture>Comics/poster_back.png</texture>
@@ -118,8 +118,8 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <control type="image">
-        <posx>39</posx>
-        <posy>21</posy>
+        <left>39</left>
+        <top>21</top>
         <width>296</width>
         <height>451</height>
         <texture background="true" diffuse="Comics/poster_diffuse.png">$INFO[ListItem.Icon]</texture>
@@ -127,8 +127,8 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <control type="image">
-        <posx>268</posx>
-        <posy>410</posy>
+        <left>268</left>
+        <top>410</top>
         <width>75</width>
         <height>75</height>
         <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
@@ -136,16 +136,16 @@
       </control>
     </control>
     <control type="group">
-      <posx>640</posx>
-      <posy>290</posy>
+      <left>640</left>
+      <top>290</top>
       <animation effect="slide" start="0,0" end="0,-400" time="200" delay="600" condition="Control.HasFocus(8241)">Conditional</animation>
       <visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + !IsEmpty(ListItem.Title)</visible>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_BackdropFade</include>
       <control type="label">
         <!--Movie title-->
-        <posx>15</posx>
-        <posy>245</posy>
+        <left>15</left>
+        <top>245</top>
         <width>600</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -154,8 +154,8 @@
         <label>$INFO[ListItem.Label]</label>
       </control>
       <control type="label">
-        <posx>15</posx>
-        <posy>273</posy>
+        <left>15</left>
+        <top>273</top>
         <width>394</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -166,8 +166,8 @@
       </control>
       <control type="label">
         <!--Duration-->
-        <posx>15</posx>
-        <posy>273</posy>
+        <left>15</left>
+        <top>273</top>
         <width>394</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -178,8 +178,8 @@
       </control>
       <control type="label">
         <!--Year-->
-        <posx>15</posx>
-        <posy>296</posy>
+        <left>15</left>
+        <top>296</top>
         <width>394</width>
         <height>50</height>
         <aligny>center</aligny>
@@ -188,21 +188,21 @@
         <label>$INFO[ListItem.year]</label>
       </control>
       <control type="group">
-        <posx>140</posx>
-        <posy>390</posy>
+        <left>140</left>
+        <top>390</top>
         <include>VideoMPAAFlaggingConditions</include>
         <animation effect="zoom" start="78" end="78" time="0" condition="true">Conditional</animation>
       </control>
     </control>
     <control type="group">
-      <posy>40</posy>
+      <top>40</top>
       <animation effect="slide" start="1000,0" end="0,0" time="400" delay="900">Visible</animation>
       <visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + Control.HasFocus(8241) + ![Control.HasFocus(8241) + Player.HasVideo]</visible>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_BackdropFade</include>
       <control type="image" id="8243">
-        <posx>680</posx>
-        <posy>200</posy>
+        <left>680</left>
+        <top>200</top>
         <width>261</width>
         <height>147</height>
         <aspectratio>stretch</aspectratio>
@@ -210,16 +210,16 @@
         <fadetime>200</fadetime>
       </control>
       <control type="image">
-        <posx>668</posx>
-        <posy>190</posy>
+        <left>668</left>
+        <top>190</top>
         <width>284</width>
         <height>166</height>
         <texture>tv-landscape/landscapeframeFO.png</texture>
         <visible>![IsEmpty(Control.GetLabel(8243)) + IsEmpty(Control.GetLabel(8242))]</visible>
       </control>
       <control type="image" id="8242">
-        <posx>980</posx>
-        <posy>200</posy>
+        <left>980</left>
+        <top>200</top>
         <width>261</width>
         <height>147</height>
         <aspectratio>stretch</aspectratio>
@@ -227,8 +227,8 @@
         <fadetime>200</fadetime>
       </control>
       <control type="image">
-        <posx>968</posx>
-        <posy>190</posy>
+        <left>968</left>
+        <top>190</top>
         <width>284</width>
         <height>166</height>
         <texture>tv-landscape/landscapeframeFO.png</texture>
@@ -237,8 +237,8 @@
     </control>
     <control type="textbox">
       <description>Plot Movie</description>
-      <posx>660</posx>
-      <posy>230</posy>
+      <left>660</left>
+      <top>230</top>
       <width>600</width>
       <height>236</height>
       <align>justify</align>
@@ -255,26 +255,26 @@
     <control type="group">
       <visible>Control.IsVisible(595) + Control.HasFocus(8241) + Player.HasVideo</visible>
       <animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
-      <posx>638</posx>
-      <posy>230</posy>
+      <left>638</left>
+      <top>230</top>
       <control type="image">
         <description>trailer image</description>
-        <posx>30</posx>
-        <posy>26</posy>
+        <left>30</left>
+        <top>26</top>
         <width>500</width>
         <height>282</height>
         <texture>tv-episodes/context-back.png</texture>
       </control>
       <control type="videowindow" id="4">
-        <posx>30</posx>
-        <posy>26</posy>
+        <left>30</left>
+        <top>26</top>
         <width>500</width>
         <height>282</height>
       </control>
       <control type="image">
         <description>trailer image</description>
-        <posx>5</posx>
-        <posy>5</posy>
+        <left>5</left>
+        <top>5</top>
         <width>550</width>
         <height>325</height>
         <colordiffuse>black</colordiffuse>
@@ -283,8 +283,8 @@
     </control>
     <control type="label">
       <visible>Control.IsVisible(595) + !Control.HasFocus(8241) + !IsEmpty(ListItem.Title)</visible>
-      <posx>380</posx>
-      <posy>664</posy>
+      <left>380</left>
+      <top>664</top>
       <width>370</width>
       <height>50</height>
       <aligny>center</aligny>
@@ -297,8 +297,8 @@
     </control>
     <control type="label">
       <visible>Control.IsVisible(595) + Control.HasFocus(8241) + !Player.HasVideo</visible>
-      <posx>380</posx>
-      <posy>664</posy>
+      <left>380</left>
+      <top>664</top>
       <width>370</width>
       <height>50</height>
       <aligny>center</aligny>
@@ -310,8 +310,8 @@
     </control>
     <control type="label">
       <visible>Control.IsVisible(595) + Control.HasFocus(8241) + Player.HasVideo + !IsEmpty(ListItem.Trailer)</visible>
-      <posx>380</posx>
-      <posy>664</posy>
+      <left>380</left>
+      <top>664</top>
       <width>370</width>
       <height>50</height>
       <aligny>center</aligny>
@@ -324,8 +324,8 @@
     <control type="grouplist">
       <visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + !Skin.HasSetting(no_media_flags)</visible>
       <description>Media Codec Flagging Images</description>
-      <posx>180</posx>
-      <posy>640</posy>
+      <left>180</left>
+      <top>640</top>
       <width>600</width>
       <align>center</align>
       <itemgap>0</itemgap>
@@ -341,8 +341,8 @@
     </control>
     <control type="scrollbar" id="5950">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>100</posx>
-      <posy>100</posy>
+      <left>100</left>
+      <top>100</top>
       <width>1080</width>
       <height>25</height>
       <visible allowhiddenfocus="true">Control.IsVisible(595) + Control.HasFocus(5950)</visible>

@@ -4,8 +4,8 @@
   <allowoverlay>yes</allowoverlay>
   <controls>
     <control type="multiimage">
-      <posx>0</posx>
-      <posy>0</posy>
+      <left>0</left>
+      <top>0</top>
       <width>1280</width>
       <height>720</height>
       <include>switch_horizontal_fanart</include>
@@ -19,8 +19,8 @@
     <include>TVGuide</include>
     <include>CommonMediaPlayingBackground</include>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <colordiffuse>mainblue</colordiffuse>
       <include>Dimensions_Fullscreen</include>
@@ -30,8 +30,8 @@
       <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <include>Dimensions_Fullscreen</include>
       <texture>mainmenu/home_bottom_align.png</texture>
@@ -40,8 +40,8 @@
       <animation effect="slide" start="0,0" end="0,40" time="300" condition="ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <include>Dimensions_Fullscreen</include>
       <colordiffuse>mainblue</colordiffuse>
@@ -50,8 +50,8 @@
       <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <include>Dimensions_Fullscreen</include>
       <texture>mainmenu/home_bottom_align.png</texture>
@@ -59,8 +59,8 @@
       <animation effect="slide" start="0,40" end="0,0" time="300" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <include>Dimensions_Fullscreen</include>
       <colordiffuse>mainblue</colordiffuse>
@@ -68,8 +68,8 @@
       <include>Animation_CommonFadeNoHideBack-Home</include>
     </control>
     <control type="image">
-      <posx>0</posx>
-      <posy>445</posy>
+      <left>0</left>
+      <top>445</top>
       <height>200</height>
       <include>Dimensions_Fullscreen</include>
       <texture>mainmenu/home_bottom_align.png</texture>
@@ -81,8 +81,8 @@
     <include>HorizontalHomeBottom</include>
     <!-- stoli - new home animation - 030511 -->
     <control type="image">
-      <posx>1400</posx>
-      <posy>565</posy>
+      <left>1400</left>
+      <top>565</top>
       <width>211</width>
       <height>23</height>
       <texture>sweep2.png</texture>
@@ -95,8 +95,8 @@
       </animation>
     </control>
     <control type="image">
-      <posx>1500</posx>
-      <posy>628</posy>
+      <left>1500</left>
+      <top>628</top>
       <width>211</width>
       <height>23</height>
       <texture flipy="true">sweep2.png</texture>
@@ -110,8 +110,8 @@
     </control>
     <control type="button" id="8999">
       <description>Don't run Recently added</description>
-      <posx>-20</posx>
-      <posy>-20</posy>
+      <left>-20</left>
+      <top>-20</top>
       <width>1</width>
       <height>1</height>
       <label>-</label>
@@ -128,26 +128,26 @@
       <animation effect="zoom" start="0" end="50" time="0" delay="0" condition="Player.HasVideo">Conditional</animation>
       <animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
       <animation effect="slide" start="0,0" end="0,-200" time="0" condition="Skin.HasSetting(horizontal_bottom_align)">Conditional</animation>
-      <posx>0</posx>
-      <posy>840</posy>
+      <left>0</left>
+      <top>840</top>
       <control type="image">
         <description>trailer background</description>
-        <posx>30</posx>
-        <posy>-20</posy>
+        <left>30</left>
+        <top>-20</top>
         <width>540</width>
         <height>305</height>
         <texture>tv-episodes/context-back.png</texture>
       </control>
       <control type="videowindow" id="8">
-        <posx>30</posx>
-        <posy>-20</posy>
+        <left>30</left>
+        <top>-20</top>
         <width>540</width>
         <height>305</height>
       </control>
       <control type="image">
         <description>trailer image</description>
-        <posx>6</posx>
-        <posy>-45</posy>
+        <left>6</left>
+        <top>-45</top>
         <width>590</width>
         <height>351</height>
         <colordiffuse>black</colordiffuse>

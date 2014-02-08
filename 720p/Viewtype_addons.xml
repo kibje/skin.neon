@@ -11,8 +11,8 @@
         <visible>Control.IsVisible(50) + !Window.IsVisible(146)</visible>
       </control>
       <control type="image">
-        <posx>25</posx>
-        <posy>90</posy>
+        <left>25</left>
+        <top>90</top>
         <width>680</width>
         <height>540</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -20,8 +20,8 @@
         <visible>Control.IsVisible(50)</visible>
       </control>
       <control type="image">
-        <posx>25</posx>
-        <posy>90</posy>
+        <left>25</left>
+        <top>90</top>
         <width>680</width>
         <height>540</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -29,8 +29,8 @@
         <visible>Control.IsVisible(50)</visible>
       </control>
       <control type="image">
-        <posx>750</posx>
-        <posy>50</posy>
+        <left>750</left>
+        <top>50</top>
         <width>500</width>
         <height>320</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -38,8 +38,8 @@
         <visible>Control.IsVisible(50)</visible>
       </control>
       <control type="image">
-        <posx>750</posx>
-        <posy>50</posy>
+        <left>750</left>
+        <top>50</top>
         <width>500</width>
         <height>320</height>
         <colordiffuse>mainblue</colordiffuse>
@@ -47,8 +47,8 @@
         <visible>Control.IsVisible(50)</visible>
       </control>
       <control type="list" id="50">
-        <posx>40</posx>
-        <posy>105</posy>
+        <left>40</left>
+        <top>105</top>
         <height>500</height>
         <width>650</width>
         <onup>50</onup>
@@ -66,8 +66,8 @@
         <include>Animation_CommonFade</include>
         <itemlayout width="500" height="36">
           <control type="label">
-            <posx>480</posx>
-            <posy>0</posy>
+            <left>480</left>
+            <top>0</top>
             <width>200</width>
             <height>46</height>
             <align>left</align>
@@ -78,16 +78,16 @@
             <visible></visible>
           </control>
           <control type="image">
-            <posx>0</posx>
-            <posy>38</posy>
+            <left>0</left>
+            <top>38</top>
             <width>650</width>
             <height>4</height>
             <aspectratio>stretch</aspectratio>
             <texture>common/separator.png</texture>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>720</width>
             <height>46</height>
             <aligny>center</aligny>
@@ -100,8 +100,8 @@
         </itemlayout>
         <focusedlayout width="600" height="36">
           <control type="image">
-            <posx>10</posx>
-            <posy>5</posy>
+            <left>10</left>
+            <top>5</top>
             <width>620</width>
             <height>37</height>
             <colordiffuse>mainblue</colordiffuse>
@@ -111,8 +111,8 @@
             </animation>
           </control>
           <control type="label">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>700</width>
             <height>46</height>
             <aligny>center</aligny>
@@ -123,8 +123,8 @@
             <visible></visible>
           </control>
           <control type="label">
-            <posx>480</posx>
-            <posy>0</posy>
+            <left>480</left>
+            <top>0</top>
             <width>200</width>
             <height>46</height>
             <align>left</align>
@@ -142,8 +142,8 @@
       <visible>Control.IsVisible(50)</visible>
       <!-- <include>Animation_Viewtype_Wall_Title</include>	-->
       <control type="image">
-        <posx>780</posx>
-        <posy>380</posy>
+        <left>780</left>
+        <top>380</top>
         <width>460</width>
         <height>330</height>
         <aspectratio align="center" aligny="center">keep</aspectratio>
@@ -153,8 +153,8 @@
         <fadetime>100</fadetime>
       </control>
       <control type="image">
-        <posx>780</posx>
-        <posy>380</posy>
+        <left>780</left>
+        <top>380</top>
         <width>460</width>
         <height>330</height>
         <aspectratio align="center" aligny="center">keep</aspectratio>
@@ -169,8 +169,8 @@
         <visible>Container(50).OnNext</visible>
       </control>
       <control type="image">
-        <posx>780</posx>
-        <posy>380</posy>
+        <left>780</left>
+        <top>380</top>
         <width>460</width>
         <height>330</height>
         <aspectratio align="center" aligny="center">keep</aspectratio>
@@ -187,8 +187,8 @@
     </control>
     <control type="textbox">
       <!-- Plot TV -->
-      <posx>778</posx>
-      <posy>70</posy>
+      <left>778</left>
+      <top>70</top>
       <width>450</width>
       <height>280</height>
       <align>justify</align>
@@ -202,8 +202,8 @@
     </control>
     <control type="scrollbar" id="60">
       <include>Animation_ZoomInZoomOut</include>
-      <posx>1280</posx>
-      <posy>100</posy>
+      <left>1280</left>
+      <top>100</top>
       <width>25</width>
       <height>460</height>
       <visible allowhiddenfocus="true">Control.IsVisible(50) + Control.HasFocus(60)</visible>

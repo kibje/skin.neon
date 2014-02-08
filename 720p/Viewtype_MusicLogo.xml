@@ -4,8 +4,8 @@
     <control type="image">
       <!-- 1st Background -->
       <visible>Control.IsVisible(599)</visible>
-      <posx>0</posx>
-      <posy>371</posy>
+      <left>0</left>
+      <top>371</top>
       <width>1280</width>
       <height>355</height>
       <!-- <texture>tv-landscape/landscape_fanart_back.png</texture> -->
@@ -17,8 +17,8 @@
     <control type="image">
       <!-- 1st Background -->
       <visible>Control.IsVisible(599)</visible>
-      <posx>0</posx>
-      <posy>371</posy>
+      <left>0</left>
+      <top>371</top>
       <width>1280</width>
       <height>355</height>
       <texture>mainmenu/home_bottom_align.png</texture>
@@ -26,48 +26,48 @@
       <include>Animation_Fade75</include>
     </control>
     <control type="image">
-      <posx>25</posx>
-      <posy>615</posy>
+      <left>25</left>
+      <top>615</top>
       <width>230</width>
       <height>89</height>
       <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-2).Artist]/logo.png</texture>
       <visible>Control.IsVisible(599)</visible>
     </control>
     <control type="image">
-      <posx>275</posx>
-      <posy>615</posy>
+      <left>275</left>
+      <top>615</top>
       <width>230</width>
       <height>89</height>
       <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(-1).Artist]/logo.png</texture>
       <visible>Control.IsVisible(599)</visible>
     </control>
     <control type="image">
-      <posx>515</posx>
-      <posy>615</posy>
+      <left>515</left>
+      <top>615</top>
       <width>230</width>
       <height>89</height>
       <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</texture>
       <visible>Control.IsVisible(599)</visible>
     </control>
     <control type="image">
-      <posx>775</posx>
-      <posy>615</posy>
+      <left>775</left>
+      <top>615</top>
       <width>230</width>
       <height>89</height>
       <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(1).Artist]/logo.png</texture>
       <visible>Control.IsVisible(599)</visible>
     </control>
     <control type="image">
-      <posx>1025</posx>
-      <posy>615</posy>
+      <left>1025</left>
+      <top>615</top>
       <width>230</width>
       <height>89</height>
       <texture background="true" fallback="special://skin/backgrounds/fallback.png">$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem(2).Artist]/logo.png</texture>
       <visible>Control.IsVisible(599)</visible>
     </control>
     <control type="wraplist" id="599">
-      <posx>0</posx>
-      <posy>520</posy>
+      <left>0</left>
+      <top>520</top>
       <height>185</height>
       <width>480</width>
       <onup>7000</onup>
@@ -85,8 +85,8 @@
       <itemlayout width="1210" height="36"></itemlayout>
       <focusedlayout width="1210" height="36">
         <control type="label" id="222">
-          <posx>30</posx>
-          <posy>20</posy>
+          <left>30</left>
+          <top>20</top>
           <width>400</width>
           <height>46</height>
           <aligny>center</aligny>
