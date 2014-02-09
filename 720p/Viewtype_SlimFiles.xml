@@ -3,8 +3,8 @@
   <include name="Viewtype_SlimFiles">
     <control type="image">
       <include>Dimensions_Fullscreen</include>
-      <texture>music/black_bg.png</texture>
-      <visible>Control.IsVisible(598) + Container.Content(movies) + !Skin.HasSetting(Files_Fanart)</visible>
+      <texture>slimfiles_bg.png</texture>
+      <visible>Control.IsVisible(598) + !Window.IsActive(musiclibrary) + !Skin.HasSetting(Files_Fanart)</visible>
     </control>
     <control type="image">
       <left>0</left>
@@ -16,11 +16,6 @@
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Files_LeftArea</include>
       <visible>Control.IsVisible(598) + Window.IsActive(musiclibrary) + !Skin.HasSetting(music_files_fanart)</visible>
-    </control>
-    <control type="image">
-      <include>Dimensions_Fullscreen</include>
-      <texture>list/file-black-background1.png</texture>
-      <visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
     </control>
     <control type="image">
       <include>Dimensions_Fullscreen</include>
@@ -43,8 +38,8 @@
       <top>520</top>
       <height>185</height>
       <width>480</width>
-      <onup>50</onup>
-      <ondown>50</ondown>
+      <onup>598</onup>
+      <ondown>598</ondown>
       <onleft>7000</onleft>
       <onright>60</onright>
       <scrolltime>0</scrolltime>
@@ -66,7 +61,6 @@
           <textcolor>Text-Filemode</textcolor>
           <selectedcolor>mainblue</selectedcolor>
           <label>$INFO[ListItem.label]</label>
-          <!--	<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation>-->
           <visible>![Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         </control>
         <control type="label">
@@ -108,17 +102,6 @@
           <texture>common/separator.png</texture>
           <visible>Control.IsVisible(598) + ![Container.Content(movies) | Window.IsActive(musiclibrary)]</visible>
         </control>
-        <!--	<control type="label">
-					<left>756</left>
-					<top>1</top>
-					<width>700</width>
-					<height>46</height>
-					<aligny>center</aligny>
-					<font>Font_RSS_Big</font>
-					<textcolor>Text-Filemode</textcolor>
-					<label>$INFO[ListItem.year]</label>
-					<visible>Container.Content(movies) + !Skin.HasSetting(Files_Fanart) + !IsEmpty(ListItem.Title)</visible>
-				</control> -->
         <control type="image">
           <left>24</left>
           <top>11</top>
@@ -174,9 +157,8 @@
           <height>46</height>
           <aligny>center</aligny>
           <font>Font_Bartowski_Episode_ContextMenu</font>
-          <textcolor>ffffffff</textcolor>
+          <textcolor>FFFF6000</textcolor>
           <label>$INFO[ListItem.Label]</label>
-          <!--	<animation effect="slide" start="0,0" end="30,0" time="0" condition="[Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons)] + stringcompare(ListItem.Overlay,OverlayWatched.png) + [Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)]">Conditional</animation> -->
           <visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         </control>
         <control type="label">
@@ -191,17 +173,6 @@
           <label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
           <visible>Window.IsActive(Programs) | Window.IsActive(musicplaylist)</visible>
         </control>
-        <!--	<control type="label">
-					<left>756</left>
-					<top>1</top>
-					<width>700</width>
-					<height>46</height>
-					<aligny>center</aligny>
-					<font>Font_RSS_Big</font>
-					<textcolor>ffffffff</textcolor>
-					<label>$INFO[ListItem.year]</label>
-					<visible>Container.Content(movies) + !Skin.HasSetting(Files_Fanart) + !IsEmpty(ListItem.Title)</visible>
-				</control> -->
         <control type="image">
           <left>24</left>
           <top>11</top>
@@ -231,11 +202,7 @@
         <top>447</top>
         <width>175</width>
         <height>263</height>
-        <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
         <texture background="true">$INFO[ListItem.Icon]</texture>
-        <!--  <bordertexture border="5">button-nofocus.png</bordertexture> 
-			<bordersize>5</bordersize>
-			<fadetime>100</fadetime> -->
         <visible>!Skin.HasSetting(HideVideoCase)</visible>
       </control>
       <control type="image">
@@ -243,7 +210,6 @@
         <top>447</top>
         <width>175</width>
         <height>263</height>
-        <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
         <texture background="true">$INFO[ListItem.Icon]</texture>
         <bordertexture border="5">button-nofocus.png</bordertexture>
         <bordersize>5</bordersize>
@@ -255,7 +221,6 @@
         <top>420</top>
         <width>200</width>
         <height>310</height>
-        <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
         <texture>case-bluray.png</texture>
         <visible>[stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
@@ -264,7 +229,6 @@
         <top>420</top>
         <width>200</width>
         <height>310</height>
-        <!-- <aspectratio align="right" aligny="bottom">stretch</aspectratio> -->
         <texture>case-cd.png</texture>
         <visible>![stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)] + !Skin.HasSetting(HideVideoCase)</visible>
       </control>
@@ -279,7 +243,6 @@
         <bordersize>5</bordersize>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!--<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext + Skin.HasSetting(HideVideoCase)</visible>
@@ -293,7 +256,6 @@
         <texture background="true">$INFO[ListItem(-1).Icon]</texture>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!--<effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext + !Skin.HasSetting(HideVideoCase)</visible>
@@ -307,7 +269,6 @@
         <texture background="true">$INFO[ListItem(1).Icon]</texture>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />-->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious + !Skin.HasSetting(HideVideoCase)</visible>
@@ -323,7 +284,6 @@
         <bordersize>5</bordersize>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" />-->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious + Skin.HasSetting(HideVideoCase)</visible>
@@ -347,51 +307,6 @@
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Wall_Fags</include>
     </control>
-    <control type="label">
-      <left>864</left>
-      <top>670</top>
-      <width>380</width>
-      <height>50</height>
-      <align>center</align>
-      <aligny>center</aligny>
-      <font>Font_Bartowski_Title_TVShow</font>
-      <textcolor>ffffffff</textcolor>
-      <label>Movie Series</label>
-      <visible>Control.IsVisible(598) + IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left) + Container.Content(movies) + Window.IsActive(videolibrary)</visible>
-    </control>
-    <control type="textbox">
-      <!-- Plot and TV -->
-      <include>Animation_HiddenByInfo</include>
-      <left>460</left>
-      <top>545</top>
-      <width>610</width>
-      <height>120</height>
-      <align>justify</align>
-      <info>ListItem.Plot</info>
-      <font>Font_Bartowski_Showcase_plot</font>
-      <textcolor>ffffffff</textcolor>
-      <autoscroll time="3000" delay="7000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-      <animation type="WindowOpen">
-        <effect type="fade" start="0" end="100" time="600" delay="4000" tween="cubic" easing="inout" />
-      </animation>
-      <animation type="WindowClose">
-        <effect type="fade" start="100" end="0" time="600" delay="0" tween="cubic" easing="inout" />
-      </animation>
-      <animation effect="fade" start="0" end="100" time="600" delay="4000" condition="[Container.Content(episodes) | Container.Content(movies)] + ![Container(598).OnNext | Container(598).OnPrevious]">Conditional</animation>
-      <visible>Control.IsVisible(598) + Container.Content(movies)</visible>
-    </control>
-    <!--<control type="image">
-		<left>980</left>
-		<top>180</top>
-		<width>300</width>
-		<height>540</height>
-		<aspectratio align="right" aligny="bottom">keep</aspectratio>
-		<texture background="true">$INFO[ListItem.Icon]</texture>
-		<bordertexture border="5">button-nofocus.png</bordertexture>
-		<bordersize>5</bordersize>
-		<fadetime>100</fadetime>
-		<visible>Control.IsVisible(598) + IsEmpty(ListItem.Title) + ![Container.Content(movies) | Container.Content(Genres) | Container.Content(episodes) | Container.Content(albums) | Container.Content(songs)]</visible>
-	</control>-->
     <control type="group">
       <include>Animation_Viewtype_Files_RightArea</include>
       <include>Animation_HiddenByInfo</include>
@@ -418,7 +333,6 @@
         <bordersize>5</bordersize>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext</visible>
@@ -434,7 +348,6 @@
         <bordersize>5</bordersize>
         <fadetime>100</fadetime>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="auto" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious</visible>
@@ -468,7 +381,6 @@
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(-1).Label].jpg</texture>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="240,200" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext + !Container.Content(songs)</visible>
@@ -480,7 +392,6 @@
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png" fallback="extras/musicgenres/default.jpg">extras/musicgenres/$INFO[ListItem(1).Label].jpg</texture>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="240,200" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious + !Container.Content(songs)</visible>
@@ -491,54 +402,41 @@
       <visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
       <include>Animation_Viewtype_Files_RightArea</include>
       <control type="image">
-        <left>770</left>
-        <top>190</top>
-        <width>500</width>
-        <height>530</height>
+        <left>1000</left> 
+        <top>390</top>
+        <width>250</width>
+        <height>300</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
         <texture background="true">$INFO[ListItem.Icon]</texture>
         <bordertexture border="5">button-nofocus.png</bordertexture>
         <bordersize>5</bordersize>
         <fadetime>100</fadetime>
       </control>
-      <!--<control type="image">
-			<left>780</left>
-			<top>40</top>
-			<width>500</width>
-			<height>300</height>
-			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">button-nofocus.png</bordertexture>
-			<bordersize>5</bordersize>
-			<fadetime>100</fadetime>
-		</control>-->
       <control type="image">
-        <left>770</left>
-        <top>190</top>
-        <width>500</width>
-        <height>530</height>
-        <aspectratio align="right" aligny="bottom">keep</aspectratio>
+		<left>1000</left>
+		<top>390</top>
+		<width>250</width>
+		<height>300</height>
+		<aspectratio align="right" aligny="bottom">keep</aspectratio>
         <texture background="true">$INFO[ListItem(-1).Icon]</texture>
         <bordertexture border="5">button-nofocus.png</bordertexture>
         <bordersize>5</bordersize>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
-          <effect type="fade" time="400" start="100" end="0" />
+           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext + !IsEmpty(ListItem.Title)</visible>
       </control>
       <control type="image">
-        <left>770</left>
-        <top>190</top>
-        <width>500</width>
-        <height>530</height>
+		<left>1000</left>
+		<top>390</top>
+		<width>250</width>
+		<height>300</height>
         <aspectratio align="right" aligny="bottom">keep</aspectratio>
         <texture background="true">$INFO[ListItem(1).Icon]</texture>
         <bordertexture border="5">button-nofocus.png</bordertexture>
         <bordersize>5</bordersize>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="1200,660" start="100" end="180" tween="cubic" easing="in" /> -->
-          <effect type="fade" time="400" start="100" end="0" />
+           <effect type="fade" time="400" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious + !IsEmpty(ListItem.Title)</visible>
       </control>
@@ -569,13 +467,6 @@
         <fadetime>100</fadetime>
         <visible>Skin.HasSetting(MusicLogo)</visible>
       </control>
-      <!-- For Debugging logo path
-		<control type="label">
-			<left>770</left>
-			<top>560</top>
-			<label>$INFO[Skin.String(Music_Folder_Path)]$INFO[ListItem.Artist]/logo.png</label>
-			<visible>Skin.HasSetting(MusicLogo)</visible>
-		</control> -->
       <control type="image">
         <left>770</left>
         <top>360</top>
@@ -651,17 +542,6 @@
         <fadetime>100</fadetime>
         <visible>Skin.HasSetting(MusicLogo)</visible>
       </control>
-      <!--<control type="image">
-			<left>780</left>
-			<top>40</top>
-			<width>500</width>
-			<height>300</height>
-			<aspectratio align="right" aligny="bottom">keep</aspectratio>
-			<texture background="true">$INFO[ListItem.Icon]</texture>
-			<bordertexture border="5">button-nofocus.png</bordertexture>
-			<bordersize>5</bordersize>
-			<fadetime>100</fadetime>
-		</control>-->
       <control type="image">
         <left>770</left>
         <top>370</top>
@@ -721,7 +601,6 @@
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="240,200" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext + !Container.Content(songs)</visible>
@@ -733,7 +612,6 @@
         <height>340</height>
         <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="240,200" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="240,200" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious + !Container.Content(songs)</visible>
@@ -767,7 +645,6 @@
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(-1).Icon]</texture>
         <animation type="Hidden">
-          <!-- <effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="1040,600" start="100" end="0" />
         </animation>
         <visible>Container(598).OnNext</visible>
@@ -779,7 +656,6 @@
         <height>224</height>
         <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem(1).Icon]</texture>
         <animation type="Hidden">
-          <!--	<effect type="zoom" time="400" center="1040,600" start="100" end="180" tween="cubic" easing="in" /> -->
           <effect type="fade" time="400" center="1040,600" start="100" end="0" />
         </animation>
         <visible>Container(598).OnPrevious</visible>
@@ -828,48 +704,6 @@
       <include>Animation_Viewtype_Wall_UnderInfo</include>
       <include>Animation_HiddenByInfo</include>
       <animation effect="slide" start="0,0" end="0,-40" time="0" condition="IsEmpty(Control.GetLabel(7019))">Conditional</animation>
-      <control type="label">
-        <visible>Container.Content(seasons)</visible>
-        <left>0</left>
-        <top>40</top>
-        <width>630</width>
-        <height>89</height>
-        <align>center</align>
-        <font>Font_Neon_26</font>
-        <textcolor>white</textcolor>
-        <label>$INFO[ListItem.label]</label>
-      </control>
-      <!-- Remove Genre 
-		<control type="label">
-				<visible>Container.Content(tvshows)</visible>
-				<left>0</left>
-				<top>0</top>
-				<width>630</width>
-				<height>89</height>
-				<align>center</align>
-				<font>Font_TVShow</font>
-				<label>[COLOR=ListTrackF]$LOCALIZE[515][/COLOR] [COLOR=white]$INFO[ListItem.Genre][/COLOR]</label>
-			</control> -->
-      <control type="label">
-        <visible>Container.Content(tvshows)</visible>
-        <left>0</left>
-        <top>30</top>
-        <width>630</width>
-        <height>89</height>
-        <align>center</align>
-        <font>Font_TVShow</font>
-        <label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
-      </control>
-      <control type="label">
-        <visible>Container.Content(tvshows)</visible>
-        <left>0</left>
-        <top>60</top>
-        <width>630</width>
-        <height>89</height>
-        <align>center</align>
-        <font>Font_TVShow</font>
-        <label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
-      </control>
     </control>
     <control type="group">
       <left>60</left>
@@ -877,48 +711,6 @@
       <include>Animation_HiddenByInfo</include>
       <include>Animation_Viewtype_Files_RightArea</include>
       <visible>Control.IsVisible(598) + !IsEmpty(ListItem.Title)</visible>
-      <control type="label">
-        <visible>Container.Content(episodes)</visible>
-        <left>830</left>
-        <top>120</top>
-        <width>530</width>
-        <height>89</height>
-        <font>Font_Bartowski_Title_TVShow</font>
-        <textcolor>Text-Filemode</textcolor>
-        <label>$LOCALIZE[20373] $INFO[ListItem.Season]     $LOCALIZE[20359] $INFO[ListItem.Episode]</label>
-      </control>
-      <control type="label">
-        <visible>Container.Content(episodes)</visible>
-        <left>830</left>
-        <top>166</top>
-        <width>530</width>
-        <height>89</height>
-        <font>Font_TVShow</font>
-        <label>[COLOR=ListTrackF]$LOCALIZE[31231][/COLOR] [COLOR=white]$INFO[ListItem.Date][/COLOR]</label>
-      </control>
-      <control type="label">
-        <visible>Container.Content(episodes)</visible>
-        <left>830</left>
-        <top>192</top>
-        <width>530</width>
-        <height>89</height>
-        <font>Font_TVShow</font>
-        <label>[COLOR=ListTrackF]$LOCALIZE[368][/COLOR] [COLOR=white]$INFO[ListItem.Rating][/COLOR]      [COLOR=ListTrackF]$LOCALIZE[31226][/COLOR] [COLOR=white]$INFO[ListItem.mpaa][/COLOR]</label>
-      </control>
-      <control type="textbox">
-        <!-- Plot TV -->
-        <visible>Container.Content(episodes)</visible>
-        <left>785</left>
-        <top>220</top>
-        <width>400</width>
-        <height>250</height>
-        <align>justify</align>
-        <info>ListItem.Plot</info>
-        <font>Font_Bartowski_Movies</font>
-        <textcolor>ffffffff</textcolor>
-        <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
-        <animation effect="slide" start="0,0" end=",-80" time="0" tween="cubic" easing="inout" condition="Container.Content(tvshows)">Conditional</animation>
-      </control>
     </control>
     <control type="grouplist">
       <visible>Container.Content(episodes) + Control.IsVisible(598) + !Skin.HasSetting(no_media_flags)</visible>
