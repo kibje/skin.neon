@@ -55,7 +55,6 @@
         <label>20096</label>
         <font>Font_Neon_24</font>
         <align>center</align>
-        <aligny>top</aligny>
         <textcolor>white</textcolor>
         <selectedcolor>white</selectedcolor>
         <onleft>2</onleft>
@@ -72,7 +71,6 @@
         <label>20096</label>
         <font>Font_Neon_24</font>
         <align>center</align>
-        <aligny>top</aligny>
         <textcolor>white</textcolor>
       </control>
       <control type="label">

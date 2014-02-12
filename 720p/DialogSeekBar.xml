@@ -340,7 +340,6 @@
         <top>340</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <!-- <label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label> -->
         <label>[B]=[/B]</label>
         <font>Font_Neon_Pause</font>
@@ -353,7 +352,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>FFx2</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -364,7 +362,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>FFx4</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -375,7 +372,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>FFx8</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -386,7 +382,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>FFx16</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -397,7 +392,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>FFx32</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -408,7 +402,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>RWx2</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -419,7 +412,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>RWx4</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -430,7 +422,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>RWx8</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -441,7 +432,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>RWx16</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
@@ -452,7 +442,6 @@
         <top>0</top>
         <width>1920</width>
         <align>center</align>
-        <aligny>top</aligny>
         <label>RWx32</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>

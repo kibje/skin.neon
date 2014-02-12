@@ -587,7 +587,6 @@
           <shadowcolor>black</shadowcolor>
           <scroll>true</scroll>
           <align>left</align>
-          <aligny>top</aligny>
           <label>$INFO[ListItem.Writer]</label>
         </control>
       </control>

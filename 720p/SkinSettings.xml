@@ -509,7 +509,6 @@
             <textcolor>grey2</textcolor>
             <focusedcolor>white</focusedcolor>
             <align>left</align>
-            <aligny>top</aligny>
             <label>$LOCALIZE[31283]</label>
             <colordiffuse>mainblue</colordiffuse>
             <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
@@ -2629,7 +2628,6 @@
               <label>$LOCALIZE[31270]</label>
               <textcolor>grey2</textcolor>
               <align>left</align>
-              <aligny>top</aligny>
             </control>
             <control type="radiobutton" id="510">
               <include>skin_settings_labels</include>
@@ -2645,7 +2643,6 @@
               <label>$LOCALIZE[31267]</label>
               <textcolor>grey2</textcolor>
               <align>left</align>
-              <aligny>top</aligny>
             </control>
             <control type="radiobutton" id="5100">
               <width>770</width>

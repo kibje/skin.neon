@@ -506,7 +506,6 @@
           <height>25</height>
           <label>$INFO[ListItem.Season,[COLOR=mainblue] $LOCALIZE[20373] :[/COLOR] ] $INFO[ListItem.episode,[COLOR=mainblue] $LOCALIZE[20359] :[/COLOR] ] $INFO[ListItem.premiered,[COLOR=mainblue] $LOCALIZE[31322] :[/COLOR] ]</label>
           <align>center</align>
-          <aligny>top</aligny>
           <font>Font_Neon_24</font>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
