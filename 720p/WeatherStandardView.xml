@@ -76,7 +76,7 @@
           </control>
           <control type="label">
             <description>current temp Value</description>
-            <left>195</left>
+            <left>0</left>
             <top>175</top>
             <width>180</width>
             <height>40</height>
@@ -130,35 +130,35 @@
           </control>
           <control type="label">
             <description>current feels like label</description>
-            <left>170</left>
+            <left>20</left>
             <top>400</top>
-            <width>170</width>
+            <width>215</width>
             <height>35</height>
             <font>Font_Neon_22</font>
-            <align>right</align>
             <aligny>center</aligny>
+			<align>right</align>
             <label>$LOCALIZE[402] :</label>
             <textcolor>grey2</textcolor>
             <shadowcolor>black</shadowcolor>
           </control>
           <control type="label">
             <description>current dew label</description>
-            <left>170</left>
+            <left>20</left>
             <top>430</top>
-            <width>170</width>
+            <width>215</width>
             <height>35</height>
             <font>Font_Neon_22</font>
-            <align>right</align>
             <aligny>center</aligny>
+			<align>right</align>
             <label>$LOCALIZE[405] :</label>
             <textcolor>grey2</textcolor>
             <shadowcolor>black</shadowcolor>
           </control>
           <control type="label">
             <description>current humidity label</description>
-            <left>170</left>
+            <left>20</left>
             <top>460</top>
-            <width>170</width>
+            <width>215</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>right</align>
@@ -169,9 +169,9 @@
           </control>
           <control type="label">
             <description>current UV Index label</description>
-            <left>170</left>
+            <left>20</left>
             <top>490</top>
-            <width>170</width>
+            <width>215</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>right</align>
@@ -182,9 +182,9 @@
           </control>
           <control type="label">
             <description>current Wind label</description>
-            <left>170</left>
+            <left>20</left>
             <top>520</top>
-            <width>170</width>
+            <width>215</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>right</align>
@@ -195,9 +195,9 @@
           </control>
           <control type="label">
             <description>current feels like Value</description>
-            <left>185</left>
+            <left>260</left>
             <top>400</top>
-            <width>300</width>
+            <width>240</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>left</align>
@@ -208,9 +208,9 @@
           </control>
           <control type="label">
             <description>current dew Value</description>
-            <left>185</left>
+            <left>260</left>
             <top>430</top>
-            <width>300</width>
+            <width>240</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>left</align>
@@ -221,9 +221,9 @@
           </control>
           <control type="label">
             <description>current humidity Value</description>
-            <left>185</left>
+            <left>260</left>
             <top>460</top>
-            <width>300</width>
+            <width>240</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>left</align>
@@ -234,9 +234,9 @@
           </control>
           <control type="label">
             <description>current UV Index Value</description>
-            <left>185</left>
+            <left>260</left>
             <top>490</top>
-            <width>300</width>
+            <width>240</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>left</align>
@@ -247,9 +247,9 @@
           </control>
           <control type="label">
             <description>current Wind Value</description>
-            <left>185</left>
+            <left>260</left>
             <top>520</top>
-            <width>300</width>
+            <width>240</width>
             <height>35</height>
             <font>Font_Neon_22</font>
             <align>left</align>
