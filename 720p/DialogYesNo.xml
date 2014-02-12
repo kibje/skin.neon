@@ -41,40 +41,16 @@
       <label>-</label>
       <width>500</width>
       <align>center</align>
-      <aligny>center</aligny>
     </control>
-    <control type="label" id="2">
-      <description>Line 1</description>
+    <control type="textbox" id="9">
+	  <description>text</description>
       <left>390</left>
       <top>250</top>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <label>-</label>
       <width>500</width>
       <align>center</align>
-      <aligny>center</aligny>
-    </control>
-    <control type="label" id="3">
-      <description>Line 2</description>
-      <left>390</left>
-      <top>300</top>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
-      <textcolor>white</textcolor>
-      <label>-</label>
-      <width>500</width>
-      <align>center</align>
-      <aligny>center</aligny>
-    </control>
-    <control type="label" id="4">
-      <description>Line 3</description>
-      <left>390</left>
-      <top>350</top>
-      <font>Font_Bartowski_Episode_ContextMenu</font>
-      <textcolor>white</textcolor>
-      <label>-</label>
-      <width>500</width>
-      <align>center</align>
-      <aligny>center</aligny>
+	  <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
     </control>
     <control type="button" id="10">
       <description>no</description>
