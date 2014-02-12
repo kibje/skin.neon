@@ -105,7 +105,7 @@
     <!-- =============== -->
     <control type="image">
       <left>0</left>
-      <top>100r</top>
+      <bottom>100</bottom>
       <width>1280</width>
       <height>100</height>
       <texture>TVGuide-Floor.png</texture>
@@ -2273,7 +2273,7 @@
       </control>
     </control>
     <control type="group">
-      <left>140r</left>
+      <right>140</right>
       <top>0</top>
       <animation effect="slide" start="0,0" end="-60,0" delay="0" time="300" condition="Window.IsVisible(MuteBug)">conditional</animation>
       <animation effect="slide" start="0,0" end="210,0" delay="0" time="300" condition="Window.Next(Home) + ![Window.IsVisible(MovieInformation) | Window.IsVisible(MusicInformation)]">WindowClose</animation>

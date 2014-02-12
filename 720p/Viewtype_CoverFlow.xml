@@ -2801,7 +2801,7 @@
       <control type="grouplist">
         <visible>Control.IsVisible(558) + Container.Content(movies) + !Skin.HasSetting(no_media_flags) + !Player.HasVideo</visible>
         <description>Media Codec Flagging Images</description>
-        <left>430r</left>
+        <right>430</right>
         <top>682</top>
         <width>420</width>
         <itemgap>0</itemgap>

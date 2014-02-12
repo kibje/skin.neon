@@ -275,7 +275,7 @@
       <visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556])]</visible>
       <animation effect="slide" start="0,0" end="0,-60" time="100">Visible</animation>
       <animation effect="slide" start="0,-60" end="0,0" delay="400" time="100">Hidden</animation>
-      <left>300r</left>
+      <right>300</right>
       <top>720</top>
       <control type="image">
         <left>0</left>

@@ -25,7 +25,7 @@
     </control>
     <control type="button">
       <description>Close Window button</description>
-      <left>100r</left>
+      <right>100</right>
       <top>0</top>
       <width>64</width>
       <height>32</height>

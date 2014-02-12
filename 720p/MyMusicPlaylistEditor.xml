@@ -150,7 +150,7 @@
       </control>
       <control type="image">
         <left>10</left>
-        <top>50r</top>
+        <bottom>50</bottom>
         <width>460</width>
         <height>4</height>
         <texture>separator.png</texture>
@@ -158,7 +158,7 @@
       <control type="label">
         <description>number of files/pages in left list text label</description>
         <left>30</left>
-        <top>38r</top>
+        <bottom>38</bottom>
         <width>410</width>
         <font>Font_Neon_16</font>
         <align>left</align>
@@ -290,7 +290,7 @@
       </control>
       <control type="image">
         <left>10</left>
-        <top>50r</top>
+        <bottom>50</bottom>
         <width>460</width>
         <height>4</height>
         <texture>separator.png</texture>

@@ -177,7 +177,7 @@
             <visible>VideoPlayer.Content(movies)</visible>
           </control>
           <control type="label">
-            <left>200r</left>
+            <right>200</right>
             <top>80</top>
             <width>250</width>
             <height>25</height>

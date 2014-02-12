@@ -333,12 +333,10 @@
       </control>
     </control>
     <control type="group">
-      <left>-300</left>
-      <top>0</top>
       <control type="label" id="0">
-        <left>-365</left>
+        <left>-345</left>
         <top>340</top>
-        <width>1920</width>
+        <width>1280</width>
         <align>center</align>
         <!-- <label>[LOWERCASE]$LOCALIZE[112][/LOWERCASE]</label> -->
         <label>[B]=[/B]</label>
@@ -456,7 +454,7 @@
         <effect type="fade" start="100" end="0" time="600" />
       </animation>
       <control type="label">
-        <left>250r</left>
+        <right>250</right>
         <top>620</top>
         <width>1000</width>
         <height>25</height>
@@ -468,7 +466,7 @@
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <left>250r</left>
+        <right>250</right>
         <top>645</top>
         <width>1000</width>
         <height>25</height>
@@ -480,7 +478,7 @@
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <left>250r</left>
+        <right>250</right>
         <top>645</top>
         <width>1000</width>
         <height>25</height>
@@ -492,7 +490,7 @@
         <visible>VideoPlayer.Content(movies)+ Player.ChapterChapterName +![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <left>250r</left>
+        <right>250</right>
         <top>675</top>
         <width>1000</width>
         <height>25</height>
@@ -504,7 +502,7 @@
         <visible>VideoPlayer.Content(movies) + Player.ChapterCount + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <left>250r</left>
+        <right>250</right>
         <top>675</top>
         <width>1000</width>
         <height>25</height>

@@ -7,7 +7,7 @@
     <!-- <include>CommonMediaPlayingBackground</include> -->
     <control type="image">
       <left>0</left>
-      <top>100r</top>
+      <bottom>100</bottom>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>
@@ -382,8 +382,8 @@
     </control>
     <control type="label">
       <description>number of files/pages in left list text label</description>
-      <left>40r</left>
-      <top>53r</top>
+      <right>40</right>
+      <bottom>53</bottom>
       <width>570</width>
       <font>Font_Neon_18</font>
       <align>right</align>

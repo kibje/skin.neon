@@ -54,8 +54,8 @@
       </control>
       <control type="image">
         <description>LOGO</description>
-        <left>200r</left>
-        <top>60r</top>
+        <right>200</right>
+        <bottom>60</bottom>
         <width>140</width>
         <height>40</height>
         <aspectratio>keep</aspectratio>
@@ -65,7 +65,7 @@
       <control type="image">
         <description>LOGO</description>
         <left>50</left>
-        <top>60r</top>
+        <bottom>60</bottom>
         <width>140</width>
         <height>40</height>
         <texture>XBMC_Logo.png</texture>

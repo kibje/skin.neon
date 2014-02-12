@@ -57,8 +57,8 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
-        <top>30r</top>
+        <right>40</right>
+        <bottom>30</bottom>
         <width>500</width>
         <height>20</height>
         <font>Font_Neon_12</font>

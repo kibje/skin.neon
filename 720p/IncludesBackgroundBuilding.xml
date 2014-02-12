@@ -3,7 +3,7 @@
   <include name="ContentPanelBackgrounds">
     <control type="image">
       <left>0</left>
-      <top>100r</top>
+      <bottom>100</bottom>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>
@@ -217,7 +217,7 @@
   <include name="ContentPanelBackgroundsPVR">
     <control type="image">
       <left>0</left>
-      <top>100r</top>
+      <bottom>100</bottom>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>

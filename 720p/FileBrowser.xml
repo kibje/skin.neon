@@ -58,13 +58,12 @@
         </control>
         <control type="label" id="412">
           <description>Path label</description>
-          <left>660</left>
-          <top>70</top>
-          <width>630</width>
+          <right>15</right>
+          <top>66</top>
+          <width>573</width>
           <height>30</height>
-          <font>Font_Neon_15</font>
+          <font>Font_Neon_18</font>
           <haspath>true</haspath>
-          <align>right</align>
           <aligny>center</aligny>
           <textcolor>white</textcolor>
           <shadowcolor>black</shadowcolor>
