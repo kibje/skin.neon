@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
 <window id="25">
   <onload condition="Skin.HasSetting(TvTunes) + !SubString(Window(Videos).Property(CinemaExperienceRunning),True)">RunScript(script.tvtunes,backend=True&amp;loop=False)</onload>
@@ -391,19 +391,6 @@
           <include>WindowMenuButton_Vertical</include>
           <description>Search</description>
           <label>137</label>
-        </control>
-        <!--	<control type="radiobutton" id="7">
-					<description>Stack Toggle</description>
-					<textwidth>170</textwidth>
-					<include>WindowMenuButton_Vertical</include>
-					<label>346</label>
-				</control> -->
-        <control type="radiobutton" id="17">
-          <description>Flatten</description>
-          <textwidth>170</textwidth>
-          <include>WindowMenuButton_Vertical</include>
-          <label>20411</label>
-          <visible>!Skin.HasSetting(LockViews)</visible>
         </control>
         <control type="radiobutton" id="16">
           <description>PartyMode</description>
