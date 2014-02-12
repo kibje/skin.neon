@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
   <defaultcontrol always="true">9000</defaultcontrol>
   <controls>
@@ -55,7 +55,7 @@
           </control>
           <control type="label">
             <left>135</left>
-            <top>25</top>
+            <top>-10</top>
             <width>230</width>
             <!-- <height>25</height> -->
             <font>font24caps_title</font>
@@ -78,7 +78,7 @@
           </control>
           <control type="label">
             <left>135</left>
-            <top>25</top>
+            <top>-10</top>
             <width>230</width>
             <!--<height>25</height> -->
             <!-- <textoffsetx>10</textoffsetx> -->
