@@ -18,8 +18,6 @@
     <pulseonselect>false</pulseonselect>
   </default>
   <default type="label">
-    <left>0</left>
-    <top>0</top>
     <label>-</label>
     <font>Font_Settings</font>
     <textcolor>Text</textcolor>
