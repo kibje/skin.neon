@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <window id="2003">
+<onload condition="!Skin.HasSetting(ActivateTvTunes) + System.HasAddon(script.tvtunes)">XBMC.RunScript(script.tvtunes,backend=True)</onload>
+	<onload condition="System.HasAddon(script.videoextras)">XBMC.RunScript(script.videoextras,check,"$INFO[ListItem.FilenameAndPath]")</onload>
+	<onload condition="System.HasAddon(script.videoextras)"> XBMC.RunScript(script.videoextras,hasExtras,flag,"$INFO[ListItem.FilenameAndPath]")</onload>
   <defaultcontrol always="true">8</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <controls>
@@ -1255,6 +1258,16 @@
             <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, clearart, tvthumb, poster, banner, fanart, clearlogo, dbid=$INFO[ListItem.DBID])</onclick>
             <visible>Container.Content(tvshows) + !Skin.HasSetting(LockViews)</visible>
           </control>
+          <control type="button" id="105">
+    <description>Extras</description>
+    <include>ButtonInfoDialogsCommonValues</include>
+    <label>Extras</label>
+    <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
+    <visible>System.HasAddon(script.videoextras)
+     + [Container.Content(movies) | Container.Content(episodes) | Container.Content(TVShows)]
+     + IsEmpty(Window(movieinformation).Property("HideVideoExtrasButton"))</visible>
+	 <visible>System.HasAddon(script.videoextras) + !IsEmpty(Window(movieinformation).Property(flag)) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(TVShows)]</visible>
+</control>
         </control>
       </control>
     </control>

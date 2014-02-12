@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
 <window id="115">
   <visible>Window.IsActive(2005) + !Window.IsActive(SubtitleSearch) + !Window.IsActive(2901) + !Window.IsActive(142) + !Control.IsVisible(10) + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
@@ -16,10 +16,10 @@
     </control>
     <control type="label" id="24">
       <description>buffering label</description>
-      <left>465</left>
+      <left>65</left>
       <top>15</top>
       <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
-      <width>300</width>
+      <width>30</width>
       <align>center</align>
       <aligny>center</aligny>
       <textcolor>red</textcolor>
@@ -152,11 +152,11 @@
       <control type="group">
         <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
         <control type="label">
-          <left>140</left>
+          <left>80</left>
           <top>120</top>
           <width>300</width>
           <height>25</height>
-          <align>right</align>
+          <align>left</align>
           <font>Font_RSS_Unicode</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Time]</label>
@@ -176,11 +176,11 @@
       <control type="group">
         <visible>!VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
         <control type="label">
-          <left>130</left>
+          <left>20</left>
           <top>121</top>
           <width>300</width>
           <height>25</height>
-          <align>right</align>
+          <align>left</align>
           <font>Font_RSS_Unicode</font>
           <textcolor>mainblue</textcolor>
           <label>$INFO[VideoPlayer.Time]</label>
