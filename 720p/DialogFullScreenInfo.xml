@@ -76,7 +76,7 @@
           <righttexture>osd/slidernibfo1.png</righttexture>
 				<info>Player.Progress</info><left>130</left><top>135</top><width>400</width><height>20</height><visible>!Skin.HasSetting(no_global_clock)</visible></control>
         <control type="label">
-          <left>125</left>
+          <left>-180</left>
           <top>125</top>
           <width>300</width>
           <height>25</height>
