@@ -423,7 +423,7 @@
           </control>
         </control>
         <!-- <control type="label">
-					<left>130r</left>
+					<right>130</right>
 					<top>470</top>
 					<width>400</width>
 					<height>30</height>
@@ -437,7 +437,7 @@
 					<visible>Control.IsVisible(4)</visible>
 				</control> 
 				<control type="label"> 
-					<left>130r</left>
+					<right>130</right>
 					<top>470</top>
 					<width>400</width>
 					<height>30</height>
@@ -451,7 +451,7 @@
 					<visible>Control.IsVisible(50) + Container.Content(Albums)</visible>
 				</control>
 				<control type="label">
-					<left>130r</left>
+					<right>130</right>
 					<top>470</top>
 					<width>400</width>
 					<height>30</height>
@@ -466,7 +466,7 @@
 				</control>
 				<control type="spincontrol" id="61">
 					<description>Next page button</description>
-					<left>120r</left>
+					<right>120</right>
 					<top>485</top>
 					<subtype>page</subtype>
 					<font>-</font>

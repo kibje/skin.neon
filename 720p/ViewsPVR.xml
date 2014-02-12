@@ -229,7 +229,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -456,7 +456,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -608,7 +608,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -1140,7 +1140,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -1495,7 +1495,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -1819,7 +1819,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>
@@ -2194,7 +2194,7 @@
       </control>
       <control type="label">
         <description>Page Count Label</description>
-        <left>40r</left>
+        <right>40</right>
         <top>53r</top>
         <width>500</width>
         <height>20</height>

@@ -189,7 +189,7 @@
             <visible>VideoPlayer.Content(movies)</visible>
           </control>
           <control type="label">
-            <left>200r</left>
+            <right>200</right>
             <top>105</top>
             <width>250</width>
             <height>25</height>
@@ -201,7 +201,7 @@
             <visible>VideoPlayer.Content(movies) + !Player.ChapterName</visible>
           </control>
           <control type="label">
-            <left>200r</left>
+            <right>200</right>
             <top>130</top>
             <width>250</width>
             <height>25</height>
@@ -213,7 +213,7 @@
             <visible>Player.ChapterCount</visible>
           </control>
           <control type="label">
-            <left>200r</left>
+            <right>200</right>
             <top>130</top>
             <width>250</width>
             <height>25</height>
@@ -240,7 +240,7 @@
           </control>
         </control>
         <control type="label">
-          <left>200r</left>
+          <right>200</right>
           <top>133</top>
           <width>500</width>
           <height>25</height>
@@ -382,7 +382,7 @@
         </control>
         <control type="image" id="7657">
           <description>tv show image</description>
-          <left>120r</left>
+          <right>120</right>
           <top>70</top>
           <width>100</width>
           <height>40</height>
@@ -392,7 +392,7 @@
         </control>
         <control type="image" id="7658">
           <description>tv show image</description>
-          <left>120r</left>
+          <right>120</right>
           <top>70</top>
           <width>100</width>
           <height>40</height>
