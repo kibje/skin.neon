@@ -400,7 +400,6 @@
           <font>Font_RSS</font>
           <textcolor>white</textcolor>
           <label>$INFO[Window(Weather).Property(Current.Temperature)]$INFO[System.TemperatureUnits]</label>
-          <align>right</align>
         </control>
       </control>
       <control type="group">
