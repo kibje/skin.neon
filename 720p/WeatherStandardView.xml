@@ -903,6 +903,7 @@
         <animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
         <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
         <control type="image">
+          <top>0</top>
           <left>-100</left>
           <colordiffuse>mainblue</colordiffuse>
           <texture flipx="true">MenuItemFO_small.png</texture>
