@@ -27,8 +27,6 @@
     <scroll>false</scroll>
   </default>
   <default type="image">
-    <left>0</left>
-    <top>0</top>
     <width>-</width>
     <height>-</height>
     <align>center</align>
