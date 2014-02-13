@@ -8,11 +8,9 @@
       <left>90</left>
       <top>50</top>
       <animation type="WindowOpen" reversible="false">
-        <!--	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
         <effect type="fade" start="0" end="95" time="300" />
       </animation>
       <animation type="WindowClose" reversible="false">
-        <!--	<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
         <effect type="fade" start="95" end="0" time="300" />
       </animation>
       <control type="image">
@@ -34,7 +32,7 @@
       <control type="image">
         <description>LOGO</description>
         <left>30</left>
-        <top>15</top>
+        <top>30</top>
         <width>220</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
@@ -50,50 +48,43 @@
         <colordiffuse>mainblue</colordiffuse>
         <texturenofocus>MenuItemNF.png</texturenofocus>
         <texturefocus>button-focus.png</texturefocus>
-        <textoffsetx>20</textoffsetx>
-        <textoffsety>5</textoffsety>
-        <label>20096</label>
-        <font>Font_Neon_24</font>
-        <align>center</align>
-        <textcolor>white</textcolor>
-        <selectedcolor>white</selectedcolor>
         <onleft>2</onleft>
         <onright>2</onright>
         <onup>4</onup>
         <ondown>4</ondown>
         <enable>!Window.IsVisible(ProfileSettings)</enable>
       </control>
-      <control type="label">
-        <left>15</left>
-        <top>125</top>
+	  <control type="label">
+	    <description>Enable Login screen label</description>
+	    <left>15</left>
+        <top>130</top>
         <width>245</width>
         <height>80</height>
-        <label>20096</label>
+	    <label>20096</label>
         <font>Font_Neon_24</font>
-        <align>center</align>
-        <textcolor>white</textcolor>
-      </control>
+		<align>center</align>
+		<aligny>top</aligny>
+		<textcolor>white</textcolor>
+	  </control>
       <control type="label">
-        <left>250</left>
-        <top>160</top>
-        <width>240</width>
-        <height>25</height>
+        <left>15</left>
+        <top>165</top>
+        <width>245</width>
+        <height>30</height>
         <font>Font_Neon_20</font>
         <textcolor>white</textcolor>
-        <align>right</align>
-        <aligny>center</aligny>
+        <align>center</align>
         <label>305</label>
         <visible>System.HasLoginScreen</visible>
       </control>
       <control type="label">
-        <left>250</left>
-        <top>160</top>
-        <width>240</width>
-        <height>25</height>
+        <left>15</left>
+        <top>165</top>
+        <width>245</width>
+        <height>30</height>
         <font>Font_Neon_20</font>
         <textcolor>white</textcolor>
-        <align>right</align>
-        <aligny>center</aligny>
+        <align>center</align>
         <label>1223</label>
         <visible>!System.HasLoginScreen</visible>
       </control>
@@ -267,12 +258,6 @@
       </control>
     </control>
     <include>BehindDialogFadeOut</include>
-    <control type="group">
-      <left>60</left>
-      <top>0</top>
-      <animation effect="slide" end="-310,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
-      <animation effect="slide" start="-310,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
-    </control>
     <include>Time</include>
   </controls>
 </window>
