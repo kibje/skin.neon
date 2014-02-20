@@ -203,7 +203,7 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
-        <control type="button" id="20">
+        <control type="button" id="98">
           <include>WindowMenuButton_Vertical</include>
           <label>$INFO[Container.ViewMode]</label>
           <onclick>Container.NextViewMode</onclick>
@@ -344,12 +344,6 @@
           <!-- Sort Descending -->
           <altlabel>$LOCALIZE[31512]</altlabel>
         </control>
-        <control type="radiobutton" id="14">
-          <description>Watched Toggle</description>
-          <textwidth>170</textwidth>
-          <include>WindowMenuButton_Vertical</include>
-          <label>20367</label>
-        </control>
         <!-- <control type="togglebutton" id="14"> -->
         <!--	<include>WindowMenuButton_Vertical</include> -->
         <!-- Show Watched -->
@@ -387,6 +381,12 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
+        <control type="radiobutton" id="14">
+          <description>Watched Toggle</description>
+          <textwidth>170</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>20367</label>
+        </control>
         <control type="button" id="8">
           <include>WindowMenuButton_Vertical</include>
           <description>Search</description>
@@ -403,6 +403,32 @@
           <onclick>xbmc.mastermode</onclick>
           <visible>system.haslocks</visible>
           <label>20336</label>
+        </control>
+        <control type="label" id="205">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>31028</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+        </control>
+        <control type="image" id="223">
+          <description>separator</description>
+          <left>-250</left>
+          <top>240</top>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="togglebutton" id="20">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Update library</description>
+          <textwidth>235</textwidth>
+          <label>653</label>
+          <altlabel>13353</altlabel>
+          <usealttexture>library.isscanningvideo</usealttexture>
         </control>
         <include>CommonNowPlaying_Controls</include>
         <include>CommonNowPlaying</include>
