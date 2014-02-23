@@ -30,41 +30,46 @@
       <include>Animation_MyVideoNav_Fanart</include>
       <visible>IsEmpty(ListItem.Property(Fanart_Image))</visible>
     </control>
-    <include>Viewtype_List</include>
-    <!-- 50 -->
-    <include>Viewtype_Files</include>
-    <!-- 55  -->
-    <include>Viewtype_JukeBox</include>
-    <!-- 54 -->
-    <include>Viewtype_MusicShowcase</include>
-    <!-- 58 -->
-    <include>Viewtype_3daddon</include>
-    <!-- 56 -->
-    <include>Viewtype_Songs</include>
-    <!-- 52 -->
+    <include>Viewtype_List</include> <!-- 50 -->
+    <include>Viewtype_Files</include> <!-- 55  -->
+    <include>Viewtype_JukeBox</include> <!-- 54 -->
+    <include>Viewtype_MusicShowcase</include> <!-- 58 -->
+    <include>Viewtype_3daddon</include> <!-- 56 -->
+    <include>Viewtype_Songs</include> <!-- 52 -->
     <include>Time</include>
     <include>ScrollOffsetLabel</include>
-    <include>7000_has_focus</include>
     <control type="group">
-      <visible>!Skin.HasSetting(LockViews)</visible>
-      <include>Animation_CommonFade_ViewOptions</include>
-      <control type="image">
-        <!-- Floor -->
-        <left>0</left>
-        <top>650</top>
-        <width>1280</width>
-        <height>70</height>
-        <texture>notification_background.png</texture>
-        <visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
-      </control>
+      <include>Animation_SettingsFade</include>
+      <animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
+      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <include>SideBladeLeft</include>
       <control type="grouplist" id="7000">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>680</top>
-        <control type="button" id="20">
-          <include>WindowMenuButton</include>
-          <label>$INFO[Container.ViewMode]</label>
-          <onclick>Container.NextViewMode</onclick>
+        <left>-250</left>
+        <top>30</top>
+        <include>WindowMenuVars_Vertical</include>
+        <control type="label" id="204">
+          <width>250</width>
+          <height>35</height>
+          <font>Font_Neon_26</font>
+          <label>$LOCALIZE[31513]</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+        </control>
+        <control type="image" id="203">
+          <description>separator</description>
+          <left>-250</left>
+          <top>40</top>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="2">
+          <include>WindowMenuButton_Vertical</include>
+          <description>View As button</description>
+          <textwidth>235</textwidth>
+          <label>-</label>
         </control>
         <control type="togglebutton" id="22">
           <description>Toggle MoviesFanart</description>
@@ -75,52 +80,35 @@
           <visible>Control.IsVisible(58)</visible>
         </control>
         <control type="button" id="3">
-          <include>WindowMenuButton</include>
-          <label>103</label>
+          <include>WindowMenuButton_Vertical</include>
+          <label>$LOCALIZE[103]</label>
         </control>
-        <control type="button" id="21">
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[14022]</label>
+        <control type="togglebutton" id="4">
+          <include>WindowMenuButton_Vertical</include>
+          <!-- Sort Ascending -->
+          <label>$LOCALIZE[31511]</label>
+          <!-- Sort Descending -->
+          <altlabel>$LOCALIZE[31512]</altlabel>
+        </control>
+        <control type="radiobutton" id="99">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Library button</description>
+          <label>$LOCALIZE[29800]</label>
           <onclick>ReplaceWindow(MusicLibrary)</onclick>
+          <selected>Window.IsVisible(MusicLibrary)</selected>
         </control>
-        <control type="radiobutton" id="16">
-          <include>WindowMenuButton</include>
-          <label>589</label>
+        <control type="edit" id="19">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Filter</description>
+          <textwidth>230</textwidth>
+          <label>$LOCALIZE[587]</label>
         </control>
-        <control type="button" id="9">
-          <include>WindowMenuButton</include>
+        <!-- <control type="button" id="9">
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[590]</label>
-        </control>
-      </control>
-      <control type="grouplist">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>660</top>
-        <control type="button" id="40">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31088]</label>
-        </control>
-        <control type="button" id="45">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[14018]</label>
-          <visible>Control.IsVisible(58)</visible>
-        </control>
-        <control type="button" id="41">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31090]</label>
-        </control>
-        <control type="button" id="42">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[240]</label>
-        </control>
-        <control type="button" id="43">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[14086]</label>
-        </control>
-        <control type="button" id="44">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31093]</label>
-        </control>
+        </control> -->
+        <include>CommonNowPlaying_Controls</include>
+        <include>CommonNowPlaying</include>
       </control>
     </control>
   </controls>
