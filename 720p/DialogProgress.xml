@@ -59,44 +59,18 @@
         <aligny>center</aligny>
         <textcolor>white</textcolor>
       </control>
-      <control type="label" id="2">
-        <description>dialog line 1</description>
+      </control>
+      <control type="textbox" id="9">
+        <description>text</description>
         <left>20</left>
         <top>60</top>
         <width>560</width>
         <height>30</height>
-        <align>left</align>
-        <aligny>center</aligny>
+        <align>center</align>
         <label>-</label>
-        <haspath>true</haspath>
-        <font>Font_Neon_16</font>
+        <font>Font_Neon_20</font>
         <textcolor>white</textcolor>
-      </control>
-      <control type="label" id="3">
-        <description>dialog line 2</description>
-        <left>20</left>
-        <top>85</top>
-        <width>560</width>
-        <height>30</height>
-        <align>left</align>
-        <aligny>center</aligny>
-        <label>-</label>
-        <haspath>true</haspath>
-        <font>Font_Neon_16</font>
-        <textcolor>white</textcolor>
-      </control>
-      <control type="label" id="4">
-        <description>dialog line 3</description>
-        <left>20</left>
-        <top>110</top>
-        <width>560</width>
-        <height>30</height>
-        <align>left</align>
-        <aligny>center</aligny>
-        <label>-</label>
-        <haspath>true</haspath>
-        <font>Font_Neon_16</font>
-        <textcolor>white</textcolor>
+        <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
       </control>
       <control type="progress">
         <description>Progressbar</description>
