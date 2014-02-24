@@ -5,7 +5,7 @@
   <onload condition="!SubString(Window(Videos).Property(CinemaExperienceRunning),True) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">RunScript(script.tv.show.next.aired,backend=True)</onload>
   <defaultcontrol always="true">50</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
-  <views>50,55,58,558,595,51,596,52,633,594,53,504,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
+  <views>50,55,58,558,595,51,596,52,633,594,53,503,54,597,56,57,59,500,501,508,592,593,598,599,588</views>
   <controls>
     <!-- <control type="button" id="9999">
             <description>trigger</description>
@@ -107,60 +107,42 @@
       <include>Animation_MyVideoNav_Fanart</include>
       <visible>Control.IsVisible(59) | [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
     </control>
-    <include>Viewtype_Showcase</include>
-    <!--  58  -->
-    <include>Viewtype_Poster</include>
-    <!--  55  -->
-    <include>Viewtype_Files</include>
-    <!--  50  -->
-    <include>Viewtype_Landscape</include>
-    <!--  52  -->
-    <include>Viewtype_Landscape_Fanart</include>
-    <!--  633  -->
-    <include>Viewtype_List</include>
-    <!--  53  -->
-    <include>Viewtype_Episode</include>
-    <!--  51  -->
-    <include>Viewtype_Wall</include>
-    <!--  54  -->
-    <include>Viewtype_Panel</include>
-    <!--  56  TV=Panel -->
-    <include>Viewtype_PanelLandscape</include>
-    <!--  57  -->
-    <include>Viewtype_BannerPanel</include>
-    <!--  592  -->
-    <include>Viewtype_WallPanel</include>
-    <!--  597  -->
-    <include>Viewtype_16x9</include>
-    <!--  59  -->
-    <include>Viewtype_3dbanner</include>
-    <!--  593  -->
-    <include>Viewtype_Logo</include>
-    <!--  594  -->
-    <include>Viewtype_Slide</include>
-    <!--  595  -->
-    <include>Viewtype_Newest_Episodes</include>
-    <!--  596  -->
-    <include>Viewtype_SlimFiles</include>
-    <!--598 -->
-    <include>PosterWrapView2_Fanart</include>
-    <!-- 508 -->
-    <include>MediaListView3</include>
-    <!-- 503 -->
-    <include>Viewtype_3DLandscape</include>
-    <!-- 599 -->
-    <include>Viewtype_Multiplex</include>
-    <!-- 588 -->
-    <include>Viewtype_Coverflow</include>
-    <!-- 558 -->
-    <include>Trailer</include>
-    <include>Trailer_TVLandscape</include>
-    <include>Trailer_Landscape_Fanart</include>
-    <include>Trailer_16x9</include>
-    <include>Trailer_Files</include>
-    <include>Trailer_Poster</include>
-    <include>ScrollOffsetLabel</include>
-    <include>Trailer_Media_View</include>
+    <control type="group">
+      <include>Viewtype_Files</include> <!--  view id 50  -->
+      <include>Viewtype_Poster</include> <!--  view id 55  -->
+      <include>Viewtype_Showcase</include> <!--  view id 58  -->
+      <include>Viewtype_Coverflow</include> <!--  view id 558  -->
+      <include>Viewtype_Slide</include> <!--  view id 595  -->
+      <include>Viewtype_Episode</include> <!--  view id 51  -->
+      <include>Viewtype_Newest_Episodes</include> <!--  view id 596  -->
+      <include>Viewtype_Landscape</include> <!--  view id 52  -->
+      <include>Viewtype_Landscape_Fanart</include> <!--  view id 633  -->
+      <include>Viewtype_Logo</include> <!--  view id 594  -->
+      <include>Viewtype_List</include> <!--  view id 53 Media View  -->
+      <include>MediaListView3</include> <!--  view id 503  -->
+      <include>Viewtype_Wall</include> <!--  view id 54  -->
+      <include>Viewtype_WallPanel</include> <!--  view id 597  -->
+      <include>Viewtype_Panel</include> <!--  view id 56  TV=Panel -->
+      <include>Viewtype_PanelLandscape</include> <!--  view id 57  -->
+      <include>Viewtype_16x9</include> <!--  view id 59  -->
+      <include>ThumbnailView</include> <!--  view id 500  -->
+      <include>PosterWrapView</include> <!--  view id 501  -->
+      <include>PosterWrapView2_Fanart</include> <!--  view id 508  -->
+      <include>Viewtype_BannerPanel</include> <!--  view id 592  -->
+      <include>Viewtype_3dbanner</include> <!--  view id 593  -->
+      <include>Viewtype_SlimFiles</include> <!--  view id 598  -->
+      <include>Viewtype_3DLandscape</include> <!--  view id 599  -->
+      <include>Viewtype_Multiplex</include> <!--  view id 588  -->
+      <include>Trailer</include>
+      <include>Trailer_TVLandscape</include>
+      <include>Trailer_Landscape_Fanart</include>
+      <include>Trailer_16x9</include>
+      <include>Trailer_Files</include>
+      <include>Trailer_Poster</include>
+      <include>Trailer_Media_View</include>
+      <include>Trailer_Multiplex</include>
+      <include>ScrollOffsetLabel</include>
+    </control>
     <control type="group">
       <visible>!SubString(Window(25).Property(tvtunesIsAlive),True)</visible>
       <include>RSS_Music</include>
@@ -203,10 +185,9 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
-        <control type="button" id="98">
+        <control type="button" id="2" description="Views">
           <include>WindowMenuButton_Vertical</include>
-          <label>$INFO[Container.ViewMode]</label>
-          <onclick>Container.NextViewMode</onclick>
+          <label>-</label>
           <visible>!Skin.HasSetting(LockViews)</visible>
         </control>
         <control type="togglebutton" id="22">

@@ -20,7 +20,7 @@
   <include file="Viewtype_Songs.xml" />
   <include file="Viewtype_16x9.xml" />
   <include file="Viewtype_Wall.xml" />
-  <!-- <include file="Viewtype_WallPanel.xml" /> -->
+  <include file="Viewtype_WallPanel.xml" />
   <include file="Viewtype_Shelf.xml" />
   <include file="Viewtype_addons.xml" />
   <include file="Viewtype_3dbanner.xml" />
@@ -1199,6 +1199,15 @@
       <aligny>center</aligny>
       <visible>[Player.HasAudio | Player.HasVideo]</visible>
       <include>VisibleFadeEffect</include>
+    </control>
+    <control type="image" id="224">
+      <description>separator</description>
+      <left>-250</left>
+      <top>240</top>
+      <width>240</width>
+      <aspectratio>keep</aspectratio>
+      <colordiffuse>mainblue</colordiffuse>
+      <texture>separator2.png</texture>
     </control>
     <control type="button" id="610">
       <description>Fake Button to fix Player Controls Navigation</description>

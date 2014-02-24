@@ -1214,16 +1214,14 @@
             <description>Play Trailer</description>
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
-            <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(big_trailer)</visible>
-            <onclick>PlayMedia($ESCINFO[ListItem.Trailer],noresume</onclick>
+            <visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(WindowedTrailer)</visible>
           </control>
           <control type="button" id="15">
-            <description>Play Trailer</description>
+            <description>Play Trailer Windowed</description>
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
-            <visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(big_trailer)</visible>
-            <onclick>Dialog.Close(MovieInformation)</onclick>
-            <onclick>PlayMedia($ESCINFO[ListItem.Trailer],1)</onclick>
+            <onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
+            <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(WindowedTrailer)</visible>
           </control>
           <control type="button" id="113">
             <description>Cinema Script</description>

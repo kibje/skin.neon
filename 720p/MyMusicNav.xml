@@ -52,35 +52,22 @@
 			<visible>Control.IsVisible(53) | Control.IsVisible(52)</visible>
 		</control> -->
     <control type="group">
-      <include>Viewtype_Files</include>
-      <!-- 50 -->
-      <include>Viewtype_MusicShowcase</include>
-      <!-- 58 -->
-      <include>Viewtype_3daddon</include>
-      <!-- 56 -->
-      <include>Viewtype_Songs</include>
-      <!-- 52 -->
-      <include>Viewtype_Shelf</include>
-      <!-- 51 -->
-      <include>Viewtype_JukeBox</include>
-      <!-- 54 -->
-      <include>Viewtype_List</include>
-      <!-- 53 -->
-      <include>ThumbnailView</include>
-      <!-- 500 -->
-      <include>MusicInfoListView</include>
-      <!-- 506 -->
-      <!--<include>AlbumWrapView2_Fanart</include>  -->
-      <!-- 509 Need to fix this view and remove hidden aspect -->
-      <include>MusicVideoInfoListView</include>
-      <!-- 511 -->
-      <include>ArtistMediaListView</include>
-      <!-- 512 -->
-      <include>AlbumInfoListView</include>
-      <!-- 513 -->
-      <include>Viewtype_MusicLogo</include>
-      <include>Viewtype_SlimFiles</include>
-      <!-- 598 -->
+      <include>Viewtype_Files</include> <!-- 50 -->
+      <include>MusicVideoInfoListView</include> <!-- 511 -->
+      <include>AlbumInfoListView</include> <!-- 513 -->
+      <include>Viewtype_SlimFiles</include> <!-- 598 -->
+      <include>Viewtype_MusicLogo</include> <!-- 599 -->
+      <include>ArtistMediaListView</include> <!-- 512 -->
+      <include>Viewtype_3daddon</include> <!-- 56 -->
+      <include>Viewtype_MusicShowcase</include> <!-- 58 -->
+      <include>Viewtype_Shelf</include> <!-- 51 -->
+      <include>Viewtype_Songs</include> <!-- 52 -->
+      <include>Viewtype_JukeBox</include> <!-- 54 -->
+      <include>Viewtype_List</include> <!-- 53 -->
+      <include>ThumbnailView</include> <!-- 500 -->
+      <include>MusicInfoListView</include> <!-- 506 -->
+      <!--<include>AlbumWrapView2_Fanart</include>  -->  <!-- 509 Need to fix this view and remove hidden aspect -->
+      <include>Viewtype_Landscape_Fanart</include> <!-- 633 -->
     </control>
     <control type="group">
       <include>Animation_HiddenByInfo</include>
@@ -89,37 +76,38 @@
     <include>Time</include>
     <include>Library Totals</include>
     <include>ScrollOffsetLabel</include>
-    <include>7000_has_focus</include>
     <control type="group">
-      <visible>!Skin.HasSetting(LockViews)</visible>
-      <include>Animation_CommonFade_ViewOptions</include>
-      <control type="image">
-        <!-- Floor -->
-        <left>0</left>
-        <top>555</top>
-        <width>1280</width>
-        <height>160</height>
-        <colordiffuse>mainblue</colordiffuse>
-        <texture>mainmenu/home_bottom_backthin.png</texture>
-        <visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
-      </control>
-      <control type="image">
-        <!-- Floor -->
-        <left>0</left>
-        <top>555</top>
-        <width>1280</width>
-        <height>160</height>
-        <texture>mainmenu/home_bottom_align.png</texture>
-        <visible allowhiddenfocus="true">ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
-      </control>
+      <include>Animation_SettingsFade</include>
+      <animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
+      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <include>SideBladeLeft</include>
       <control type="grouplist" id="7000">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>680</top>
-        <control type="button" id="20">
-          <include>WindowMenuButton</include>
-          <label>$INFO[Container.ViewMode]</label>
-          <onclick>Container.NextViewMode</onclick>
+        <left>-250</left>
+        <top>30</top>
+        <include>WindowMenuVars_Vertical</include>
+        <control type="label" id="204">
+          <width>250</width>
+          <height>35</height>
+          <font>Font_Neon_26</font>
+          <label>$LOCALIZE[31513]</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+        </control>
+        <control type="image" id="203">
+          <description>separator</description>
+          <left>-250</left>
+          <top>40</top>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="2">
+          <include>WindowMenuButton_Vertical</include>
+          <description>View As button</description>
+          <textwidth>235</textwidth>
+          <label>-</label>
         </control>
         <control type="togglebutton" id="26">
           <description>Toggle MoviesFanart</description>
@@ -154,57 +142,84 @@
           <visible>Control.IsVisible(598)</visible>
         </control>
         <control type="button" id="3">
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>103</label>
         </control>
-        <control type="button" id="5">
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[744]</label>
+        <control type="togglebutton" id="4">
+          <include>WindowMenuButton_Vertical</include>
+          <!-- Sort Ascending -->
+          <label>$LOCALIZE[31511]</label>
+          <!-- Sort Descending -->
+          <altlabel>$LOCALIZE[31512]</altlabel>
+        </control>
+        <control type="radiobutton" id="99">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Library button</description>
+          <label>$LOCALIZE[29800]</label>
+          <onclick>ReplaceWindow(MusicFiles)</onclick>
+          <selected>Window.IsVisible(MusicLibrary)</selected>
+        </control>
+        <control type="edit" id="19">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Filter</description>
+          <textwidth>230</textwidth>
+          <label>587</label>
+        </control>
+        <control type="label" id="201">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>31026</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+        </control>
+        <control type="image" id="222">
+          <description>separator</description>
+          <left>-250</left>
+          <top>240</top>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="8">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Search</description>
+          <label>137</label>
         </control>
         <control type="radiobutton" id="16">
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>589</label>
         </control>
-        <control type="togglebutton" id="4">
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[584]</label>
-          <altlabel>$LOCALIZE[585]</altlabel>
+        <control type="label" id="205">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>31028</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
         </control>
-      </control>
-      <control type="grouplist">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>660</top>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31088]</label>
+        <control type="image" id="223">
+          <description>separator</description>
+          <left>-250</left>
+          <top>240</top>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
         </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>Icon/Logo</label>
-          <visible>Control.IsVisible(598)</visible>
+        <control type="togglebutton" id="20">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Update library</description>
+          <textwidth>235</textwidth>
+          <label>653</label>
+          <altlabel>13353</altlabel>
+          <usealttexture>library.isscanningvideo</usealttexture>
         </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[14018]</label>
-          <visible>Control.IsVisible(53) | Control.IsVisible(50) | Control.IsVisible(56) | Control.IsVisible(58)</visible>
-        </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31090]</label>
-        </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[240]</label>
-        </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[14086]</label>
-        </control>
-        <control type="label">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31093]</label>
-        </control>
+        <include>CommonNowPlaying_Controls</include>
+        <include>CommonNowPlaying</include>
       </control>
     </control>
     <!--<include>Global_RSS</include>-->
