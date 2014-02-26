@@ -343,7 +343,7 @@
         <font>Font_Neon_Pause</font>
         <angle>90</angle>
         <textcolor>33ffffff</textcolor>
-        <visible>player.paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Paused + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -353,7 +353,7 @@
         <label>FFx2</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.forwarding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Forwarding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -363,7 +363,7 @@
         <label>FFx4</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.forwarding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Forwarding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -373,7 +373,7 @@
         <label>FFx8</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.forwarding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Forwarding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -383,7 +383,7 @@
         <label>FFx16</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.forwarding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Forwarding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -393,7 +393,7 @@
         <label>FFx32</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.forwarding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Forwarding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -403,7 +403,7 @@
         <label>RWx2</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.rewinding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Rewinding2x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -413,7 +413,7 @@
         <label>RWx4</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.rewinding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Rewinding4x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -423,7 +423,7 @@
         <label>RWx8</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.rewinding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Rewinding8x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -433,7 +433,7 @@
         <label>RWx16</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.rewinding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Rewinding16x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label" id="0">
         <left>0</left>
@@ -443,7 +443,7 @@
         <label>RWx32</label>
         <font>Font_Bartowski_BigMusic</font>
         <textcolor>33ffffff</textcolor>
-        <visible>player.rewinding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+        <visible>Player.Rewinding32x + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
     </control>
     <control type="group">
@@ -454,7 +454,7 @@
         <effect type="fade" start="100" end="0" time="600" />
       </animation>
       <control type="label">
-        <right>250</right>
+        <right>325</right>
         <top>620</top>
         <width>1000</width>
         <height>25</height>
@@ -466,7 +466,7 @@
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <right>250</right>
+        <right>325</right>
         <top>645</top>
         <width>1000</width>
         <height>25</height>
@@ -478,7 +478,7 @@
         <visible>VideoPlayer.Content(movies)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <right>250</right>
+        <right>325</right>
         <top>645</top>
         <width>1000</width>
         <height>25</height>
@@ -490,7 +490,7 @@
         <visible>VideoPlayer.Content(movies)+ Player.ChapterChapterName +![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <right>250</right>
+        <right>325</right>
         <top>675</top>
         <width>1000</width>
         <height>25</height>
@@ -502,7 +502,7 @@
         <visible>VideoPlayer.Content(movies) + Player.ChapterCount + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
       </control>
       <control type="label">
-        <right>250</right>
+        <right>325</right>
         <top>675</top>
         <width>1000</width>
         <height>25</height>
