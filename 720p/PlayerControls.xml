@@ -40,9 +40,7 @@
         <height>40</height>
         <label>-</label>
         <texturefocus>osd/OSDRewindFO.png</texturefocus>
-        <texturenofocus>osd3
-				
-				/OSDRewindNF.png</texturenofocus>
+        <texturenofocus>osd/OSDRewindNF.png</texturenofocus>
         <onleft>600</onleft>
         <onright>603</onright>
         <onup>300</onup>
