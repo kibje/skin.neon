@@ -1220,7 +1220,7 @@
             <description>Play Trailer Windowed</description>
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
-            <onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
+            <onclick>PlayMedia($ESCINFO[ListItem.Trailer],1)</onclick>
             <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(WindowedTrailer)</visible>
           </control>
           <control type="button" id="113">

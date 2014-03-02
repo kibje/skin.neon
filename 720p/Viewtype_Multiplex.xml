@@ -240,7 +240,7 @@
             </control>
             <control type="image">
               <description>IMDB rating</description>
-              <posx />
+              <left>0</left>
               <top>40</top>
               <width>76</width>
               <height>18</height>
