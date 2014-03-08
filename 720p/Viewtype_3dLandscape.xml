@@ -594,18 +594,6 @@
         <orientation>horizontal</orientation>
         <include>Animation_ZoomInZoomOut</include>
       </control>
-      <control type="grouplist">
-        <visible>!Skin.HasSetting(3dLandscape_Fanart) + !Skin.HasSetting(no_frame_flags) + !Skin.HasSetting(no_media_flags)</visible>
-        <description>Media Codec Flagging Images</description>
-        <left>20</left>
-        <top>674</top>
-        <width>1280</width>
-        <align>left</align>
-        <itemgap>0</itemgap>
-        <orientation>horizontal</orientation>
-        <include>frame_flags</include>
-        <include>Animation_ZoomInZoomOut</include>
-      </control>
     </control>
     <control type="scrollbar" id="63">
       <include>Animation_ZoomInZoomOut</include>
