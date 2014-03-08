@@ -341,7 +341,7 @@
       <visible>Control.HasFocus(510) + [!Player.HasAudio + !Player.HasVideo] | Control.HasFocus(510) + [Player.HasAudio | Player.HasVideo]</visible>
     </control>
     <control type="group" id="9001">
-      <left>15</left>
+      <left>0</left>
       <top>265</top>
       <animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus()">conditional</animation>
       <animation effect="fade" start="0" end="100" delay="300" time="200" condition="ControlGroup(9001).HasFocus()">conditional</animation>
@@ -349,10 +349,10 @@
       <animation effect="slide" end="0,350" time="0" condition="Window.IsActive(Home)">conditional</animation>
       <!--VIDEOS -->
       <control type="wraplist" id="9010">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9010</onleft>
         <onright>9010</onright>
@@ -361,12 +361,11 @@
         <preloaditems>2</preloaditems>
         <onup>301</onup>
         <ondown>301</ondown>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(2)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -378,10 +377,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -427,10 +426,10 @@
       </control>
       <!--MOVIES -->
       <control type="wraplist" id="9011">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9011</onleft>
         <onright>9011</onright>
@@ -439,12 +438,11 @@
         <preloaditems>2</preloaditems>
         <onup>301</onup>
         <ondown>301</ondown>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(3)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -456,10 +454,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -515,18 +513,18 @@
             <onclick>ActivateWindow(Videos,MusicVideoTitles,return)</onclick>
             <visible>Library.HasContent(MusicVideos)</visible>
           </item>
-	  <item id="11">
-	    <label>$LOCALIZE[31015]</label>
-	    <onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
-	  </item>
+          <item id="11">
+            <label>$LOCALIZE[31015]</label>
+            <onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
+          </item>
         </content>
       </control>
       <!--TV SHOWS -->
       <control type="wraplist" id="9012">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9012</onleft>
         <onright>9012</onright>
@@ -535,12 +533,11 @@
         <preloaditems>2</preloaditems>
         <onup>301</onup>
         <ondown>301</ondown>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(5)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
             <left>20</left>
-            <top>-5</top>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -552,10 +549,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
             <left>20</left>
-            <top>-5</top>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -602,10 +599,10 @@
       </control>
       <!--SETTINGS -->
       <control type="wraplist" id="9014">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9014</onleft>
         <onright>9014</onright>
@@ -614,12 +611,11 @@
         <preloaditems>2</preloaditems>
         <onup>301</onup>
         <ondown>301</ondown>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(9)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -631,10 +627,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -677,10 +673,10 @@
       </control>
       <!--SCRIPTS -->
       <control type="fixedlist" id="9015">
-        <left>-75</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9015</onleft>
         <onright>9015</onright>
@@ -689,12 +685,11 @@
         <focusposition>2</focusposition>
         <scrolltime>200</scrolltime>
         <preloaditems>2</preloaditems>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(10)</visible>
-        <itemlayout width="350" height="245">
+        <itemlayout width="320" height="56">
           <control type="label">
             <!--Movie title-->
-            <width>350</width>
+            <width>320</width>
             <height>56</height>
             <label>$INFO[ListItem.label]</label>
             <align>center</align>
@@ -702,11 +697,11 @@
             <textcolor>grey3</textcolor>
           </control>
         </itemlayout>
-        <focusedlayout width="350" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
             <control type="label">
               <!--Movie title-->
-              <width>350</width>
+              <width>320</width>
               <height>56</height>
               <label>$INFO[ListItem.label]</label>
               <align>center</align>
@@ -760,10 +755,10 @@
       </control>
       <!--MUSIC -->
       <control type="wraplist" id="9017">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9017</onleft>
         <onright>9017</onright>
@@ -772,12 +767,11 @@
         <onup>301</onup>
         <ondown>301</ondown>
         <preloaditems>2</preloaditems>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(1)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -789,10 +783,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -857,25 +851,24 @@
       </control>
       <!--WEATHER -->
       <control type="list" id="9018">
-        <left>180</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9018</onleft>
         <onright>9018</onright>
         <onup>301</onup>
         <ondown>301</ondown>
         <preloaditems>2</preloaditems>
-        <itemgap>0</itemgap>
-        <visible>Container(301).HasFocus(8) | Container(301).HasFocus(14)</visible>
-        <itemlayout width="320" height="245">
+        <visible>Skin.HasSetting(HomepageWeatherWidget) + [Container(301).HasFocus(8) | Container(301).HasFocus(14)]</visible>
+        <itemlayout width="400" height="56">
           <control type="group">
-            <left>100</left>
-            <top>-5</top>
+            <left>240</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
-              <width>320</width>
+              <width>400</width>
               <height>56</height>
               <label>$INFO[ListItem.label]</label>
               <align>center</align>
@@ -884,13 +877,13 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="400" height="56">
           <control type="group">
-            <left>100</left>
-            <top>-5</top>
+            <left>240</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
-              <width>320</width>
+              <width>400</width>
               <height>56</height>
               <label>$INFO[ListItem.label]</label>
               <align>center</align>
@@ -916,10 +909,10 @@
       </control>
       <!--Shutdown -->
       <control type="wraplist" id="9019">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
         <onleft>9019</onleft>
         <onright>9019</onright>
@@ -928,12 +921,11 @@
         <focusposition>2</focusposition>
         <scrolltime>200</scrolltime>
         <preloaditems>2</preloaditems>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(13)</visible>
-        <itemlayout width="320" height="245">
+        <itemlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -945,10 +937,10 @@
             </control>
           </control>
         </itemlayout>
-        <focusedlayout width="320" height="515">
+        <focusedlayout width="320" height="56">
           <control type="group">
-            <left>20</left>
-            <top>-5</top>
+            <left>0</left>
+            <top>0</top>
             <control type="label">
               <!--Movie title-->
               <width>320</width>
@@ -991,21 +983,20 @@
       </control>
       <!--DVD			-->
       <control type="fixedlist" id="9014">
-        <left>-30</left>
-        <top>30</top>
-        <width>1380</width>
-        <height>465</height>
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
         <orientation>horizontal</orientation>
-        <onleft>301</onleft>
-        <onright>301</onright>
-        <onup>9019</onup>
-        <ondown>9019</ondown>
+        <onleft>9014</onleft>
+        <onright>9014</onright>
+        <onup>301</onup>
+        <ondown>301</ondown>
         <focusposition>2</focusposition>
         <scrolltime>200</scrolltime>
         <preloaditems>2</preloaditems>
-        <itemgap>0</itemgap>
         <visible>Container(301).HasFocus(11)</visible>
-        <itemlayout width="400" height="245">
+        <itemlayout width="400" height="56">
           <control type="label">
             <!--Movie title-->
             <width>400</width>
@@ -1016,7 +1007,7 @@
             <textcolor>grey3</textcolor>
           </control>
         </itemlayout>
-        <focusedlayout width="400" height="515">
+        <focusedlayout width="400" height="56">
           <control type="group">
             <control type="label">
               <!--Movie title-->
