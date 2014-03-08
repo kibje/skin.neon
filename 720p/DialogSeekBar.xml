@@ -5,26 +5,31 @@
   <controls>
     <include>Time</include>
     <include>Finish_Time</include>
-    <control type="image">
+    <control type="group">
       <left>450</left>
       <top>-5</top>
-      <width>325</width>
-      <height>40</height>
-      <colordiffuse>mainblue</colordiffuse>
-      <texture flipy="true">InfoMessagePanel.png</texture>
-      <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
-    </control>
-    <control type="label" id="24">
-      <description>buffering label</description>
-      <left>65</left>
-      <top>15</top>
-      <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
-      <width>30</width>
-      <align>center</align>
-      <aligny>center</aligny>
-      <textcolor>red</textcolor>
-      <font>Font_RSS_Unicode</font>
-      <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+      <control type="image">
+        <left>0</left>
+        <top>0</top>
+        <width>325</width>
+        <height>40</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture flipy="true">InfoMessagePanel.png</texture>
+        <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+      </control>
+      <control type="label" id="24">
+        <description>buffering label</description>
+        <left>65</left>
+        <top>0</top>
+        <label>$LOCALIZE[15107] $INFO[Player.CacheLevel]%</label>
+        <width>200</width>
+        <height>40</height>
+        <align>center</align>
+        <aligny>center</aligny>
+        <textcolor>red</textcolor>
+        <font>Font_RSS_Unicode</font>
+        <visible>[Player.Paused + Player.Caching] + !Player.Seeking</visible>
+      </control>
     </control>
     <control type="group">
       <top>567</top>
