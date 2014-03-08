@@ -61,7 +61,7 @@
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
       </control>
       <control type="label">
-        <left>170</left>
+        <left>190</left>
         <top>-90</top>
         <width>940</width>
         <height>150</height>
@@ -138,6 +138,7 @@
             <orientation>horizontal</orientation>
             <include>VideoCodecFlaggingConditions</include>
             <include>AudioCodecFlaggingConditions</include>
+            <include>AudioChannelsFlaggingConditions</include>
           </control>
           <control type="grouplist">
             <description>Media Codec Flagging Images</description>
@@ -283,7 +284,7 @@
         </control>
       </control>
       <control type="group">
-        <left>320</left>
+        <left>350</left>
         <top>20</top>
         <visible>!Container(588).OnNext + !Container(588).OnPrevious</visible>
         <animation effect="fade" start="0" end="100" time="500" delay="1500">Visible</animation>
@@ -291,7 +292,7 @@
           <visible>!Skin.HasSetting(extrathumbs)</visible>
           <left>0</left>
           <top>0</top>
-          <width>640</width>
+          <width>630</width>
           <height>340</height>
           <label>$INFO[ListItem.Plot]</label>
           <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -341,7 +342,7 @@
           <animation effect="fade" start="100" end="0" time="1000" condition="Player.HasVideo">Conditional</animation>
         </control>
       </control>
-      <control type="videowindow" id="2">
+      <control type="videowindow" id="628">
         <left>320</left>
         <top>20</top>
         <width>640</width>
@@ -366,7 +367,7 @@
         </control>
         <control type="label">
           <left>2</left>
-          <top>6</top>
+          <top>9</top>
           <align>center</align>
           <width>486</width>
           <height>271</height>
@@ -477,13 +478,17 @@
         <visible>!Skin.HasSetting(no_media_flags) + !Skin.HasSetting(MultiPlexFanart)</visible>
         <description>Media Codec Flagging Images</description>
         <left>0</left>
-        <top>370</top>
+        <top>470</top>
         <width>1280</width>
         <align>right</align>
         <itemgap>0</itemgap>
         <orientation>horizontal</orientation>
-        <include condition="!Skin.HasSetting(grey_flags)">color_flags</include>
-        <include condition="Skin.HasSetting(grey_flags)">grey_flags</include>
+        <include>StudioFlags</include>
+        <include>VideoTypeHackFlaggingConditions</include>
+        <include>VideoCodecFlaggingConditions</include>
+        <include>AspectCodecFlaggingConditions</include>
+        <include>AudioCodecFlaggingConditions</include>
+        <include>AudioChannelsFlaggingConditions</include>
         <include>Animation_Viewtype_Showcase_RightFlags</include>
       </control>
     </control>
@@ -494,7 +499,7 @@
       <width>1150</width>
       <onleft>50</onleft>
       <onright>50</onright>
-      <onup>68</onup>
+      <onup>65</onup>
       <include condition="!Skin.HasSetting(big_trailer)">ondown_small_trailer</include>
       <include condition="Skin.HasSetting(big_trailer)">ondown_big_trailer</include>
       <viewtype label="$LOCALIZE[31132]">list</viewtype>
@@ -502,7 +507,7 @@
       <focusposition>5</focusposition>
       <scrolltime>200</scrolltime>
       <preloaditems>2</preloaditems>
-      <pagecontrol>68</pagecontrol>
+      <pagecontrol>65</pagecontrol>
       <include>Animation_Viewtype_Showcase_FocusArea</include>
       <visible>!Skin.HasSetting(no_Showcase) + [Container.Content(movies) | substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)]</visible>
       <itemlayout width="106" height="129">
@@ -578,21 +583,21 @@
       <visible>!Skin.HasSetting(MultiPlexFanart)</visible>
       <include>Trailer_Showcase</include>
     </control>
-    <control type="scrollbar" id="68">
+    <control type="scrollbar" id="65">
       <include>Animation_ZoomInZoomOut</include>
       <left>100</left>
       <top>900</top>
       <width>1080</width>
       <height>25</height>
-      <visible allowhiddenfocus="true">Control.IsVisible(588) + Control.HasFocus(68)</visible>
+      <visible allowhiddenfocus="true">Control.IsVisible(588) + Control.HasFocus(65)</visible>
       <texturesliderbackground>osd/osd_progress_back1.png</texturesliderbackground>
       <textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
       <onup>7000</onup>
-      <ondown>58</ondown>
+      <ondown>588</ondown>
       <showonepage>true</showonepage>
       <orientation>horizontal</orientation>
       <include>Animation_CommonFade</include>
-      <animation effect="slide" start="0,0" end="0,-220" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(68)">Conditional</animation>
+      <animation effect="slide" start="0,0" end="0,-210" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(65)">Conditional</animation>
     </control>
   </include>
 </includes>
