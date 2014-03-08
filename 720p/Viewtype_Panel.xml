@@ -446,18 +446,6 @@
           <include>AudioChannelsFlaggingConditions</include>
           <include>Animation_ZoomInZoomOut</include>
         </control>
-        <control type="grouplist">
-          <visible>Container.Content(movies) + !Skin.HasSetting(no_frame_flags) + ![Player.HasAudio + !SubString(Window(videolibrary).Property(tvtunesIsAlive),True)] + !Skin.HasSetting(no_media_flags)</visible>
-          <description>Media Codec Flagging Images</description>
-          <left>20</left>
-          <top>674</top>
-          <width>540</width>
-          <align>center</align>
-          <itemgap>0</itemgap>
-          <orientation>horizontal</orientation>
-          <include>frame_flags</include>
-          <include>Animation_ZoomInZoomOut</include>
-        </control>
       </control>
       <control type="scrollbar" id="66">
         <include>Animation_ZoomInZoomOut</include>
