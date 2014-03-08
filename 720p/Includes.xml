@@ -34,7 +34,6 @@
   <include file="Viewtype_MusicLogo.xml" />
   <include file="Includes_Animations.xml" />
   <include file="Includes_Trailer.xml" />
-  <include file="Includes_Objects.xml" />
   <include file="IncludesHomeRecentlyAdded.xml" />
   <include file="Includes_Next_Aired.xml" />
   <include file="Includes_Music_Global.xml" />
