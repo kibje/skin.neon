@@ -59,7 +59,6 @@
         <aligny>center</aligny>
         <textcolor>white</textcolor>
       </control>
-      </control>
       <control type="textbox" id="9">
         <description>text</description>
         <left>20</left>

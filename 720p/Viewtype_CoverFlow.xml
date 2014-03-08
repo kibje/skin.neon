@@ -4,7 +4,7 @@
     <control type="group">
       <visible>Control.IsVisible(558)</visible>
       <include>Animation_ZoomInZoomOut</include>
-      <include>Animation_ZoomedByMenu</include>
+      <!-- <include>Animation_ZoomedByMenu</include> Animation doesn't match Neon theme -->
       <include>Animation_HiddenByInfo</include>
       <control type="image">
         <left>0</left>
@@ -2763,7 +2763,7 @@
       <!-- Browser label and flags -->
       <control type="group">
         <left>30</left>
-        <top>665</top>
+        <top>675</top>
         <include>Animation_HiddenByInfo</include>
         <control type="fadelabel">
           <left>0</left>
@@ -2801,7 +2801,7 @@
       <control type="grouplist">
         <visible>Control.IsVisible(558) + Container.Content(movies) + !Skin.HasSetting(no_media_flags) + !Player.HasVideo</visible>
         <description>Media Codec Flagging Images</description>
-        <right>430</right>
+        <right>30</right>
         <top>682</top>
         <width>420</width>
         <itemgap>0</itemgap>
@@ -2815,7 +2815,22 @@
         <include>Animation_HiddenByInfo</include>
         <include>Animation_Viewtype_Wall_Fags</include>
       </control>
-      <include>ScrollBar_Horizontal</include>
+      <control type="scrollbar" id="60">
+        <left>305</left>
+        <top>650</top>
+        <width>670</width>
+        <height>25</height>
+        <onup>558</onup>
+        <ondown>7000</ondown>
+        <texturesliderbackground>osd/osd_progress_back1.png</texturesliderbackground>
+        <textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+        <pulseonselect>true</pulseonselect>
+        <orientation>horizontal</orientation>
+        <showonepage>false</showonepage>
+        <onleft>60</onleft>
+        <onright>60</onright>
+        <visible allowhiddenfocus="true">Control.IsVisible(558) + Control.HasFocus(60)</visible>
+      </control>
     </control>
   </include>
 </includes>

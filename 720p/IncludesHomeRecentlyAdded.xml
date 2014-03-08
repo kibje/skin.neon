@@ -1271,11 +1271,6 @@
           </content>
         </control>
       </control>
-      <control type="label" id="101">
-        <include>InvisibleLabel</include>
-        <label>$INFO[Skin.String(customColorLabel)]</label>
-        <visible>Control.HasFocus(9)</visible>
-      </control>
       <!-- Latest Movie/TVShow/Music/Info AeonMQ -->
       <control type="group">
         <include>Animation_OpenCloseSlideWidget</include>
@@ -1287,7 +1282,6 @@
         <animation effect="slide" start="0,0" end="0,-30" time="400" tween="cubic" easing="inout" condition="Skin.HasSetting(lowerwidgets) + !Skin.HasSetting(lowermainmenu) + Skin.HasSetting(lowerrss)">Conditional</animation>
         <control type="image">
           <include>Objects_MultiFunctionWidget</include>
-          <include>skin_allcolors</include>
           <texture background="true" border="20">ContentPanel.png</texture>
         </control>
         <control type="label">
@@ -1400,20 +1394,6 @@
           <label>$INFO[Container(510).ListItem.Label2]</label>
           <include>Animation_CommonFade</include>
           <visible>Container(301).HasFocus(1) | [Container(301).HasFocus(5) + !Skin.HasSetting(BigRecentTV)]</visible>
-        </control>
-        <control type="label">
-          <include>MainMenuMultiFunction_SubTitle</include>
-          <label>31383</label>
-          <textcolor>c0FFFFFF</textcolor>
-          <include>Animation_CommonFade</include>
-          <visible>Container(301).HasFocus(9)</visible>
-        </control>
-        <control type="label">
-          <include>MainMenuMultiFunction_SubTitle2</include>
-          <include>SkinVersion</include>
-          <textcolor>c0FFFFFF</textcolor>
-          <include>Animation_CommonFade</include>
-          <visible>Container(301).HasFocus(9)</visible>
         </control>
       </control>
     </control>

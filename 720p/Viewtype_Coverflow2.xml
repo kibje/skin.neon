@@ -4,7 +4,7 @@
     <control type="group">
       <visible>Control.IsVisible(512)</visible>
       <include>Animation_ZoomInZoomOut</include>
-      <include>Animation_ZoomedByMenu</include>
+      <!-- <include>Animation_ZoomedByMenu</include> Animation doesn't match Neon theme -->
       <include>Animation_HiddenByInfo</include>
       <control type="group">
         <visible>[!IntegerGreaterThan(Container(512).NumItems,12) + !system.getbool(filelists.showparentdiritems)] | [!IntegerGreaterThan(Container(512).NumItems,11) + system.getbool(filelists.showparentdiritems)]</visible>
@@ -2819,7 +2819,7 @@
           <top>0</top>
           <width>130</width>
           <height>10</height>
-          <include condition="!Skin.HasSetting(ViewLockdown)">OnUp7000</include>
+          <onup>7000</onup>
           <ondown>60</ondown>
           <viewtype label="31337">list</viewtype>
           <pagecontrol>60</pagecontrol>
@@ -2831,7 +2831,22 @@
           <focusedlayout height="10" width="10" />
         </control>
       </control>
-      <include>ScrollBar_Horizontal</include>
+      <control type="scrollbar" id="60">
+        <left>305</left>
+        <top>675</top>
+        <width>670</width>
+        <height>25</height>
+        <onup>558</onup>
+        <ondown>7000</ondown>
+        <texturesliderbackground>osd/osd_progress_back1.png</texturesliderbackground>
+        <textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+        <pulseonselect>true</pulseonselect>
+        <orientation>horizontal</orientation>
+        <showonepage>false</showonepage>
+        <onleft>60</onleft>
+        <onright>60</onright>
+        <visible allowhiddenfocus="true">Control.IsVisible(558) + Control.HasFocus(60)</visible>
+      </control>
     </control>
   </include>
 </includes>

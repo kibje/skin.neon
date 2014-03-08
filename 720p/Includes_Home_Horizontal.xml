@@ -2,27 +2,26 @@
 <includes>
   <include name="HorizontalHomeBottom">
     <control type="wraplist" id="301">
-      <left>-190</left>
-      <top>192</top>
-      <height>466</height>
-      <width>2800</width>
+      <left>0</left>
+      <top>244</top>
+      <height>67</height>
+      <width>1280</width>
       <onup>4052</onup>
       <ondown>4051</ondown>
       <onleft>301</onleft>
       <onright>301</onright>
       <viewtype>list</viewtype>
       <orientation>horizontal</orientation>
-      <focusposition>2</focusposition>
-      <movement>0</movement>
+      <focusposition>1</focusposition>
       <scrolltime>200</scrolltime>
       <include>Animation_Bartowski_Context_Zoom_Bottom</include>
       <animation effect="slide" end="0,330" time="0" condition="Window.IsActive(Home)">conditional</animation>
-      <itemlayout width="335" height="61">
+      <itemlayout width="320" height="61">
         <control type="label">
-          <width>450</width>
+          <width>320</width>
           <height>61</height>
-          <left>30</left>
-          <top>58</top>
+          <left>200</left>
+          <top>6</top>
           <align>center</align>
           <font>Font_Neon_45</font>
           <textcolor>38b8b7b7</textcolor>
@@ -34,12 +33,12 @@
           <animation effect="fade" start="20" end="100" time="1000" condition="!ControlGroup(9001).HasFocus()">conditional&gt;</animation>
         </control>
       </itemlayout>
-      <focusedlayout width="600" height="61">
+      <focusedlayout width="560" height="61">
         <control type="label">
-          <width>600</width>
-          <height>341</height>
-          <left>160</left>
-          <top>52</top>
+          <width>320</width>
+          <height>61</height>
+          <left>320</left>
+          <top>0</top>
           <align>center</align>
           <font>Font_Neon_45_Focus</font>
           <textcolor>ffffffff</textcolor>
