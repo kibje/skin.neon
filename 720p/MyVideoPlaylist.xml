@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Empty-->
-<window id="28">
+<window>
   <defaultcontrol>50</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
   <views>50,58,52,51,596</views>

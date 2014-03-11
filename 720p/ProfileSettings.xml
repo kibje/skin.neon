@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="130">
+<window>
   <defaultcontrol>1</defaultcontrol>
   <include>Animation_SettingsFade</include>
   <coordinates>

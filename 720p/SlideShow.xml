@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
-<window id="2007">
+<window>
   <controls>
     <control type="label">
       <include>DialogID</include>
