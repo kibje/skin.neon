@@ -187,6 +187,16 @@
         <shadowcolor>FF000000</shadowcolor>
         <font>Font_RSS</font>
         <align>left</align>
+        <label>SkinSettings.xml</label>
+        <visible>Window.IsVisible(SkinSettings.xml)</visible>
+      </control>
+      <control type="label">
+        <width>780</width>
+        <height>21</height>
+        <textcolor>FF0000FF</textcolor>
+        <shadowcolor>FF000000</shadowcolor>
+        <font>Font_RSS</font>
+        <align>left</align>
         <label>SettingsCategory.xml</label>
         <visible>Window.IsVisible(SettingsCategory.xml)</visible>
       </control>

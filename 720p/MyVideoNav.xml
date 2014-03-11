@@ -144,7 +144,7 @@
       <include>ScrollOffsetLabel</include>
     </control>
     <control type="group">
-      <visible>!SubString(Window(25).Property(tvtunesIsAlive),True)</visible>
+      <visible>!SubString(Window(Videos).Property(tvtunesIsAlive),True)</visible>
       <include>RSS_Music</include>
     </control>
     <!--		<include>7000_has_focus</include> -->
