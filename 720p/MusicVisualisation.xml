@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<window id="2006">
+<window>
   <allowoverlay>no</allowoverlay>
   <onload condition="system.hasaddon(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
   <controls>

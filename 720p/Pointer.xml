@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Empty-->
-<window id="105">
+<window>
   <defaultcontrol>1</defaultcontrol>
   <controls>
     <control type="image" id="1">

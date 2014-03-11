@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
-<window id="100">
+<window>
   <defaultcontrol always="true">10</defaultcontrol>
   <include>Animation_SettingsFade</include>
   <coordinates>
