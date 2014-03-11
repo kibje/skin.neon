@@ -157,7 +157,7 @@
           <height>46</height>
           <aligny>center</aligny>
           <font>Font_Bartowski_Episode_ContextMenu</font>
-          <textcolor>FFFF6000</textcolor>
+          <textcolor>mainblue</textcolor>
           <label>$INFO[ListItem.Label]</label>
           <visible>[!Window.IsActive(Programs) | Window.IsActive(musicplaylist)]</visible>
         </control>
