@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window type="dialog" id="120">
+<window type="dialog">
   <defaultcontrol always="true">602</defaultcontrol>
   <controls>
     <control type="group">
@@ -75,7 +75,7 @@
           <onright>800</onright>
           <onup>601</onup>
           <ondown>601</ondown>
-          <onclick>ActivateWindow(122)</onclick>
+          <onclick>ActivateWindow(VisualisationPresetList)</onclick>
         </control>
       </control>
       <control type="image" id="11">

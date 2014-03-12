@@ -5,7 +5,7 @@
     <include>CommonSettingsBackground</include>
     <include>CommonMediaPlayingBackground</include>
     <control type="group">
-      <left>90</left>
+      <left>80</left>
       <top>50</top>
       <animation type="WindowOpen" reversible="false">
         <!--	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
@@ -23,6 +23,24 @@
         <colordiffuse>mainblue</colordiffuse>
         <texture border="20">DialogBack.png</texture>
       </control>
+      <control type="button">
+        <description>Close Window button</description>
+        <left>1005</left>
+        <top>9</top>
+        <width>64</width>
+        <height>32</height>
+        <label>-</label>
+        <font>-</font>
+        <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
+        <texturefocus>DialogCloseButton-focus.png</texturefocus>
+        <texturenofocus>DialogCloseButton.png</texturenofocus>
+        <onleft>1</onleft>
+        <onright>1</onright>
+        <onup>1</onup>
+        <ondown>1</ondown>
+        <visible>system.getbool(input.enablemouse)</visible>
+      </control>
       <control type="image">
         <description>LOGO</description>
         <left>30</left>
@@ -36,7 +54,7 @@
       <control type="list" id="9000">
         <left>10</left>
         <top>102</top>
-        <width>281</width>
+        <width>260</width>
         <height>481</height>
         <itemgap>-1</itemgap>
         <onleft>9010</onleft>
@@ -45,19 +63,19 @@
         <ondown>9000</ondown>
         <pagecontrol>-</pagecontrol>
         <scrolltime>300</scrolltime>
-        <itemlayout height="60" width="261">
+        <itemlayout height="52" width="261">
           <control type="image">
             <left>0</left>
             <top>0</top>
-            <width>280</width>
+            <width>260</width>
             <height>45</height>
             <texture>MenuItemNF.png</texture>
           </control>
           <control type="label">
-            <left>135</left>
-            <top>-10</top>
-            <width>230</width>
-            <!-- <height>25</height> -->
+            <left>130</left>
+            <top>0</top>
+            <width>260</width>
+            <height>45</height>
             <font>font24caps_title</font>
             <textcolor>grey3</textcolor>
             <textoffsetx>10</textoffsetx>
@@ -66,22 +84,20 @@
             <label>$INFO[ListItem.Label]</label>
           </control>
         </itemlayout>
-        <focusedlayout height="60" width="261">
+        <focusedlayout height="52" width="261">
           <control type="image">
             <left>0</left>
-            <top>4</top>
-            <width>280</width>
+            <top>0</top>
+            <width>260</width>
             <height>45</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture>mainmenu/home_bottom_white.png</texture>
-            <animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
           </control>
           <control type="label">
-            <left>135</left>
-            <top>-10</top>
-            <width>230</width>
-            <!--<height>25</height> -->
-            <!-- <textoffsetx>10</textoffsetx> -->
+            <left>130</left>
+            <top>0</top>
+            <width>260</width>
+            <height>45</height>
             <font>font24caps_title</font>
             <textcolor>white</textcolor>
             <textoffsetx>10</textoffsetx>
@@ -141,9 +157,23 @@
           </item>
         </content>
       </control>
+      <control type="image">
+        <left>270</left>
+        <top>10</top>
+        <width>800</width>
+        <height>618</height>
+        <texture border="5">black-back2.png</texture>
+      </control>
+      <control type="image">
+        <left>268</left>
+        <top>50</top>
+        <width>805</width>
+        <aspectratio>stretch</aspectratio>
+        <texture>common/separator.png</texture>
+      </control>
       <control type="label">
         <description>header label</description>
-        <left>320</left>
+        <left>300</left>
         <top>20</top>
         <width>740</width>
         <height>30</height>
@@ -154,29 +184,15 @@
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
-      <control type="image">
-        <left>290</left>
-        <top>10</top>
-        <width>770</width>
-        <height>615</height>
-        <texture>black-back2.png</texture>
-      </control>
-      <control type="image">
-        <left>268</left>
-        <top>50</top>
-        <width>805</width>
-        <aspectratio>stretch</aspectratio>
-        <texture>common/separator.png</texture>
-      </control>
       <control type="group" id="9010">
         <control type="grouplist" id="9001">
           <visible>Container(9000).Hasfocus(1)</visible>
-          <left>290</left>
-          <top>60</top>
-          <width>860</width>
+          <left>271</left>
+          <top>70</top>
+          <width>798</width>
           <height>530</height>
           <itemgap>-1</itemgap>
-          <pagecontrol>-</pagecontrol>
+          <pagecontrol>61</pagecontrol>
           <onleft>9000</onleft>
           <onright>9000</onright>
           <onup>9001</onup>
@@ -234,31 +250,23 @@
             <width>740</width>
             <height>45</height>
             <label>$LOCALIZE[512]</label>
-            <textoffsetx>15</textoffsetx>
             <font>Font_Neon_20</font>
+            <textoffsetx>15</textoffsetx>
             <textcolor>mainblue</textcolor>
             <shadowcolor>black</shadowcolor>
             <align>left</align>
             <aligny>center</aligny>
           </control>
           <control type="radiobutton" id="121">
-            <width>770</width>
-            <height>40</height>
-            <font>Font_KeyboardKeys</font>
+            <include>skin_settings_labels</include>
             <label>$LOCALIZE[21398]</label>
-            <textoffsetx>30</textoffsetx>
-            <textcolor>grey2</textcolor>
-            <focusedcolor>white</focusedcolor>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(Use_Startup_Playlist)</onclick>
             <selected>Skin.HasSetting(Use_Startup_Playlist)</selected>
             <onclick>Skin.Reset(Use_Intro_Movie)</onclick>
           </control>
           <control type="button" id="122">
             <description>Startup Playlist Path</description>
-            <width>740</width>
+            <width>813</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
             <textcolor>grey2</textcolor>
@@ -275,16 +283,7 @@
           <control type="radiobutton" id="123">
             <description>Use Intro Movie</description>
             <include>skin_settings_labels</include>
-            <width>740</width>
-            <height>30</height>
             <label>$LOCALIZE[31010]</label>
-            <font>Font_KeyboardTitle</font>
-            <textoffsetx>30</textoffsetx>
-            <textcolor>grey2</textcolor>
-            <focusedcolor>white</focusedcolor>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus>MenuItemNF.png</texturenofocus>
             <onclick>Skin.ToggleSetting(Use_Intro_Movie)</onclick>
             <selected>Skin.HasSetting(Use_Intro_Movie)</selected>
             <onclick>Skin.Reset(Use_Startup_Playlist)</onclick>
@@ -328,12 +327,12 @@
         </control>
         <control type="grouplist" id="9002">
           <visible>Container(9000).Hasfocus(2)</visible>
-          <left>290</left>
-          <top>60</top>
-          <width>860</width>
+          <left>271</left>
+          <top>70</top>
+          <width>798</width>
           <height>530</height>
           <itemgap>-1</itemgap>
-          <pagecontrol>60</pagecontrol>
+          <pagecontrol>61</pagecontrol>
           <onleft>9000</onleft>
           <onright>60</onright>
           <onup>9002</onup>
@@ -379,8 +378,9 @@
           </control>
           <control type="radiobutton" id="2021">
             <description>Use Random Items</description>
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
+            <radioposx>640</radioposx>
             <font>Font_KeyboardTitle</font>
             <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31516]</label>
@@ -395,9 +395,10 @@
           </control>
           <control type="radiobutton" id="2022">
             <description>Show Large Recently added tvinfo</description>
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
+            <radioposx>640</radioposx>
             <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31979]</label>
             <textcolor>grey2</textcolor>
@@ -411,9 +412,10 @@
           </control>
           <control type="radiobutton" id="2023">
             <description>Show Large Recently added tvinfo</description>
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
+            <radioposx>640</radioposx>
             <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31980]</label>
             <textcolor>grey2</textcolor>
@@ -427,9 +429,10 @@
           </control>
           <control type="radiobutton" id="2024">
             <description>Only show Albums in music view</description>
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
+            <radioposx>640</radioposx>
             <textoffsetx>40</textoffsetx>
             <label>$LOCALIZE[31011]</label>
             <textcolor>grey2</textcolor>
@@ -448,7 +451,7 @@
             <selected>Skin.HasSetting(global_bottomline)</selected>
           </control>
           <control type="button" id="229">
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
             <textcolor>grey2</textcolor>
@@ -479,7 +482,7 @@
             <selected>Skin.HasSetting(conditions_weather_backdrop)</selected>
           </control>
           <control type="button" id="206">
-            <width>740</width>
+            <width>798</width>
             <height>30</height>
             <font>Font_KeyboardTitle</font>
             <focusedcolor>white</focusedcolor>
@@ -501,9 +504,10 @@
           </control>
           <control type="radiobutton" id="208">
             <description>Global Ken Burns</description>
-            <width>770</width>
+            <width>798</width>
             <height>26</height>
             <font>Font_KeyboardTitle</font>
+            <radioposx>640</radioposx>
             <textoffsetx>40</textoffsetx>
             <textoffsety>4</textoffsety>
             <textcolor>grey2</textcolor>
@@ -712,7 +716,7 @@
             <onright>300</onright>
             <onup>9003</onup>
             <ondown>9003</ondown>
-            <pagecontrol>-</pagecontrol>
+            <pagecontrol>61</pagecontrol>
             <scrolltime>0</scrolltime>
             <itemlayout height="1" width="860"></itemlayout>
             <focusedlayout height="40" width="860">
@@ -2286,9 +2290,9 @@
         <control type="group">
           <control type="grouplist" id="9004">
             <visible>Container(9000).Hasfocus(4)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -2297,9 +2301,10 @@
             <onup>9004</onup>
             <ondown>9004</ondown>
             <control type="label" id="400">
-              <width>860</width>
+              <width>740</width>
               <height>45</height>
-              <font>Font_KeyboardKeys</font>
+              <font>Font_Neon_20</font>
+              <textoffsetx>15</textoffsetx>
               <label>Add Submenu of Custom Scripts on Home</label>
               <textcolor>mainblue</textcolor>
               <align>left</align>
@@ -2516,29 +2521,13 @@
 						</control>-->
           </control>
         </control>
-        <control type="scrollbar" id="61">
-          <left>1060</left>
-          <top>60</top>
-          <width>25</width>
-          <height>530</height>
-          <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-          <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
-          <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
-          <textureslidernib>ScrollBarNib.png</textureslidernib>
-          <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
-          <onleft>9004</onleft>
-          <onright>9000</onright>
-          <showonepage>false</showonepage>
-          <orientation>vertical</orientation>
-          <visible>Container(9000).Hasfocus(4)</visible>
-        </control>
         <control type="group">
           <!--Movies/TV-->
           <control type="grouplist" id="9005">
             <visible>Container(9000).Hasfocus(5)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -2547,7 +2536,7 @@
             <onup>9005</onup>
             <ondown>9005</ondown>
             <control type="label" id="500">
-              <width>860</width>
+              <width>740</width>
               <height>45</height>
               <font>Font_Neon_20</font>
               <textoffsetx>15</textoffsetx>
@@ -2645,9 +2634,10 @@
               <align>left</align>
             </control>
             <control type="radiobutton" id="5100">
-              <width>770</width>
-              <height>45</height>
-              <font>Font_Neon_24</font>
+              <width>798</width>
+              <height>30</height>
+              <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <textcolor>grey2</textcolor>
               <focusedcolor>white</focusedcolor>
@@ -2682,77 +2672,32 @@
               <aligny>center</aligny>
             </control>
             <control type="button" id="514">
-              <left>0</left>
-              <width>740</width>
-              <height>40</height>
-              <font>Font_Neon_24</font>
-              <textoffsetx>25</textoffsetx>
+              <include>skin_settings_labels</include>
               <label>$LOCALIZE[31264]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, mediatype=tvshow, clearlogo)</onclick>
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="517">
-              <left>0</left>
-              <width>740</width>
-              <height>40</height>
-              <font>Font_Neon_24</font>
-              <textoffsetx>25</textoffsetx>
+              <include>skin_settings_labels</include>
               <label>$LOCALIZE[31973]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, poster)</onclick>
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="518">
-              <left>0</left>
-              <width>740</width>
-              <height>40</height>
-              <font>Font_Neon_24</font>
-              <textoffsetx>25</textoffsetx>
+              <include>skin_settings_labels</include>
               <label>$LOCALIZE[31974]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, banner)</onclick>
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="519">
-              <left>0</left>
-              <width>740</width>
-              <height>40</height>
-              <font>Font_Neon_24</font>
-              <textoffsetx>25</textoffsetx>
+              <include>skin_settings_labels</include>
               <label>$LOCALIZE[31975]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, defaultthumb)</onclick>
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
             <control type="button" id="520">
-              <left>0</left>
-              <width>740</width>
-              <height>40</height>
-              <font>Font_Neon_24</font>
-              <textoffsetx>25</textoffsetx>
+              <include>skin_settings_labels</include>
               <label>$LOCALIZE[31976]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>XBMC.RunScript(script.artwork.downloader, mode=custom, clearart)</onclick>
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
@@ -2774,9 +2719,9 @@
           <!--Music-->
           <control type="grouplist" id="9008">
             <visible>Container(9000).Hasfocus(6)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -2787,8 +2732,8 @@
             <control type="label" id="112">
               <width>740</width>
               <height>45</height>
-              <textoffsetx>15</textoffsetx>
               <font>Font_Neon_20</font>
+              <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31038]</label>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -2802,9 +2747,10 @@
               <selected>Skin.HasSetting(FanartNoVisualisation)</selected>
             </control>
             <control type="radiobutton" id="114">
-              <width>740</width>
-              <height>40</height>
+              <width>798</width>
+              <height>30</height>
               <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31041]</label>
               <textcolor>grey2</textcolor>
@@ -2817,9 +2763,10 @@
               <visible>Skin.HasSetting(FanartNoVisualisation)</visible>
             </control>
             <control type="radiobutton" id="115">
-              <width>740</width>
-              <height>40</height>
+              <width>798</width>
+              <height>30</height>
               <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31257]</label>
               <textcolor>grey2</textcolor>
@@ -2832,9 +2779,10 @@
               <visible>!IsEmpty(Skin.String(CustomMusicFolder)) + Skin.HasSetting(FanartNoVisualisation)</visible>
             </control>
             <control type="radiobutton" id="116">
-              <width>740</width>
-              <height>40</height>
+              <width>798</width>
+              <height>30</height>
               <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
               <textoffsetx>40</textoffsetx>
               <label>$LOCALIZE[31258]</label>
               <textcolor>grey2</textcolor>
@@ -2896,9 +2844,9 @@
           <!--Reset Skin-->
           <control type="grouplist" id="9009">
             <visible>Container(9000).Hasfocus(9)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -2909,6 +2857,8 @@
             <control type="label" id="600">
               <width>860</width>
               <height>45</height>
+              <font>Font_Neon_20</font>
+              <textoffsetx>15</textoffsetx>
               <label>Reset all Skin Settings</label>
               <textcolor>red</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -2927,9 +2877,9 @@
           <!--Disable Views-->
           <control type="grouplist" id="9006">
             <visible>Container(9000).Hasfocus(8)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -2941,6 +2891,7 @@
               <width>860</width>
               <height>45</height>
               <font>Font_Neon_20</font>
+              <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31047]</label>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -3041,6 +2992,7 @@
               <width>860</width>
               <height>45</height>
               <font>Font_Neon_20</font>
+              <textoffsetx>15</textoffsetx>
               <label>$LOCALIZE[31065]</label>
               <textcolor>mainblue</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -3076,9 +3028,9 @@
         <control type="group">
           <control type="grouplist" id="9007">
             <visible>Container(9000).Hasfocus(7)</visible>
-            <left>290</left>
-            <top>60</top>
-            <width>860</width>
+            <left>271</left>
+            <top>70</top>
+            <width>798</width>
             <height>530</height>
             <itemgap>-1</itemgap>
             <pagecontrol>61</pagecontrol>
@@ -3632,6 +3584,22 @@
               <visible>Skin.HasSetting(Menu_Custom18) + Skin.String(MoviesCustom,18)</visible>
             </control>
           </control>
+        </control>
+        <control type="scrollbar" id="61">
+          <left>1068</left>
+          <top>65</top>
+          <width>25</width>
+          <height>530</height>
+          <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+          <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+          <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+          <textureslidernib>ScrollBarNib.png</textureslidernib>
+          <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+          <onleft>9004</onleft>
+          <onright>9000</onright>
+          <showonepage>false</showonepage>
+          <orientation>vertical</orientation>
+          <visible>!Container(9000).Hasfocus(3)</visible>
         </control>
       </control>
     </control>

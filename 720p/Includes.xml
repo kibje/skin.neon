@@ -128,7 +128,7 @@
     <pulseonselect>false</pulseonselect>
   </include>
   <include name="skin_settings_labels">
-    <width>770</width>
+    <width>798</width>
     <height>34</height>
     <textoffsetx>30</textoffsetx>
     <font>Font_Neon_25</font>
@@ -139,7 +139,7 @@
     <texturenofocus>MenuItemNF.png</texturenofocus>
   </include>
   <include name="skin_settings_sub_labels">
-    <width>740</width>
+    <width>798</width>
     <height>34</height>
     <textoffsetx>40</textoffsetx>
     <font>Font_Neon_25</font>
@@ -150,7 +150,7 @@
     <texturenofocus>MenuItemNF.png</texturenofocus>
   </include>
   <include name="skin_settings_button">
-    <width>740</width>
+    <width>798</width>
     <height>34</height>
     <textoffsetx>40</textoffsetx>
     <font>Font_Neon_25</font>

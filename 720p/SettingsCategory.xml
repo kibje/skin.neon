@@ -46,13 +46,14 @@
       </control>
       <control type="button">
         <description>Close Window button</description>
-        <left>1015</left>
+        <left>1005</left>
         <top>9</top>
         <width>64</width>
         <height>32</height>
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>1</onleft>
@@ -73,55 +74,54 @@
       </control>
       <control type="grouplist" id="3">
         <description>button area</description>
-        <left>9</left>
+        <left>10</left>
         <top>102</top>
         <width>260</width>
         <height>481</height>
-        <itemgap>-1</itemgap>
         <onleft>60</onleft>
         <onright>5</onright>
         <onup>3</onup>
         <ondown>20</ondown>
       </control>
       <control type="button" id="20">
-				<description>Setting level button</description>
-				<left>10</left>
-				<top>562</top>
-				<height>60</height>
-				<width>260</width>
-				<label>10037</label>
-				<textoffsetx>20</textoffsetx>
-				<textoffsety>28</textoffsety>
-				<align>right</align>
-				<aligny>top</aligny>
-				<font>font13caps</font>
-				<textcolor>selected</textcolor>
+        <description>Setting level button</description>
+        <left>10</left>
+        <top>562</top>
+        <height>60</height>
+        <width>260</width>
+        <label>10037</label>
+        <textoffsetx>20</textoffsetx>
+        <textoffsety>28</textoffsety>
+        <align>right</align>
+        <aligny>top</aligny>
+        <font>font13caps</font>
+        <textcolor>selected</textcolor>
         <focusedcolor>selected</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
         <texturenofocus>MenuItemNF.png</texturenofocus>
         <pulseonselect>true</pulseonselect>
-				<onleft>5</onleft>
-				<onright>5</onright>
-				<onup>3</onup>
-				<ondown>3</ondown>
-				<onclick>SettingsLevelChange</onclick>
-			</control>
+        <onleft>5</onleft>
+        <onright>5</onright>
+        <onup>3</onup>
+        <ondown>3</ondown>
+        <onclick>SettingsLevelChange</onclick>
+      </control>
       <control type="label">
-				<left>20</left>
-				<top>566</top>
-				<height>25</height>
-				<width>230</width> 
-				<label>31016</label> 
-				<font>font13_title</font> 
-				<textcolor>white</textcolor> 
-				<align>right</align> 
-				<aligny>center</aligny>
-			</control>
+        <left>20</left>
+        <top>566</top>
+        <height>25</height>
+        <width>230</width> 
+        <label>31016</label> 
+        <font>font13_title</font> 
+        <textcolor>white</textcolor> 
+        <align>right</align> 
+        <aligny>center</aligny>
+      </control>
       <control type="image">
-        <left>268</left>
+        <left>270</left>
         <top>10</top>
-        <width>824</width>
+        <width>800</width>
         <height>618</height>
         <texture border="5">black-back2.png</texture>
       </control>
@@ -147,9 +147,9 @@
       </control>
       <control type="grouplist" id="5">
         <description>control area</description>
-        <left>269</left>
+        <left>271</left>
         <top>70</top>
-        <width>805</width>
+        <width>798</width>
         <height>435</height>
         <itemgap>-1</itemgap>
         <pagecontrol>60</pagecontrol>
