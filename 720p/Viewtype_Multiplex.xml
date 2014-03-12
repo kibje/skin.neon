@@ -579,10 +579,6 @@
         </control>        
       </focusedlayout>
     </control>
-    <control type="group">
-      <visible>!Skin.HasSetting(MultiPlexFanart)</visible>
-      <include>Trailer_Showcase</include>
-    </control>
     <control type="scrollbar" id="65">
       <include>Animation_ZoomInZoomOut</include>
       <left>100</left>

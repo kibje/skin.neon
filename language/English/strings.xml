@@ -83,7 +83,7 @@
   <string id="31083" />
   <string id="31084" />
   <string id="31085" />
-  <string id="31086">Show Fanart</string>
+  <string id="31086">Show: Fanart</string>
   <string id="31087" />
   <string id="31088">Viewtype</string>
   <string id="31089" />
@@ -139,11 +139,8 @@
   <string id="31143">Episode</string>
   <string id="31144">Thumb List</string>
   <string id="31145">Cover Flow</string>
-  <string id="31200">Shortcuts</string>
-  <string id="31200">Show Thumbs</string>
-  <string id="31201">Disable Thumbs</string>
-  <string id="31202">Use Logo</string>
-  <string id="31203">No Logo</string>
+  <string id="31200">Thumbnails</string>
+  <string id="31202">Logo Title</string>
   <string id="31204">Disable Flags</string>
   <string id="31205">Show Flags</string>
   <string id="31206">Extrathumbs</string>
@@ -154,7 +151,7 @@
   <string id="31211">16x9 Thumbs</string>
   <string id="31212">Cinema Play</string>
   <string id="31213">WallPanel</string>
-  <string id="31214">Dark View</string>
+  <string id="31214">Show: Dark View</string>
   <string id="31215">Show subtitle script button in OSD</string>
   <string id="31216">Selected subtitle script:</string>
   <string id="31217">Enable Home Theater Script</string>
@@ -218,8 +215,8 @@
   <string id="31283">Also do this on the library views: Music, Movies and TV Shows</string>
   <string id="31284">Remove Info</string>
   <string id="31285">Show Info</string>
-  <string id="31286">On Down Plot</string>
-  <string id="31287">Auto Plot</string>
+  <string id="31286">Plot</string>
+  <string id="31287"></string>
   <string id="31288">Shelf</string>
   <string id="31289">Set Label</string>
   <string id="31290">Set Favorite</string>
@@ -230,12 +227,13 @@
   <string id="31295">Custom TV Show Submenus</string>
   <string id="31296">Last Added</string>
   <string id="31297">Disable global weather</string>
+  <string id="31298">Recent Items</string>
   <string id="31300">Current Temp</string>
   <string id="31301">Last Updated</string>
   <string id="31302">Menu</string>
   <string id="31307">Hide Fanart</string>
   <string id="31309">Memory Used:</string>
-  <string id="31317">Set Fanart Path</string>
+  <string id="31317">Set Fanart Patnh</string>
   <string id="31319">Selected Profile</string>
   <string id="31320">Last Logged In</string>
   <string id="31323">Latest Movies</string>
@@ -309,7 +307,7 @@
   <string id="31718">Artist Name</string>
   <string id="31719">Elapsed Time / Duration</string>
   <string id="31720">Current Time</string>
-  <string id="31721">Show Banner</string>
+  <string id="31721">Show: Banner</string>
   <string id="31722">Elapsed</string>
   <string id="31723">Duration</string>
   <string id="31724">Track Number</string>

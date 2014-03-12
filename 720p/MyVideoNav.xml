@@ -140,7 +140,6 @@
       <include>Trailer_Files</include>
       <include>Trailer_Poster</include>
       <include>Trailer_Media_View</include>
-      <include>Trailer_Multiplex</include>
       <include>ScrollOffsetLabel</include>
     </control>
     <control type="group">
@@ -190,47 +189,45 @@
           <label>-</label>
           <visible>!Skin.HasSetting(LockViews)</visible>
         </control>
-        <control type="togglebutton" id="22">
+        <control type="radiobutton" id="22">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31094]</label>
-          <altlabel>$LOCALIZE[31086]</altlabel>
           <onclick>Skin.ToggleSetting(ShowcaseFanart)</onclick>
+		  <selected>!Skin.HasSetting(ShowcaseFanart)</selected>
           <visible>Control.IsVisible(58)</visible>
-          <include>WindowMenuButton_Vertical</include>
         </control>
-        <control type="togglebutton" id="37">
+        <control type="radiobutton" id="37">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[31133]</label>
-          <altlabel>$LOCALIZE[31132]</altlabel>
+          <include>WindowMenuButton_Vertical</include>
+          <label>$LOCALIZE[31132]</label>
           <onclick>Skin.ToggleSetting(MultiPlexFanart)</onclick>
+		  <selected>Skin.HasSetting(MultiPlexFanart)</selected>
           <visible>Control.IsVisible(588)</visible>
-          <include>WindowMenuButton</include>
         </control>
-        <control type="togglebutton" id="25">
+        <control type="radiobutton" id="25">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
-          <label>$LOCALIZE[31201]</label>
-          <altlabel>$LOCALIZE[31200]</altlabel>
+          <label>$LOCALIZE[31200]</label>
           <onclick>Skin.ToggleSetting(extrathumbs)</onclick>
-          <visible>Control.IsVisible(58)</visible>
+		  <selected>Skin.HasSetting(extrathumbs)</selected>
+          <visible>Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)</visible>
         </control>
-        <control type="togglebutton" id="38">
+        <control type="radiobutton" id="38">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[31201]</label>
-          <altlabel>$LOCALIZE[31200]</altlabel>
+          <include>WindowMenuButton_Vertical</include>
+          <label>$LOCALIZE[31200]</label>
           <onclick>Skin.ToggleSetting(extrathumbs)</onclick>
+		  <selected>Skin.HasSetting(extrathumbs)</selected>
           <visible>Control.IsVisible(588)</visible>
         </control>
         <control type="togglebutton" id="26">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31094]</label>
-          <altlabel>$LOCALIZE[31086]</altlabel>
           <onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
-          <visible>Control.IsVisible(53) + Container.Content(Movies) </visible>
+		  <selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
+          <visible>Control.IsVisible(53) + Container.Content(Movies)</visible>
         </control>
         <control type="togglebutton" id="36">
           <description>Toggle Fanart</description>
@@ -256,13 +253,12 @@
           <onclick>Skin.ToggleSetting(Files_Fanart)</onclick>
           <visible>Control.IsVisible(50) + Container.Content(movies)</visible>
         </control>
-        <control type="togglebutton" id="29">
+        <control type="radiobutton" id="29">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31286]</label>
-          <altlabel>$LOCALIZE[31287]</altlabel>
           <onclick>Skin.ToggleSetting(3dland_down_plot)</onclick>
-          <onclick>ReloadSkin()</onclick>
+		  <selected>!Skin.HasSetting(3dland_down_plot)</selected>
           <visible>Control.IsVisible(633) + Container.Content(episodes)</visible>
         </control>
         <control type="togglebutton" id="30">
@@ -279,39 +275,38 @@
           <label>$LOCALIZE[31214]</label>
           <altlabel>$LOCALIZE[31086]</altlabel>
           <onclick>Skin.ToggleSetting(Poster_Fanart)</onclick>
-          <onclick>ReloadSkin()</onclick>
           <visible>Control.IsVisible(55)</visible>
         </control>
-        <control type="togglebutton" id="32">
+        <control type="radiobutton" id="32">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31006]</label>
-          <altlabel>$LOCALIZE[21375]</altlabel>
           <onclick>Skin.ToggleSetting(PosterPlus)</onclick>
+		  <selected>Skin.HasSetting(PosterPlus)</selected>
           <visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart)</visible>
         </control>
-        <control type="togglebutton" id="33">
+        <control type="radiobutton" id="33">
           <description>Toggle MoviesFanart</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31006]</label>
-          <altlabel>$LOCALIZE[21375]</altlabel>
           <onclick>Skin.ToggleSetting(View508HideInfo)</onclick>
+		  <selected>!Skin.HasSetting(View508HideInfo)</selected>
           <visible>Control.IsVisible(508) + Container.Content(movies)</visible>
         </control>
-        <control type="togglebutton" id="24">
-          <description>Toggle MoviesFanart</description>
+        <control type="radiobutton" id="24">
+          <description>Toggle Logo</description>
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31202]</label>
-          <altlabel>$LOCALIZE[31203]</altlabel>
           <onclick>Skin.ToggleSetting(ClearTitle)</onclick>
+		  <selected>Skin.HasSetting(ClearTitle)</selected>
           <visible>Control.IsVisible(59) + Container.Content(tvshows)</visible>
         </control>
-        <control type="togglebutton" id="34">
-          <description>Toggle MoviesFanart</description>
+        <control type="radiobutton" id="34">
+          <description>Toggle Recent Episodes</description>
           <include>WindowMenuButton_Vertical</include>
-          <label>31299</label>
-          <altlabel>31300</altlabel>
+          <label>31298</label>
           <onclick>Skin.ToggleSetting(no_new_recent_info)</onclick>
+		  <selected>!Skin.HasSetting(no_new_recent_info)</selected>
           <visible>[Control.IsVisible(52) | Control.IsVisible(59)] + Container.Content(tvshows)</visible>
         </control>
         <control type="button" id="3">
