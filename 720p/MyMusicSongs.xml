@@ -39,13 +39,21 @@
     <include>Time</include>
     <include>ScrollOffsetLabel</include>
     <control type="group">
-      <include>Animation_SettingsFade</include>
-      <animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <left>-839</left>
       <include>SideBladeLeft</include>
-      <control type="grouplist" id="7000">
-        <left>-250</left>
+      <control type="image">
+        <description>LOGO</description>
+        <left>579</left>
         <top>30</top>
+        <width>220</width>
+        <height>60</height>
+        <aspectratio>keep</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>neon.png</texture>
+      </control>
+      <control type="grouplist" id="7000">
+        <left>579</left>
+        <top>130</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="204">
           <width>250</width>
@@ -73,7 +81,7 @@
         </control>
         <control type="togglebutton" id="22">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31094]</altlabel>
           <onclick>Skin.ToggleSetting(MusicShowcaseFanart)</onclick>

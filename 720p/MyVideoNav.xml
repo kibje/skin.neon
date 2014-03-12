@@ -148,37 +148,33 @@
     </control>
     <!--		<include>7000_has_focus</include> -->
     <control type="group">
-      <include>Animation_SettingsFade</include>
-      <animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <left>-839</left>
       <include>SideBladeLeft</include>
-      <!--	<control type="image">
-				<description>LOGO</description>
-				<left>-250</left>
-				<top>40</top>
-				<width>220</width>
-				<height>60</height>
-				<aspectratio>keep</aspectratio>
-				<colordiffuse>mainblue</colordiffuse>
-				<texture>neon.png</texture>
-			</control> -->
-      <control type="grouplist" id="7000">
-        <left>-250</left>
+      <control type="image">
+        <description>LOGO</description>
+        <left>579</left>
         <top>30</top>
+        <width>220</width>
+        <height>60</height>
+        <aspectratio>keep</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>neon.png</texture>
+      </control>
+      <control type="grouplist" id="7000">
+        <left>579</left>
+        <top>130</top>
         <include>WindowMenuVars_Vertical</include>
         <control type="label" id="204">
           <width>250</width>
           <height>35</height>
-          <font>Font_Neon_26</font>
+          <font>font12caps</font>
           <label>$LOCALIZE[31513]</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image" id="203">
+        <control type="image">
           <description>separator</description>
-          <left>-250</left>
-          <top>40</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -350,7 +346,7 @@
         </control>
         <control type="image" id="222">
           <description>separator</description>
-          <left>-250</left>
+          <left>0</left>
           <top>240</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -380,7 +376,7 @@
           <visible>system.haslocks</visible>
           <label>20336</label>
         </control>
-        <control type="label" id="205">
+        <control type="label">
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
@@ -409,77 +405,6 @@
         <include>CommonNowPlaying_Controls</include>
         <include>CommonNowPlaying</include>
       </control>
-      <!--	<control type="grouplist">
-				<left>-250</left>
-				<top>120</top>
-				<visible>!Skin.HasSetting(LockViews)</visible>
-				<include>WindowMenuVars_Vertical</include>
-				<top>658</top>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>$LOCALIZE[31088]</label>
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>$LOCALIZE[14018]</label>
-					<visible>[Control.IsVisible(55) | Control.IsVisible(53) | Control.IsVisible(58)] + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)] | [Control.IsVisible(50) + Container.Content(movies)] | [Control.IsVisible(59) + Container.Content(tvshows)] | [Control.IsVisible(55) + Container.Content(Genres)]</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>$LOCALIZE[31206]</label>
-					<visible>Control.IsVisible(58)</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>31081</label>
-					<visible>[Control.IsVisible(52) | Control.IsVisible(59)] + Container.Content(tvshows)</visible>
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>$LOCALIZE[14018]</label>
-					<visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart)</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<label>$LOCALIZE[14018]</label>
-					<visible>[Control.IsVisible(55) + Container.Content(movies)] | [Control.IsVisible(593) + Container.Content(tvshows)]  | [Control.IsVisible(633) + Container.Content(episodes)]</visible>		
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					
-					<label>$LOCALIZE[581]</label>
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					
-					<label>$LOCALIZE[580]</label>
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-				
-					<label>$LOCALIZE[31098]</label>
-				</control>
-					
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-				
-					<label>$LOCALIZE[240]</label>
-					<visible>![Control.IsVisible(55) + Container.Content(movies)]</visible>
-				</control>	
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<description>Search</description>
-					<label>137</label>
-				</control>
-				<control type="label">
-					<include>WindowMenuLabel_Vertical</include>
-					<description>Unlock Sources</description>
-					<label>20336</label>
-					<visible>system.haslocks</visible>
-				</control>
-				
-				
-			</control> -->
     </control>
     <include>NextAiredInfo</include>
     <include>Time</include>

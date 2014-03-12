@@ -683,219 +683,159 @@
         </control>
       </control>
       <control type="group">
-        <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus() | ControlGroup(9001).HasFocus() | Control.HasFocus(8999)">Conditional</animation>
-        <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus() | ControlGroup(9001).HasFocus()">WindowClose</animation>
-        <control type="group">
-          <animation effect="slide" end="-240,0" time="300" tween="quadratic" easing="out">WindowClose</animation>
-          <animation effect="slide" start="-15,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
-          <control type="image">
-            <left>0</left>
-            <top>0</top>
-            <width>1</width>
-            <height>720</height>
-            <texture>MediaBladeSub_Part1.png</texture>
-            <animation effect="zoom" start="0,0,1,720" end="0,0,229,720" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">Conditional</animation>
-          </control>
-          <control type="image">
-            <left>1</left>
-            <top>0</top>
-            <width>12</width>
-            <height>720</height>
-            <texture>MediaBladeSub_Part2.png</texture>
-            <animation effect="slide" end="228,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">Conditional</animation>
-          </control>
-        </control>
-        <control type="group" id="9001">
-          <left>-220</left>
-          <top>0</top>
-          <animation effect="fade" start="100" end="0" time="0" condition="!ControlGroup(9001).HasFocus() + !Control.HasFocus(98)">conditional</animation>
-          <animation effect="fade" start="0" end="100" delay="300" time="200" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">conditional</animation>
-          <animation effect="fade" start="100" end="0" time="0" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">WindowClose</animation>
-          <animation effect="slide" end="220,0" time="300" tween="quadratic" easing="out" condition="Control.HasFocus(98) | ControlGroup(9001).HasFocus()">conditional</animation>
-          <control type="button">
-            <description>Fake button for mouse control</description>
-            <left>-15</left>
-            <top>0</top>
-            <width>245</width>
-            <height>720</height>
-            <label>-</label>
-            <font>-</font>
-            <texturenofocus>-</texturenofocus>
-            <texturefocus>-</texturefocus>
-            <visible>true</visible>
-          </control>
-          <control type="image">
-            <left>185</left>
-            <top>200</top>
-            <width>40</width>
-            <height>40</height>
-            <texture>MediaSubSet.png</texture>
-          </control>
-          <control type="grouplist" id="9010">
-            <left>10</left>
-            <top>250</top>
-            <width>240</width>
-            <height>550</height>
-            <onleft>9000</onleft>
-            <onright>50</onright>
-            <onup>9010</onup>
-            <ondown>9010</ondown>
-            <itemgap>0</itemgap>
-            <control type="radiobutton" id="200">
-              <description>Fanart Toggle</description>
-              <textwidth>170</textwidth>
-              <include>ButtonMediaSubCommonValues</include>
-              <label>31307</label>
-              <onclick>Skin.ToggleSetting(ShowWeatherFanart)</onclick>
-              <selected>!Skin.HasSetting(ShowWeatherFanart)</selected>
-            </control>
-            <control type="button" id="201">
-              <description>Search</description>
-              <textwidth>170</textwidth>
-              <include>ButtonMediaSubCommonValues</include>
-              <label>31317</label>
-              <onclick>Skin.SetPath(WeatherFanartDir)</onclick>
-              <enable>Skin.HasSetting(ShowWeatherFanart)</enable>
-            </control>
-          </control>
-        </control>
-        <control type="button" id="8999">
-          <description>Fake button for mouse control</description>
-          <left>-250</left>
-          <top>0</top>
-          <width>265</width>
-          <height>720</height>
-          <label>-</label>
-          <font>-</font>
-          <texturenofocus>-</texturenofocus>
-          <texturefocus>-</texturefocus>
-          <visible>true</visible>
-        </control>
+        <left>-839</left>
         <include>SideBladeLeft</include>
         <control type="image">
           <description>LOGO</description>
-          <left>-230</left>
-          <top>50</top>
+          <left>579</left>
+          <top>30</top>
           <width>220</width>
-          <height>80</height>
+          <height>60</height>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
-          <texture>Neon.png</texture>
+          <texture>neon.png</texture>
         </control>
-        <control type="group" id="9000">
-          <left>-250</left>
+        <control type="grouplist" id="7000">
+          <left>579</left>
           <top>130</top>
+          <include>WindowMenuVars_Vertical</include>
+            <control type="label" id="200">
+                <width>250</width>
+                <height>35</height>
+                <font>font12caps</font>
+                <label>$LOCALIZE[31513]</label>
+                <textcolor>mainblue</textcolor>
+                <align>center</align>
+                <aligny>center</aligny>
+            </control>
+            <control type="image">
+              <description>separator</description>
+              <width>240</width>
+              <aspectratio>keep</aspectratio>
+              <colordiffuse>mainblue</colordiffuse>
+              <texture>separator2.png</texture>
+            </control>
+            <control type="group" id="300">
+                <width>250</width>
+                <height>35</height>
+                <control type="spincontrolex" id="3">
+                    <description>change location button</description>
+                    <left>0</left>
+                    <top>0</top>
+                    <font>-</font>
+                    <include>WindowMenuButton_Vertical</include>
+                    <onleft>50</onleft>
+                    <onright>50</onright>
+                    <onup>200</onup>
+                    <ondown>302</ondown>
+                    <onback>50</onback>
+                </control>
+                <control type="label" id="301">
+                    <left>10</left>
+                    <top>0</top>
+                    <width>200</width>
+                    <height>35</height>
+                    <font>font13</font>
+                    <label>31027</label>
+                    <textcolor>white</textcolor>
+                    <align>left</align>
+                </control>
+            </control>
+<!--            <control type="button" id="302">
+                <description>10 day forcast button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31904</label>
+                <onfocus>ClearProperty(Weather.CurrentView)</onfocus>
+                <visible>StringCompare(Weather.Plugin,weather.wunderground)</visible>
+            </control>
+            <control type="button" id="303">
+                <description>36 hour forcast button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31901</label>
+                <onfocus>SetProperty(Weather.CurrentView,36hour)</onfocus>
+                <visible>StringCompare(Weather.Plugin,weather.wunderground)</visible>
+            </control>
+            <control type="button" id="304">
+                <description>Weekend forcast button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31903</label>
+                <onfocus>SetProperty(Weather.CurrentView,weekend)</onfocus>
+                <visible>StringCompare(Weather.Plugin,weather.wunderground)</visible>
+            </control>
+            <control type="button" id="305">
+                <description>Hourly forcast button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31902</label>
+                <onfocus>SetProperty(Weather.CurrentView,hourly)</onfocus>
+                <visible>StringCompare(Weather.Plugin,weather.wunderground)</visible>
+            </control>
+            <control type="button" id="306">
+                <description>Hourly forcast button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31900</label>
+                <onfocus>SetProperty(Weather.CurrentView,map)</onfocus>
+                <visible>StringCompare(Weather.Plugin,weather.wunderground)</visible>
+            </control> -->
+            <control type="label" id="201">
+                <width>250</width>
+                <height>35</height>
+                <font>font12caps</font>
+                <label>31026</label>
+                <textcolor>mainblue</textcolor>
+                <align>center</align>
+                <aligny>center</aligny>
+            </control>
+            <control type="image">
+              <description>separator</description>
+              <width>240</width>
+              <aspectratio>keep</aspectratio>
+              <colordiffuse>mainblue</colordiffuse>
+              <texture>separator2.png</texture>
+            </control>
+            <control type="button" id="2">
+                <description>Refresh button</description>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <label>103</label>
+            </control>
+            <control type="button" id="5">
+                <description>Custom Weather Script Button</description>
+                <label>$INFO[Skin.String(WeatherScript_Label)]</label>
+                <onclick>SetFocus(50)</onclick>
+                <onclick>XBMC.RunScript($INFO[Skin.String(WeatherScript_Path)])</onclick>
+                <onclick>SetFocus(50)</onclick>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+                <visible>Skin.HasSetting(WeatherScript_Enable) + !IsEmpty(Skin.String(WeatherScript_Label))</visible>
+            </control>
+            <control type="button" id="4">
+                <description>Settings button</description>
+                <label>5</label>
+                <onclick>ActivateWindow(MyWeatherSettings)</onclick>
+                <textwidth>235</textwidth>
+                <include>WindowMenuButton_Vertical</include>
+            </control>
+            <control type="radiobutton" id="250">
+                <description>Fanart Toggle</description>
+                <include>WindowMenuButton_Vertical</include>
+                <label>31307</label>
+                <onclick>Skin.ToggleSetting(ShowWeatherFanart)</onclick>
+                <selected>!Skin.HasSetting(ShowWeatherFanart)</selected>
+            </control>
+            <control type="button" id="251">
+                <include>WindowMenuButton_Vertical</include>
+                <label>31317</label>
+                <onclick>Skin.SetPath(WeatherFanartDir)</onclick>
+                <enable>Skin.HasSetting(ShowWeatherFanart)</enable>
+            </control>         
+          <include>CommonNowPlaying_Controls</include>
           <include>CommonNowPlaying</include>
-          <control type="spincontrolex" id="3">
-            <description>change location button</description>
-            <left>0</left>
-            <top>0</top>
-            <font>-</font>
-            <textoffsetx>10</textoffsetx>
-            <include>ButtonCommonValues</include>
-            <onleft>50</onleft>
-            <onright>50</onright>
-            <onup>611</onup>
-            <ondown>2</ondown>
-          </control>
-          <control type="label">
-            <description>change location label</description>
-            <left>10</left>
-            <top>0</top>
-            <height>40</height>
-            <width>270</width>
-            <font>font13caps</font>
-            <label>31027</label>
-            <textcolor>white</textcolor>
-            <shadowcolor>black</shadowcolor>
-            <align>left</align>
-            <aligny>center</aligny>
-          </control>
-          <control type="button" id="2">
-            <description>Refresh button</description>
-            <left>0</left>
-            <top>40</top>
-            <textwidth>235</textwidth>
-            <include>ButtonCommonValues</include>
-            <label>103</label>
-            <onleft>50</onleft>
-            <onright>50</onright>
-            <onup>3</onup>
-            <ondown>5</ondown>
-          </control>
-          <control type="button" id="5">
-            <description>Custom Weather Script Button</description>
-            <left>0</left>
-            <top>80</top>
-            <label>$INFO[Skin.String(WeatherScript_Label)]</label>
-            <onclick>SetFocus(50)</onclick>
-            <onclick>XBMC.RunScript($INFO[Skin.String(WeatherScript_Path)])</onclick>
-            <onclick>SetFocus(50)</onclick>
-            <textwidth>235</textwidth>
-            <include>ButtonCommonValues</include>
-            <visible>Skin.HasSetting(WeatherScript_Enable) + !IsEmpty(Skin.String(WeatherScript_Label))</visible>
-            <onleft>50</onleft>
-            <onright>50</onright>
-            <onup>2</onup>
-            <ondown>4</ondown>
-          </control>
-          <control type="button" id="4">
-            <description>Settings button</description>
-            <left>0</left>
-            <top>120</top>
-            <label>5</label>
-            <onclick>ActivateWindow(MyWeatherSettings)</onclick>
-            <textwidth>235</textwidth>
-            <include>ButtonCommonValues</include>
-            <onleft>50</onleft>
-            <onright>50</onright>
-            <onup>5</onup>
-            <ondown>98</ondown>
-            <animation effect="slide" end="0,-40" time="0" condition="!Control.IsVisible(5)">Conditional</animation>
-          </control>
-          <control type="radiobutton" id="98">
-            <description>Extra Options</description>
-            <hitrect x="0" y="160" w="265" h="40" />
-            <left>0</left>
-            <top>160</top>
-            <include>ButtonCommonValues</include>
-            <radiowidth>18</radiowidth>
-            <radioheight>18</radioheight>
-            <radioleft>222</radioleft>
-            <radiotop>12</radiotop>
-            <label>31026</label>
-            <onleft>50</onleft>
-            <onright>9010</onright>
-            <onup>4</onup>
-            <ondown>610</ondown>
-            <animation effect="slide" end="0,-40" time="0" condition="!Control.IsVisible(5)">Conditional</animation>
-          </control>
-          <control type="button" id="610">
-            <description>Fake Button to fix Player Controls Navigation</description>
-            <onup>98</onup>
-            <ondown>603</ondown>
-            <visible>false</visible>
-          </control>
-          <control type="group">
-            <left>0</left>
-            <top>260</top>
-            <include>CommonNowPlaying_Controls</include>
-          </control>
-          <control type="button" id="611">
-            <description>Fake Button to fix Player Controls Navigation</description>
-            <onup>608</onup>
-            <ondown>3</ondown>
-            <visible>false</visible>
-          </control>
         </control>
-      </control>
-      <control type="button" id="50">
-        <description>Fake Button to fix Side Menu Navigation</description>
-        <onleft>3</onleft>
-        <onright>3</onright>
-        <onup>3</onup>
-        <ondown>3</ondown>
-        <visible allowhiddenfocus="true">false</visible>
       </control>
       <control type="group">
         <left>60</left>

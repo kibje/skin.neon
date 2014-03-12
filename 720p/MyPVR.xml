@@ -159,42 +159,28 @@
       <include>ScrollOffsetLabel</include>
     </control>
     <control type="group">
-      <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="[ControlGroup(9000).HasFocus() | Control.HasFocus(8999)] + !Window.IsActive(606)">Conditional</animation>
-      <animation effect="slide" start="-250,0" end="0,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus()">WindowOpen</animation>
-      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus()">WindowClose</animation>
-      <control type="button" id="8999">
-        <description>Fake button for mouse control</description>
-        <left>-250</left>
-        <top>0</top>
-        <width>265</width>
-        <height>720</height>
-        <label>-</label>
-        <font>-</font>
-        <texturenofocus>-</texturenofocus>
-        <texturefocus>-</texturefocus>
-        <visible>true</visible>
-      </control>
+      <left>-839</left>
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <left>-230</left>
-        <top>50</top>
+        <left>579</left>
+        <top>30</top>
         <width>220</width>
-        <height>80</height>
+        <height>60</height>
         <aspectratio>keep</aspectratio>
         <colordiffuse>mainblue</colordiffuse>
         <texture>Neon.png</texture>
       </control>
-      <control type="group" id="9000">
-        <left>-250</left>
+      <control type="grouplist" id="7000">
+        <left>579</left>
         <top>130</top>
-        <include>CommonNowPlaying</include>
+        <include>WindowMenuVars_Vertical</include>
         <control type="button" id="32">
           <description>TV Channels</description>
           <left>0</left>
           <top>0</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>19023</label>
           <onleft>11</onleft>
           <onright>11</onright>
@@ -206,7 +192,7 @@
           <left>0</left>
           <top>40</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>19024</label>
           <onleft>12</onleft>
           <onright>12</onright>
@@ -218,7 +204,7 @@
           <left>0</left>
           <top>80</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[19029]: $LOCALIZE[19030]</label>
           <onleft>10</onleft>
           <onright>10</onright>
@@ -230,7 +216,7 @@
           <left>0</left>
           <top>120</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>19163</label>
           <onleft>13</onleft>
           <onright>13</onright>
@@ -242,7 +228,7 @@
           <left>0</left>
           <top>160</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>19040</label>
           <onleft>14</onleft>
           <onright>14</onright>
@@ -254,30 +240,15 @@
           <left>0</left>
           <top>200</top>
           <textwidth>235</textwidth>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>137</label>
           <onleft>17</onleft>
           <onright>17</onright>
           <onup>35</onup>
           <ondown>610</ondown>
         </control>
-        <control type="button" id="610">
-          <description>Fake Button to fix Player Controls Navigation</description>
-          <onup>36</onup>
-          <ondown>603</ondown>
-          <visible>false</visible>
-        </control>
-        <control type="group">
-          <left>0</left>
-          <top>260</top>
-          <include>CommonNowPlaying_Controls</include>
-        </control>
-        <control type="button" id="611">
-          <description>Fake Button to fix Player Controls Navigation</description>
-          <onup>608</onup>
-          <ondown>32</ondown>
-          <visible>false</visible>
-        </control>
+        <include>CommonNowPlaying_Controls</include>
+        <include>CommonNowPlaying</include>
       </control>
     </control>
     <include>Time</include>

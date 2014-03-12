@@ -68,24 +68,30 @@
       <include>MusicInfoListView</include> <!-- 506 -->
       <!--<include>AlbumWrapView2_Fanart</include>  -->  <!-- 509 Need to fix this view and remove hidden aspect -->
       <include>Viewtype_Landscape_Fanart</include> <!-- 633 -->
+      <include>ScrollOffsetLabel</include>
     </control>
     <control type="group">
       <include>Animation_HiddenByInfo</include>
       <include>RSS_Music</include>
-    </control>
-    <include>Time</include>
-    <include>Library Totals</include>
-    <include>ScrollOffsetLabel</include>
+    </control>    
     <control type="group">
-      <include>Animation_SettingsFade</include>
-      <animation effect="slide" start="-10,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <left>-839</left>
       <include>SideBladeLeft</include>
-      <control type="grouplist" id="7000">
-        <left>-250</left>
+      <control type="image">
+        <description>LOGO</description>
+        <left>579</left>
         <top>30</top>
+        <width>220</width>
+        <height>60</height>
+        <aspectratio>keep</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>neon.png</texture>
+      </control>
+      <control type="grouplist" id="7000">
+        <left>579</left>
+        <top>130</top>
         <include>WindowMenuVars_Vertical</include>
-        <control type="label" id="204">
+        <control type="label">
           <width>250</width>
           <height>35</height>
           <font>Font_Neon_26</font>
@@ -94,9 +100,9 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image" id="203">
+        <control type="image">
           <description>separator</description>
-          <left>-250</left>
+          <left>0</left>
           <top>40</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -111,7 +117,7 @@
         </control>
         <control type="togglebutton" id="26">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31094]</altlabel>
           <onclick>Skin.ToggleSetting(MusicShowcaseFanart)</onclick>
@@ -119,7 +125,7 @@
         </control>
         <control type="togglebutton" id="28">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31214]</altlabel>
           <onclick>Skin.ToggleSetting(3dmusic_Fanart)</onclick>
@@ -127,7 +133,7 @@
         </control>
         <control type="togglebutton" id="29">
           <description>Toggle MoviesFanart</description>
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31086]</label>
           <altlabel>$LOCALIZE[31214]</altlabel>
           <onclick>Skin.ToggleSetting(music_files_fanart)</onclick>
@@ -135,7 +141,7 @@
         </control>
         <control type="togglebutton" id="30">
           <description>Toggle Music Icon/Logo</description>
-          <include>WindowMenuButton</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>Icon</label>
           <altlabel>Logo</altlabel>
           <onclick>Skin.ToggleSetting(MusicLogo)</onclick>
@@ -165,7 +171,7 @@
           <textwidth>230</textwidth>
           <label>587</label>
         </control>
-        <control type="label" id="201">
+        <control type="label">
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
@@ -174,9 +180,9 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image" id="222">
+        <control type="image">
           <description>separator</description>
-          <left>-250</left>
+          <left>0</left>
           <top>240</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -192,7 +198,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>589</label>
         </control>
-        <control type="label" id="205">
+        <control type="label">
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
@@ -201,9 +207,9 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image" id="223">
+        <control type="image">
           <description>separator</description>
-          <left>-250</left>
+          <left>0</left>
           <top>240</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -222,6 +228,8 @@
         <include>CommonNowPlaying</include>
       </control>
     </control>
+    <include>Time</include>
+    <include>Library Totals</include>
     <!--<include>Global_RSS</include>-->
   </controls>
 </window>
