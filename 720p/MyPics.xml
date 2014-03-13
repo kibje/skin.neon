@@ -31,60 +31,107 @@
     <include>PictureThumbView</include>
     <include>ScrollOffsetLabel</include>
     <include>Time</include>
-    <control type="image">
-      <!-- Floor -->
-      <left>0</left>
-      <top>650</top>
-      <width>1280</width>
-      <height>70</height>
-      <texture>notification_background.png</texture>
-      <visible>ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
-      <include>Animation_ViewOptions_whitebar</include>
-    </control>
     <control type="group">
-      <visible>!Skin.HasSetting(LockViews)</visible>
+      <left>-839</left>
+      <include>SideBladeLeft</include>
+      <control type="image">
+        <description>LOGO</description>
+        <left>579</left>
+        <top>30</top>
+        <width>220</width>
+        <height>60</height>
+        <aspectratio>keep</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>neon.png</texture>
+      </control>
       <control type="grouplist" id="7000">
-        <include>WindowMenuVars</include>
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <top>680</top>
-        <control type="button" id="20">
-          <include>WindowMenuButton</include>
-          <label>$INFO[Container.ViewMode]</label>
-          <onclick>Container.NextViewMode</onclick>
+        <left>579</left>
+        <top>130</top>
+        <include>WindowMenuVars_Vertical</include>
+        <control type="label" id="200">
+            <width>250</width>
+            <height>35</height>
+            <font>font12caps</font>
+            <label>$LOCALIZE[31513]</label>
+            <textcolor>mainblue</textcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+        <control type="image">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="2">
+            <description>View As button</description>
+            <textwidth>235</textwidth>
+            <include>WindowMenuButton_Vertical</include>
+            <label>-</label>
         </control>
         <control type="button" id="3">
-          <include>WindowMenuButton</include>
-          <label>103</label>
+            <description>Sort by button</description>
+            <include>WindowMenuButton_Vertical</include>
+            <label>103</label>
+        </control>
+        <control type="togglebutton" id="4">
+            <description>Sort asc</description>
+            <include>WindowMenuButton_Vertical</include>
+            <label>31512</label>
+            <altlabel>31511</altlabel>
+            <usealttexture>Container.SortDirection(Ascending)</usealttexture>
+        </control>
+        <control type="edit" id="19">
+            <visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+            <description>Filter</description>
+            <textwidth>230</textwidth>
+            <include>WindowMenuButton_Vertical</include>
+            <label>587</label>
+        </control>
+        <control type="radiobutton" id="20">
+            <visible>Container.CanFilterAdvanced</visible>
+            <description>Filter</description>
+            <include>WindowMenuButton_Vertical</include>
+            <label>587</label>
+            <onclick>right</onclick>
+            <onclick>Filter</onclick>
+        </control>
+        <control type="label" id="201">
+            <width>250</width>
+            <height>35</height>
+            <font>font12caps</font>
+            <label>31026</label>
+            <textcolor>mainblue</textcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+        <control type="image">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="6">
+            <description>Slideshow</description>
+            <textwidth>235</textwidth>
+            <include>WindowMenuButton_Vertical</include>
+            <label>108</label>
         </control>
         <control type="button" id="7">
-          <include>WindowMenuButton</include>
-          <label>361</label>
+            <description>Recersive Slideshow</description>
+            <textwidth>235</textwidth>
+            <include>WindowMenuButton_Vertical</include>
+            <label>361</label>
         </control>
-        <control type="button" id="9">
-          <include>WindowMenuButton</include>
-          <label>$LOCALIZE[590]</label>
+        <control type="radiobutton" id="9">
+            <description>Randomize Toggle</description>
+            <include>WindowMenuButton_Vertical</include>
+            <label>13319</label>
         </control>
-      </control>
-      <control type="grouplist">
-        <include>WindowMenuVars</include>
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <top>658</top>
-        <control type="button" id="40">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31088]</label>
-        </control>
-        <control type="button" id="41">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31090]</label>
-        </control>
-        <control type="button" id="43">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31095]</label>
-        </control>
-        <control type="button" id="44">
-          <include>WindowMenuLabel</include>
-          <label>$LOCALIZE[31093]</label>
-        </control>
+        <include>CommonNowPlaying_Controls</include>
+        <include>CommonNowPlaying</include>
       </control>
     </control>
   </controls>
