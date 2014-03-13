@@ -21,21 +21,12 @@
       <include>Viewtype_3daddon</include>
       <!--  56  -->
     </control>
-    <control type="image">
-      <visible>ControlGroup(7000).HasFocus()</visible>
-      <include>Dimensions_Fullscreen</include>
-      <texture>common/7000_focus.png</texture>
-      <animation effect="fade" start="0" end="100" time="600">Visible</animation>
-      <animation effect="fade" start="100" end="0" time="600">Hidden</animation>
-    </control>
     <control type="group">
-      <include>Animation_SettingsFade</include>
-      <animation effect="slide" start="0,0" end="250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-250,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
+      <left>-839</left>
       <include>SideBladeLeft</include>
       <control type="image">
         <description>LOGO</description>
-        <left>-250</left>
+        <left>579</left>
         <top>30</top>
         <width>220</width>
         <height>60</height>
@@ -43,15 +34,29 @@
         <colordiffuse>mainblue</colordiffuse>
         <texture>neon.png</texture>
       </control>
-      <control type="group" id="7000">
-        <left>-250</left>
+      <control type="grouplist" id="7000">
+        <left>579</left>
         <top>130</top>
-        <include>CommonNowPlaying</include>
+        <include>WindowMenuVars_Vertical</include>
+        <control type="label">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>$LOCALIZE[31513]</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+        </control>
+        <control type="image">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
         <control type="button" id="2">
           <description>View As button</description>
-          <left>0</left>
-          <top>0</top>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>-</label>
           <onleft>50</onleft>
           <onright>50</onright>
@@ -60,9 +65,7 @@
         </control>
         <control type="button" id="3">
           <description>Sort by button</description>
-          <left>0</left>
-          <top>40</top>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>103</label>
           <onleft>50</onleft>
           <onright>4</onright>
@@ -70,31 +73,31 @@
           <ondown>5</ondown>
         </control>
         <control type="togglebutton" id="4">
-          <description>Sort asc</description>
-          <left>220</left>
-          <top>53</top>
-          <label>-</label>
-          <onleft>3</onleft>
-          <onright>50</onright>
-          <onup>2</onup>
-          <ondown>5</ondown>
+          <include>WindowMenuButton_Vertical</include>
+          <!-- Sort Ascending -->
+          <label>$LOCALIZE[31511]</label>
+          <!-- Sort Descending -->
+          <altlabel>$LOCALIZE[31512]</altlabel>
         </control>
         <control type="label">
-          <left>0</left>
-          <top>90</top>
           <width>250</width>
-          <height>45</height>
+          <height>35</height>
           <font>font12caps</font>
           <label>$LOCALIZE[24002]</label>
-          <textcolor>dialogheader</textcolor>
+          <textcolor>mainblue</textcolor>
           <align>center</align>
           <aligny>center</aligny>
         </control>
+        <control type="image">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
         <control type="radiobutton" id="5">
           <description>Enable auto-updates</description>
-          <left>0</left>
-          <top>130</top>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>24063</label>
           <onleft>50</onleft>
           <onright>50</onright>
@@ -103,9 +106,7 @@
         </control>
         <control type="radiobutton" id="6">
           <description>No notifications</description>
-          <left>0</left>
-          <top>170</top>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>25000</label>
           <onleft>50</onleft>
           <onright>50</onright>
@@ -116,26 +117,11 @@
           <description>Hide foreign</description>
           <left>0</left>
           <top>210</top>
-          <include>ButtonCommonValues</include>
+          <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[25001]</label>
         </control>
-        <control type="button" id="610">
-          <description>Fake Button to fix Player Controls Navigation</description>
-          <onup>6</onup>
-          <ondown>603</ondown>
-          <visible>false</visible>
-        </control>
-        <control type="group">
-          <left>0</left>
-          <top>260</top>
-          <include>CommonNowPlaying_Controls</include>
-        </control>
-        <control type="button" id="611">
-          <description>Fake Button to fix Player Controls Navigation</description>
-          <onup>608</onup>
-          <ondown>2</ondown>
-          <visible>false</visible>
-        </control>
+        <include>CommonNowPlaying_Controls</include>
+        <include>CommonNowPlaying</include>
       </control>
     </control>
     <include>Time</include>

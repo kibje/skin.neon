@@ -210,18 +210,29 @@
   </include>
   <!-- Below from Confluence for Weather -->
   <include name="SideBladeLeft">
-    <control type="image">
-      <left>-838</left>
+    <animation effect="slide" start="0,0" end="260,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus | Control.HasFocus(8999)">Conditional</animation>
+	<animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus">WindowClose</animation>
+	<animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="!ControlGroup(7000).HasFocus">WindowClose</animation>
+	<animation effect="slide" start="-50,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+    <control type="button" id="8999">
+      <description>Fake button for mouse control</description>
+      <left>0</left>
       <top>0</top>
-      <width>856</width>
+      <width>846</width>
+      <height>720</height>
+      <label>-</label>
+      <font>-</font>
+      <texturenofocus>-</texturenofocus>
+      <texturefocus>-</texturefocus>
+      <visible>true</visible>
+    </control>
+    <control type="image">
+      <left>0</left>
+      <top>0</top>
+      <width>846</width>
       <height>720</height>
       <colordiffuse>mainblue</colordiffuse>
       <texture>HomeBlade.png</texture>
-      <animation effect="slide" start="0,0" end="10,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-300,0" time="400" tween="quadratic" easing="out" condition="ControlGroup(7000).HasFocus()">WindowClose</animation>
-      <animation effect="slide" start="0,0" end="-50,0" time="300" tween="quadratic" easing="out" condition="!ControlGroup(7000).HasFocus()">WindowClose</animation>
-      <animation effect="slide" start="-26,0" end="-10,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
-      <animation effect="slide" start="0,0" end="-26,0" time="200" delay="200" tween="quadratic" easing="out">WindowClose</animation>
     </control>
   </include>
   <include name="WindowTitleCommons">
@@ -923,7 +934,6 @@
     <onright>50</onright>
     <itemgap>0</itemgap>
     <align>left</align>
-    <visible allowhiddenfocus="true">ControlGroup(7000).HasFocus()</visible>
     <orientation>vertical</orientation>
   </include>
   <include name="WindowMenuButton">

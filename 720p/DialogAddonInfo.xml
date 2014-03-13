@@ -51,6 +51,7 @@
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>3</onleft>
@@ -99,7 +100,7 @@
         </control>
         <control type="label">
           <description>Type Value</description>
-          <left>160</left>
+          <left>300</left>
           <top>0</top>
           <width>440</width>
           <height>25</height>
@@ -123,7 +124,7 @@
         </control>
         <control type="label">
           <description>Author Value</description>
-          <left>160</left>
+          <left>300</left>
           <top>30</top>
           <width>440</width>
           <height>25</height>
@@ -147,7 +148,7 @@
         </control>
         <control type="label">
           <description>Version Value</description>
-          <left>160</left>
+          <left>300</left>
           <top>60</top>
           <width>440</width>
           <height>25</height>
@@ -171,7 +172,7 @@
         </control>
         <control type="image">
           <description>Rating value</description>
-          <left>160</left>
+          <left>300</left>
           <top>90</top>
           <width>160</width>
           <height>32</height>
@@ -192,7 +193,7 @@
         </control>
         <control type="fadelabel">
           <description>Summary Value</description>
-          <left>160</left>
+          <left>300</left>
           <top>120</top>
           <width>440</width>
           <height>25</height>
@@ -331,15 +332,13 @@
           </control>
         </control>
       </control>
-      <control type="group" id="9000">
+      <control type="grouplist" id="9000">
         <left>30</left>
-        <top>310</top>
+        <top>300</top>
         <control type="button" id="6">
-          <description>Enable Addon button</description>
-          <left>0</left>
-          <top>0</top>
+          <description>Install/UnInstall Addon button</description>
           <width>220</width>
-          <height>45</height>
+          <height>38</height>
           <label>24022</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
@@ -349,17 +348,11 @@
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
-          <onleft>60</onleft>
-          <onright>60</onright>
-          <onup>10</onup>
-          <ondown>7</ondown>
         </control>
         <control type="button" id="7">
-          <description>Disable Addon button</description>
-          <left>0</left>
-          <top>50</top>
+          <description>Enable/Disable Addon button</description>
           <width>220</width>
-          <height>45</height>
+          <height>38</height>
           <label>24021</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
@@ -369,17 +362,11 @@
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
-          <onleft>60</onleft>
-          <onright>60</onright>
-          <onup>6</onup>
-          <ondown>9</ondown>
         </control>
         <control type="button" id="9">
-          <description>Addon Settings</description>
-          <left>0</left>
-          <top>100</top>
+          <description>Configure Addon</description>
           <width>220</width>
-          <height>45</height>
+          <height>38</height>
           <label>24020</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
@@ -389,17 +376,11 @@
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
-          <onleft>60</onleft>
-          <onright>60</onright>
-          <onup>7</onup>
-          <ondown>8</ondown>
         </control>
         <control type="button" id="8">
           <description>Update Addon button</description>
-          <left>0</left>
-          <top>150</top>
           <width>220</width>
-          <height>45</height>
+          <height>38</height>
           <label>24069</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
@@ -409,17 +390,11 @@
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
-          <onleft>60</onleft>
-          <onright>60</onright>
-          <onup>9</onup>
-          <ondown>10</ondown>
         </control>
         <control type="button" id="10">
           <description>Changelog button</description>
-          <left>0</left>
-          <top>200</top>
           <width>220</width>
-          <height>45</height>
+          <height>38</height>
           <label>24036</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
@@ -429,10 +404,20 @@
           <colordiffuse>mainblue</colordiffuse>
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
-          <onleft>60</onleft>
-          <onright>60</onright>
-          <onup>8</onup>
-          <ondown>6</ondown>
+        </control>
+        <control type="button" id="11">
+          <description>Rollback button</description>
+          <width>220</width>
+          <height>38</height>
+          <label>24048</label>
+          <font>Font_Neon_20</font>
+          <textcolor>grey</textcolor>
+          <focusedcolor>white</focusedcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <colordiffuse>mainblue</colordiffuse>
+          <texturefocus>button-focus.png</texturefocus>
+          <texturenofocus>button-nofocus.png</texturenofocus>
         </control>
       </control>
       <control type="group">
