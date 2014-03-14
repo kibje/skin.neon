@@ -390,16 +390,9 @@
               <height>136</height>
               <texture border="0,5,0,5">MenuItemNF.png</texture>
             </control>
-            <control type="image">
-              <left>0</left>
-              <top>0</top>
-              <width>600</width>
-              <height>136</height>
-              <texture border="0,5,0,5">MenuItemNF.png</texture>
-            </control>
             <control type="label">
               <left>300</left>
-              <top>5</top>
+              <top>10</top>
               <width>300</width>
               <height>25</height>
               <font>Font_Neon_28</font>
@@ -460,22 +453,14 @@
               <top>0</top>
               <width>600</width>
               <height>136</height>
-              <texture border="0,2,0,2">MenuItemNF.png</texture>
-              <visible>!Control.HasFocus(50)</visible>
-              <include>VisibleFadeEffect</include>
-            </control>
-            <control type="image">
-              <left>0</left>
-              <top>0</top>
-              <width>600</width>
-              <height>136</height>
-              <texture border="10">button-focus2.png</texture>
+              <colordiffuse>mainblue</colordiffuse>
+              <texture>mainmenu/home_bottom_white.png</texture>
               <visible>Control.HasFocus(50)</visible>
               <include>VisibleFadeEffect</include>
             </control>
             <control type="label">
               <left>300</left>
-              <top>5</top>
+              <top>10</top>
               <width>300</width>
               <height>25</height>
               <font>Font_Neon_28</font>
