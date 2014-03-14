@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="Weather+36HourForcast">
+	<include name="Weather36HourForcast">
 		<control type="group">
 			<visible>StringCompare(Window.Property(Weather.CurrentView),36hour)</visible>
 			<include>VisibleFadeEffect</include>
+			<control type="button" id="997">
+				<description>Hidden Button for focus</description>
+				<left>-600</left>
+				<top>-20</top>
+				<width>1</width>
+				<height>1</height>
+				<texturenofocus>-</texturenofocus>
+				<texturefocus>-</texturefocus>
+				<onleft>7000</onleft>
+				<onright>7000</onright>
+			</control>
 			<control type="label">
 				<description>header label</description>
 				<left>20</left>
-				<top>13</top>
+				<top>15</top>
 				<width>610</width>
 				<height>30</height>
-				<font>font13_title</font>
-				<label>31901</label>
+				<font>Font_Neon_28</font>
+				<label>[B]$LOCALIZE[31901][/B]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
@@ -22,7 +33,7 @@
 				<top>200</top>
 				<width>600</width>
 				<height>30</height>
-				<font>font13</font>
+				<font>Font_Neon_20</font>
 				<textcolor>white</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -42,8 +53,8 @@
 						<top>5</top>
 						<width>600</width>
 						<height>30</height>
-						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<font>Font_Neon_20</font>
+						<textcolor>mainblue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[Window.Property(36Hour.1.Heading)]</label>
@@ -61,55 +72,31 @@
 						<top>40</top>
 						<width>100</width>
 						<height>40</height>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.1.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.1.Temperature),[B] ,[/B]]$INFO[System.TemperatureUnits]</label>
+						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.1.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.1.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
-						<left>590</left>
-						<top>35</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.1.DaylightTitle)][/COLOR] $INFO[Window.Property(36Hour.1.DaylightTime)]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
+						<right>90</right>
 						<top>60</top>
 						<width>390</width>
 						<height>20</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.1.Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,%[/B]]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
-						<top>85</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.1.Outlook),[COLOR=grey2]$LOCALIZE[33030] :[/COLOR]]</label>
+						<label>$INFO[Window.Property(36Hour.1.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
 						<top>110</top>
 						<width>590</width>
 						<height>70</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
@@ -120,7 +107,8 @@
 						<top>180</top>
 						<width>650</width>
 						<height>4</height>
-						<texture>separator.png</texture>
+                        <colordiffuse>mainblue</colordiffuse>
+						<texture>separator2.png</texture>
 					</control>
 				</control>
 				<control type="group">
@@ -131,8 +119,8 @@
 						<top>5</top>
 						<width>600</width>
 						<height>30</height>
-						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<font>Font_Neon_20</font>
+						<textcolor>mainblue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[Window.Property(36Hour.2.Heading)]</label>
@@ -150,55 +138,31 @@
 						<top>40</top>
 						<width>100</width>
 						<height>40</height>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.2.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.2.Temperature),[B] ,[/B]]$INFO[System.TemperatureUnits]</label>
+						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.2.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.2.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
-						<left>590</left>
-						<top>35</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.2.DaylightTitle)][/COLOR] $INFO[Window.Property(36Hour.2.DaylightTime)]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
+						<right>90</right>
 						<top>60</top>
 						<width>390</width>
 						<height>20</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.2.Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,%[/B]]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
-						<top>85</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.2.Outlook),[COLOR=grey2]$LOCALIZE[33030] :[/COLOR]]</label>
+						<label>$INFO[Window.Property(36Hour.2.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
 						<top>110</top>
 						<width>590</width>
 						<height>70</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
@@ -209,7 +173,8 @@
 						<top>180</top>
 						<width>650</width>
 						<height>4</height>
-						<texture>separator.png</texture>
+                        <colordiffuse>mainblue</colordiffuse>
+						<texture>separator2.png</texture>
 					</control>
 				</control>
 				<control type="group">
@@ -220,8 +185,8 @@
 						<top>5</top>
 						<width>600</width>
 						<height>30</height>
-						<font>font13_title</font>
-						<textcolor>blue</textcolor>
+						<font>Font_Neon_20</font>
+						<textcolor>mainblue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[Window.Property(36Hour.3.Heading)]</label>
@@ -239,55 +204,31 @@
 						<top>40</top>
 						<width>100</width>
 						<height>40</height>
-						<font>font13_title</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.3.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.3.Temperature),[B] ,[/B]]$INFO[System.TemperatureUnits]</label>
+						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.3.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.3.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
-						<left>590</left>
-						<top>35</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.3.DaylightTitle)][/COLOR] $INFO[Window.Property(36Hour.3.DaylightTime)]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
+						<right>90</right>
 						<top>60</top>
 						<width>390</width>
 						<height>20</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.3.Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,%[/B]]</label>
-					</control>
-					<control type="label">
-						<left>590</left>
-						<top>85</top>
-						<width>390</width>
-						<height>20</height>
-						<font>font12</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.3.Outlook),[COLOR=grey2]$LOCALIZE[33030] :[/COLOR]]</label>
+						<label>$INFO[Window.Property(36Hour.3.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
 						<top>110</top>
 						<width>590</width>
 						<height>70</height>
-						<font>font12</font>
+						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
