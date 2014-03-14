@@ -19,38 +19,64 @@
     <include>MediaListView3</include>
     <!-- 503 -->
     <include>ScrollOffsetLabel</include>
-    <include>7000_has_focus</include>
-    <control type="image">
-      <!-- Floor -->
-      <left>460</left>
-      <top>650</top>
-      <width>380</width>
-      <height>70</height>
-      <texture>notification_background.png</texture>
-      <visible>ControlGroup(7000).HasFocus() + !Skin.HasSetting(LockViews)</visible>
-      <include>Animation_ViewOptions_whitebar</include>
-    </control>
     <control type="group">
-      <visible>!Skin.HasSetting(LockViews)</visible>
-      <control type="grouplist" id="7000">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>680</top>
-        <control type="button" id="20">
-          <include>WindowMenuButton</include>
-          <label>$INFO[Container.ViewMode]</label>
-          <onclick>Container.NextViewMode</onclick>
-        </control>
+      <left>-839</left>
+      <include>SideBladeLeft</include>
+      <control type="image">
+        <description>LOGO</description>
+        <left>579</left>
+        <top>30</top>
+        <width>220</width>
+        <height>60</height>
+        <aspectratio>keep</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>neon.png</texture>
       </control>
-      <control type="grouplist">
-        <visible>!Skin.HasSetting(LockViews)</visible>
-        <include>WindowMenuVars</include>
-        <top>658</top>
-        <control type="button" id="40">
-          <include>WindowMenuLabel</include>
-          <!-- LOC -->
-          <label>$LOCALIZE[31088]</label>
+      <control type="grouplist" id="7000">
+        <left>579</left>
+        <top>130</top>
+        <include>WindowMenuVars_Vertical</include>
+        <control type="label" id="200">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>$LOCALIZE[31513]</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
         </control>
+        <control type="image" id="230">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="2">
+          <description>View As button</description>
+          <include>WindowMenuButton_Vertical</include>
+          <label>-</label>
+        </control>
+        <control type="button" id="3">
+          <description>Sort by button</description>
+          <include>WindowMenuButton_Vertical</include>
+          <label>103</label>
+        </control>
+        <control type="togglebutton" id="4">
+          <include>WindowMenuButton_Vertical</include>
+          <!-- Sort Ascending -->
+          <label>$LOCALIZE[31511]</label>
+          <!-- Sort Descending -->
+          <altlabel>$LOCALIZE[31512]</altlabel>
+        </control>
+        <control type="edit" id="19">
+          <visible>Container.CanFilter</visible>
+          <description>Filter</description>
+          <textwidth>230</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>587</label>
+        </control>
+        <include>CommonNowPlaying_Controls</include>
       </control>
     </control>
   </controls>

@@ -26,6 +26,7 @@
       <visible>[Control.IsVisible(50) | Control.IsVisible(51)] + [substring(listitem.filenameandpath,jpg) | substring(listitem.filenameandpath,bmp) | substring(listitem.filenameandpath,png) | substring(listitem.filenameandpath,tif) | substring(listitem.filenameandpath,ico) | substring(listitem.filenameandpath,pcx) | substring(listitem.filenameandpath,tga)]</visible>
       <include>Animation_BackdropFade</include>
     </control>
+    <include>CommonMediaPlayingBackground</include>
     <include>Viewtype_Files</include>
     <include>Viewtype_PictureGrid</include>
     <include>PictureThumbView</include>
@@ -57,7 +58,7 @@
             <align>center</align>
             <aligny>center</aligny>
         </control>
-        <control type="image">
+        <control type="image" id="230">
           <description>separator</description>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -83,19 +84,11 @@
             <usealttexture>Container.SortDirection(Ascending)</usealttexture>
         </control>
         <control type="edit" id="19">
-            <visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+            <visible>Container.CanFilter</visible>
             <description>Filter</description>
             <textwidth>230</textwidth>
             <include>WindowMenuButton_Vertical</include>
             <label>587</label>
-        </control>
-        <control type="radiobutton" id="20">
-            <visible>Container.CanFilterAdvanced</visible>
-            <description>Filter</description>
-            <include>WindowMenuButton_Vertical</include>
-            <label>587</label>
-            <onclick>right</onclick>
-            <onclick>Filter</onclick>
         </control>
         <control type="label" id="201">
             <width>250</width>
@@ -106,7 +99,7 @@
             <align>center</align>
             <aligny>center</aligny>
         </control>
-        <control type="image">
+        <control type="image" id="231">
           <description>separator</description>
           <width>240</width>
           <aspectratio>keep</aspectratio>
@@ -131,7 +124,6 @@
             <label>13319</label>
         </control>
         <include>CommonNowPlaying_Controls</include>
-        <include>CommonNowPlaying</include>
       </control>
     </control>
   </controls>
