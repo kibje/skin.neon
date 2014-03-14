@@ -43,13 +43,23 @@
   <include file="Viewtype_Multiplex.xml" />
   <include file="ViewsVideoLibrary.xml" />
   <include file="ViewsMusicLibrary.xml" />
-  <include file="WeatherStandardView.xml" />
   <include file="Includes_TVGuide.xml" />
   <include file="ViewsLiveTV.xml" />
   <include file="ViewsPVR.xml" />
   <include file="IncludesBackgroundBuilding.xml" />
+  <include file="weather\10DayForecast.xml"/>
+  <include file="weather\36HourForecast.xml"/>
+  <include file="weather\WeekendForecast.xml"/>
+  <include file="weather\HourlyForecast.xml"/>
+  <include file="weather\MapAlerts.xml"/>
   <!--	<include file="Viewtype_Newest_Episodes.xml" /> -->
   <constant name="FanartCrossfadeTime">30</constant>
+  
+  <variable name="PlayList">
+    <value condition="Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)">ActivateWindow(videoplaylist)</value>
+    <value condition="[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !StringCompare(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</value>
+  </variable>
+  
   <include name="VisibleFadeEffect">
     <animation effect="fade" time="300">Visible</animation>
     <animation effect="fade" time="300">Hidden</animation>
@@ -930,8 +940,11 @@
     <width>300</width>
     <height>720</height>
     <left>0</left>
-    <onleft>50</onleft>
+    <onleft>7000</onleft>
     <onright>50</onright>
+    <onup>7000</onup>
+    <ondown>7000</ondown>
+    <onback>50</onback>
     <itemgap>0</itemgap>
     <align>left</align>
     <orientation>vertical</orientation>
@@ -950,8 +963,6 @@
     <alttexturefocus>button-focus.png</alttexturefocus>
   </include>
   <include name="WindowMenuButton_Vertical">
-    <left>-5</left>
-    <top>30</top>
     <width>250</width>
     <height>32</height>
     <align>left</align>
@@ -1206,13 +1217,11 @@
       <textcolor>mainblue</textcolor>
       <align>center</align>
       <aligny>center</aligny>
-      <visible>[Player.HasAudio | Player.HasVideo]</visible>
+      <visible>[Player.HasAudio | Player.HasVideo | Control.IsVisible(612)]</visible>
       <include>VisibleFadeEffect</include>
     </control>
     <control type="image" id="224">
       <description>separator</description>
-      <left>-250</left>
-      <top>240</top>
       <width>240</width>
       <aspectratio>keep</aspectratio>
       <colordiffuse>mainblue</colordiffuse>
@@ -1416,9 +1425,21 @@
       <include>WindowMenuButton_Vertical</include>
       <label>$LOCALIZE[31514]</label>
       <onclick>fullscreen</onclick>
-      <!--<textureradiofocus>GoFullscreen.png</textureradiofocus>
-			<textureradionofocus>GoFullscreen.png</textureradionofocus> -->
+      <textureradioonfocus>GoFullscreen.png</textureradioonfocus>
+	  <textureradioonnofocus>GoFullscreen.png</textureradioonnofocus>
+      <textureradioofffocus>GoFullscreen.png</textureradioofffocus>
+      <textureradiooffnofocus>GoFullscreen.png</textureradiooffnofocus>
+      <radiowidth>25</radiowidth>
+      <radioheight>25</radioheight>
       <visible>Player.HasMedia</visible>
+    </control>
+    <control type="button" id="612">
+      <description>Go to playlist</description>
+      <include>WindowMenuButton_Vertical</include>
+      <label>13350</label>
+      <onclick>$VAR[PlayList]</onclick>
+      <visible>[Window.IsActive(videolibrary) + !StringCompare(Playlist.Length(video),0)] | [[Window.IsActive(musiclibrary) | Window.IsActive(musicfiles)] + !StringCompare(Playlist.Length(music),0)]</visible>
+      <visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist)</visible>
     </control>
   </include>
   <include name="SmallMusicInfo">
