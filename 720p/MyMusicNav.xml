@@ -44,13 +44,7 @@
       <include>global_kenburns_fanart</include>
       <visible>IsEmpty(ListItem.Property(Fanart_Image))</visible>
     </control>
-    <!--		<control type="image">
-			<include>Dimensions_Fullscreen</include>
-			<fadetime>400</fadetime>
-			<texture>backdrops/curtains.jpg</texture>
-			<include>Animation_BackdropFade</include>
-			<visible>Control.IsVisible(53) | Control.IsVisible(52)</visible>
-		</control> -->
+    <include>CommonMediaPlayingBackground</include>
     <control type="group">
       <include>Viewtype_Files</include> <!-- 50 -->
       <include>MusicVideoInfoListView</include> <!-- 511 -->
@@ -91,7 +85,7 @@
         <left>579</left>
         <top>130</top>
         <include>WindowMenuVars_Vertical</include>
-        <control type="label">
+        <control type="label" id="200">
           <width>250</width>
           <height>35</height>
           <font>Font_Neon_26</font>
@@ -100,10 +94,8 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image">
+        <control type="image" id="230">
           <description>separator</description>
-          <left>0</left>
-          <top>40</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -171,7 +163,7 @@
           <textwidth>230</textwidth>
           <label>587</label>
         </control>
-        <control type="label">
+        <control type="label" id="201">
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
@@ -180,10 +172,8 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image">
+        <control type="image" id="231">
           <description>separator</description>
-          <left>0</left>
-          <top>240</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -198,7 +188,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>589</label>
         </control>
-        <control type="label">
+        <control type="label" id="203">
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
@@ -207,7 +197,7 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image">
+        <control type="image" id="233">
           <description>separator</description>
           <left>0</left>
           <top>240</top>
@@ -225,7 +215,6 @@
           <usealttexture>library.isscanningvideo</usealttexture>
         </control>
         <include>CommonNowPlaying_Controls</include>
-        <include>CommonNowPlaying</include>
       </control>
     </control>
     <include>Time</include>

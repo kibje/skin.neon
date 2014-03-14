@@ -93,7 +93,7 @@
           <onclick>ActivateWindow(TV)</onclick>
           <icon>special://skin/backgrounds/tv.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
-          <visible>!Skin.HasSetting(HomeNoMenuLiveTV)</visible>
+          <visible>!Skin.HasSetting(HomeNoMenuLiveTV) + System.GetBool(pvrmanager.enabled)</visible>
         </item>
         <item id="7">
           <description>TV GUIDE</description>
@@ -264,7 +264,7 @@
           <icon>special://skin/backgrounds/weather.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder)]</thumb>
           <onclick>ActivateWindow(Weather)</onclick>
-          <visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + !Skin.HasSetting(conditions_weather_backdrop)</visible>
+          <visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + !Skin.HasSetting(conditions_weather_backdrop) + !IsEmpty(Weather.Plugin)</visible>
         </item>
         <item id="8">
           <description>weather</description>
@@ -272,7 +272,7 @@
           <icon>special://skin/backgrounds/weather.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_Weather_Folder1)]$INFO[Weather.FanartCode]</thumb>
           <onclick>ActivateWindow(Weather)</onclick>
-          <visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + Skin.HasSetting(conditions_weather_backdrop)</visible>
+          <visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + Skin.HasSetting(conditions_weather_backdrop) + !IsEmpty(Weather.Plugin)</visible>
         </item>
         <item id="9">
           <description>settings</description>

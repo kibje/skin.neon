@@ -6,11 +6,6 @@
       <include>Animation_SettingsFade</include>
       <!-- Browser -->
       <control type="image">
-        <include>Dimensions_Fullscreen</include>
-        <texture border="20">special://skin/backgrounds/addons.jpg</texture>
-        <visible>Control.IsVisible(50) + !Window.IsVisible(146)</visible>
-      </control>
-      <control type="image">
         <left>25</left>
         <top>90</top>
         <width>680</width>

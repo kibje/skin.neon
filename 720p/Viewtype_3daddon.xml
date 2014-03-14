@@ -2,15 +2,6 @@
 <!--Alaska-->
 <includes>
   <include name="Viewtype_3daddon">
-    <control type="image">
-      <visible>Control.IsVisible(56) + Skin.HasSetting(3dmusic_Fanart)</visible>
-      <left>0</left>
-      <top>0</top>
-      <width>1280</width>
-      <height>720</height>
-      <texture>music/music_fanart_3d.png</texture>
-      <aspectratio>stretch</aspectratio>
-    </control>
     <control type="fixedlist" id="56">
       <left>-30</left>
       <top>250</top>

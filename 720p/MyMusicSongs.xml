@@ -30,6 +30,7 @@
       <include>Animation_MyVideoNav_Fanart</include>
       <visible>IsEmpty(ListItem.Property(Fanart_Image))</visible>
     </control>
+    <include>CommonMediaPlayingBackground</include>
     <include>Viewtype_List</include> <!-- 50 -->
     <include>Viewtype_Files</include> <!-- 55  -->
     <include>Viewtype_JukeBox</include> <!-- 54 -->
@@ -55,7 +56,7 @@
         <left>579</left>
         <top>130</top>
         <include>WindowMenuVars_Vertical</include>
-        <control type="label" id="204">
+        <control type="label" id="200">
           <width>250</width>
           <height>35</height>
           <font>Font_Neon_26</font>
@@ -64,10 +65,8 @@
           <align>center</align>
           <aligny>center</aligny>
         </control>
-        <control type="image" id="203">
+        <control type="image" id="230">
           <description>separator</description>
-          <left>-250</left>
-          <top>40</top>
           <width>240</width>
           <aspectratio>keep</aspectratio>
           <colordiffuse>mainblue</colordiffuse>
@@ -116,7 +115,6 @@
           <label>$LOCALIZE[590]</label>
         </control> -->
         <include>CommonNowPlaying_Controls</include>
-        <include>CommonNowPlaying</include>
       </control>
     </control>
   </controls>
