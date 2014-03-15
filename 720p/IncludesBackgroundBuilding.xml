@@ -3,7 +3,7 @@
   <include name="ContentPanelBackgrounds">
     <control type="image">
       <left>0</left>
-      <bottom>100</bottom>
+      <bottom>0</bottom>
       <width>1280</width>
       <height>100</height>
       <texture>floor.png</texture>

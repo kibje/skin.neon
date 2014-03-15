@@ -404,7 +404,7 @@
       </control>
       <control type="grouplist">
         <description>Media Codec Flagging Images</description>
-        <right>300</right>
+        <right>15</right>
         <top>215</top>
         <width>290</width>
         <align>left</align>
