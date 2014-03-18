@@ -31,7 +31,6 @@
     <include>Viewtype_PictureGrid</include>
     <include>PictureThumbView</include>
     <include>ScrollOffsetLabel</include>
-    <include>Time</include>
     <control type="group">
       <left>-839</left>
       <include>SideBladeLeft</include>
@@ -126,5 +125,6 @@
         <include>CommonNowPlaying_Controls</include>
       </control>
     </control>
+    <include>Time</include>
   </controls>
 </window>
