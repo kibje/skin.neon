@@ -26,13 +26,14 @@
       </control>
       <control type="button">
         <description>Close Window button</description>
-        <left>1015</left>
+        <left>1005</left>
         <top>9</top>
         <width>64</width>
         <height>32</height>
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>1</onleft>
@@ -176,9 +177,9 @@
         </control>
       </control>
       <control type="image">
-        <left>268</left>
+        <left>270</left>
         <top>10</top>
-        <width>824</width>
+        <width>800</width>
         <height>618</height>
         <texture border="5">black-back2.png</texture>
       </control>
@@ -217,30 +218,14 @@
           <ondown>9001</ondown>
           <control type="radiobutton" id="4">          
             <description>enable login screen</description>
-            <width>805</width>
-            <height>40</height>
-            <font>Font_Neon_25</font>
+            <include>skin_settings_labels</include>
             <label>20096</label>
-            <textcolor>grey2</textcolor>
-            <textoffsetx>25</textoffsetx>
-            <focusedcolor>white</focusedcolor>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
           </control>
           <control type="button" id="5">
             <description>auto login</description>
-            <width>805</width>
-            <height>40</height>
-            <font>Font_Neon_25</font>
+            <include>skin_settings_labels</include>
             <label>33084</label>
             <label2>$INFO[System.ProfileAutoLogin]</label2>
-            <textcolor>grey2</textcolor>
-            <textoffsetx>25</textoffsetx>
-            <focusedcolor>white</focusedcolor>
-            <colordiffuse>mainblue</colordiffuse>
-            <texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
-            <texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
             <enable>!System.HasLoginScreen</enable>
           </control>
         </control>
@@ -257,7 +242,7 @@
             <width>750</width>
             <height>2</height>
             <texture>separator2.png</texture>
-            <colordiffuse>40FFFFFF</colordiffuse>
+            <colordiffuse>mainblue</colordiffuse>
           </control>
           <control type="textbox">
             <description>description area</description>
@@ -328,6 +313,15 @@
               <top>0</top>
               <width>188</width>
               <height>145</height>
+              <bordertexture border="5">button-nofocus.png</bordertexture>
+              <bordersize>5</bordersize>
+              <texture fallback="unknown-user.png">$INFO[Listitem.Icon]</texture>
+            </control>
+            <control type="image">
+              <left>1</left>
+              <top>0</top>
+              <width>188</width>
+              <height>145</height>
               <bordertexture border="5">music/musci_focus_glow.png</bordertexture>
               <bordersize>5</bordersize>
               <texture fallback="unknown-user.png">$INFO[Listitem.Icon]</texture>
@@ -347,10 +341,10 @@
           </focusedlayout>
         </control>
         <control type="scrollbar" id="60">
-          <left>1070</left>
-          <top>60</top>
+          <left>1068</left>
+          <top>65</top>
           <width>25</width>
-          <height>435</height>
+          <height>530</height>
           <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
           <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
           <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -363,7 +357,6 @@
         </control>
       </control>
     </control>
-    <include>CommonNowPlaying</include>
     <include>BehindDialogFadeOut</include>
     <include>Time</include>
   </controls>
