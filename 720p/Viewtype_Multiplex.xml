@@ -531,7 +531,9 @@
           <height>45</height>
           <aspectratio>keep</aspectratio>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-        </control>        
+          <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+          | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+        </control>
       </itemlayout>
       <focusedlayout width="106" height="129">
         <!--	<animation effect="slide" start="0,0" end="0,30" time="0" tween="cubic" easing="inout" condition="Control.IsVisible(588) + Container.Content(movies) + Skin.HasSetting(MultiPlexFanart)">Conditional</animation> -->
@@ -568,6 +570,8 @@
           <height>55</height>
           <aspectratio>keep</aspectratio>
           <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+          <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+          | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           <animation type="focus">
             <effect type="fade" start="0" end="100" time="200" />
             <effect type="slide" start="0,0" end="10,5" time="200" />

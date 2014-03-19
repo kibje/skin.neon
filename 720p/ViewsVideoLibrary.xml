@@ -42,6 +42,16 @@
             <bordersize>4</bordersize>
             <texture background="true">$INFO[ListItem.Icon]</texture>
           </control>
+          <control type="image">
+            <left>175</left>
+            <top>310</top>
+            <width>35</width>
+            <height>35</height>
+            <aspectratio>keep</aspectratio>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+          </control>
         </itemlayout>
         <focusedlayout height="310" width="218">
           <control type="image">
@@ -67,12 +77,14 @@
             <animation reversible="false" effect="zoom" end="6,44,170,180" start="-24,4,240,250" time="200">unfocus</animation>
           </control>
           <control type="image">
-            <left>205</left>
+            <left>175</left>
             <top>310</top>
             <width>35</width>
             <height>35</height>
             <aspectratio>keep</aspectratio>
-            <texture>$INFO[ListItem.Overlay]</texture>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
             <animation type="focus">
               <effect type="fade" start="0" end="100" time="200" />
               <effect type="slide" start="0,0" end="40,40" time="200" />
@@ -357,6 +369,16 @@
             <fadetime>200</fadetime>
             <texture background="true" flipy="true" diffuse="diffuse_mirror2.png">$INFO[ListItem.Icon]</texture>
           </control>
+          <control type="image">
+            <left>90</left>
+            <top>150</top>
+            <width>35</width>
+            <height>35</height>
+            <aspectratio>keep</aspectratio>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+          </control>
         </itemlayout>
         <focusedlayout height="310" width="120">
           <control type="image">
@@ -378,7 +400,9 @@
             <width>35</width>
             <height>35</height>
             <aspectratio>keep</aspectratio>
-            <texture>$INFO[ListItem.Overlay]</texture>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
             <animation type="focus">
               <effect type="fade" start="0" end="100" time="200" />
               <effect type="slide" start="0,0" end="10,5" time="200" />
@@ -820,7 +844,9 @@
             <top>14</top>
             <width>20</width>
             <height>16</height>
-            <texture>$INFO[ListItem.Overlay]</texture>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           </control>
         </itemlayout>
         <focusedlayout height="40" width="580">
@@ -879,7 +905,9 @@
             <top>14</top>
             <width>20</width>
             <height>16</height>
-            <texture>$INFO[ListItem.Overlay]</texture>
+            <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           </control>
         </focusedlayout>
       </control>

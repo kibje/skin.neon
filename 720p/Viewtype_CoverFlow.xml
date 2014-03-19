@@ -47,6 +47,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-7).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -78,6 +88,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -113,6 +133,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -144,6 +174,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -179,6 +219,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -210,6 +260,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -246,6 +306,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -277,6 +347,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -312,6 +392,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -343,6 +433,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -378,6 +478,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -409,6 +519,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -448,6 +568,16 @@
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
+                  <left>185</left>
+                  <top>-15</top>
+                  <width>45</width>
+                  <height>45</height>
+                  <aspectratio>keep</aspectratio>
+                  <texture>dialogs/movies/$INFO[ListItem(0).Overlay]</texture>
+                  <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                  | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+                </control>
+                <control type="image">
                   <left>49</left>
                   <top>260</top>
                   <width>173</width>
@@ -480,6 +610,16 @@
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
+                </control>
+                <control type="image">
+                  <left>50</left>
+                  <top>-15</top>
+                  <width>45</width>
+                  <height>45</height>
+                  <aspectratio>keep</aspectratio>
+                  <texture>dialogs/movies/$INFO[ListItem(-1).Overlay]</texture>
+                  <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                  | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
                 </control>
                 <control type="image">
                   <left>49</left>
@@ -523,6 +663,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(7).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -554,6 +704,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -589,6 +749,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -620,6 +790,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -655,6 +835,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -686,6 +876,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -722,6 +922,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -753,6 +963,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -788,6 +1008,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -819,6 +1049,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -854,6 +1094,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -885,6 +1135,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -924,6 +1184,16 @@
                   <texture border="-17">showcase_shadow.png</texture>
                 </control>
                 <control type="image">
+                  <left>50</left>
+                  <top>-15</top>
+                  <width>45</width>
+                  <height>45</height>
+                  <aspectratio>keep</aspectratio>
+                  <texture>dialogs/movies/$INFO[ListItem(0).Overlay]</texture>
+                  <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                  | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+                </control>
+                <control type="image">
                   <left>49</left>
                   <top>260</top>
                   <width>173</width>
@@ -956,6 +1226,16 @@
                   <width>173</width>
                   <height>254</height>
                   <texture border="-17">showcase_shadow.png</texture>
+                </control>
+                <control type="image">
+                  <left>185</left>
+                  <top>-15</top>
+                  <width>45</width>
+                  <height>45</height>
+                  <aspectratio>keep</aspectratio>
+                  <texture>dialogs/movies/$INFO[ListItem(1).Overlay]</texture>
+                  <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                  | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
                 </control>
                 <control type="image">
                   <left>49</left>
@@ -999,6 +1279,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1030,6 +1320,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -1065,6 +1365,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1096,6 +1406,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -1131,6 +1451,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1162,6 +1492,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -1197,6 +1537,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1228,6 +1578,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -1263,6 +1623,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1294,6 +1664,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -1329,6 +1709,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1362,6 +1752,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -1391,6 +1791,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(0).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2365,6 +2775,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2395,6 +2815,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2429,6 +2859,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2459,6 +2899,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2493,6 +2943,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2523,6 +2983,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>50</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(-1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2557,6 +3027,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(6).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2587,6 +3067,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(5).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2621,6 +3111,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(4).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2651,6 +3151,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(3).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
@@ -2685,6 +3195,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(2).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2717,6 +3237,16 @@
                 <texture border="-17">showcase_shadow.png</texture>
               </control>
               <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(1).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
+              </control>
+              <control type="image">
                 <left>49</left>
                 <top>260</top>
                 <width>173</width>
@@ -2746,6 +3276,16 @@
                 <width>173</width>
                 <height>254</height>
                 <texture border="-17">showcase_shadow.png</texture>
+              </control>
+              <control type="image">
+                <left>185</left>
+                <top>-15</top>
+                <width>45</width>
+                <height>45</height>
+                <aspectratio>keep</aspectratio>
+                <texture>dialogs/movies/$INFO[ListItem(0).Overlay]</texture>
+                <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+                | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
               </control>
               <control type="image">
                 <left>49</left>
