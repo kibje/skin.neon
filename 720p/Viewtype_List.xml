@@ -66,6 +66,8 @@
             <width>25</width>
             <height>25</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           </control>
         </itemlayout>
         <focusedlayout height="40" width="580">
@@ -128,6 +130,8 @@
             <width>25</width>
             <height>25</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
+            <visible>Window.IsVisible(Videos) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           </control>
         </focusedlayout>
       </control>
@@ -244,7 +248,7 @@
           <visible>!Skin.HasSetting(FileFanartView)</visible>
           <control type="label">
             <description>Aired txt</description>
-            <left>150</left>
+            <left>0</left>
             <top>170</top>
             <width>140</width>
             <height>25</height>
@@ -256,7 +260,7 @@
           </control>
           <control type="label">
             <description>Aired Value</description>
-            <left>160</left>
+            <left>150</left>
             <top>170</top>
             <width>440</width>
             <height>25</height>
@@ -268,7 +272,7 @@
           </control>
           <control type="label">
             <description>Genre txt</description>
-            <left>150</left>
+            <left>0</left>
             <top>195</top>
             <width>140</width>
             <height>25</height>
@@ -280,7 +284,7 @@
           </control>
           <control type="label">
             <description>Genre Value</description>
-            <left>160</left>
+            <left>150</left>
             <top>195</top>
             <width>440</width>
             <height>25</height>
@@ -292,7 +296,7 @@
           </control>
           <control type="label">
             <description>Episodes count txt</description>
-            <left>150</left>
+            <left>0</left>
             <top>220</top>
             <width>140</width>
             <height>25</height>
@@ -304,7 +308,7 @@
           </control>
           <control type="label">
             <description>Episodes Value</description>
-            <left>160</left>
+            <left>0</left>
             <top>220</top>
             <width>440</width>
             <height>25</height>
