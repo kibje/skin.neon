@@ -2,7 +2,7 @@
 <includes>
   <include name="TVGuide">
     <control type="group">
-      <visible>Container(301).Hasfocus(7)</visible>
+      <visible>Container(301).Hasfocus(7) + !Skin.HasSetting(homepageHideTodayTV)</visible>
       <control type="group">
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
