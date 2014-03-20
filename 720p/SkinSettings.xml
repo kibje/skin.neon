@@ -444,6 +444,13 @@
             <selected>!Skin.HasSetting(noprefersong)</selected>
             <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
           </control>
+          <control type="radiobutton" id="2025">
+            <description>Show TV Airing Today</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31112]</label>
+            <onclick>Skin.ToggleSetting(homepageHideTodayTV)</onclick>
+            <selected>!Skin.HasSetting(homepageHideTodayTV)</selected>
+          </control>
           <control type="radiobutton" id="111">
             <include>skin_settings_labels</include>
             <label>$LOCALIZE[31728]</label>
