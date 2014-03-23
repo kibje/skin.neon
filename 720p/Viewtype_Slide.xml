@@ -34,7 +34,7 @@
         <control type="group">
           <left>0</left>
           <top>200</top>
-          <animation effect="fade" start="100" end="0" time="400" delay="400" condition="Control.HasFocus(8241)">Conditional</animation>
+          <animation effect="fade" start="100" end="0" time="400" delay="400" condition="Control.HasFocus(8241) | Player.HasVideo">Conditional</animation>
           <control type="image">
             <left>0</left>
             <top>0</top>
@@ -59,7 +59,8 @@
             <width>60</width>
             <height>60</height>
             <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-            <visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)] + !IsEmpty(ListItem.Overlay)</visible>
+            <visible>!IsEmpty(ListItem.Overlay) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+            | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
           </control>
         </control>
       </itemlayout>
@@ -89,7 +90,7 @@
         <include condition="!Skin.HasSetting(big_trailer)">ondown_small_trailer</include>
         <include condition="Skin.HasSetting(big_trailer)">ondown_big_trailer</include>
         <onclick>PlayMedia($ESCINFO[ListItem.FileNameAndPath])</onclick>
-        <visible allowhiddenfocus="true">ControlGroup(8240).HasFocus()</visible>
+        <visible allowhiddenfocus="true">[ControlGroup(8240).HasFocus() | Player.HasVideo]</visible>
       </control>
     </control>
     <control type="group">
@@ -132,13 +133,14 @@
         <width>75</width>
         <height>75</height>
         <texture>dialogs/movies/$INFO[ListItem.Overlay]</texture>
-        <visible>[Skin.HasSetting(movieoverlays) | Skin.HasSetting(tvoverlays)] + !IsEmpty(ListItem.Overlay)</visible>
+        <visible>!IsEmpty(ListItem.Overlay) + [[Container.Content(Movies) | Container.Content(MusicVideos) | Container.Content(Files)] + Skin.HasSetting(movieoverlays)]
+        | [[Container.Content(TVShows) | Container.Content(Episodes) | Container.Content(Seasons)] + Skin.HasSetting(tvoverlays)]</visible>
       </control>
     </control>
     <control type="group">
       <left>640</left>
       <top>290</top>
-      <animation effect="slide" start="0,0" end="0,-400" time="200" delay="600" condition="Control.HasFocus(8241)">Conditional</animation>
+      <animation effect="slide" start="0,0" end="0,-400" time="200" delay="600" condition="Control.HasFocus(8241) | Player.HasVideo">Conditional</animation>
       <visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + !IsEmpty(ListItem.Title)</visible>
       <include>Animation_HiddenByInfo</include>
       <include>Animation_BackdropFade</include>
@@ -251,35 +253,6 @@
       <include>Animation_HiddenByInfo</include>
       <include>Animation_BackdropFade</include>
       <visible>Control.IsVisible(595) + [Container.Content(movies) | Container.Content(videos)] + Control.HasFocus(8241) + ![Control.HasFocus(8241) + Player.HasVideo]</visible>
-    </control>
-    <control type="group">
-      <visible>Control.IsVisible(595) + Control.HasFocus(8241) + Player.HasVideo</visible>
-      <animation effect="fade" start="0" end="100" time="400" delay="800" condition="Player.HasVideo">Conditional</animation>
-      <left>638</left>
-      <top>230</top>
-      <control type="image">
-        <description>trailer image</description>
-        <left>30</left>
-        <top>26</top>
-        <width>500</width>
-        <height>282</height>
-        <texture>tv-episodes/context-back.png</texture>
-      </control>
-      <control type="videowindow" id="4">
-        <left>30</left>
-        <top>26</top>
-        <width>500</width>
-        <height>282</height>
-      </control>
-      <control type="image">
-        <description>trailer image</description>
-        <left>5</left>
-        <top>5</top>
-        <width>550</width>
-        <height>325</height>
-        <colordiffuse>black</colordiffuse>
-        <texture>episodeframe.png</texture>
-      </control>
     </control>
     <control type="label">
       <visible>Control.IsVisible(595) + !Control.HasFocus(8241) + !IsEmpty(ListItem.Title)</visible>
