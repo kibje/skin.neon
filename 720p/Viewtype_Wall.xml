@@ -15,6 +15,7 @@
     </control>
     <control type="panel" id="54">
       <visible>!Skin.HasSetting(no_Wall) + [Container.Content(Movies) | Window.IsVisible(VideoFiles) | Container.Content(TVShows)]</visible>
+      <animation effect="slide" start="0,0" end="-500,0" time="200" delay="600" condition="Player.HasVideo">Conditional</animation>
       <left>55</left>
       <top>55</top>
       <!-- -105 -->
