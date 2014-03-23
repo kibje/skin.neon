@@ -232,7 +232,6 @@
         <texture>panel/last-overlay.png</texture>
       </control>
     </control>
-    <include>Trailer_Panel</include>
     <control type="scrollbar" id="5920">
       <include>Animation_ZoomInZoomOut</include>
       <left>1280</left>
