@@ -621,7 +621,6 @@
         <include>Animation_BackdropFade</include>
       </control>
     </control>
-    <include>Trailer_Showcase</include>
     <control type="scrollbar" id="68">
       <include>Animation_ZoomInZoomOut</include>
       <left>100</left>

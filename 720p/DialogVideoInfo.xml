@@ -1214,14 +1214,15 @@
             <description>Play Trailer</description>
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
-            <visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(WindowedTrailer)</visible>
+            <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(big_trailer)</visible>
           </control>
           <control type="button" id="15">
             <description>Play Trailer Windowed</description>
             <include>ButtonInfoDialogsCommonValues</include>
             <label>$LOCALIZE[20410]</label>
+            <onclick>Dialog.Close(MovieInformation)</onclick>
             <onclick>PlayMedia($ESCINFO[ListItem.Trailer],1)</onclick>
-            <visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(WindowedTrailer)</visible>
+            <visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(big_trailer)</visible>
           </control>
           <control type="button" id="113">
             <description>Cinema Script</description>
@@ -1257,15 +1258,14 @@
             <visible>Container.Content(tvshows) + !Skin.HasSetting(LockViews)</visible>
           </control>
           <control type="button" id="105">
-    <description>Extras</description>
-    <include>ButtonInfoDialogsCommonValues</include>
-    <label>Extras</label>
-    <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
-    <visible>System.HasAddon(script.videoextras)
-     + [Container.Content(movies) | Container.Content(episodes) | Container.Content(TVShows)]
-     + IsEmpty(Window(movieinformation).Property("HideVideoExtrasButton"))</visible>
-	 <visible>System.HasAddon(script.videoextras) + !IsEmpty(Window(movieinformation).Property(flag)) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(TVShows)]</visible>
-</control>
+            <description>Extras</description>
+            <include>ButtonInfoDialogsCommonValues</include>
+            <label>Extras</label>
+            <onclick>XBMC.RunScript(script.videoextras,display,"$INFO[ListItem.FilenameAndPath]")</onclick>
+            <visible>System.HasAddon(script.videoextras)
+             + [Container.Content(movies) | Container.Content(episodes) | Container.Content(TVShows) | Container.Content(musicvideos)]
+             + IsEmpty(Window(movieinformation).Property("HideVideoExtrasButton"))</visible>
+          </control>
         </control>
       </control>
     </control>

@@ -107,7 +107,6 @@
       <include>Animation_MyVideoNav_Fanart</include>
       <visible>Control.IsVisible(59) | [Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)]</visible>
     </control>
-    <include>CommonMediaPlayingBackground</include>
     <control type="group">
       <include>Viewtype_Files</include> <!--  view id 50  -->
       <include>Viewtype_Poster</include> <!--  view id 55  -->
@@ -140,7 +139,13 @@
       <include>Trailer_16x9</include>
       <include>Trailer_Files</include>
       <include>Trailer_Poster</include>
+      <include>Trailer_PosterWrap</include>
       <include>Trailer_Media_View</include>
+      <include>Trailer_Slide</include>
+      <include>Trailer_Showcase</include>
+      <include>Trailer_WallPanel</include>
+      <include>Trailer_Panel</include>
+      <include>Trailer_Multiplex</include>
       <include>ScrollOffsetLabel</include>
     </control>
     <control type="group">
