@@ -172,7 +172,7 @@
     <control type="button" id="3">
       <description>Default Button</description>
       <height>40</height>
-      <font>Font_Neon_20</font>
+      <font>Font_Neon_25</font>
       <textoffsetx>10</textoffsetx>
       <textcolor>grey</textcolor>
       <focusedcolor>white</focusedcolor>
@@ -182,7 +182,7 @@
     <control type="radiobutton" id="4">
       <description>Default RadioButton</description>
       <height>40</height>
-      <font>Font_Neon_20</font>
+      <font>Font_Neon_25</font>
       <textoffsetx>10</textoffsetx>
       <textcolor>grey</textcolor>
       <focusedcolor>white</focusedcolor>
@@ -196,7 +196,7 @@
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>
       <texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>
-      <font>Font_Neon_20</font>
+      <font>Font_Neon_25</font>
       <textoffsetx>10</textoffsetx>
       <aligny>center</aligny>
       <reverse>yes</reverse>
@@ -219,7 +219,7 @@
     <control type="sliderex" id="8">
       <description>Default Slider</description>
       <height>40</height>
-      <font>Font_Neon_20</font>
+      <font>Font_Neon_25</font>
       <textcolor>grey</textcolor>
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>
