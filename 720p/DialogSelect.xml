@@ -24,7 +24,7 @@
         <width>610</width>
         <height>650</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture>DialogBackwht.png</texture>
+        <texture border="20">DialogBackwht.png</texture>
       </control>
       <control type="image">
         <description>background image</description>
@@ -33,7 +33,7 @@
         <width>610</width>
         <height>650</height>
         <colordiffuse>mainblue</colordiffuse>
-        <texture>DialogBack.png</texture>
+        <texture border="20">DialogBack.png</texture>
       </control>
       <control type="label" id="1">
         <description>header label</description>
