@@ -19,6 +19,15 @@
         <width>920</width>
         <height>600</height>
         <colordiffuse>mainblue</colordiffuse>
+        <texture border="40">DialogBackwht.png</texture>
+      </control>
+      <control type="image">
+        <description>background image</description>
+        <left>0</left>
+        <top>0</top>
+        <width>920</width>
+        <height>600</height>
+        <colordiffuse>mainblue</colordiffuse>
         <texture border="40">DialogBack.png</texture>
       </control>
       <control type="image">

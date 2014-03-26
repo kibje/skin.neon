@@ -218,6 +218,7 @@
       <font>Font_Neon_25</font>
       <textcolor>grey2</textcolor>
       <textoffsetx>25</textoffsetx>
+      <radioposx>677</radioposx>
       <focusedcolor>white</focusedcolor>
       <colordiffuse>mainblue</colordiffuse>
       <texturefocus border="0,2,0,2">mainmenu/home_bottom_white.png</texturefocus>

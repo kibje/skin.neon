@@ -190,7 +190,7 @@
         <left>850</left>
         <top>100</top>
         <include>VisibleFadeEffect</include>
-        <visible>Control.IsVisible(50) + !Control.IsVisible(9)</visible>
+        <visible>Control.IsVisible(50) + !Control.IsVisible(61)</visible>
         <control type="image">
           <left>0</left>
           <top>0</top>
