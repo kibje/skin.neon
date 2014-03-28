@@ -83,21 +83,21 @@
       <width>1280</width>
       <height>720</height>
       <texture>special://skin/backgrounds/media-overlay.png</texture>
-      <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)</visible>
+      <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo) + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
     </control>
     <control type="visualisation">
       <left>0</left>
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <visible>Player.HasAudio + !Skin.HasSetting(ShowMusicVis)</visible>
+      <visible>Player.HasAudio + !Skin.HasSetting(ShowMusicVis) + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
     </control>
     <control type="videowindow">
       <left>0</left>
       <top>0</top>
       <width>1280</width>
       <height>720</height>
-      <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)</visible>
+      <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo) + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
     </control>
   </include>
   <include name="switch_vertical_home">
@@ -628,7 +628,7 @@
   </include>
   <include name="Finish_Time">
     <control type="group">
-      <visible>!Skin.HasSetting(no_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
+      <visible>!Skin.HasSetting(no_global_clock) + ![[Player.Paused + Player.Caching] + !Player.Seeking] + !VideoPlayer.Content(LiveTV)</visible>
       <left>0</left>
       <top>0</top>
       <control type="group">
@@ -1231,8 +1231,94 @@
       <description>Fake Button to fix Player Controls Navigation</description>
       <visible>false</visible>
     </control>
+    <control type="group" id="9006">
+      <width>250</width>
+      <height>45</height>
+      <visible>VideoPlayer.Content(LiveTV)</visible>
+      <include>VisibleFadeEffect</include>
+      <control type="button" id="600">
+        <left>20</left>
+        <top>2</top>
+        <width>39</width>
+        <height>39</height>
+        <label>-</label>
+        <texturefocus>osd/OSDChannelUPFO.png</texturefocus>
+        <texturenofocus>osd/OSDChannelUPNF.png</texturenofocus>
+        <onleft>50</onleft>
+        <onright>601</onright>
+        <onup>610</onup>
+        <ondown>611</ondown>
+        <onclick>XBMC.PlayerControl(Previous)</onclick>
+      </control>
+      <control type="button" id="601">
+        <left>60</left>
+        <top>2</top>
+        <width>39</width>
+        <height>39</height>
+        <label>-</label>
+        <texturefocus>osd/OSDChannelDownFO.png</texturefocus>
+        <texturenofocus>osd/OSDChannelDownNF.png</texturenofocus>
+        <onleft>600</onleft>
+        <onright>603</onright>
+        <onup>610</onup>
+        <ondown>611</ondown>
+        <onclick>XBMC.PlayerControl(Next)</onclick>
+      </control>
+      <control type="button" id="603">
+        <left>100</left>
+        <top>2</top>
+        <width>39</width>
+        <height>39</height>
+        <label>-</label>
+        <texturefocus>osd/OSDStopFO.png</texturefocus>
+        <texturenofocus>osd/OSDStopNF.png</texturenofocus>
+        <onleft>601</onleft>
+        <onright>604</onright>
+        <onup>610</onup>
+        <ondown>611</ondown>
+        <onclick>down</onclick>
+        <onclick>XBMC.PlayerControl(Stop)</onclick>
+      </control>
+      <control type="togglebutton" id="604">
+        <left>140</left>
+        <top>2</top>
+        <width>39</width>
+        <height>39</height>
+        <label>-</label>
+        <texturefocus>osd/OSDPauseFO.png</texturefocus>
+        <texturenofocus>osd/OSDPauseNF.png</texturenofocus>
+        <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+        <alttexturefocus>osd/OSDPlayFO.png</alttexturefocus>
+        <alttexturenofocus>osd/OSDPlayNF.png</alttexturenofocus>
+        <onleft>603</onleft>
+        <onright>605</onright>
+        <onup>610</onup>
+        <ondown>606</ondown>
+        <onback>50</onback>
+        <onclick>XBMC.PlayerControl(Play)</onclick>
+        <enable>Player.PauseEnabled</enable>
+        <animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
+      </control>
+      <control type="button" id="605">
+        <left>180</left>
+        <top>2</top>
+        <width>39</width>
+        <height>39</height>
+        <label>-</label>
+        <texturefocus>osd/OSDRecordOffFO.png</texturefocus>
+        <texturenofocus>osd/OSDRecordOffNF.png</texturenofocus>
+        <onleft>604</onleft>
+        <onright>50</onright>
+        <onup>610</onup>
+        <ondown>611</ondown>
+        <onclick>XBMC.PlayerControl(record)</onclick>
+        <enable>Player.CanRecord</enable>
+        <animation effect="fade" start="100" end="30" time="100" condition="!Player.CanRecord">Conditional</animation>
+      </control>
+    </control>
     <control type="group" id="9005">
-      <visible>[Player.HasAudio | Player.HasVideo]</visible>
+      <visible>Player.HasMedia</visible>
+      <visible>!VideoPlayer.Content(LiveTV)</visible>
       <include>VisibleFadeEffect</include>
       <width>250</width>
       <height>45</height>
@@ -1249,6 +1335,7 @@
         <onright>606</onright>
         <onup>610</onup>
         <ondown>611</ondown>
+        <onback>50</onback>
         <onclick>XBMC.PlayerControl(Previous)</onclick>
       </control>
       <control type="button" id="606">
@@ -1263,6 +1350,7 @@
         <onright>603</onright>
         <onup>610</onup>
         <ondown>611</ondown>
+        <onback>50</onback>
         <onclick>XBMC.PlayerControl(Rewind)</onclick>
         <visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
       </control>
@@ -1283,6 +1371,7 @@
           <onright>601</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
           <onclick>XBMC.PlayerControl(Play)</onclick>
         </control>
         <control type="button" id="601">
@@ -1297,6 +1386,7 @@
           <onright>607</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
           <onclick>down</onclick>
           <onclick>XBMC.PlayerControl(Stop)</onclick>
         </control>
@@ -1312,6 +1402,7 @@
           <onright>602</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
           <onclick>XBMC.PlayerControl(Forward)</onclick>
           <visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
         </control>
@@ -1327,6 +1418,7 @@
           <onright>604</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
           <onclick>XBMC.PlayerControl(Next)</onclick>
           <animation effect="slide" start="0,0" end="40,0" time="0" condition="Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo">Conditional</animation>
         </control>
@@ -1346,6 +1438,7 @@
           <onright>605</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
         </control>
         <control type="image">
           <left>165</left>
@@ -1417,6 +1510,7 @@
           <onright>50</onright>
           <onup>610</onup>
           <ondown>611</ondown>
+          <onback>50</onback>
         </control>
       </control>
     </control>
