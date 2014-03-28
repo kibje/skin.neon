@@ -4,18 +4,7 @@
   <allowoverlay>no</allowoverlay>
   <controls>
     <include>CommonTVBackground</include>
-    <control type="group">
-      <visible>Control.IsVisible(11) | Control.IsVisible(12)</visible>
-      <control type="image">
-        <left>0</left>
-        <top>0</top>
-        <width>1280</width>
-        <height>720</height>
-        <texture>special://skin/backgrounds/media-overlay.png</texture>
-        <visible>Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)</visible>
-      </control>
-      <include>CommonMediaPlayingBackground</include>
-    </control>
+    <include>CommonMediaPlayingBackground</include>
     <control type="group">
       <include>Window_OpenClose_Animation</include>
       <control type="image">
@@ -38,15 +27,16 @@
         <top>60</top>
         <width>1170</width>
         <height>600</height>
-        <texture border="20">ContentPanel.png</texture>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">DialogBackwht.png</texture>
       </control>
       <control type="image">
         <left>55</left>
-        <top>645</top>
+        <top>60</top>
         <width>1170</width>
         <height>600</height>
-        <aspectratio aligny="top">keep</aspectratio>
-        <texture diffuse="diffuse_mirror3.png" flipy="true" border="20">ContentPanel.png</texture>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture border="20">ContentPanel.png</texture>
       </control>
     </control>
     <control type="group">
