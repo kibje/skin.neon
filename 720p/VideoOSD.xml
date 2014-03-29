@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog">
-  <defaultcontrol always="true">602</defaultcontrol>
+  <defaultcontrol always="true">100</defaultcontrol>
   <controls>
     <!--	<control type="image">
 				<description>media info background image</description>
@@ -27,6 +27,7 @@
       <control type="group" id="200">
         <left>417</left>
         <top>4</top>
+        <visible>!VideoPlayer.Content(LiveTV)</visible>
         <control type="button" id="700">
           <left>0</left>
           <top>0</top>
@@ -36,7 +37,7 @@
           <font>-</font>
           <texturefocus>osd/OSDBookMarksFO.png</texturefocus>
           <texturenofocus>osd/OSDBookMarksNF.png</texturenofocus>
-          <onleft>705</onleft>
+          <onleft>704</onleft>
           <onright>701</onright>
           <onup>600</onup>
           <ondown>600</ondown>
@@ -72,21 +73,17 @@
           <ondown>601</ondown>
           <onclick>ActivateWindow(OSDVideoSettings)</onclick>
         </control>
-      </control>
-      <control type="image" id="11">
-        <description>separator image</description>
-        <left>567</left>
-        <top>25</top>
-        <width>150</width>
-        <height>1</height>
-        <colordiffuse>mainblue</colordiffuse>
-        <texture>separator2.png</texture>
-      </control>
-      <control type="group" id="201">
-        <left>718</left>
-        <top>4</top>
+        <control type="image" id="11">
+          <description>separator image</description>
+          <left>150</left>
+          <top>21</top>
+          <width>150</width>
+          <height>1</height>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
         <control type="button" id="703">
-          <left>0</left>
+          <left>301</left>
           <top>0</top>
           <width>45</width>
           <height>45</height>
@@ -98,11 +95,11 @@
           <onright>704</onright>
           <onup>604</onup>
           <ondown>604</ondown>
-		  <onclick>Dialog.Close(VideoOSD)</onclick>
-  		  <onclick>ActivateWindow(SubtitleSearch)</onclick>
+          <onclick>Dialog.Close(VideoOSD)</onclick>
+          <onclick>ActivateWindow(SubtitleSearch)</onclick>
         </control>
         <control type="button" id="704">
-          <left>50</left>
+          <left>351</left>
           <top>0</top>
           <width>45</width>
           <height>45</height>
@@ -111,27 +108,90 @@
           <texturefocus>osd/OSDDvdFO.png</texturefocus>
           <texturenofocus>osd/OSDDvdNF.png</texturenofocus>
           <onleft>703</onleft>
-          <onright>705</onright>
+          <onright>700</onright>
           <onup>605</onup>
           <ondown>605</ondown>
           <onclick>PlayerControl(ShowVideoMenu)</onclick>
           <enable>VideoPlayer.HasMenu</enable>
           <animation effect="fade" start="100" end="50" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
         </control>
-        <control type="button" id="705">
+      </control>
+      <control type="group" id="200">
+        <left>417</left>
+        <top>4</top>
+        <visible>VideoPlayer.Content(LiveTV)</visible>
+        <control type="button" id="701">
+          <left>50</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>13396</label>
+          <font>-</font>
+          <texturefocus>osd/OSDAudioFO.png</texturefocus>
+          <texturenofocus>osd/OSDAudioNF.png</texturenofocus>
+          <onleft>704</onleft>
+          <onright>702</onright>
+          <onup>600</onup>
+          <ondown>600</ondown>
+          <onclick>ActivateWindow(osdaudiosettings)</onclick>
+        </control>
+        <control type="button" id="702">
           <left>100</left>
           <top>0</top>
           <width>45</width>
           <height>45</height>
-          <label>264</label>
+          <label>13395</label>
           <font>-</font>
-          <texturefocus>osd/OSDRecordFO.png</texturefocus>
-          <texturenofocus>osd/OSDRecordNF.png</texturenofocus>
-          <onleft>704</onleft>
-          <onright>700</onright>
+          <texturefocus>osd/OSDVideoFO.png</texturefocus>
+          <texturenofocus>osd/OSDVideoNF.png</texturenofocus>
+          <onleft>701</onleft>
+          <onright>703</onright>
+          <onup>602</onup>
+          <ondown>602</ondown>
+          <onclick>ActivateWindow(OSDVideoSettings)</onclick>
+        </control>
+        <control type="image" id="11">
+          <description>separator image</description>
+          <left>150</left>
+          <top>21</top>
+          <width>150</width>
+          <height>1</height>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="button" id="703">
+          <left>301</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>31356</label>
+          <font>-</font>
+          <texturefocus>osd/OSDTeleTextFO.png</texturefocus>
+          <texturenofocus>osd/OSDTeleTextNF.png</texturenofocus>
+          <onleft>702</onleft>
+          <onright>704</onright>
           <onup>605</onup>
           <ondown>605</ondown>
-          <onclick>XBMC.PlayerControl(record)</onclick>
+          <onclick>ActivateWindow(Teletext)</onclick>
+        </control>
+        <control type="togglebutton" id="704">
+          <left>351</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>264</label>
+          <altlabel>208</altlabel>
+          <font>-</font>
+          <texturefocus>osd/OSDRecordOffFO.png</texturefocus>
+          <texturenofocus>osd/OSDRecordOffNF.png</texturenofocus>
+          <usealttexture>Player.Recording</usealttexture>
+          <alttexturefocus>osd/OSDRecordOnFO.png</alttexturefocus>
+          <alttexturenofocus>osd/OSDRecordOnNF.png</alttexturenofocus>
+          <onleft>703</onleft>
+          <onright>701</onright>
+          <onup>606</onup>
+          <ondown>606</ondown>
+          <onclick>PlayerControl(Record)</onclick>
           <enable>Player.CanRecord</enable>
           <animation effect="fade" start="100" end="50" time="100" condition="!Player.CanRecord">Conditional</animation>
         </control>
@@ -139,6 +199,8 @@
       <control type="group" id="100">
         <left>490</left>
         <top>40</top>
+        <defaultcontrol always="true">602</defaultcontrol>
+        <visible>!VideoPlayer.Content(LiveTV)</visible>
         <control type="button" id="600">
           <left>0</left>
           <top>0</top>
@@ -229,9 +291,141 @@
           <texturenofocus>osd/OSDNextTrackNF.png</texturenofocus>
           <onleft>604</onleft>
           <onright>600</onright>
+          <onup>703</onup>
+          <ondown>703</ondown>
+          <onclick>PlayerControl(Next)</onclick>
+        </control>
+      </control>
+      <control type="group" id="100">
+        <left>440</left>
+        <top>40</top>
+        <defaultcontrol always="true">603</defaultcontrol>
+        <visible>VideoPlayer.Content(LiveTV)</visible>
+        <control type="button" id="600">
+          <left>0</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>210</label>
+          <font>-</font>
+          <texturefocus>osd/OSDChannelUPFO.png</texturefocus>
+          <texturenofocus>osd/OSDChannelUPNF.png</texturenofocus>
+          <onleft>607</onleft>
+          <onright>601</onright>
+          <onup>701</onup>
+          <ondown>701</ondown>
+          <onclick>PlayerControl(Previous)</onclick>
+        </control>
+        <control type="button" id="601">
+          <left>50</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>19031</label>
+          <font>-</font>
+          <texturefocus>osd/OSDChannelDownFO.png</texturefocus>
+          <texturenofocus>osd/OSDChannelDownNF.png</texturenofocus>
+          <onleft>600</onleft>
+          <onright>602</onright>
+          <onup>701</onup>
+          <ondown>701</ondown>
+          <onclick>PlayerControl(Next)</onclick>
+        </control>
+        <control type="button" id="602">
+          <left>100</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>31354</label>
+          <font>-</font>
+          <texturefocus>osd/OSDRewindFO.png</texturefocus>
+          <texturenofocus>osd/OSDRewindNF.png</texturenofocus>
+          <onleft>601</onleft>
+          <onright>603</onright>
+          <onup>702</onup>
+          <ondown>702</ondown>
+          <onclick>PlayerControl(Rewind)</onclick>
+        </control>
+        <control type="togglebutton" id="603">
+          <left>150</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>31351</label>
+          <altlabel>208</altlabel>
+          <font>-</font>
+          <texturefocus>osd/OSDPauseFO.png</texturefocus>
+          <texturenofocus>osd/OSDPauseNF.png</texturenofocus>
+          <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+          <alttexturefocus>osd/OSDPlayFO.png</alttexturefocus>
+          <alttexturenofocus>osd/OSDPlayNF.png</alttexturenofocus>
+          <onleft>602</onleft>
+          <onright>604</onright>
+          <onup>702</onup>
+          <ondown>702</ondown>
+          <onclick>PlayerControl(Play)</onclick>
+        </control>
+        <control type="button" id="604">
+          <left>200</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>31352</label>
+          <font>-</font>
+          <texturefocus>osd/OSDStopFO.png</texturefocus>
+          <texturenofocus>osd/OSDStopNF.png</texturenofocus>
+          <onleft>603</onleft>
+          <onright>605</onright>
+          <onup>703</onup>
+          <ondown>703</ondown>
+          <onclick>PlayerControl(Stop)</onclick>
+        </control>
+        <control type="button" id="605">
+          <left>250</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>31353</label>
+          <font>-</font>
+          <texturefocus>osd/OSDForwardFO.png</texturefocus>
+          <texturenofocus>osd/OSDForwardNF.png</texturenofocus>
+          <onleft>604</onleft>
+          <onright>606</onright>
+          <onup>703</onup>
+          <ondown>703</ondown>
+          <onclick>PlayerControl(Forward)</onclick>
+        </control>
+        <control type="button" id="606">
+          <left>300</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>19019</label>
+          <font>-</font>
+          <texturefocus>osd/OSDChannelListFO.png</texturefocus>
+          <texturenofocus>osd/OSDChannelListNF.png</texturenofocus>
+          <onleft>605</onleft>
+          <onright>607</onright>
           <onup>704</onup>
           <ondown>704</ondown>
-          <onclick>PlayerControl(Next)</onclick>
+          <onclick>ActivateWindow(PVROSDChannels)</onclick>
+          <onclick>Dialog.Close(VideoOSD)</onclick>
+        </control>
+        <control type="button" id="607">
+          <left>350</left>
+          <top>0</top>
+          <width>45</width>
+          <height>45</height>
+          <label>$LOCALIZE[19029]$INFO[VideoPlayer.ChannelName, - ]</label>
+          <font>-</font>
+          <texturefocus>osd/OSDepgFO.png</texturefocus>
+          <texturenofocus>osd/OSDepgNF.png</texturenofocus>
+          <onleft>606</onleft>
+          <onright>600</onright>
+          <onup>704</onup>
+          <ondown>704</ondown>
+          <onclick>ActivateWindow(PVROSDGuide)</onclick>
+          <onclick>Dialog.Close(VideoOSD)</onclick>
         </control>
       </control>
       <control type="label">
