@@ -1248,7 +1248,7 @@
         <onright>601</onright>
         <onup>610</onup>
         <ondown>611</ondown>
-        <onclick>XBMC.PlayerControl(Previous)</onclick>
+        <onclick>ChannelDown</onclick>  <!--  Channel button opposite to have indicated effect -->
       </control>
       <control type="button" id="601">
         <left>60</left>
@@ -1262,7 +1262,7 @@
         <onright>603</onright>
         <onup>610</onup>
         <ondown>611</ondown>
-        <onclick>XBMC.PlayerControl(Next)</onclick>
+        <onclick>ChannelUp</onclick>  <!--  Channel button opposite to have indicated effect -->
       </control>
       <control type="button" id="603">
         <left>100</left>
