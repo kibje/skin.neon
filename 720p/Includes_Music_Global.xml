@@ -136,7 +136,7 @@
           <textcolor>ffffffff</textcolor>
           <shadowcolor>black</shadowcolor>
           <label>$INFO[MusicPlayer.Artist,$LOCALIZE[557]: ]</label>
-          <animation effect="slide" end="0,22" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
+          <animation effect="slide" end="0,0" condition="IsEmpty(MusicPlayer.offset(1).Title)">Conditional</animation>
           <animation effect="slide" start="0,0" end="46,0" delay="600" time="2000" tween="cubic" easing="inout" condition="!IsEmpty(Control.GetLabel(7026))">Conditional</animation>
           <visible>!Control.IsVisible(51)</visible>
         </control>
