@@ -3,9 +3,10 @@
 [b]3.0.2[/b]
 - Fix VideoExtras script loading in DialogVideoInfo
 [b]3.0.1[/b]
-- Initial add for XBMC Gotham
+- Initial add for XBMC v13 (Gotham)
 
-[b]Skin history:[/b]
-Stoli wrote and designed this excellent skin in oktober 2010 for XBMC Dharma. 
-Stoli started porting it to XBMC Eden in April 2011 and continued maintaining it for XBMC Eden until August 2012. 
-Kibje started porting it to XBMC Frodo begin January 2013.
+[b]Skin history :[/b]
+2010-10 Stoli created Neon for XBMC v10 (Dharma). 
+2011-04 Stoli started modifying Neon to run under XBMC v11 (Eden).
+2013-01 Kib started modifying Neon to run under XBMC v12 (Frodo).
+2014-01 Kib and Bumpaneer started modifying Neon to run under XBMC v13 (Gotham).
