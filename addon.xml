@@ -35,7 +35,7 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum>http://forum.xbmc.org/forumdisplay.php?fid=139</forum>
-    <source>http://github.com/stoli/skin.neon</source>
+    <source>https://github.com/kibje/skin.neon/tree/Gotham</source>
     <email></email>
   </extension>
 </addon>
