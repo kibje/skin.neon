@@ -3,7 +3,7 @@
   id="skin.neon"
   version="3.0.1"
   name="Neon"
-  provider-name="stoli, kibje">
+  provider-name="stoli, kib">
   <requires>
     <import addon="xbmc.gui" version="5.0.1"/>
     <import addon="service.skin.widgets" version="0.0.19"/>
