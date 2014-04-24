@@ -176,7 +176,7 @@
           <icon>special://skin/backgrounds/custom.jpg</icon>
           <thumb>$INFO[Skin.String(Menu_Custom10_Folder)]</thumb>
           <onclick>XBMC.PlayMedia($ESCINFO[Skin.String(Menu_Custom10_Path)])</onclick>
-          <visible>Skin.HasSetting(Menu_Custom10)</visible>
+          <visible>Skin.HasSetting(Menu_Custom10) + Skin.HasSetting(Menu_Custom10_Play)</visible>
         </item>
         <item id="25">
           <description>Custom Playlist 5</description>
