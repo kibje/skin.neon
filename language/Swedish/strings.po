@@ -1,0 +1,1310 @@
+# XBMC Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-04-25 22:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kib\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#31003"
+msgid "Custom Playlist"
+msgstr "Anpassad Spellista"
+
+msgctxt "#31004"
+msgid "TV Shows"
+msgstr "TV-Serier"
+
+msgctxt "#31005"
+msgid "This option will allow more info to display when paused over a movie"
+msgstr "Denna inställning tillåter mer info att visas när en film är markerad"
+
+msgctxt "#31006"
+msgid "PosterPlus"
+msgstr "Affisch-Plus"
+
+msgctxt "#31007"
+msgid "Plugins"
+msgstr "Tillägg"
+
+msgctxt "#31008"
+msgid "Shutdown"
+msgstr "Avsluta"
+
+msgctxt "#31009"
+msgid "Enable ABC keyboard"
+msgstr ""
+
+msgctxt "#31010"
+msgid "Enable startup video"
+msgstr ""
+
+msgctxt "#31011"
+msgid "Music: Show recently added songs instead of albums"
+msgstr ""
+
+msgctxt "#31012"
+msgid "Select folder containing weather fanart:"
+msgstr ""
+
+msgctxt "#31013"
+msgid "Select bottom line RSS logo:"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Selected playlist:"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Sets"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Settings Level"
+msgstr ""
+
+msgctxt "#31020"
+msgid "Recently Added"
+msgstr ""
+
+msgctxt "#31021"
+msgid "Video - Files"
+msgstr ""
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr ""
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr ""
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Sida"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Objekt"
+
+msgctxt "#31026"
+msgid "Misc Options"
+msgstr ""
+
+msgctxt "#31027"
+msgid "Location"
+msgstr ""
+
+msgctxt "#31028"
+msgid "Actions"
+msgstr ""
+
+msgctxt "#31029"
+msgid "Disable Views"
+msgstr "Inaktivera Vyer"
+
+msgctxt "#31030"
+msgid "Reset Skin"
+msgstr ""
+
+msgctxt "#31032"
+msgid "Disable Clock"
+msgstr "Inaktivera Klockan"
+
+msgctxt "#31033"
+msgid "Scroll Plot for Movies and TV"
+msgstr "Rulla Handling för Filmer och TV"
+
+msgctxt "#31034"
+msgid "Disable Media Flags"
+msgstr "Inaktivera Mediaflaggor"
+
+msgctxt "#31035"
+msgid "Enable Movies Watched Overlays"
+msgstr "Aktivera Sedda Filmer Överdrag"
+
+msgctxt "#31036"
+msgid "Enable TV Show Watched Overlays"
+msgstr "Aktivera Sedda TV-Avsnitt Överdrag"
+
+msgctxt "#31037"
+msgid "Lock views in place (Kiosk mode)"
+msgstr "Lås vyer (Kioskläge)"
+
+msgctxt "#31038"
+msgid "Music Visualization Options"
+msgstr "Musikvisualiseringsinställningar"
+
+msgctxt "#31039"
+msgid "Use Fanart Instead of Visualisation"
+msgstr "Använd Fanart Istället för Visualisering"
+
+msgctxt "#31040"
+msgid "Use JukeBox for Fullscreen Playback"
+msgstr "Använd JukeBox för Fullskärmsuppspelning"
+
+msgctxt "#31041"
+msgid "Enable Dark Fanart for Fullscreen Playback"
+msgstr "Aktivera Mörk Fanart för Fullskärmsuppspelning"
+
+msgctxt "#31042"
+msgid "Hide Main Menu Items"
+msgstr "Dölj Huvudmenyobjekt"
+
+msgctxt "#31043"
+msgid "Set Options for TV Shows"
+msgstr "Inställningar för TV-Serier"
+
+msgctxt "#31044"
+msgid "Use Posters for TV Section"
+msgstr "Använd Affischer för TV-Avdelningen"
+
+msgctxt "#31045"
+msgid "Use Banners for TV Section"
+msgstr "Använd Banderoller för TV-Avdelningen"
+
+msgctxt "#31047"
+msgid "Disable Movies and TV Views"
+msgstr "Inaktivera Film- och TV-vyer"
+
+msgctxt "#31048"
+msgid "16x9"
+msgstr "16x9"
+
+msgctxt "#31049"
+msgid "BannerPanel"
+msgstr "BanderollPanel"
+
+msgctxt "#31051"
+msgid "Panel"
+msgstr "Panel"
+
+msgctxt "#31052"
+msgid "Landscape"
+msgstr "Landskap"
+
+msgctxt "#31053"
+msgid "3D Landscape"
+msgstr "3D Landskap"
+
+msgctxt "#31054"
+msgid "LandPanel"
+msgstr "LandPanel"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Öppna spellista"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Spara spellista"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Stäng spellista"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "Systemmusikfiler"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Nuvarande spellista"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Denna fil är sammanslagen, välj den del du vill spela."
+
+msgctxt "#31061"
+msgid "Current Selected"
+msgstr "Nuvarande vald"
+
+msgctxt "#31062"
+msgid "Poster"
+msgstr "Affischer"
+
+msgctxt "#31063"
+msgid "Showcase"
+msgstr "Monter"
+
+msgctxt "#31064"
+msgid "Wall"
+msgstr "Vägg"
+
+msgctxt "#31065"
+msgid "Disable Music Views"
+msgstr "Inaktivera Musikvyer"
+
+msgctxt "#31066"
+msgid "Jukebox"
+msgstr "Jukebox"
+
+msgctxt "#31067"
+msgid "Filemanager"
+msgstr "Filhanteraren"
+
+msgctxt "#31073"
+msgid "MUTE"
+msgstr "TYST"
+
+msgctxt "#31074"
+msgid "Current Time"
+msgstr "Nuvarande Tid"
+
+msgctxt "#31075"
+msgid "Finish Time"
+msgstr "Slut vid klockan"
+
+msgctxt "#31076"
+msgid "Kiosk Mode"
+msgstr "Kioskläge"
+
+msgctxt "#31079"
+msgid "Titles"
+msgstr "Titlar"
+
+msgctxt "#31081"
+msgid "Recently Added"
+msgstr "Nyligen tillagda"
+
+msgctxt "#31082"
+msgid "Credits"
+msgstr "Eftertexter"
+
+msgctxt "#31086"
+msgid "Show: Fanart"
+msgstr "Visa Fanart"
+
+msgctxt "#31088"
+msgid "Viewtype"
+msgstr "Visningstyp"
+
+msgctxt "#31090"
+msgid "Order"
+msgstr "Ordning"
+
+msgctxt "#31093"
+msgid "Sequence"
+msgstr "Följd"
+
+msgctxt "#31094"
+msgid "Dark Showcase"
+msgstr "Mörk Monter"
+
+msgctxt "#31095"
+msgid "WATCH"
+msgstr "TITTA"
+
+msgctxt "#31096"
+msgid "Watched: Shown"
+msgstr "Visade"
+
+msgctxt "#31097"
+msgid "Watched: Hidden"
+msgstr "Dolda"
+
+msgctxt "#31098"
+msgid "Watched"
+msgstr "Sedda"
+
+msgctxt "#31099"
+msgid "TITLE"
+msgstr "TITEL"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Övriga alternativ"
+
+msgctxt "#31110"
+msgid "Edit Background for Home Button"
+msgstr "Ändra hemknappsbakgrund"
+
+msgctxt "#31112"
+msgid "Show 'TV Airing Today' on the home screen"
+msgstr ""
+
+msgctxt "#31113"
+msgid "Single Image"
+msgstr "Solobild"
+
+msgctxt "#31114"
+msgid "Multi Image"
+msgstr "Flerbild"
+
+msgctxt "#31115"
+msgid "Customizer"
+msgstr "Anpassare"
+
+msgctxt "#31116"
+msgid "Addon Scripts"
+msgstr "Tilläggsskript"
+
+msgctxt "#31117"
+msgid "Show recently added content on the home screen"
+msgstr "Visa Nyligen Tillagda Filmer"
+
+msgctxt "#31118"
+msgid "Check if using a merge version"
+msgstr "Hemsidans Undermeny"
+
+msgctxt "#31119"
+msgid "Enable Custom Script Button"
+msgstr "Aktivera Knapp för Anpassat Skript"
+
+msgctxt "#31120"
+msgid "BUTTON LABEL"
+msgstr "Knapp-Etikett"
+
+msgctxt "#31121"
+msgid "PATH TO SCRIPT"
+msgstr "Sökväg Till Scriptet"
+
+msgctxt "#31122"
+msgid "Weather Page"
+msgstr "Vädersida"
+
+msgctxt "#31126"
+msgid "Enable Lyrics in Music OSD"
+msgstr "Aktivera Sångtexter i Musik-OSD"
+
+msgctxt "#31127"
+msgid "Select Lyrics Add-On"
+msgstr "SÖKVÄG TILL SÅNGTEXTSKRIPT"
+
+msgctxt "#31128"
+msgid "XBMC Lyrics"
+msgstr "XBMC Sångtexter"
+
+msgctxt "#31131"
+msgid "Show Video Path in Info Screen"
+msgstr ""
+
+msgctxt "#31132"
+msgid "MultiPlex"
+msgstr ""
+
+msgctxt "#31133"
+msgid "Fanart"
+msgstr ""
+
+msgctxt "#31134"
+msgid "Slim List"
+msgstr ""
+
+msgctxt "#31135"
+msgid "List"
+msgstr ""
+
+msgctxt "#31136"
+msgid "Slide"
+msgstr ""
+
+msgctxt "#31137"
+msgid "Media View"
+msgstr ""
+
+msgctxt "#31138"
+msgid "Media View 2"
+msgstr ""
+
+msgctxt "#31139"
+msgid "Fanart"
+msgstr ""
+
+msgctxt "#31140"
+msgid "Poster Wrap"
+msgstr ""
+
+msgctxt "#31141"
+msgid "Logo Wall"
+msgstr ""
+
+msgctxt "#31142"
+msgid "Logo Fanart"
+msgstr ""
+
+msgctxt "#31143"
+msgid "Episode"
+msgstr ""
+
+msgctxt "#31144"
+msgid "Thumb List"
+msgstr ""
+
+msgctxt "#31145"
+msgid "Cover Flow"
+msgstr ""
+
+msgctxt "#31200"
+msgid "Thumbnails"
+msgstr "Visa Miniatyrer"
+
+msgctxt "#31201"
+msgid "Upcoming Episodes"
+msgstr "Inaktivera Miniatyrer"
+
+msgctxt "#31202"
+msgid "Logo Title"
+msgstr "Använd Logo"
+
+msgctxt "#31204"
+msgid "Disable Flags"
+msgstr "Inaktivera Flaggor"
+
+msgctxt "#31205"
+msgid "Show Flags"
+msgstr "Visa Flaggor"
+
+msgctxt "#31206"
+msgid "Extrathumbs"
+msgstr "Extraminiatyrer"
+
+msgctxt "#31207"
+msgid "FLAGS"
+msgstr "Flaggor"
+
+msgctxt "#31208"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "#31209"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31210"
+msgid "Fanart Thumbs"
+msgstr "Fanartminiatyrer"
+
+msgctxt "#31211"
+msgid "16x9 Thumbs"
+msgstr "16x9-Miniatyrer"
+
+msgctxt "#31212"
+msgid "Cinema Play"
+msgstr "Teater"
+
+msgctxt "#31213"
+msgid "WallPanel"
+msgstr "VäggPanel"
+
+msgctxt "#31214"
+msgid "Show: Dark View"
+msgstr "Mörk Vy"
+
+msgctxt "#31215"
+msgid "Show subtitle script button in OSD"
+msgstr "Visa Knapp för Undertextscriptet i OSD"
+
+msgctxt "#31216"
+msgid "Selected subtitle script:"
+msgstr "Skriptets sökväg:"
+
+msgctxt "#31217"
+msgid "Enable Home Theater Script"
+msgstr "Aktivera Hemmabioscriptet"
+
+msgctxt "#31218"
+msgid "Power Options"
+msgstr "Ströminställningar"
+
+msgctxt "#31219"
+msgid "landscape.jpg"
+msgstr "landscape.jpg"
+
+msgctxt "#31220"
+msgid "Cached Thumb"
+msgstr "Cachad Miniatyr"
+
+msgctxt "#31221"
+msgid "Use condition-based weather fanart"
+msgstr "Använd Tillståndsbaserad Väder-Fanart"
+
+msgctxt "#31226"
+msgid "Rated"
+msgstr "Klassad"
+
+msgctxt "#31229"
+msgid "First Premiered in"
+msgstr "Första Premiär"
+
+msgctxt "#31230"
+msgid "This Show Aired"
+msgstr "Serien Sändes"
+
+msgctxt "#31231"
+msgid "Aired"
+msgstr "Sändes"
+
+msgctxt "#31232"
+msgid "Go [CR]Back"
+msgstr "Gå [CR]Tillbaka"
+
+msgctxt "#31233"
+msgid "Please Choose a Song"
+msgstr "Vänligen Välj en Låt"
+
+msgctxt "#31234"
+msgid "on"
+msgstr "På"
+
+msgctxt "#31235"
+msgid "Go Back"
+msgstr "Gå Tillbaka"
+
+msgctxt "#31237"
+msgid "Press Down for Trailer"
+msgstr "Tryck \"Ner\" för Trailer"
+
+msgctxt "#31238"
+msgid "Press \"X\" to Stop"
+msgstr "Tryck \"X\" för att Stoppa"
+
+msgctxt "#31240"
+msgid "Press \"Left\" for Trailer"
+msgstr "Tryck \"Vänster\" för Trailer"
+
+msgctxt "#31241"
+msgid "Show weather widget"
+msgstr "Visa Väder-Widget"
+
+msgctxt "#31242"
+msgid "Set Timer"
+msgstr "Ställ Timer"
+
+msgctxt "#31243"
+msgid "Cancel Timer"
+msgstr "Avbryt Timer"
+
+msgctxt "#31244"
+msgid "Horizontal Home Menu"
+msgstr "Horizontell Huvudmeny"
+
+msgctxt "#31245"
+msgid "Landscape Fanart"
+msgstr "Landskap Fanart"
+
+msgctxt "#31246"
+msgid "Show plot"
+msgstr "Visa Handling"
+
+msgctxt "#31247"
+msgid "Disable global clock"
+msgstr "Inaktivera Global Tid"
+
+msgctxt "#31248"
+msgid "Use smaller global now playing for music"
+msgstr "Använd Mindre Global Nu Spelas för Musik"
+
+msgctxt "#31249"
+msgid "Get Artwork"
+msgstr "Hämta Logo"
+
+msgctxt "#31250"
+msgid "3D Banner"
+msgstr "3D Banderoller"
+
+msgctxt "#31251"
+msgid "Location"
+msgstr "Plats"
+
+msgctxt "#31252"
+msgid "Last Updated"
+msgstr "Senast Uppdaterad"
+
+msgctxt "#31253"
+msgid "Latest Albums"
+msgstr "Senaste Album"
+
+msgctxt "#31254"
+msgid "3 Days - Mini"
+msgstr "3 Dagar - Mini"
+
+msgctxt "#31255"
+msgid "4 Days - Full"
+msgstr "4 Dagar - Hel"
+
+msgctxt "#31256"
+msgid "Global Settings"
+msgstr "Globala Inställningar"
+
+msgctxt "#31257"
+msgid "Use random music backdrops - Same ones used on Home"
+msgstr "Använd Slumpmässiga Musik-Bakgrunder - Samma som Används på Hemskärmen"
+
+msgctxt "#31258"
+msgid "Use random photo backdrops - Same ones used on Home"
+msgstr "Använd Slumpmässiga Foto-Bakgrunder - Samma som Används på Hemskärmen"
+
+msgctxt "#31259"
+msgid "Home screen options"
+msgstr "Hemskärmsinställningar"
+
+msgctxt "#31260"
+msgid "Add Custom Items to Home Menu"
+msgstr "Lägg till Anpassade Objekt till Huvudmenyn"
+
+msgctxt "#31261"
+msgid "Custom Favorite"
+msgstr "Anpassad Favorit"
+
+msgctxt "#31262"
+msgid "Set Label"
+msgstr "Sätt Etikett"
+
+msgctxt "#31263"
+msgid "Automatically Download Images for TV shows"
+msgstr "Script för att Ladda ner Logos Automatiskt"
+
+msgctxt "#31264"
+msgid "Click to Download [COLOR=selected]logo.png[/COLOR]"
+msgstr "Klicka för att Köra Logo-Scriptet"
+
+msgctxt "#31265"
+msgid "By clicking the above button the script will download the correct logo for your TV Shows, if there is one."
+msgstr "Genom att klicka på ovanstående knapp kommer scriptet automatiskt att passa ihop de TV-Serier du har och sedan ladda ner rätt logo, om det finns någon, och spara den som logo.png i huvudmappen för den TV-Serien. **Gå till www.lockstockmods.net om du vill ladda ner dem en i taget**"
+
+msgctxt "#31266"
+msgid "Enable 'extrafanart' - random cycling of fanart in Library mode"
+msgstr "Aktivera \"Extra Fanart\" - Tillåter Slumpmässiga byten av fanart i Biblioteksläge"
+
+msgctxt "#31267"
+msgid "User needs the 'extrafanart' folder at the root of TV Show or Movie folder"
+msgstr "Användaren behöver en \"extrafanart\"-mapp i huvudmappen för Filmen eller TV-Serien"
+
+msgctxt "#31268"
+msgid "Logo"
+msgstr "Logo"
+
+msgctxt "#31269"
+msgid "Use a local landcape.jpg instead of regular thumb on TV level"
+msgstr "Använd en lokal landcape.jpg istället för vanliga miniatyrer på TV-nivå"
+
+msgctxt "#31270"
+msgid "User needs a landcape.jpg image at the root of TV Show folder"
+msgstr "Användaren behöver en landscape.jpg-bild i huvudmappen för TV-Serien"
+
+msgctxt "#31271"
+msgid "Set Home Menu to Bottom"
+msgstr "Sätt Hemskärmen till en Knapp"
+
+msgctxt "#31272"
+msgid "Addons"
+msgstr "Tillägg"
+
+msgctxt "#31273"
+msgid "Addon Browser"
+msgstr "TilläggsHanterare"
+
+msgctxt "#31274"
+msgid "NOW PLAYING"
+msgstr "NU SPELAS"
+
+msgctxt "#31275"
+msgid "Recent Episodes"
+msgstr "Nya Avsnitt"
+
+msgctxt "#31276"
+msgid "Play trailers in full screen mode"
+msgstr "Spela Trailers i Fullskärm istället för i ett litet fönster"
+
+msgctxt "#31277"
+msgid "Show Lyrics Button in MusicOSD"
+msgstr "Visa Sångtext-knapp i Musik-OSD"
+
+msgctxt "#31278"
+msgid "Play Videos in Backgorund, Not In Small 'Now Playing' Window"
+msgstr "Spela Videor i Bakgrunden, Inte i den lilla \"Nu Spelas\"-rutan"
+
+msgctxt "#31279"
+msgid "Slide"
+msgstr "Glid"
+
+msgctxt "#31280"
+msgid "HD Movies"
+msgstr "HD-Filmer"
+
+msgctxt "#31281"
+msgid "Rotate/Zoom fanart on the home screen"
+msgstr "Ken Burns-Effekt - Rotera/Zooma Fanart på Hemskärmen"
+
+msgctxt "#31282"
+msgid "Enable Season Fanart on Episode level, will disable \"ExtraFanart\""
+msgstr "Aktivera Säsong-Fanart på Avsnittsnivå, kommer inaktivera \"Extra Fanart\""
+
+msgctxt "#31283"
+msgid "Also do this on the library views: Music, Movies and TV Shows"
+msgstr "Använd för Biblioteksvyer för Musik och Filmer/TV-Serier"
+
+msgctxt "#31284"
+msgid "Remove Info"
+msgstr "Dölj Info"
+
+msgctxt "#31285"
+msgid "Show Info"
+msgstr "Visa Info"
+
+msgctxt "#31286"
+msgid "Plot"
+msgstr "Visa Handling vid \"ner\""
+
+msgctxt "#31288"
+msgid "Shelf"
+msgstr "Hylla"
+
+msgctxt "#31289"
+msgid "Set Label"
+msgstr "Sätt Etikett"
+
+msgctxt "#31290"
+msgid "Set Favorite"
+msgstr "Sätt Favorit"
+
+msgctxt "#31291"
+msgid "Set Playlist"
+msgstr "Sätt Spellista"
+
+msgctxt "#31292"
+msgid "Custom Movies Submenus"
+msgstr "Anpassade Film-Undermenyer"
+
+msgctxt "#31293"
+msgid "Set Custom Submenu Favorite"
+msgstr "Sätt en Anpassad Undermeny som Favorit"
+
+msgctxt "#31294"
+msgid "Set Custom Submenu Playlist"
+msgstr "Sätt en Anpassad Undermeny-Spellista"
+
+msgctxt "#31295"
+msgid "Custom TV Show Submenus"
+msgstr "Anpassade TV-Serie-Undermenyer"
+
+msgctxt "#31296"
+msgid "Last Added"
+msgstr "Senaste"
+
+msgctxt "#31297"
+msgid "Disable global weather"
+msgstr ""
+
+msgctxt "#31298"
+msgid "Recent Items"
+msgstr ""
+
+msgctxt "#31300"
+msgid "Current Temp"
+msgstr ""
+
+msgctxt "#31301"
+msgid "Last Updated"
+msgstr ""
+
+msgctxt "#31302"
+msgid "Menu"
+msgstr ""
+
+msgctxt "#31307"
+msgid "Hide Fanart"
+msgstr ""
+
+msgctxt "#31309"
+msgid "Memory Used:"
+msgstr "Använt Minne:"
+
+msgctxt "#31317"
+msgid "Set Fanart Patnh"
+msgstr ""
+
+msgctxt "#31319"
+msgid "Selected Profile"
+msgstr "Vald Profil"
+
+msgctxt "#31320"
+msgid "Last Logged In"
+msgstr "Senast Inloggad"
+
+msgctxt "#31323"
+msgid "Latest Movies"
+msgstr "Senaste Filmerna"
+
+msgctxt "#31324"
+msgid "Latest Episodes"
+msgstr "Senaste Avsnitten"
+
+msgctxt "#31325"
+msgid "Playlist Options"
+msgstr "Spellistsalternativ"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Skapad"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Upplösning"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr ""
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr ""
+
+msgctxt "#31353"
+msgid "Fast Forward"
+msgstr ""
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr ""
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr ""
+
+msgctxt "#31356"
+msgid "Download Subtitles"
+msgstr ""
+
+msgctxt "#31400"
+msgid "Configure Appearance Settings[CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]Konfigurera Utseendeinställningar[/B][CR][CR]Ändra skalet · Ange språk och region · Ange fillistningsalternativ[CR]Ange en skärmsläckare"
+
+msgctxt "#31401"
+msgid "Configure Video Settings[CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]Konfigurera Grafikinställningar[/B][CR][CR]Hantera ditt filmbibliotek · Ange filmuppspelningsalternativ · Ändra videoförteckningsalternativ[CR]Konfigurera undertextfonter"
+
+msgctxt "#31402"
+msgid "Configure Music Settings[CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]Konfigurera Musikinställningar[/B][CR][CR]Hantera ditt musikbibliotek · Ange musikuppspelningsalternativ · Ändra musiklistningsalternativ[CR]Ange låtinskickning · Ange karaokealternativ"
+
+msgctxt "#31403"
+msgid "Configure Picture Settings[CR][CR]Set picture listing options · Configure slideshows"
+msgstr "[B]Konfigurera Bildinställningar[/B][CR][CR]Ange bildlistningsalternativ · Justera bildspel"
+
+msgctxt "#31404"
+msgid "Configure Weather Settings[CR][CR]Set three cities to collect weather information"
+msgstr "[B]Konfigurera Väderinställningar[/B][CR][CR]Ange tre städer för att insamling av väderinformation"
+
+msgctxt "#31405"
+msgid "Configure Network Settings[CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options"
+msgstr "[B]Konfigurera Nätverksinställningar[/B][CR][CR]Ange kontroll av XBMC via UPnP och HTTP · Konfigurera fildelning[CR]Konfigurera internetaccessalternativ"
+
+msgctxt "#31406"
+msgid "Configure System Settings[CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]Konfigurera Systeminställningar[/B][CR][CR]Ange och kalibrera bildskärmar · Konfigurera ljudutgång · Ställa in fjärrkontroller[CR]Ange energisparalternativ · Aktivera debuggningen · Konfigurera huvudkod och lås"
+
+msgctxt "#31408"
+msgid "Configure Add-Ons[CR][CR]Browse for and install Add-ons from xbmc.org and other Repositories · Modify Add-on settings"
+msgstr "Ställ in Tillägg[CR][CR]Bläddra efter och installera Tillägg från xbmc.org och andra lager · Ändra Tillägsinställningar"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "[COLOR=white]XBMC hittar ingen skiva.[/COLOR][CR][CR]Vänligen Lägg i en Skiva i Läsaren eller Avbryt"
+
+msgctxt "#31421"
+msgid "Select your XBMC user Profile[CR]to login and continue"
+msgstr "Välj din XBMC användarprofil[CR]för att logga in  och fortsätta"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr ""
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr ""
+
+msgctxt "#31500"
+msgid "Recording Timers"
+msgstr ""
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr ""
+
+msgctxt "#31502"
+msgid "Live TV"
+msgstr ""
+
+msgctxt "#31503"
+msgid "Add Group"
+msgstr ""
+
+msgctxt "#31504"
+msgid "Rename Group"
+msgstr ""
+
+msgctxt "#31505"
+msgid "Delete Group"
+msgstr ""
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr ""
+
+msgctxt "#31507"
+msgid "Ungrouped[CR]Channels"
+msgstr ""
+
+msgctxt "#31508"
+msgid "Channels in Group"
+msgstr ""
+
+msgctxt "#31509"
+msgid "Channel Group"
+msgstr ""
+
+msgctxt "#31510"
+msgid "Timer Set"
+msgstr ""
+
+msgctxt "#31511"
+msgid "Sort Order: Ascending"
+msgstr ""
+
+msgctxt "#31512"
+msgid "Sort Order: Descending"
+msgstr ""
+
+msgctxt "#31513"
+msgid "View Settings"
+msgstr ""
+
+msgctxt "#31514"
+msgid "Full Screen"
+msgstr ""
+
+msgctxt "#31515"
+msgid "TV Airing Today"
+msgstr ""
+
+msgctxt "#31516"
+msgid "Use random items instead of recently added items"
+msgstr ""
+
+msgctxt "#31517"
+msgid "Random Movies"
+msgstr ""
+
+msgctxt "#31518"
+msgid "Random Albums"
+msgstr ""
+
+msgctxt "#31519"
+msgid "Randon Episodes"
+msgstr ""
+
+msgctxt "#31520"
+msgid "Recent"
+msgstr ""
+
+msgctxt "#31521"
+msgid "Random"
+msgstr ""
+
+msgctxt "#31522"
+msgid "Use Artist Slideshow Addon"
+msgstr ""
+
+msgctxt "#31523"
+msgid "Next Episode"
+msgstr ""
+
+msgctxt "#31524"
+msgid "Neon"
+msgstr ""
+
+msgctxt "#31700"
+msgid "Codec"
+msgstr "Codec"
+
+msgctxt "#31701"
+msgid "Bitrate"
+msgstr "Bitrate"
+
+msgctxt "#31702"
+msgid "Samplerate"
+msgstr "Samplerate"
+
+msgctxt "#31703"
+msgid "Channels"
+msgstr "Kanaler"
+
+msgctxt "#31704"
+msgid "Next"
+msgstr "Nästa"
+
+msgctxt "#31705"
+msgid "Rewind"
+msgstr "Spola Bakåt"
+
+msgctxt "#31706"
+msgid "Forward"
+msgstr "Spola Frammåt"
+
+msgctxt "#31707"
+msgid "Volume"
+msgstr "Volym"
+
+msgctxt "#31708"
+msgid "Position"
+msgstr "Plats"
+
+msgctxt "#31709"
+msgid "Running Time"
+msgstr "Speltid"
+
+msgctxt "#31710"
+msgid "Finish Time"
+msgstr "Sluttid"
+
+msgctxt "#31711"
+msgid "Bookmarks Available"
+msgstr "Tillgängliga Bokmärken"
+
+msgctxt "#31712"
+msgid "UP/DOWN: MENU/BOOKMARKS[CR]LEFT/RIGHT: MENU OPTIONS"
+msgstr "Upp/Ner: Meny/Bokmärke[Cr]Vänster/Höger: Menyinställningar"
+
+msgctxt "#31713"
+msgid "Items in Playlist"
+msgstr "Objekt i Spellistan"
+
+msgctxt "#31714"
+msgid "Current Position"
+msgstr "Nuvarande Plats"
+
+msgctxt "#31715"
+msgid "Previous"
+msgstr "Föregående"
+
+msgctxt "#31716"
+msgid "Song Title"
+msgstr "Låttitel"
+
+msgctxt "#31717"
+msgid "Album Title"
+msgstr "Album"
+
+msgctxt "#31718"
+msgid "Artist Name"
+msgstr "Artist"
+
+msgctxt "#31719"
+msgid "Elapsed Time / Duration"
+msgstr "Förfluten Tid / Varaktighet"
+
+msgctxt "#31720"
+msgid "Current Time"
+msgstr "Nuvarande Tid"
+
+msgctxt "#31721"
+msgid "Show: Banner"
+msgstr ""
+
+msgctxt "#31722"
+msgid "Elapsed"
+msgstr ""
+
+msgctxt "#31723"
+msgid "Duration"
+msgstr ""
+
+msgctxt "#31724"
+msgid "Track Number"
+msgstr ""
+
+msgctxt "#31725"
+msgid "Working..."
+msgstr ""
+
+msgctxt "#31726"
+msgid "Show background videos in full screen mode"
+msgstr ""
+
+msgctxt "#31727"
+msgid "Show music visualisations in the background"
+msgstr ""
+
+msgctxt "#31728"
+msgid "Enable bottom line RSS"
+msgstr ""
+
+msgctxt "#31900"
+msgid "Map  Alerts"
+msgstr ""
+
+msgctxt "#31901"
+msgid "36 Hour Forecast"
+msgstr ""
+
+msgctxt "#31902"
+msgid "Hourly Forecast"
+msgstr ""
+
+msgctxt "#31903"
+msgid "Weekend Forecast"
+msgstr ""
+
+msgctxt "#31904"
+msgid "10 Day Forecast"
+msgstr ""
+
+msgctxt "#31905"
+msgid "CURRENT"
+msgstr ""
+
+msgctxt "#31906"
+msgid "ALERTS"
+msgstr ""
+
+msgctxt "#31907"
+msgid "VIDEO"
+msgstr ""
+
+msgctxt "#31910"
+msgid "Satellite and Radar"
+msgstr ""
+
+msgctxt "#31911"
+msgid "Forecast"
+msgstr ""
+
+msgctxt "#31912"
+msgid "Conditions"
+msgstr ""
+
+msgctxt "#31913"
+msgid "Severe Weather"
+msgstr ""
+
+msgctxt "#31914"
+msgid "Weather Outlook"
+msgstr ""
+
+msgctxt "#31923"
+msgid "Average High"
+msgstr ""
+
+msgctxt "#31924"
+msgid "Average Low"
+msgstr ""
+
+msgctxt "#31925"
+msgid "Record High"
+msgstr ""
+
+msgctxt "#31926"
+msgid "Record Low"
+msgstr ""
+
+msgctxt "#31927"
+msgid "Observed High"
+msgstr ""
+
+msgctxt "#31928"
+msgid "Observed Low"
+msgstr ""
+
+msgctxt "#31930"
+msgid "Default View"
+msgstr ""
+
+msgctxt "#31931"
+msgid "Default Map"
+msgstr ""
+
+msgctxt "#31932"
+msgid "Zoom Map"
+msgstr ""
+
+msgctxt "#31933"
+msgid "Map Pack Path"
+msgstr ""
+
+msgctxt "#31934"
+msgid "Show Details"
+msgstr ""
+
+msgctxt "#31935"
+msgid "Show RSS"
+msgstr ""
+
+msgctxt "#31936"
+msgid "Show Hourly"
+msgstr ""
+
+msgctxt "#31940"
+msgid "Pressure"
+msgstr ""
+
+msgctxt "#31941"
+msgid "Visibility"
+msgstr ""
+
+msgctxt "#31943"
+msgid "Statistics"
+msgstr ""
+
+msgctxt "#31948"
+msgid "Chance Precip"
+msgstr ""
+
+msgctxt "#31970"
+msgid "Fetching forecast info..."
+msgstr ""
+
+msgctxt "#31971"
+msgid "Click video button to play"
+msgstr ""
+
+msgctxt "#31972"
+msgid "TV Guide"
+msgstr ""
+
+msgctxt "#31973"
+msgid "Click to Download [COLOR=selected]poster.jpg[/COLOR]"
+msgstr ""
+
+msgctxt "#31974"
+msgid "Click to Download [COLOR=selected]banner.jpg[/COLOR]"
+msgstr ""
+
+msgctxt "#31975"
+msgid "Click to Download [COLOR=selected]landscape.jpg[/COLOR]"
+msgstr ""
+
+msgctxt "#31976"
+msgid "Click to Download [COLOR=selected]clearart.png[/COLOR]"
+msgstr ""
+
+msgctxt "#31977"
+msgid "The below items will download the corresponding artwork for all TV Shows. [COLOR=red]Warning[/COLOR]: It will overwrite existing files"
+msgstr ""
+
+msgctxt "#31978"
+msgid "These are all of the currently installed custom images used in the TV Views. When updating it may take time for XBMC to update the image in its cache."
+msgstr ""
+
+msgctxt "#31979"
+msgid "TV: Use large recently added view"
+msgstr ""
+
+msgctxt "#31980"
+msgid "Movies: Use large recently added view"
+msgstr ""
+
+msgctxt "#40281"
+msgid "Items"
+msgstr "Objekt"
+
+msgctxt "#91000"
+msgid "Change Your"
+msgstr "Ändra Din"
