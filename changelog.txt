@@ -2,6 +2,8 @@
 
 [b]3.0.2[/b]
 - Fix VideoExtras script loading in DialogVideoInfo
+- Fix custom playlist 5 on the home screen
+- Clean skin labels, prepare for Transifex translations
 [b]3.0.1[/b]
 - Initial add for XBMC v13 (Gotham)
 
