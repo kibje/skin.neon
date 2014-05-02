@@ -1,13 +1,19 @@
-[b]Changelog:[/b]
+-------------------------------------------------------------------------------
+Changelog:
+-------------------------------------------------------------------------------
 
-[b]3.0.2[/b]
+3.0.2 
 - Fix VideoExtras script loading in DialogVideoInfo
 - Fix custom playlist 5 on the home screen
 - Clean skin labels, prepare for Transifex translations
-[b]3.0.1[/b]
-- Initial add for XBMC v13 (Gotham)
 
-[b]Skin history :[/b]
+3.0.1 
+- Initial add for XBMC v13 (Gotham)
+- Skin added to Gotham skins staging repository
+
+--------------------------------------------------------------------------------
+Skin history :
+--------------------------------------------------------------------------------
 2010-10 Stoli created Neon for XBMC v10 (Dharma). 
 2011-04 Stoli started modifying Neon to run under XBMC v11 (Eden).
 2013-01 Kib started modifying Neon to run under XBMC v12 (Frodo).
