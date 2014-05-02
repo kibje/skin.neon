@@ -89,7 +89,8 @@
           <visible>!Skin.HasSetting(HomeMenuNoTVShowsButton) + Library.HasContent(TVShows)</visible>
         </item>
         <item id="26">
-          <label>Live TV</label>
+          <description>Live TV</description>
+          <label>$LOCALIZE[31502]</label>
           <onclick>ActivateWindow(TV)</onclick>
           <icon>special://skin/backgrounds/tv.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
@@ -293,7 +294,7 @@
           <label>13005</label>
           <icon>special://skin/backgrounds/shutdown.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
-          <onclick>XBMC.Shutdown()</onclick>
+          <onclick>ActivateWindow(ShutdownMenu)</onclick>
           <visible>!Skin.HasSetting(HomeMenuNoShutdownButton)</visible>
         </item>
         <item id="11">
