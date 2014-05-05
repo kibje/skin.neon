@@ -2,6 +2,8 @@
 Changelog:
 -------------------------------------------------------------------------------
 
+3.0.4
+- Fix 3d Playback Options in Video OSD
 3.0.3
 - Fix TvTunes script (option added in skin settings to enable)
 3.0.2 
