@@ -102,7 +102,7 @@
           <icon>-</icon>
           <thumb>-</thumb>
           <onclick>RunScript(script.tv.show.next.aired)</onclick>
-          <visible>!Skin.HasSetting(HomeMenuNoTVGuide)</visible>
+          <visible>!Skin.HasSetting(HomeMenuNoTVGuide) + System.HasAddon(script.tv.show.next.aired)</visible>
         </item>
         <item id="21">
           <description>Custom Playlist 1</description>
