@@ -616,6 +616,7 @@
             <label>$LOCALIZE[31111] - $LOCALIZE[31972]</label>
             <onclick>Skin.ToggleSetting(HomeMenuNoTVGuide)</onclick>
             <selected>Skin.HasSetting(HomeMenuNoTVGuide)</selected>
+            <enable>System.HasAddon(script.tv.show.next.aired)</enable>
           </control>
           <control type="radiobutton" id="217">
             <description>Hide Scripts Button</description>
