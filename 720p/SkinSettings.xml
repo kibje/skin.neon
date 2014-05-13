@@ -2579,14 +2579,14 @@
             <control type="radiobutton" id="505">
               <include>skin_settings_labels</include>
               <label>$LOCALIZE[31035]</label>
-              <onclick>Skin.ToggleSetting(movieoverlays)</onclick>
-              <selected>Skin.HasSetting(movieoverlays)</selected>
+              <onclick>Skin.ToggleSetting(DisableMovieOverlays)</onclick>
+              <selected>Skin.HasSetting(DisableMovieOverlays)</selected>
             </control>
             <control type="radiobutton" id="506">
               <include>skin_settings_labels</include>
               <label>$LOCALIZE[31036]</label>
-              <onclick>Skin.ToggleSetting(tvoverlays)</onclick>
-              <selected>Skin.HasSetting(tvoverlays)</selected>
+              <onclick>Skin.ToggleSetting(DisableTvOverlays)</onclick>
+              <selected>Skin.HasSetting(DisableTvOverlays)</selected>
             </control>
             <control type="radiobutton" id="522">
               <include>skin_settings_labels</include>

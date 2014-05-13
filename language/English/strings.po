@@ -125,7 +125,7 @@ msgid "Reset Skin"
 msgstr ""
 
 msgctxt "#31031"
-msgid "Use extrathumbs instead of exrafanart folder"
+msgid "Use extrathumbs instead of extrafanart folder"
 msgstr ""
 
 #empty string with id 31032
@@ -139,11 +139,11 @@ msgid "Disable Media Flags"
 msgstr ""
 
 msgctxt "#31035"
-msgid "Enable Movies Watched Overlays"
+msgid "Disable Movies Watched Overlays"
 msgstr ""
 
 msgctxt "#31036"
-msgid "Enable TV Show Watched Overlays"
+msgid "Disable TV Show Watched Overlays"
 msgstr ""
 
 msgctxt "#31037"
