@@ -108,7 +108,17 @@
           <include>WindowMenuButton_Vertical</include>
           <description>Filter</description>
           <textwidth>230</textwidth>
-          <label>$LOCALIZE[587]</label>
+          <label>587</label>
+          <visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+        </control>
+        <control type="radiobutton" id="20">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Filter</description>
+          <label>587</label>
+          <selected>Container.Filtered</selected>
+          <onclick>right</onclick>
+          <onclick>Filter</onclick>
+          <visible>Container.CanFilterAdvanced</visible>
         </control>
         <!-- <control type="button" id="9">
           <include>WindowMenuButton_Vertical</include>

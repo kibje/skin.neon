@@ -316,10 +316,20 @@
           <altlabel>$LOCALIZE[31512]</altlabel>
         </control>
         <control type="edit" id="19">
+          <include>WindowMenuButton_Vertical</include>
           <description>Filter</description>
           <textwidth>230</textwidth>
-          <include>WindowMenuButton_Vertical</include>
           <label>587</label>
+          <visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+        </control>
+        <control type="radiobutton" id="98">
+          <include>WindowMenuButton_Vertical</include>
+          <description>Filter</description>
+          <label>587</label>
+          <selected>Container.Filtered</selected>
+          <onclick>right</onclick>
+          <onclick>Filter</onclick>
+          <visible>Container.CanFilterAdvanced</visible>
         </control>
         <control type="label" id="201">
           <width>250</width>
