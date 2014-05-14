@@ -26,7 +26,7 @@
       <colordiffuse>mainblue</colordiffuse>
       <texture>DialogBack.png</texture>
     </control>
-    <control type="label">
+    <control type="label" id="2">
       <description>header label</description>
       <left>20</left>
       <top>18</top>

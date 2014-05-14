@@ -26,7 +26,7 @@
       <colordiffuse>mainblue</colordiffuse>
       <texture>DialogBack.png</texture>
     </control>
-    <control type="label">
+    <control type="label" id="2">
       <description>header label</description>
       <left>20</left>
       <top>18</top>
@@ -38,7 +38,7 @@
       <aligny>center</aligny>
       <textcolor>mainblue</textcolor>
     </control>
-    <control type="image" id="2">
+    <control type="image" id="101">
       <description>profile image</description>
       <left>20</left>
       <top>70</top>
@@ -60,7 +60,7 @@
       <textcolor>grey</textcolor>
       <label>$LOCALIZE[20093]</label>
     </control>
-    <control type="label" id="1000">
+    <control type="label" id="102">
       <description>profile name Value</description>
       <left>200</left>
       <top>95</top>
@@ -79,7 +79,7 @@
       <textcolor>grey</textcolor>
       <label>$LOCALIZE[20070]</label>
     </control>
-    <control type="label" id="1001">
+    <control type="label" id="103">
       <description>profile directory Value</description>
       <left>200</left>
       <top>180</top>

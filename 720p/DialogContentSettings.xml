@@ -80,7 +80,7 @@
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
-      <control type="spincontrolex" id="3">
+      <control type="spincontrolex" id="20">
         <description>Content Picker</description>
         <left>30</left>
         <top>100</top>
@@ -166,7 +166,7 @@
         <textcolor>mainblue</textcolor>
         <shadowcolor>black</shadowcolor>
       </control>
-      <control type="list" id="4">
+      <control type="list" id="21">
         <left>400</left>
         <top>100</top>
         <width>340</width>
@@ -350,7 +350,7 @@
           <onup>30</onup>
           <ondown>3</ondown>
         </control>
-        <control type="button" id="6">
+        <control type="button" id="22">
           <description>Settings Button</description>
           <left>90</left>
           <top>0</top>
