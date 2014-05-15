@@ -820,7 +820,22 @@ msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr ""
 
-#empty strings from id 31357 to 31399
+#empty strings from id 31357 to 31359
+
+# Stereoscopic labels
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr ""
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr ""
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr ""
+
+#empty strings from id 31363 to 31399
 
 msgctxt "#31400"
 msgid "Configure Appearance Settings[CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
