@@ -4,6 +4,7 @@ Changelog:
 
 3.0.5
 - Add advanced filtering options where supported
+- More cleanup for XBMC repo standards
 3.0.4
 - Fix 3d Playback Options in Video OSD
 - Clean up code for XMBC Repo standards
