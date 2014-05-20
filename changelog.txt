@@ -2,23 +2,10 @@
 Changelog:
 -------------------------------------------------------------------------------
 
-3.0.5
-- Add advanced filtering options where supported
-- More cleanup for XBMC repo standards
-3.0.4
-- Fix 3d Playback Options in Video OSD
-- Clean up code for XMBC Repo standards
-- Fix Shutdown options to show available selection per client
-- Remove TVShowNextAired as mandatory
-3.0.3
-- Fix TvTunes script (option added in skin settings to enable)
-3.0.2 
-- Fix VideoExtras script loading in DialogVideoInfo
-- Fix custom playlist 5 on the home screen
-- Clean skin labels, prepare for Transifex translations
-3.0.1 
-- Initial add for XBMC v13 (Gotham)
-- Skin added to Gotham skins staging repository
+3.9.0 
+- Initial add for XBMC v14 (Gotham)
+- xbmc.gui version bump
+- unification of control IDs across all dialogs/windows which contain settings
 
 --------------------------------------------------------------------------------
 Skin history :
@@ -27,3 +14,4 @@ Skin history :
 2011-04 Stoli started modifying Neon to run under XBMC v11 (Eden).
 2013-01 Kib started modifying Neon to run under XBMC v12 (Frodo).
 2014-01 Kib and Bumpaneer started modifying Neon to run under XBMC v13 (Gotham).
+2014-05 Kib started modifying Neon to run under XBMC v14 (Helix)
