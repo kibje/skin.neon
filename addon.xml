@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.neon"
-  version="3.0.4"
+  version="3.9.0"
   name="Neon"
   provider-name="kib, bumpaneer">
   <requires>
@@ -34,7 +34,7 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum>http://forum.xbmc.org/forumdisplay.php?fid=139</forum>
-    <source>https://github.com/kibje/skin.neon/tree/Gotham</source>
+    <source>https://github.com/kibje/skin.neon/tree/Helix</source>
     <email></email>
   </extension>
 </addon>
