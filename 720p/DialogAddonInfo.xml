@@ -344,34 +344,6 @@
       <control type="grouplist" id="9000">
         <left>30</left>
         <top>310</top>
-        <control type="button" id="6">
-          <description>Install/UnInstall Addon button</description>
-          <width>220</width>
-          <height>38</height>
-          <label>24022</label>
-          <font>Font_Neon_20</font>
-          <textcolor>grey</textcolor>
-          <focusedcolor>white</focusedcolor>
-          <align>center</align>
-          <aligny>center</aligny>
-          <colordiffuse>mainblue</colordiffuse>
-          <texturefocus>button-focus.png</texturefocus>
-          <texturenofocus>button-nofocus.png</texturenofocus>
-        </control>
-        <control type="button" id="7">
-          <description>Enable/Disable Addon button</description>
-          <width>220</width>
-          <height>38</height>
-          <label>24021</label>
-          <font>Font_Neon_20</font>
-          <textcolor>grey</textcolor>
-          <focusedcolor>white</focusedcolor>
-          <align>center</align>
-          <aligny>center</aligny>
-          <colordiffuse>mainblue</colordiffuse>
-          <texturefocus>button-focus.png</texturefocus>
-          <texturenofocus>button-nofocus.png</texturenofocus>
-        </control>
         <control type="button" id="9">
           <description>Configure Addon</description>
           <width>220</width>
@@ -400,11 +372,39 @@
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
         </control>
-        <control type="button" id="10">
-          <description>Changelog button</description>
+        <control type="button" id="12">
+          <description>Launch Addon button</description>
           <width>220</width>
           <height>38</height>
-          <label>24036</label>
+          <label>518</label>
+          <font>Font_Neon_20</font>
+          <textcolor>grey</textcolor>
+          <focusedcolor>white</focusedcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <colordiffuse>mainblue</colordiffuse>
+          <texturefocus>button-focus.png</texturefocus>
+          <texturenofocus>button-nofocus.png</texturenofocus>
+        </control>
+        <control type="button" id="6">
+          <description>Install/UnInstall Addon button</description>
+          <width>220</width>
+          <height>38</height>
+          <label>24022</label>
+          <font>Font_Neon_20</font>
+          <textcolor>grey</textcolor>
+          <focusedcolor>white</focusedcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <colordiffuse>mainblue</colordiffuse>
+          <texturefocus>button-focus.png</texturefocus>
+          <texturenofocus>button-nofocus.png</texturenofocus>
+        </control>
+        <control type="button" id="7">
+          <description>Enable/Disable Addon button</description>
+          <width>220</width>
+          <height>38</height>
+          <label>24021</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
@@ -428,11 +428,11 @@
           <texturefocus>button-focus.png</texturefocus>
           <texturenofocus>button-nofocus.png</texturenofocus>
         </control>
-        <control type="button" id="12">
-          <description>Launch Addon button</description>
+        <control type="button" id="10">
+          <description>Changelog button</description>
           <width>220</width>
           <height>38</height>
-          <label>518</label>
+          <label>24036</label>
           <font>Font_Neon_20</font>
           <textcolor>grey</textcolor>
           <focusedcolor>white</focusedcolor>
