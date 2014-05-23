@@ -2,6 +2,8 @@
 Changelog:
 -------------------------------------------------------------------------------
 
+3.9.1
+- Clean-up unused font includes
 3.9.0 
 - Initial add for XBMC v14 (Gotham)
 - xbmc.gui version bump
