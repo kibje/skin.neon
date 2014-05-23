@@ -3,17 +3,20 @@ Changelog:
 -------------------------------------------------------------------------------
 
 3.9.1
+- [14] Add button to add-on info dialog to start installed addons from add-on browser
 - Clean-up unused font includes
 3.9.0 
-- Initial add for XBMC v14 (Gotham)
-- xbmc.gui version bump
-- unification of control IDs across all dialogs/windows which contain settings
+- Initial add for XBMC v14 (Helix)
+- [14] xbmc.gui version bump
+- [14] unification of control IDs across all dialogs/windows which contain settings
+
+Changes marked [14] are required for the XBMC v14 'Helix' skinning engine
 
 --------------------------------------------------------------------------------
 Skin history :
 --------------------------------------------------------------------------------
-2010-10 Stoli created Neon for XBMC v10 (Dharma). 
-2011-04 Stoli started modifying Neon to run under XBMC v11 (Eden).
-2013-01 Kib started modifying Neon to run under XBMC v12 (Frodo).
-2014-01 Kib and Bumpaneer started modifying Neon to run under XBMC v13 (Gotham).
+2010-10 Stoli created Neon for XBMC v10 (Dharma)
+2011-04 Stoli started modifying Neon to run under XBMC v11 (Eden)
+2013-01 Kib started modifying Neon to run under XBMC v12 (Frodo)
+2014-01 Kib and Bumpaneer started modifying Neon to run under XBMC v13 (Gotham)
 2014-05 Kib started modifying Neon to run under XBMC v14 (Helix)
