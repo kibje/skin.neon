@@ -4,6 +4,7 @@ Changelog:
 
 3.0.6
 - Clean-up unused font includes
+- Fix shutdown menu for systems without exit option
 3.0.5
 - Fix 3d Playback Options in Video OSD (again)
 - Add advanced filtering options where supported

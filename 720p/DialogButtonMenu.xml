@@ -8,7 +8,13 @@
     <control type="button" id="410">
       <onfocus>Dialog.Close(2003)</onfocus>
       <onfocus>Dialog.Close(106)</onfocus>
-      <onfocus>SetFocus(3110)</onfocus>
+      <onfocus>down</onfocus>
+      <texturefocus>-</texturefocus>
+      <texturenofocus>-</texturenofocus>
+      <onleft>1</onleft>
+      <onright>1</onright>
+      <onup>1</onup>
+      <ondown>3110</ondown>
     </control>
     <control type="grouplist" id="1">
       <left>458</left>
