@@ -154,7 +154,7 @@
         <texture>button-focus.png</texture>
         <visible>Control.HasFocus(12)</visible>
       </control>
-      <control type="button" id="12">
+      <control type="edit" id="12">
         <description>Name</description>
         <left>8</left>
         <top>358</top>
