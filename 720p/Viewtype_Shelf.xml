@@ -95,6 +95,7 @@
             <top>102</top>
             <width>100</width>
             <height>18</height>
+            <aspectratio>keep</aspectratio>
             <texture>$INFO[ListItem.StarRating]</texture>
             <colordiffuse>mainblue</colordiffuse>
             <animation type="Focus" reversible="false">

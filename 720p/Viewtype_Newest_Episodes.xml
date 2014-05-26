@@ -84,6 +84,7 @@
             <top>110</top>
             <width>110</width>
             <height>43</height>
+            <aspectratio>keep</aspectratio>
             <texture>$INFO[ListItem.path]../logo.png</texture>
             <fadetime>300</fadetime>
             <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -93,6 +94,7 @@
             <top>110</top>
             <width>110</width>
             <height>43</height>
+            <aspectratio>keep</aspectratio>
             <texture>$INFO[ListItem.Art(clearlogo)]</texture>
             <fadetime>300</fadetime>
             <aspectratio scalediffuse="false">stretch</aspectratio>

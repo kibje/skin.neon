@@ -453,6 +453,7 @@
         <width>70</width>
         <height>47</height>
         <texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
+        <aspectratio>keep</aspectratio>
         <colordiffuse>white</colordiffuse>
         <visible>Container.Content(tvshows)</visible>
         <animation effect="slide" start="0,0" end="-6,-12" time="0" tween="cubic" easing="inout" condition="Container.Content(tvshows)">Conditional</animation>
@@ -483,6 +484,7 @@
         <width>70</width>
         <height>47</height>
         <texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
+        <aspectratio>keep</aspectratio>
         <colordiffuse>white</colordiffuse>
         <visible>Container.Content(episodes)</visible>
         <animation effect="slide" start="0,0" end="-10,-12" time="0" tween="cubic" easing="inout" condition="Container.Content(episodes)">Conditional</animation>

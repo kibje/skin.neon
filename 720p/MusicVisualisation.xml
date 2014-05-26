@@ -196,6 +196,7 @@
           <width>230</width>
           <height>89</height>
           <texture>$INFO[Player.FolderPath,,../logo.png]</texture>
+          <aspectratio>keep</aspectratio>
         </control>
         <control type="label">
           <animation effect="slide" start="1300" end="45" time="700" tween="cubic" easing="out" delay="1000">WindowOpen</animation>

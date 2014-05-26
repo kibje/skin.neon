@@ -287,6 +287,7 @@
         <width>183</width>
         <height>33</height>
         <texture>$INFO[ListItem.StarRating]</texture>
+        <aspectratio>keep</aspectratio>
         <colordiffuse>mainblue</colordiffuse>
       </control>
       <control type="group" id="9000">

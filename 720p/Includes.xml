@@ -380,6 +380,7 @@
         </control>
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>21</width>
           <height>21</height>
           <left>12</left>
@@ -412,6 +413,7 @@
         </control>
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>21</width>
           <height>21</height>
           <left>12</left>
@@ -1553,6 +1555,7 @@
       <width>130</width>
       <height>130</height>
       <texture>$INFO[MusicPlayer.Cover]</texture>
+      <aspectratio>keep</aspectratio>
     </control>
     <control type="label">
       <description>Artist label</description>
@@ -1640,6 +1643,7 @@
       <height>130</height>
       <aspectratio>keep</aspectratio>
       <texture>$INFO[VideoPlayer.cover]</texture>
+      <aspectratio>keep</aspectratio>
     </control>
     <control type="label">
       <description>Studio label</description>

@@ -25,6 +25,7 @@
         <!-- condition icon -->
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>150</width>
           <height>150</height>
           <left>0</left>
@@ -108,7 +109,8 @@
         </control>
         <!-- condition icon -->
         <control type="image">
-          <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+          <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>\
+          <aspectratio>keep</aspectratio>
           <width>100</width>
           <height>100</height>
           <left>64</left>
@@ -186,6 +188,7 @@
         </control>
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Day2.OutlookIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>70</width>
           <height>70</height>
           <left>-90</left>
@@ -216,6 +219,7 @@
         </control>
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>70</width>
           <height>70</height>
           <left>-196</left>
@@ -262,6 +266,7 @@
         <!-- condition icon -->
         <control type="image">
           <texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+          <aspectratio>keep</aspectratio>
           <width>100</width>
           <height>100</height>
           <left>64</left>
@@ -340,6 +345,7 @@
           </control>
           <control type="image">
             <texture>$INFO[Window(Weather).Property(Day3.OutlookIcon)]</texture>
+            <aspectratio>keep</aspectratio>
             <width>70</width>
             <height>70</height>
             <left>-90</left>
@@ -438,6 +444,7 @@
           </control>
           <control type="image">
             <texture>$INFO[Window(Weather).Property(Day1.OutlookIcon)]</texture>
+            <aspectratio>keep</aspectratio>
             <width>70</width>
             <height>70</height>
             <left>-82</left>

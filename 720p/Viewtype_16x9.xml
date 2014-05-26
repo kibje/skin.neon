@@ -88,6 +88,7 @@
             <width>51</width>
             <height>35</height>
             <texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
+            <aspectratio>keep</aspectratio>
           </control>
           <control type="image">
             <left>290</left>
@@ -205,6 +206,7 @@
             <width>88</width>
             <height>60</height>
             <texture>$INFO[listitem.studio,extras/Studios/,.png]</texture>
+            <aspectratio>keep</aspectratio>
             <animation type="Focus" reversible="false">
               <effect type="zoom" center="191,440" start="90" end="100" time="400" tween="back" easing="out" />
               <effect type="fade" start="80" end="100" time="400" />

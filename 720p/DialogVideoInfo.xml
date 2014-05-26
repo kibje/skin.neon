@@ -190,6 +190,7 @@
             <width>350</width>
             <height>197</height>
             <align>center</align>
+            <aspectratio>keep</aspectratio>
             <texture>$INFO[ListItem.Art(fanart)]</texture>
             <bordertexture border="5">button-nofocus.png</bordertexture>
             <bordersize>5</bordersize>
@@ -208,6 +209,7 @@
             <width>768</width>
             <height>150</height>
             <align>center</align>
+            <aspectratio>keep</aspectratio>
             <texture>$INFO[ListItem.Art(banner)]</texture>
             <bordertexture border="5">button-nofocus.png</bordertexture>
             <bordersize>5</bordersize>
