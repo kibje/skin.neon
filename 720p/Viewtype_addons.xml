@@ -59,13 +59,13 @@
         <!-- <include>Animation_HiddenByInfo</include> -->
         <!-- <include>Animation_Viewtype_Files_LeftArea</include> -->
         <include>Animation_CommonFade</include>
-        <itemlayout width="500" height="36">
+        <itemlayout width="615" height="36">
           <control type="label">
-            <left>480</left>
+            <right>0</right>
             <top>0</top>
-            <width>200</width>
+            <width>300</width>
             <height>46</height>
-            <align>left</align>
+            <align>right</align>
             <aligny>center</aligny>
             <font>Font_Bartowski_Movies</font>
             <textcolor>Text-Filemode</textcolor>
@@ -75,7 +75,7 @@
           <control type="image">
             <left>0</left>
             <top>38</top>
-            <width>650</width>
+            <width>615</width>
             <height>4</height>
             <aspectratio>stretch</aspectratio>
             <texture>common/separator.png</texture>
@@ -83,21 +83,20 @@
           <control type="label">
             <left>5</left>
             <top>0</top>
-            <width>720</width>
+            <width>615</width>
             <height>46</height>
             <aligny>center</aligny>
             <font>Font_Bartowski_Movies</font>
             <textoffsetx>20</textoffsetx>
             <textcolor>Text-Filemode</textcolor>
             <label>$INFO[ListItem.Label]</label>
-            <visible></visible>
           </control>
         </itemlayout>
-        <focusedlayout width="600" height="36">
+        <focusedlayout width="610" height="36">
           <control type="image">
             <left>10</left>
             <top>5</top>
-            <width>620</width>
+            <width>615</width>
             <height>37</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture>MenuItemFOR.png</texture>
@@ -108,26 +107,24 @@
           <control type="label">
             <left>5</left>
             <top>0</top>
-            <width>700</width>
+            <width>615</width>
             <height>46</height>
             <aligny>center</aligny>
             <font>Font_Bartowski_Movies</font>
             <textoffsetx>20</textoffsetx>
             <textcolor>ffffffff</textcolor>
             <label>$INFO[ListItem.Label]</label>
-            <visible></visible>
           </control>
           <control type="label">
-            <left>480</left>
+            <right>0</right>
             <top>0</top>
-            <width>200</width>
+            <width>300</width>
             <height>46</height>
-            <align>left</align>
+            <align>right</align>
             <aligny>center</aligny>
             <font>Font_Bartowski_Movies</font>
             <textcolor>white</textcolor>
             <label>$INFO[ListItem.Label2]</label>
-            <visible></visible>
           </control>
         </focusedlayout>
       </control>

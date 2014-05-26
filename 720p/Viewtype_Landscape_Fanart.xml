@@ -62,7 +62,7 @@
         </control>
         <control type="label">
           <visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
-          <left>115</left>
+          <left>0</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -83,7 +83,7 @@
           <label>$INFO[ListItem.Label]</label>
         </control>
         <control type="label">
-          <left>115</left>
+          <left>0</left>
           <top>139</top>
           <width>230</width>
           <height>89</height>
@@ -94,9 +94,9 @@
           <visible>!Skin.HasSetting(DisableTvOverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <control type="image">
-          <left>-8</left>
-          <top>120</top>
-          <width>240</width>
+          <left>15</left>
+          <top>127</top>
+          <width>200</width>
           <height>4</height>
           <info>ListItem.Overlay</info>
           <colordiffuse>ListTrackF</colordiffuse>
@@ -126,7 +126,7 @@
         </control>
         <control type="label">
           <visible>[Container.Content(episodes) | Container.Content(artists)] + !IsEmpty(ListItem.Title)</visible>
-          <left>135</left>
+          <left>0</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -161,7 +161,7 @@
           <label>[B]$INFO[ListItem.Label][/B]</label>
         </control>
         <control type="label">
-          <left>130</left>
+          <left>0</left>
           <top>139</top>
           <width>230</width>
           <height>89</height>
@@ -172,9 +172,9 @@
           <visible>!Skin.HasSetting(DisableTvOverlays) + Container.Content(tvshows) + stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
         </control>
         <control type="image">
-          <left>10</left>
-          <top>120</top>
-          <width>250</width>
+          <left>15</left>
+          <top>127</top>
+          <width>200</width>
           <height>4</height>
           <info>ListItem.Overlay</info>
           <aspectratio scalediffuse="false">stretch</aspectratio>

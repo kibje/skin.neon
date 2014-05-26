@@ -109,7 +109,7 @@
       <include>Viewtype_Episode</include> <!--  view id 51  -->
       <include>Viewtype_Newest_Episodes</include> <!--  view id 596  -->
       <include>Viewtype_Landscape</include> <!--  view id 52  -->
-      <include>Viewtype_Landscape_Fanart</include> <!--  view id 633  -->
+      <include>Viewtype_Landscape_Fanart</include> <!--  view id 633, "Logo Fanart" -->
       <include>Viewtype_Logo</include> <!--  view id 594  -->
       <include>Viewtype_List</include> <!--  view id 53 Media View  -->
       <include>MediaListView3</include> <!--  view id 503  -->

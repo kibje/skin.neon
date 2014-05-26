@@ -309,7 +309,7 @@
           </control>
           <control type="label">
             <description>Episodes Value</description>
-            <left>0</left>
+            <left>150</left>
             <top>220</top>
             <width>440</width>
             <height>25</height>
@@ -877,9 +877,9 @@
           </control>
           <control type="label">
             <description>Aired txt</description>
-            <left>200</left>
+            <left>100</left>
             <top>210</top>
-            <width>160</width>
+            <width>200</width>
             <height>25</height>
             <label>$LOCALIZE[31230]:</label>
             <align>right</align>
@@ -889,7 +889,7 @@
           </control>
           <control type="label">
             <description>Aired Value</description>
-            <left>210</left>
+            <left>310</left>
             <top>210</top>
             <width>440</width>
             <height>25</height>
@@ -901,9 +901,9 @@
           </control>
           <control type="label">
             <description>Episode txt</description>
-            <left>200</left>
+            <left>100</left>
             <top>235</top>
-            <width>140</width>
+            <width>200</width>
             <height>25</height>
             <label>$LOCALIZE[20359]:</label>
             <align>right</align>
@@ -913,7 +913,7 @@
           </control>
           <control type="label">
             <description>Genre Value</description>
-            <left>210</left>
+            <left>310</left>
             <top>235</top>
             <width>440</width>
             <height>25</height>
