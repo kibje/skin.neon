@@ -181,7 +181,7 @@
         <visible>System.CanReboot</visible>
       </control>
       <control type="button" id="3117">
-        <description>Restart XBMC</description>
+        <description>System Info</description>
         <width>370</width>
         <height>35</height>
         <textcolor>grey</textcolor>
