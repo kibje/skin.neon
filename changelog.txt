@@ -1,8 +1,5 @@
--------------------------------------------------------------------------------
-Changelog:
--------------------------------------------------------------------------------
-
 3.0.6
+- Initial skin translations from Transifex.
 - Clean-up unused font includes
 - Fix shutdown menu for systems without exit option
 3.0.5

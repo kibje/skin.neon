@@ -9,1096 +9,789 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: XBMC Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
+"Language-Team: English (US) (http://www.transifex.com/projects/p/xbmc-skins/language/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
+"Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#31003"
 msgid "Custom Playlist"
-msgstr ""
+msgstr "Custom Playlist"
 
 msgctxt "#31004"
 msgid "TV Shows"
-msgstr ""
+msgstr "TV Shows"
 
 msgctxt "#31005"
 msgid "MovieSet"
-msgstr ""
+msgstr "MovieSet"
 
 msgctxt "#31006"
 msgid "PosterPlus"
-msgstr ""
+msgstr "PosterPlus"
 
 msgctxt "#31007"
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 msgctxt "#31008"
 msgid "User Rating"
-msgstr ""
+msgstr "User Rating"
 
 msgctxt "#31009"
 msgid "Enable ABC keyboard"
-msgstr ""
+msgstr "Enable ABC keyboard"
 
 msgctxt "#31010"
 msgid "Enable startup video"
-msgstr ""
+msgstr "Enable startup video"
 
 msgctxt "#31011"
 msgid "Music: Show recently added songs instead of albums"
-msgstr ""
+msgstr "Music: Show recently added songs instead of albums"
 
 msgctxt "#31012"
 msgid "Select folder containing weather fanart:"
-msgstr ""
+msgstr "Select folder containing weather fanart:"
 
 msgctxt "#31013"
 msgid "Select bottom line RSS logo:"
-msgstr ""
+msgstr "Select bottom line RSS logo:"
 
 msgctxt "#31014"
 msgid "Selected playlist:"
-msgstr ""
+msgstr "Selected playlist:"
 
 msgctxt "#31015"
 msgid "Sets"
-msgstr ""
+msgstr "Sets"
 
 msgctxt "#31016"
 msgid "Settings Level"
-msgstr ""
+msgstr "Settings Level"
 
 msgctxt "#31017"
 msgid "Custom Home"
-msgstr ""
+msgstr "Custom Home"
 
 msgctxt "#31018"
 msgid "Add Submenu of Custom Scripts on Home"
-msgstr ""
+msgstr "Add Submenu of Custom Scripts on Home"
 
 msgctxt "#31019"
 msgid "Hide Video Cases"
-msgstr ""
-
-#empty string with id 31020
+msgstr "Hide Video Cases"
 
 msgctxt "#31021"
 msgid "Extras"
-msgstr ""
+msgstr "Extras"
 
 msgctxt "#31022"
 msgid "Directed By"
-msgstr ""
+msgstr "Directed By"
 
 msgctxt "#31023"
 msgid "Playing"
-msgstr ""
+msgstr "Playing"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Page"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr ""
+msgstr "Items"
 
 msgctxt "#31026"
 msgid "Misc Options"
-msgstr ""
+msgstr "Misc Options"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr ""
+msgstr "Location"
 
 msgctxt "#31028"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 msgctxt "#31029"
 msgid "Disable Views"
-msgstr ""
+msgstr "Disable Views"
 
 msgctxt "#31030"
 msgid "Reset Skin"
-msgstr ""
+msgstr "Reset Skin"
 
 msgctxt "#31031"
 msgid "Use extrathumbs instead of extrafanart folder"
-msgstr ""
-
-#empty string with id 31032
+msgstr "Use extrathumbs instead of extrafanart folder"
 
 msgctxt "#31033"
 msgid "Scroll Plot for Movies and TV"
-msgstr ""
+msgstr "Scroll Plot for Movies and TV"
 
 msgctxt "#31034"
 msgid "Disable Media Flags"
-msgstr ""
+msgstr "Disable Media Flags"
 
 msgctxt "#31035"
 msgid "Disable Movies Watched Overlays"
-msgstr ""
+msgstr "Disable Movies Watched Overlays"
 
 msgctxt "#31036"
 msgid "Disable TV Show Watched Overlays"
-msgstr ""
+msgstr "Disable TV Show Watched Overlays"
 
 msgctxt "#31037"
 msgid "Lock views in place (Kiosk mode)"
-msgstr ""
+msgstr "Lock views in place (Kiosk mode)"
 
 msgctxt "#31038"
 msgid "Music Visualization Options"
-msgstr ""
+msgstr "Music Visualization Options"
 
 msgctxt "#31039"
 msgid "Use Fanart Instead of Visualisation"
-msgstr ""
+msgstr "Use Fanart Instead of Visualization"
 
 msgctxt "#31040"
 msgid "Use JukeBox for Fullscreen Playback"
-msgstr ""
+msgstr "Use JukeBox for Fullscreen Playback"
 
 msgctxt "#31041"
 msgid "Enable Dark Fanart for Fullscreen Playback"
-msgstr ""
+msgstr "Enable Dark Fanart for Fullscreen Playback"
 
 msgctxt "#31042"
 msgid "Hide Main Menu Items"
-msgstr ""
+msgstr "Hide Main Menu Items"
 
 msgctxt "#31043"
 msgid "Set Options for TV Shows"
-msgstr ""
+msgstr "Set Options for TV Shows"
 
 msgctxt "#31044"
 msgid "Use Posters for TV Section"
-msgstr ""
+msgstr "Use Posters for TV Section"
 
 msgctxt "#31045"
 msgid "Use Banners for TV Section"
-msgstr ""
+msgstr "Use Banners for TV Section"
 
 msgctxt "#31046"
 msgid "Path to Music Library"
-msgstr ""
+msgstr "Path to Music Library"
 
 msgctxt "#31047"
 msgid "Disable Movies and TV Views"
-msgstr ""
+msgstr "Disable Movies and TV Views"
 
 msgctxt "#31048"
 msgid "16x9"
-msgstr ""
+msgstr "16x9"
 
 msgctxt "#31049"
 msgid "BannerPanel"
-msgstr ""
+msgstr "BannerPanel"
 
 msgctxt "#31050"
 msgid "Start Playing Automatically"
-msgstr ""
+msgstr "Start Playing Automatically"
 
 msgctxt "#31051"
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 msgctxt "#31052"
 msgid "Landscape"
-msgstr ""
+msgstr "Landscape"
 
 msgctxt "#31053"
 msgid "3D Landscape"
-msgstr ""
+msgstr "3D Landscape"
 
 msgctxt "#31054"
 msgid "LandPanel"
-msgstr ""
+msgstr "LandPanel"
 
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr ""
+msgstr "Open playlist"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr ""
+msgstr "Save playlist"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr ""
+msgstr "Close playlist"
 
 msgctxt "#31058"
 msgid "System music files"
-msgstr ""
+msgstr "System music files"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr ""
-
-#empty string with id 31060
+msgstr "Current playlist"
 
 msgctxt "#31061"
 msgid "Current Selected"
-msgstr ""
+msgstr "Current Selected"
 
 msgctxt "#31062"
 msgid "Poster"
-msgstr ""
+msgstr "Poster"
 
 msgctxt "#31063"
 msgid "Showcase"
-msgstr ""
+msgstr "Showcase"
 
 msgctxt "#31064"
 msgid "Wall"
-msgstr ""
+msgstr "Wall"
 
 msgctxt "#31065"
 msgid "Disable Music Views"
-msgstr ""
+msgstr "Disable Music Views"
 
 msgctxt "#31066"
 msgid "Jukebox"
-msgstr ""
-
-#empty string with id 31067
+msgstr "Jukebox"
 
 msgctxt "#31068"
 msgid "Reset all Skin Settings"
-msgstr ""
+msgstr "Reset all Skin Settings"
 
 msgctxt "#31069"
 msgid "Click to reset all skin settings to defaults"
-msgstr ""
+msgstr "Click to reset all skin settings to defaults"
 
 msgctxt "#31070"
 msgid "Custom Music Submenus"
-msgstr ""
-
-#empty strings from id 31071 to 31072
+msgstr "Custom Music Submenus"
 
 msgctxt "#31073"
 msgid "MUTE"
-msgstr ""
+msgstr "MUTE"
 
 msgctxt "#31074"
 msgid "Current Time"
-msgstr ""
+msgstr "Current Time"
 
 msgctxt "#31075"
 msgid "Finish Time"
-msgstr ""
-
-#empty strings from id 31076 to 31085
+msgstr "Finish Time"
 
 msgctxt "#31086"
 msgid "Show: Fanart"
-msgstr ""
-
-#empty strings from id 31087 to 31093
+msgstr "Show: Fanart"
 
 msgctxt "#31094"
 msgid "Dark Showcase"
-msgstr ""
-
-#empty strings from id 31095 to 31109
+msgstr "Dark Showcase"
 
 msgctxt "#31110"
 msgid "Edit Background for Home Button"
-msgstr ""
-
-#empty string with id 31111
+msgstr "Edit Background for Home Button"
 
 msgctxt "#31112"
 msgid "Show 'TV Airing Today' on the home screen"
-msgstr ""
+msgstr "Show 'TV Airing Today' on the home screen"
 
 msgctxt "#31113"
 msgid "Single Image"
-msgstr ""
+msgstr "Single Image"
 
 msgctxt "#31114"
 msgid "Multi Image"
-msgstr ""
+msgstr "Multi Image"
 
 msgctxt "#31115"
 msgid "Customizer"
-msgstr ""
+msgstr "Customizer"
 
 msgctxt "#31116"
 msgid "Addon Scripts"
-msgstr ""
+msgstr "Addon Scripts"
 
 msgctxt "#31117"
 msgid "Show recently added content on the home screen"
-msgstr ""
-
-#empty string with id 31118
+msgstr "Show recently added content on the home screen"
 
 msgctxt "#31119"
 msgid "Enable Custom Script Button"
-msgstr ""
+msgstr "Enable Custom Script Button"
 
 msgctxt "#31120"
 msgid "BUTTON LABEL"
-msgstr ""
+msgstr "BUTTON LABEL"
 
 msgctxt "#31121"
 msgid "PATH TO SCRIPT"
-msgstr ""
-
-#empty strings from id 31122 to 31123
+msgstr "PATH TO SCRIPT"
 
 msgctxt "#31124"
 msgid "Disable TvShowNextAired add-on"
-msgstr ""
+msgstr "Disable TvShowNextAired add-on"
 
 msgctxt "#31125"
 msgid "Disable TvTunes add-on"
-msgstr ""
+msgstr "Disable TvTunes add-on"
 
 msgctxt "#31126"
 msgid "TvTunes"
-msgstr ""
+msgstr "TvTunes"
 
 msgctxt "#31127"
 msgid "Select Lyrics Add-On"
-msgstr ""
+msgstr "Select Lyrics Add-On"
 
 msgctxt "#31128"
 msgid "XBMC Lyrics"
-msgstr ""
-
-#empty strings from id 31129 to 31130
+msgstr "XBMC Lyrics"
 
 msgctxt "#31131"
 msgid "Show Video Path in Info Screen"
-msgstr ""
+msgstr "Show Video Path in Info Screen"
 
 msgctxt "#31132"
 msgid "MultiPlex"
-msgstr ""
-
-#empty string with id 31133
+msgstr "MultiPlex"
 
 msgctxt "#31134"
 msgid "Slim List"
-msgstr ""
+msgstr "Slim List"
 
 msgctxt "#31135"
 msgid "List"
-msgstr ""
+msgstr "List"
 
 msgctxt "#31136"
 msgid "Slide"
-msgstr ""
+msgstr "Slide"
 
 msgctxt "#31137"
 msgid "Media View"
-msgstr ""
+msgstr "Media View"
 
 msgctxt "#31138"
 msgid "Media View 2"
-msgstr ""
-
-#empty strings from id 31139 to 31140
+msgstr "Media View 2"
 
 msgctxt "#31141"
 msgid "Logo Wall"
-msgstr ""
+msgstr "Logo Wall"
 
 msgctxt "#31142"
 msgid "Logo Fanart"
-msgstr ""
+msgstr "Logo Fanart"
 
 msgctxt "#31143"
 msgid "Episode"
-msgstr ""
+msgstr "Episode"
 
 msgctxt "#31144"
 msgid "Thumb List"
-msgstr ""
+msgstr "Thumb List"
 
 msgctxt "#31145"
 msgid "Cover Flow"
-msgstr ""
-
-#empty strings from id 31146 to 31199
+msgstr "Cover Flow"
 
 msgctxt "#31200"
 msgid "Thumbnails"
-msgstr ""
+msgstr "Thumbnails"
 
 msgctxt "#31201"
 msgid "Upcoming Episodes"
-msgstr ""
+msgstr "Upcoming Episodes"
 
 msgctxt "#31202"
 msgid "Logo Title"
-msgstr ""
-
-#empty strings from id 31203 to 31207
+msgstr "Logo Title"
 
 msgctxt "#31208"
 msgid "Title"
-msgstr ""
+msgstr "Title"
 
 msgctxt "#31209"
 msgid "TV"
-msgstr ""
-
-#empty strings from id 31210 to 31211
+msgstr "TV"
 
 msgctxt "#31212"
 msgid "Cinema Play"
-msgstr ""
+msgstr "Cinema Play"
 
 msgctxt "#31213"
 msgid "WallPanel"
-msgstr ""
+msgstr "WallPanel"
 
 msgctxt "#31214"
 msgid "Show: Dark View"
-msgstr ""
-
-#empty strings from id 31215 to 31217
+msgstr "Show: Dark View"
 
 msgctxt "#31218"
 msgid "Power Options"
-msgstr ""
-
-#empty strings from id 31219 to 31220
+msgstr "Power Options"
 
 msgctxt "#31221"
 msgid "Use condition-based weather fanart"
-msgstr ""
-
-#empty strings from id 31222 to 31225
+msgstr "Use condition-based weather fanart"
 
 msgctxt "#31226"
 msgid "Rated"
-msgstr ""
-
-#empty strings from id 31227 to 31228
+msgstr "Rated"
 
 msgctxt "#31229"
 msgid "First Premiered in"
-msgstr ""
+msgstr "First Premiered in"
 
 msgctxt "#31230"
 msgid "This Show Aired"
-msgstr ""
+msgstr "This Show Aired"
 
 msgctxt "#31231"
 msgid "Aired"
-msgstr ""
-
-#empty string with id 31232
+msgstr "Aired"
 
 msgctxt "#31233"
 msgid "Please Choose a Song"
-msgstr ""
+msgstr "Please Choose a Song"
 
 msgctxt "#31234"
 msgid "on"
-msgstr ""
+msgstr "on"
 
 msgctxt "#31235"
 msgid "Go Back"
-msgstr ""
-
-#empty string with id 31236
+msgstr "Go Back"
 
 msgctxt "#31237"
 msgid "Press Down for Trailer"
-msgstr ""
+msgstr "Press Down for Trailer"
 
 msgctxt "#31238"
 msgid "Press \"X\" to Stop"
-msgstr ""
-
-#empty string with id 31239
+msgstr "Press \"X\" to Stop"
 
 msgctxt "#31240"
 msgid "Press \"Left\" for Trailer"
-msgstr ""
+msgstr "Press \"Left\" for Trailer"
 
 msgctxt "#31241"
 msgid "Show weather widget"
-msgstr ""
+msgstr "Show weather widget"
 
 msgctxt "#31242"
 msgid "Set Timer"
-msgstr ""
+msgstr "Set Timer"
 
 msgctxt "#31243"
 msgid "Cancel Timer"
-msgstr ""
+msgstr "Cancel Timer"
 
 msgctxt "#31244"
 msgid "Press Down for Info"
-msgstr ""
+msgstr "Press Down for Info"
 
 msgctxt "#31245"
 msgid "Landscape Fanart"
-msgstr ""
+msgstr "Landscape Fanart"
 
 msgctxt "#31246"
 msgid "Press Up or \"X\" to stop Trailer"
-msgstr ""
+msgstr "Press Up or \"X\" to stop Trailer"
 
 msgctxt "#31247"
 msgid "Disable global clock"
-msgstr ""
+msgstr "Disable global clock"
 
 msgctxt "#31248"
 msgid "Use smaller global now playing for music"
-msgstr ""
+msgstr "Use smaller global now playing for music"
 
 msgctxt "#31249"
 msgid "Get Artwork"
-msgstr ""
+msgstr "Get Artwork"
 
 msgctxt "#31250"
 msgid "3D Banner"
-msgstr ""
-
-#empty strings from id 31251 to 31253
+msgstr "3D Banner"
 
 msgctxt "#31254"
 msgid "3 Days - Mini"
-msgstr ""
+msgstr "3 Days - Mini"
 
 msgctxt "#31255"
 msgid "4 Days - Full"
-msgstr ""
+msgstr "4 Days - Full"
 
 msgctxt "#31256"
 msgid "Global Settings"
-msgstr ""
+msgstr "Global Settings"
 
 msgctxt "#31257"
 msgid "Use random music backdrops - Same ones used on Home"
-msgstr ""
+msgstr "Use random music backdrops - Same ones used on Home"
 
 msgctxt "#31258"
 msgid "Use random photo backdrops - Same ones used on Home"
-msgstr ""
+msgstr "Use random photo backdrops - Same ones used on Home"
 
 msgctxt "#31259"
 msgid "Home screen options"
-msgstr ""
+msgstr "Home screen options"
 
 msgctxt "#31260"
 msgid "Add Custom Items to Home Menu"
-msgstr ""
+msgstr "Add Custom Items to Home Menu"
 
 msgctxt "#31261"
 msgid "Custom Favorite"
-msgstr ""
+msgstr "Custom Favorite"
 
 msgctxt "#31262"
 msgid "Set Label"
-msgstr ""
+msgstr "Set Label"
 
 msgctxt "#31263"
 msgid "Automatically Download Images for TV shows"
-msgstr ""
+msgstr "Automatically Download Images for TV shows"
 
 msgctxt "#31264"
 msgid "Click to Download [COLOR=selected]logo.png[/COLOR]"
-msgstr ""
-
-#empty string with id 31265
+msgstr "Click to Download [COLOR=selected]logo.png[/COLOR]"
 
 msgctxt "#31266"
 msgid "Enable 'extrafanart' - random cycling of fanart in Library mode"
-msgstr ""
+msgstr "Enable 'extrafanart' - random cycling of fanart in Library mode"
 
 msgctxt "#31267"
 msgid "User needs the 'extrafanart' folder at the root of TV Show or Movie folder"
-msgstr ""
+msgstr "User needs the 'extrafanart' folder at the root of TV Show or Movie folder"
 
 msgctxt "#31268"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 msgctxt "#31269"
 msgid "Use a local landcape.jpg instead of regular thumb on TV level"
-msgstr ""
-
-msgctxt "#31270"
-msgid "User needs a landcape.jpg image at the root of TV Show folder"
-msgstr ""
-
-#empty string with id 31271
+msgstr "Use a local landcape.jpg instead of regular thumb on TV level"
 
 msgctxt "#31272"
 msgid "Addons"
-msgstr ""
-
-msgctxt "#31273"
-msgid "Addon Browser"
-msgstr ""
+msgstr "Addons"
 
 msgctxt "#31274"
 msgid "Now Playing"
-msgstr ""
+msgstr "Now Playing"
 
 msgctxt "#31275"
 msgid "Recent Episodes"
-msgstr ""
-
-msgctxt "#31276"
-msgid "Play trailers in full screen mode"
-msgstr ""
-
-msgctxt "#31277"
-msgid "Show Lyrics Button in MusicOSD"
-msgstr ""
-
-#empty string with id 31278
+msgstr "Recent Episodes"
 
 msgctxt "#31279"
 msgid "Slide"
-msgstr ""
+msgstr "Slide"
 
 msgctxt "#31280"
 msgid "HD Movies"
-msgstr ""
-
-msgctxt "#31281"
-msgid "Rotate/Zoom fanart on the home screen"
-msgstr ""
-
-msgctxt "#31282"
-msgid "Enable Season Fanart on Episode level, will disable \"ExtraFanart\""
-msgstr ""
-
-msgctxt "#31283"
-msgid "Also do this on the library views: Music, Movies and TV Shows"
-msgstr ""
-
-msgctxt "#31284"
-msgid "Remove Info"
-msgstr ""
+msgstr "HD Movies"
 
 msgctxt "#31285"
 msgid "Show Info"
-msgstr ""
+msgstr "Show Info"
 
 msgctxt "#31286"
 msgid "Plot"
-msgstr ""
+msgstr "Plot"
 
 msgctxt "#31287"
 msgid "Icon"
-msgstr ""
-
-msgctxt "#31288"
-msgid "Shelf"
-msgstr ""
-
-msgctxt "#31289"
-msgid "Set Label"
-msgstr ""
-
-msgctxt "#31290"
-msgid "Set Favorite"
-msgstr ""
-
-msgctxt "#31291"
-msgid "Set Playlist"
-msgstr ""
-
-msgctxt "#31292"
-msgid "Custom Movies Submenus"
-msgstr ""
-
-msgctxt "#31293"
-msgid "Set Custom Submenu Favorite"
-msgstr ""
-
-msgctxt "#31294"
-msgid "Set Custom Submenu Playlist"
-msgstr ""
-
-msgctxt "#31295"
-msgid "Custom TV Show Submenus"
-msgstr ""
-
-msgctxt "#31296"
-msgid "Last Added"
-msgstr ""
-
-msgctxt "#31297"
-msgid "Disable global weather"
-msgstr ""
+msgstr "Icon"
 
 msgctxt "#31298"
 msgid "Recent Items"
-msgstr ""
-
-#empty string with id 31299
+msgstr "Recent Items"
 
 msgctxt "#31300"
 msgid "Current Temp"
-msgstr ""
+msgstr "Current Temp"
 
 msgctxt "#31301"
 msgid "Last Updated"
-msgstr ""
-
-#empty strings from id 31302 to 31306
+msgstr "Last Updated"
 
 msgctxt "#31307"
 msgid "Hide Fanart"
-msgstr ""
-
-#empty string with id 31308
+msgstr "Hide Fanart"
 
 msgctxt "#31309"
 msgid "Memory Used:"
-msgstr ""
-
-#empty strings from id 31310 to 31316
-
-msgctxt "#31317"
-msgid "Set Fanart Patnh"
-msgstr ""
-
-#empty string with id 31318
+msgstr "Memory Used:"
 
 msgctxt "#31319"
 msgid "Selected Profile"
-msgstr ""
+msgstr "Selected Profile"
 
 msgctxt "#31320"
 msgid "Last Logged In"
-msgstr ""
-
-#empty strings from id 31321 to 31324
+msgstr "Last Logged In"
 
 msgctxt "#31325"
 msgid "Playlist Options"
-msgstr ""
+msgstr "Playlist Options"
 
 msgctxt "#31326"
 msgid "Created"
-msgstr ""
+msgstr "Created"
 
 msgctxt "#31327"
 msgid "Resolution"
-msgstr ""
-
-#empty strings from id 31328 to 31350
+msgstr "Resolution"
 
 msgctxt "#31351"
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 msgctxt "#31352"
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 msgctxt "#31353"
 msgid "Fast Forward"
-msgstr ""
+msgstr "Fast Forward"
 
 msgctxt "#31354"
 msgid "Rewind"
-msgstr ""
+msgstr "Rewind"
 
 msgctxt "#31355"
 msgid "Movie menu"
-msgstr ""
+msgstr "Movie menu"
 
 msgctxt "#31356"
 msgid "Download Subtitles"
-msgstr ""
+msgstr "Download Subtitles"
 
-#empty strings from id 31357 to 31359
-
-# Stereoscopic labels
 msgctxt "#31360"
 msgid "Watch as 2D"
-msgstr ""
+msgstr "Watch as 2D"
 
 msgctxt "#31361"
 msgid "Change mode"
-msgstr ""
+msgstr "Change mode"
 
 msgctxt "#31362"
 msgid "Enabled"
-msgstr ""
-
-#empty strings from id 31363 to 31399
-
-msgctxt "#31400"
-msgid "Configure Appearance Settings[CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
-msgstr ""
-
-msgctxt "#31401"
-msgid "Configure Video Settings[CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
-msgstr ""
-
-msgctxt "#31402"
-msgid "Configure Music Settings[CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
-msgstr ""
-
-msgctxt "#31403"
-msgid "Configure Picture Settings[CR][CR]Set picture listing options · Configure slideshows"
-msgstr ""
-
-msgctxt "#31404"
-msgid "Configure Weather Settings[CR][CR]Set three cities to collect weather information"
-msgstr ""
-
-msgctxt "#31405"
-msgid "Configure Network Settings[CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options"
-msgstr ""
-
-msgctxt "#31406"
-msgid "Configure System Settings[CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
-msgstr ""
-
-#empty string with id 31407
-
-msgctxt "#31408"
-msgid "Configure Add-Ons[CR][CR]Browse for and install Add-ons from xbmc.org and other Repositories · Modify Add-on settings"
-msgstr ""
-
-#empty strings from id 31409 to 31419
+msgstr "Enabled"
 
 msgctxt "#31420"
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 msgctxt "#31421"
 msgid "Select your XBMC user Profile[CR]to login and continue"
-msgstr ""
+msgstr "Select your XBMC user Profile[CR]to login and continue"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr ""
+msgstr "Show or hide the login screen at startup."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr ""
-
-#empty strings from id 31424 to 31500
+msgstr "Select the profile that will be used at startup when the login screen is disabled."
 
 msgctxt "#31501"
 msgid "Scheduled Time"
-msgstr ""
+msgstr "Scheduled Time"
 
 msgctxt "#31502"
 msgid "Live TV"
-msgstr ""
+msgstr "Live TV"
 
 msgctxt "#31503"
 msgid "Add Group"
-msgstr ""
+msgstr "Add Group"
 
 msgctxt "#31504"
 msgid "Rename Group"
-msgstr ""
+msgstr "Rename Group"
 
 msgctxt "#31505"
 msgid "Delete Group"
-msgstr ""
+msgstr "Delete Group"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
-msgstr ""
-
-msgctxt "#31507"
-msgid "Ungrouped[CR]Channels"
-msgstr ""
+msgstr "Available[CR]Groups"
 
 msgctxt "#31508"
 msgid "Channels in Group"
-msgstr ""
-
-#empty string with id 31509
+msgstr "Channels in Group"
 
 msgctxt "#31510"
 msgid "Timer Set"
-msgstr ""
-
-msgctxt "#31511"
-msgid "Sort Order: Ascending"
-msgstr ""
-
-msgctxt "#31512"
-msgid "Sort Order: Descending"
-msgstr ""
-
-msgctxt "#31513"
-msgid "View Settings"
-msgstr ""
+msgstr "Timer Set"
 
 msgctxt "#31514"
 msgid "Full Screen"
-msgstr ""
+msgstr "Full Screen"
 
 msgctxt "#31515"
 msgid "TV Airing Today"
-msgstr ""
-
-msgctxt "#31516"
-msgid "Use random items instead of recently added items"
-msgstr ""
-
-#empty strings from id 31517 to 31519
+msgstr "TV Airing Today"
 
 msgctxt "#31520"
 msgid "Recent"
-msgstr ""
+msgstr "Recent"
 
 msgctxt "#31521"
 msgid "Random"
-msgstr ""
-
-msgctxt "#31522"
-msgid "Use Artist Slideshow Addon"
-msgstr ""
+msgstr "Random"
 
 msgctxt "#31523"
 msgid "Next Episode"
-msgstr ""
-
-msgctxt "#31524"
-msgid "Neon"
-msgstr ""
-
-#empty strings from id 31525 to 31720
-
-msgctxt "#31721"
-msgid "Show: Banner"
-msgstr ""
-
-#empty strings from id 31722 to 31723
+msgstr "Next Episode"
 
 msgctxt "#31724"
 msgid "Track Number"
-msgstr ""
+msgstr "Track Number"
 
 msgctxt "#31725"
 msgid "Working..."
-msgstr ""
-
-msgctxt "#31726"
-msgid "Show background videos in full screen mode"
-msgstr ""
-
-msgctxt "#31727"
-msgid "Show music visualisations in the background"
-msgstr ""
-
-msgctxt "#31728"
-msgid "Enable bottom line RSS"
-msgstr ""
-
-#empty strings from id 31729 to 31899
-
-msgctxt "#31900"
-msgid "Map  Alerts"
-msgstr ""
+msgstr "Working..."
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
-msgstr ""
+msgstr "36 Hour Forecast"
 
 msgctxt "#31902"
 msgid "Hourly Forecast"
-msgstr ""
+msgstr "Hourly Forecast"
 
 msgctxt "#31903"
 msgid "Weekend Forecast"
-msgstr ""
+msgstr "Weekend Forecast"
 
 msgctxt "#31904"
 msgid "10 Day Forecast"
-msgstr ""
-
-msgctxt "#31905"
-msgid "CURRENT"
-msgstr ""
-
-msgctxt "#31906"
-msgid "ALERTS"
-msgstr ""
-
-msgctxt "#31907"
-msgid "VIDEO"
-msgstr ""
-
-#empty strings from id 31908 to 31909
-
-msgctxt "#31910"
-msgid "Satellite and Radar"
-msgstr ""
+msgstr "10 Day Forecast"
 
 msgctxt "#31911"
 msgid "Forecast"
-msgstr ""
+msgstr "Forecast"
 
 msgctxt "#31912"
 msgid "Conditions"
-msgstr ""
-
-msgctxt "#31913"
-msgid "Severe Weather"
-msgstr ""
-
-msgctxt "#31914"
-msgid "Weather Outlook"
-msgstr ""
-
-#empty strings from id 31915 to 31971
+msgstr "Conditions"
 
 msgctxt "#31972"
 msgid "TV Guide"
-msgstr ""
-
-msgctxt "#31973"
-msgid "Click to Download [COLOR=selected]poster.jpg[/COLOR]"
-msgstr ""
-
-msgctxt "#31974"
-msgid "Click to Download [COLOR=selected]banner.jpg[/COLOR]"
-msgstr ""
-
-msgctxt "#31975"
-msgid "Click to Download [COLOR=selected]landscape.jpg[/COLOR]"
-msgstr ""
-
-msgctxt "#31976"
-msgid "Click to Download [COLOR=selected]clearart.png[/COLOR]"
-msgstr ""
-
-msgctxt "#31977"
-msgid "The below items will download the corresponding artwork for all TV Shows. [COLOR=red]Warning[/COLOR]: It will overwrite existing files"
-msgstr ""
-
-msgctxt "#31978"
-msgid "These are all of the currently installed custom images used in the TV Views. When updating it may take time for XBMC to update the image in its cache."
-msgstr ""
-
-msgctxt "#31979"
-msgid "TV: Use large recently added view"
-msgstr ""
-
-msgctxt "#31980"
-msgid "Movies: Use large recently added view"
-msgstr ""
+msgstr "TV Guide"
 
 msgctxt "#31981"
 msgid "Items"
-msgstr ""
+msgstr "Items"
