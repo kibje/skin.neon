@@ -1,3 +1,7 @@
+3.0.7
+- Allow seeking with mouse during video playback
+- Fix Bottom RSS logo setup
+- Fix for alignment issue in Media List view for TV-Shows
 3.0.6
 - Add initial skin translations from Transifex.
 - Add skin option for fast shutdown selection
