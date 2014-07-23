@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fonts>
-  <fontset id="Default" unicode="true">
+  <fontset id="Default" >
     <font>
       <name>Font_Neon_85</name>
       <filename>Antipasto.ttf</filename>
@@ -415,7 +415,7 @@
       <size>14</size>
     </font>
   </fontset>
-  <fontset id="Neon - All Languages" unicode="true">
+  <fontset id="Neon - All Languages">
     <font>
       <name>Font_Neon_85</name>
       <filename>DejaVu.ttf</filename>
