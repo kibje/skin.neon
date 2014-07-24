@@ -803,7 +803,7 @@
           </control>
           <control type="label">
             <description>Born txt</description>
-            <left>140</left>
+            <left>0</left>
             <top>215</top>
             <width>140</width>
             <height>25</height>
@@ -829,7 +829,7 @@
           </control>
           <control type="label">
             <description>Formed txt</description>
-            <left>140</left>
+            <left>0</left>
             <top>215</top>
             <width>140</width>
             <height>25</height>
@@ -855,7 +855,7 @@
           </control>
           <control type="label">
             <description>Genre txt</description>
-            <left>140</left>
+            <left>0</left>
             <top>240</top>
             <width>140</width>
             <height>25</height>
