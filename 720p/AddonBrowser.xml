@@ -93,7 +93,7 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
-        <control type="radiobutton" id="5">
+        <control type="button" id="5">
           <description>Enable auto-updates</description>
           <include>WindowMenuButton_Vertical</include>
           <label>24063</label>
