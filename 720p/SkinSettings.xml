@@ -72,7 +72,7 @@
             <texture>MenuItemNF.png</texture>
           </control>
           <control type="label">
-            <left>130</left>
+            <left>0</left>
             <top>0</top>
             <width>260</width>
             <height>45</height>
@@ -94,7 +94,7 @@
             <texture>mainmenu/home_bottom_white.png</texture>
           </control>
           <control type="label">
-            <left>130</left>
+            <left>0</left>
             <top>0</top>
             <width>260</width>
             <height>45</height>
