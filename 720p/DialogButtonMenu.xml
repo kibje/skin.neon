@@ -41,7 +41,7 @@
           <width>220</width>
           <height>35</height>
           <aspectratio scalediffuse="false">keep</aspectratio>
-          <texture>XBMC_Logo.png</texture>
+          <texture>Kodi_Logo.png</texture>
         </control>
         <control type="image">
           <top>80</top>

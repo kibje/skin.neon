@@ -106,7 +106,12 @@
         <control type="radiobutton" id="7">
           <description>Hide foreign</description>
           <include>WindowMenuButton_Vertical</include>
-          <label>$LOCALIZE[25001]</label>
+          <label>25001</label>
+        </control>
+        <control type="radiobutton" id="8">
+          <description>Hide broken</description>
+          <include>WindowMenuButton_Vertical</include>
+          <label>24999</label>
         </control>
         <include>CommonNowPlaying_Controls</include>
       </control>

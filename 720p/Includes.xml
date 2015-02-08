@@ -2236,4 +2236,15 @@
     <texturenofocus>-</texturenofocus>
     <texturefocus>-</texturefocus>
   </include>
+  <include name="KeyboardButton">
+    <width>50</width>
+    <height>50</height>
+    <colordiffuse>mainblue</colordiffuse>
+    <texturenofocus border="4">KeyboardKeyNF.png</texturenofocus>
+    <texturefocus border="4">KeyboardKey.png</texturefocus>
+    <align>center</align>
+    <aligny>center</aligny>
+    <font>font13</font>
+    <focusedcolor>black</focusedcolor>
+  </include>
 </includes>

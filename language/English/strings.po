@@ -1,18 +1,20 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
+# Addon Name: Neon
+# Addon id: skin.neon
+# Addon Provider: kib, bumpaneer
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC-Addons\n"
+"Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2014-04-30 21:20+0000\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kib\n"
-"Language-Team: LANGUAGE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-skins/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#31003"
 msgid "Custom Playlist"
@@ -369,7 +371,7 @@ msgid "Select Lyrics Add-On"
 msgstr ""
 
 msgctxt "#31128"
-msgid "XBMC Lyrics"
+msgid "Kodi Lyrics"
 msgstr ""
 
 #empty strings from id 31129 to 31130
@@ -858,7 +860,7 @@ msgid "Configure Weather Settings[CR][CR]Set three cities to collect weather inf
 msgstr ""
 
 msgctxt "#31405"
-msgid "Configure Network Settings[CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options"
+msgid "Configure Network Settings[CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Set internet access options"
 msgstr ""
 
 msgctxt "#31406"
@@ -868,7 +870,7 @@ msgstr ""
 #empty string with id 31407
 
 msgctxt "#31408"
-msgid "Configure Add-Ons[CR][CR]Browse for and install Add-ons from xbmc.org and other Repositories · Modify Add-on settings"
+msgid "Configure Add-Ons[CR][CR]Browse for and install Add-ons from kodi.tv and other Repositories · Modify Add-on settings"
 msgstr ""
 
 #empty strings from id 31409 to 31419
@@ -878,7 +880,7 @@ msgid "Login"
 msgstr ""
 
 msgctxt "#31421"
-msgid "Select your XBMC user Profile[CR]to login and continue"
+msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr ""
 
 msgctxt "#31422"
@@ -1086,7 +1088,7 @@ msgid "The below items will download the corresponding artwork for all TV Shows.
 msgstr ""
 
 msgctxt "#31978"
-msgid "These are all of the currently installed custom images used in the TV Views. When updating it may take time for XBMC to update the image in its cache."
+msgid "These are all of the currently installed custom images used in the TV Views. When updating it may take time for Kodi to update the image in its cache."
 msgstr ""
 
 msgctxt "#31979"

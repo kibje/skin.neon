@@ -26,6 +26,15 @@
     <disabledcolor>TextDisabled</disabledcolor>
     <scroll>false</scroll>
   </default>
+  <default type="edit">
+    <label>-</label>
+    <font>Font_Settings</font>
+    <textcolor>Text</textcolor>
+    <focusedcolor>TextFocused</focusedcolor>
+    <selectedcolor>TextFocused</selectedcolor>
+    <disabledcolor>TextDisabled</disabledcolor>
+    <scroll>false</scroll>
+  </default>
   <default type="image">
     <width>-</width>
     <height>-</height>

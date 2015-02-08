@@ -137,7 +137,7 @@
         <onclick>ShutDown()</onclick>
       </control>
       <control type="button" id="3114">
-        <description>Restart Xbmc</description>
+        <description>Restart Kodi</description>
         <height>35</height>
         <width>170</width>
         <textoffsety>2</textoffsety>
@@ -148,7 +148,7 @@
         <texturefocus>button-focus.png</texturefocus>
         <align>center</align>
         <aligny>center</aligny>
-        <label>$LOCALIZE[13313] XBMC</label>
+        <label>$LOCALIZE[13313] Kodi</label>
         <onclick>RestartApp()</onclick>
       </control>
       <control type="button" id="3115">
