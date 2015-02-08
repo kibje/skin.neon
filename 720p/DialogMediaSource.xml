@@ -156,7 +156,7 @@
       </control>
       <control type="edit" id="12">
         <description>Name</description>
-        <left>8</left>
+        <left>20</left>
         <top>358</top>
         <label>-</label>
         <textcolor>TextSelected</textcolor>
@@ -186,8 +186,8 @@
       </control>
       <control type="button" id="18">
         <description>Ok</description>
-        <left>240</left>
-        <top>390</top>
+        <left>140</left>
+        <top>400</top>
         <label>$LOCALIZE[186]</label>
         <width>80</width>
         <align>center</align>
@@ -203,8 +203,8 @@
       </control>
       <control type="button" id="19">
         <description>Cancel</description>
-        <left>410</left>
-        <top>390</top>
+        <left>310</left>
+        <top>400</top>
         <label>$LOCALIZE[222]</label>
         <align>center</align>
         <textcolor>mainblue</textcolor>

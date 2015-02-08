@@ -310,7 +310,7 @@
           <width>60</width>
           <height>60</height>
           <font>font30</font>
-          <label>&lt;</label>
+          <label>‹</label>
           <focusedcolor>black</focusedcolor>
           <align>center</align>
           <aligny>center</aligny>
@@ -348,7 +348,7 @@
           <width>60</width>
           <height>60</height>
           <font>font30</font>
-          <label>&gt;</label>
+          <label>›</label>
           <focusedcolor>black</focusedcolor>
           <align>center</align>
           <aligny>center</aligny>

@@ -209,12 +209,6 @@
             <align>left</align>
             <aligny>center</aligny>
           </control>
-          <control type="radiobutton" id="101">
-            <include>skin_settings_labels</include>
-            <label>$LOCALIZE[31009]</label>
-            <onclick>Skin.ToggleSetting(ABCKeyBoard)</onclick>
-            <selected>Skin.HasSetting(ABCKeyBoard)</selected>
-          </control>
           <control type="radiobutton" id="102">
             <include>skin_settings_labels</include>
             <label>$LOCALIZE[31247]</label>
