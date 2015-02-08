@@ -58,12 +58,12 @@
         <texture>Neon.png</texture>
       </control>
       <control type="image">
-        <description>XBMC LOGO</description>
+        <description>Kodi Logo</description>
         <left>20</left>
         <bottom>20</bottom>
         <width>140</width>
         <height>40</height>
-        <texture>XBMC_Logo.png</texture>
+        <texture>Kodi_Logo.png</texture>
       </control>
       <control type="label">
         <left>295</left>

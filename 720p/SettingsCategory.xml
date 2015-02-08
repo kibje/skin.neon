@@ -287,8 +287,8 @@
       <top>0</top>
       <control type="image">
         <left>-50</left>
-        <top>-10</top>
-        <texture>XBMC_Logo.png</texture>
+        <top>0</top>
+        <texture>Kodi_Logo.png</texture>
       </control>
     </control>
     <include>Time</include>
