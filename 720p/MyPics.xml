@@ -3,6 +3,7 @@
 <window>
   <defaultcontrol>50</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
+  <views>50,55,58,51,53,503</views>
   <controls>
   <control type="image">
     <include>Dimensions_Fullscreen</include>
@@ -30,6 +31,8 @@
   <include>Viewtype_Files</include>
   <include>Viewtype_PictureGrid</include>
   <include>PictureThumbView</include>
+  <include>Viewtype_List</include> <!-- 53 -->
+  <include>MediaListView3</include> <!--  view id 503  -->
   <include>ScrollOffsetLabel</include>
   <control type="group">
     <left>-839</left>
