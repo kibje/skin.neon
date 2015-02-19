@@ -91,10 +91,18 @@
         <item id="26">
           <description>Live TV</description>
           <label>$LOCALIZE[31502]</label>
-          <onclick>ActivateWindow(TV)</onclick>
+          <onclick>ActivateWindow(TVChannels)</onclick>
           <icon>special://skin/backgrounds/tv.jpg</icon>
           <thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
           <visible>!Skin.HasSetting(HomeNoMenuLiveTV) + System.GetBool(pvrmanager.enabled)</visible>
+        </item>
+        <item id="27">
+          <description>Radio</description>
+          <label>$LOCALIZE[19021]</label>
+          <onclick>ActivateWindow(RadioChannels)</onclick>
+          <icon>special://skin/backgrounds/radio.jpg</icon>
+          <thumb>$INFO[Skin.String(Home_Custom_Back_Radio_Folder)]</thumb>
+          <visible>!Skin.HasSetting(HomeNoMenuRadio) + System.GetBool(pvrmanager.enabled)</visible>
         </item>
         <item id="7">
           <description>TV GUIDE</description>
@@ -1045,6 +1053,138 @@
             <label>$LOCALIZE[13391]</label>
             <onclick>EjectTray()</onclick>
             <visible>System.HasMediaDVD</visible>
+          </item>
+        </content>
+      </control>
+      <!--Live TV-->
+      <control type="wraplist" id="9026">
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
+        <orientation>horizontal</orientation>
+        <onleft>9019</onleft>
+        <onright>9019</onright>
+        <onup>301</onup>
+        <ondown>301</ondown>
+        <focusposition>2</focusposition>
+        <scrolltime>200</scrolltime>
+        <preloaditems>2</preloaditems>
+        <visible>Container(301).HasFocus(26)</visible>
+        <itemlayout width="320" height="56">
+          <control type="group">
+            <left>-160</left>
+            <top>0</top>
+            <control type="label">
+              <width>320</width>
+              <height>56</height>
+              <label>$INFO[ListItem.label]</label>
+              <align>center</align>
+              <font>Font_Bartowski_Main_SubMenu</font>
+              <textcolor>grey3</textcolor>
+            </control>
+          </control>
+        </itemlayout>
+        <focusedlayout width="320" height="56">
+          <control type="group">
+            <left>-160</left>
+            <top>0</top>
+            <control type="label">
+              <width>320</width>
+              <height>56</height>
+              <label>$INFO[ListItem.label]</label>
+              <align>center</align>
+              <font>Font_Bartowski_Main_SubMenu</font>
+              <textcolor>mainblue</textcolor>
+            </control>
+          </control>
+        </focusedlayout>
+        <content>
+          <item id="1">
+            <label>19040</label>
+            <onclick>ActivateWindow(TVTimers)</onclick>
+          </item>
+          <item id="2">
+            <label>19163</label>
+            <onclick>ActivateWindow(TVRecordings)</onclick>
+          </item>
+          <item id="3">
+            <label>19019</label>
+            <onclick>ActivateWindow(TVChannels)</onclick>
+          </item>
+          <item id="4">
+            <label>19069</label>
+            <onclick>ActivateWindow(TVGuide)</onclick>
+          </item>
+          <item id="5">
+            <label>137</label>
+            <onclick>ActivateWindow(TVSearch)</onclick>
+          </item>
+        </content>
+      </control>
+      <!--Radio-->
+      <control type="wraplist" id="9027">
+        <left>0</left>
+        <top>25</top>
+        <width>1280</width>
+        <height>56</height>
+        <orientation>horizontal</orientation>
+        <onleft>9019</onleft>
+        <onright>9019</onright>
+        <onup>301</onup>
+        <ondown>301</ondown>
+        <focusposition>2</focusposition>
+        <scrolltime>200</scrolltime>
+        <preloaditems>2</preloaditems>
+        <visible>Container(301).HasFocus(27)</visible>
+        <itemlayout width="320" height="56">
+          <control type="group">
+            <left>-160</left>
+            <top>0</top>
+            <control type="label">
+              <width>320</width>
+              <height>56</height>
+              <label>$INFO[ListItem.label]</label>
+              <align>center</align>
+              <font>Font_Bartowski_Main_SubMenu</font>
+              <textcolor>grey3</textcolor>
+            </control>
+          </control>
+        </itemlayout>
+        <focusedlayout width="320" height="56">
+          <control type="group">
+            <left>-160</left>
+            <top>0</top>
+            <control type="label">
+              <width>320</width>
+              <height>56</height>
+              <label>$INFO[ListItem.label]</label>
+              <align>center</align>
+              <font>Font_Bartowski_Main_SubMenu</font>
+              <textcolor>mainblue</textcolor>
+            </control>
+          </control>
+        </focusedlayout>
+        <content>
+          <item id="1">
+            <label>19040</label>
+            <onclick>ActivateWindow(RadioTimers)</onclick>
+          </item>
+          <item id="2">
+            <label>19163</label>
+            <onclick>ActivateWindow(RadioRecordings)</onclick>
+          </item>
+          <item id="3">
+            <label>19019</label>
+            <onclick>ActivateWindow(RadioChannels)</onclick>
+          </item>
+          <item id="4">
+            <label>19069</label>
+            <onclick>ActivateWindow(RadioGuide)</onclick>
+          </item>
+          <item id="5">
+            <label>137</label>
+            <onclick>ActivateWindow(RadioSearch)</onclick>
           </item>
         </content>
       </control>

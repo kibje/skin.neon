@@ -849,9 +849,16 @@
           <control type="radiobutton" id="223">
             <description>Hide Live TV Button</description>
             <include>skin_settings_labels</include>
-            <label>$LOCALIZE[31111] - Live TV</label>
+            <label>$LOCALIZE[31111] - $LOCALIZE[31502]</label>
             <onclick>Skin.ToggleSetting(HomeNoMenuLiveTV)</onclick>
             <selected>Skin.HasSetting(HomeNoMenuLiveTV)</selected>
+          </control>
+          <control type="radiobutton" id="224">
+            <description>Hide Radio Button</description>
+            <include>skin_settings_labels</include>
+            <label>$LOCALIZE[31111] - $LOCALIZE[19021]</label>
+            <onclick>Skin.ToggleSetting(HomeNoMenuRadio)</onclick>
+            <selected>Skin.HasSetting(HomeNoMenuRadio)</selected>
           </control>
           <control type="radiobutton" id="215">
             <description>Hide Music Button</description>
@@ -1211,6 +1218,18 @@
                 <onclick>noop</onclick>
                 <icon>special://skin/backgrounds/shutdown.jpg</icon>
                 <thumb>$INFO[Skin.String(Home_Custom_Back_Shutdown_Folder)]</thumb>
+              </item>
+              <item id="26">
+                <label>31502</label>
+                <onclick>noop</onclick>
+                <icon>special://skin/backgrounds/tv.jpg</icon>
+                <thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
+              </item>
+              <item id="27">
+                <label>19021</label>
+                <onclick>noop</onclick>
+                <icon>special://skin/backgrounds/radio.jpg</icon>
+                <thumb>$INFO[Skin.String(Home_Custom_Back_Radio_Folder)]</thumb>
               </item>
             </content>
           </control>
@@ -2541,6 +2560,132 @@
                 <texturenofocus>button-nofocus.png</texturenofocus>
                 <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
                 <onclick>Skin.Reset(Menu_Custom10_Folder)</onclick>
+                <onleft>301</onleft>
+                <onright>300</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+            </control>
+            <control type="group">
+              <visible>Container(9003).HasFocus(26)</visible>
+              <control type="button" id="300">
+                <description>Single Image button</description>
+                <left>5</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>31113</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.SetImage(Home_Custom_Back_TV_Folder)</onclick>
+                <onleft>302</onleft>
+                <onright>301</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+              <control type="button" id="301">
+                <description>Multi Image button</description>
+                <left>190</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>31114</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.SetPath(Home_Custom_Back_TV_Folder)</onclick>
+                <onleft>300</onleft>
+                <onright>302</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+              <control type="button" id="302">
+                <description>Default Image button</description>
+                <left>375</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>571</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.Reset(Home_Custom_Back_TV_Folder)</onclick>
+                <onleft>301</onleft>
+                <onright>300</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+            </control>
+            <control type="group">
+              <visible>Container(9003).HasFocus(27)</visible>
+              <control type="button" id="300">
+                <description>Single Image button</description>
+                <left>5</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>31113</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.SetImage(Home_Custom_Back_Radio_Folder)</onclick>
+                <onleft>302</onleft>
+                <onright>301</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+              <control type="button" id="301">
+                <description>Multi Image button</description>
+                <left>190</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>31114</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.SetPath(Home_Custom_Back_Radio_Folder)</onclick>
+                <onleft>300</onleft>
+                <onright>302</onright>
+                <onup>304</onup>
+                <ondown>304</ondown>
+              </control>
+              <control type="button" id="302">
+                <description>Default Image button</description>
+                <left>375</left>
+                <top>0</top>
+                <width>180</width>
+                <height>40</height>
+                <label>571</label>
+                <font>font12caps_title</font>
+                <textcolor>grey2</textcolor>
+                <focusedcolor>white</focusedcolor>
+                <align>center</align>
+                <colordiffuse>mainblue</colordiffuse>
+                <texturenofocus>button-nofocus.png</texturenofocus>
+                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <onclick>Skin.Reset(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
                 <onup>304</onup>
