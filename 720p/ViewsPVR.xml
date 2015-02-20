@@ -629,17 +629,17 @@
   <include name="LiveTVRecordingsView">
     <control type="group">
       <description>Recordings group</description>
-      <visible>Control.IsVisible(13)</visible>
+      <visible>Control.IsVisible(50)</visible>
       <include>VisibleFadeEffect</include>
-      <control type="list" id="13">
+      <control type="list" id="50">
         <left>70</left>
         <top>75</top>
         <width>760</width>
         <height>561</height>
         <onleft>34</onleft>
         <onright>72</onright>
-        <onup>13</onup>
-        <ondown>13</ondown>
+        <onup>50</onup>
+        <ondown>50</ondown>
         <viewtype label="535">list</viewtype>
         <pagecontrol>72</pagecontrol>
         <scrolltime>200</scrolltime>
@@ -709,7 +709,7 @@
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
             <texture>MenuItemFO.png</texture>
-            <visible>Control.HasFocus(13)</visible>
+            <visible>Control.HasFocus(50)</visible>
             <include>VisibleFadeEffect</include>
           </control>
           <control type="image">
@@ -720,7 +720,7 @@
             <colordiffuse>mainblue</colordiffuse>
             <texture border="2">MenuItemNF.png</texture>
             <include>VisibleFadeEffect</include>
-            <visible>!Control.HasFocus(13)</visible>
+            <visible>!Control.HasFocus(50)</visible>
           </control>
           <control type="image">
             <left>10</left>
@@ -798,7 +798,7 @@
         <scroll>false</scroll>
         <align>right</align>
         <aligny>center</aligny>
-        <label>([COLOR=mainblue]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
+        <label>([COLOR=mainblue]$INFO[Container(50).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(50).CurrentPage]/$INFO[Container(50).NumPages][/COLOR])</label>
         <include>Window_OpenClose_Animation</include>    
       </control>
       <control type="group">
@@ -811,7 +811,7 @@
           <height>230</height>
           <aspectratio aligny="bottom">keep</aspectratio>
           <fadetime>IconCrossfadeTime</fadetime>
-          <texture fallback="DefaultVideoCover.png">$INFO[Container(13).ListItem.Icon]</texture>
+          <texture fallback="DefaultVideoCover.png">$INFO[Container(50).ListItem.Icon]</texture>
           <bordertexture border="8">ThumbShadow.png</bordertexture>
           <bordersize>8</bordersize>
         </control>
@@ -820,7 +820,7 @@
           <top>230</top>
           <width>290</width>
           <height>25</height>
-          <label>$INFO[Container(13).ListItem.Title]</label>
+          <label>$INFO[Container(50).ListItem.Title]</label>
           <align>center</align>
           <aligny>center</aligny>
           <font>Font_Neon_20</font>
@@ -838,14 +838,14 @@
           <font>Font_Neon_20</font>
           <align>justify</align>
           <textcolor>white</textcolor>
-          <label>$INFO[Container(13).ListItem.Plot]</label>
+          <label>$INFO[Container(50).ListItem.Plot]</label>
           <autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
         </control>
       </control>
     </control>
   </include>
 
-  <include name="EPGTimelineView">
+  <include name="PVRGuideViewTimeline">
     <control type="group">
       <description>TV Guide Timeline</description>
       <visible>Control.IsVisible(10)</visible>
@@ -860,6 +860,7 @@
         <texture>separator2.png</texture>
       </control>
       <control type="epggrid" id="10">
+        <viewtype label="19032">list</viewtype>
         <description>EPG Grid</description>
         <left>80</left>
         <top>71</top>
@@ -870,8 +871,8 @@
         <timeblocks>40</timeblocks>
         <rulerunit>6</rulerunit>
         <progresstexture border="0,48,18,14">PVR-EpgProgressIndicator.png</progresstexture>
-        <onleft>31</onleft>
-        <onright>31</onright>
+        <onleft>7000</onleft>
+        <onright>7000</onright>
         <onup>10</onup>
         <ondown>10</ondown>
         <onback>7000</onback> 
@@ -1724,10 +1725,10 @@
     </control>
   </include>
 
-  <include name="LiveTVGuideChannelView">
+  <include name="PVRGuideViewChannel">
     <control type="group">
       <description>TV Guide Channel</description>
-      <visible>Control.IsVisible(15)</visible>
+      <visible>Control.IsVisible(13)</visible>
       <include>VisibleFadeEffect</include>
       <control type="group">
         <left>80</left>
@@ -1780,14 +1781,15 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
-        <control type="list" id="15">
+        <control type="list" id="13">
+          <viewtype label="19029">list</viewtype>
           <left>0</left>
           <top>60</top>
           <width>1100</width>
           <height>500</height>
-          <onup>15</onup>
-          <ondown>15</ondown>
-          <onleft>31</onleft>
+          <onup>13</onup>
+          <ondown>13</ondown>
+          <onleft>7000</onleft>
           <onright>75</onright>
           <pagecontrol>75</pagecontrol>
           <scrolltime>200</scrolltime>
@@ -1817,7 +1819,7 @@
               <texture border="5">StackFO.png</texture>
             </control>
             <control type="label">
-              <left>150</left>
+              <left>10</left>
               <top>0</top>
               <width>280</width>
               <height>40</height>
@@ -1907,7 +1909,7 @@
               <height>40</height>
               <colordiffuse>AAFFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>!Control.HasFocus(15)</visible>
+              <visible>!Control.HasFocus(13)</visible>
             </control>
             <control type="image">
               <left>960</left>
@@ -1916,7 +1918,7 @@
               <height>40</height>
               <colordiffuse>AAFFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>!Control.HasFocus(15)</visible>
+              <visible>!Control.HasFocus(13)</visible>
             </control>
             <control type="image">
               <left>0</left>
@@ -1925,7 +1927,7 @@
               <height>40</height>
               <colordiffuse>88FFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>Control.HasFocus(15)</visible>
+              <visible>Control.HasFocus(13)</visible>
             </control>
             <control type="image">
               <left>960</left>
@@ -1934,10 +1936,10 @@
               <height>40</height>
               <colordiffuse>88FFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>Control.HasFocus(15)</visible>
+              <visible>Control.HasFocus(13)</visible>
             </control>
             <control type="label">
-              <left>150</left>
+              <left>10</left>
               <top>0</top>
               <width>280</width>
               <height>40</height>
@@ -2027,8 +2029,8 @@
           <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
           <textureslidernib>ScrollBarNib.png</textureslidernib>
           <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
-          <onleft>15</onleft>
-          <onright>31</onright>
+          <onleft>13</onleft>
+          <onright>13</onright>
           <showonepage>false</showonepage>
           <orientation>vertical</orientation>
         </control>
@@ -2045,15 +2047,15 @@
         <scroll>false</scroll>
         <align>right</align>
         <aligny>center</aligny>
-        <label>([COLOR=mainblue]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
+        <label>([COLOR=mainblue]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
       </control>
     </control>
   </include>
 
-  <include name="LiveTVGuideNowNextView">
+  <include name="PVRGuideViewNow">
     <control type="group">
-      <description>TV Guide Now/Next</description>
-      <visible>Control.IsVisible(16)</visible>
+      <description>TV Guide Now</description>
+      <visible>Control.IsVisible(11)</visible>
       <include>VisibleFadeEffect</include>
       <control type="group">
         <left>80</left>
@@ -2119,14 +2121,15 @@
           <colordiffuse>mainblue</colordiffuse>
           <texture>separator2.png</texture>
         </control>
-        <control type="list" id="16">
+        <control type="list" id="11">
+          <viewtype label="19030">list</viewtype>
           <left>0</left>
           <top>60</top>
           <width>1100</width>
           <height>500</height>
-          <onup>16</onup>
-          <ondown>16</ondown>
-          <onleft>31</onleft>
+          <onup>11</onup>
+          <ondown>11</ondown>
+          <onleft>7000</onleft>
           <onright>76</onright>
           <pagecontrol>76</pagecontrol>
           <scrolltime>200</scrolltime>
@@ -2156,7 +2159,7 @@
               <texture border="5">StackFO.png</texture>
             </control>
             <control type="label">
-              <left>50</left>
+              <left>0</left>
               <top>0</top>
               <width>100</width>
               <height>40</height>
@@ -2265,7 +2268,7 @@
               <height>40</height>
               <colordiffuse>AAFFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>!Control.HasFocus(16)</visible>
+              <visible>!Control.HasFocus(11)</visible>
             </control>
             <control type="image">
               <left>960</left>
@@ -2274,7 +2277,7 @@
               <height>40</height>
               <colordiffuse>AAFFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>!Control.HasFocus(16)</visible>
+              <visible>!Control.HasFocus(11)</visible>
             </control>
             <control type="image">
               <left>100</left>
@@ -2283,7 +2286,7 @@
               <height>40</height>
               <colordiffuse>88FFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>Control.HasFocus(16)</visible>
+              <visible>Control.HasFocus(11)</visible>
             </control>
             <control type="image">
               <left>960</left>
@@ -2292,10 +2295,10 @@
               <height>40</height>
               <colordiffuse>88FFFFFF</colordiffuse>
               <texture border="5">StackFO.png</texture>
-              <visible>Control.HasFocus(16)</visible>
+              <visible>Control.HasFocus(11)</visible>
             </control>
             <control type="label">
-              <left>50</left>
+              <left>0</left>
               <top>0</top>
               <width>100</width>
               <height>40</height>
@@ -2340,7 +2343,7 @@
             <control type="textbox">
               <description>Plot Value for TVShow</description>
               <left>50</left>
-              <top>35</top>
+              <top>40</top>
               <width>1000</width>
               <height>60</height>
               <font>Font_Neon_18</font>
@@ -2404,8 +2407,8 @@
           <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
           <textureslidernib>ScrollBarNib.png</textureslidernib>
           <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
-          <onleft>16</onleft>
-          <onright>31</onright>
+          <onleft>11</onleft>
+          <onright>11</onright>
           <showonepage>false</showonepage>
           <orientation>vertical</orientation>
         </control>
@@ -2422,7 +2425,385 @@
         <scroll>false</scroll>
         <align>right</align>
         <aligny>center</aligny>
-        <label>([COLOR=mainblue]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
+        <label>([COLOR=mainblue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
+      </control>
+    </control>
+  </include>
+  
+  <include name="PVRGuideViewNext">
+    <control type="group">
+      <description>TV Guide Now</description>
+      <visible>Control.IsVisible(12)</visible>
+      <include>VisibleFadeEffect</include>
+      <control type="group">
+        <left>80</left>
+        <top>60</top>
+        <control type="label">
+          <description>Time label</description>
+          <left>0</left>
+          <top>20</top>
+          <width>100</width>
+          <height>20</height>
+          <font>font13_title</font>
+          <textcolor>white</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <label>555</label>
+        </control>
+        <control type="label">
+          <description>Channel label</description>
+          <left>100</left>
+          <top>20</top>
+          <width>250</width>
+          <height>20</height>
+          <font>font13_title</font>
+          <textcolor>white</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <label>19148</label>
+        </control>
+        <control type="label">
+          <description>Title</description>
+          <left>350</left>
+          <top>20</top>
+          <width>550</width>
+          <height>20</height>
+          <font>font13_title</font>
+          <textcolor>white</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <label>369</label>
+        </control>
+        <control type="label">
+          <description>Status header label</description>
+          <left>960</left>
+          <top>20</top>
+          <width>140</width>
+          <height>20</height>
+          <font>font13_title</font>
+          <textcolor>white</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <label>126</label>
+        </control>
+        <control type="image">
+          <description>separator image</description>
+          <left>0</left>
+          <top>50</top>
+          <width>1100</width>
+          <height>1</height>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+        </control>
+        <control type="list" id="12">
+          <viewtype label="19031">list</viewtype>
+          <left>0</left>
+          <top>60</top>
+          <width>1100</width>
+          <height>500</height>
+          <onup>12</onup>
+          <ondown>12</ondown>
+          <onleft>7000</onleft>
+          <onright>76</onright>
+          <pagecontrol>76</pagecontrol>
+          <scrolltime>200</scrolltime>
+          <itemlayout height="40">
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>1100</width>
+              <height>41</height>
+              <colordiffuse>mainblue</colordiffuse>
+              <texture border="5">MenuItemNF.png</texture>
+            </control>
+            <control type="image">
+              <left>100</left>
+              <top>0</top>
+              <width>250</width>
+              <height>40</height>
+              <colordiffuse>33FFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+            </control>
+            <control type="image">
+              <left>960</left>
+              <top>0</top>
+              <width>140</width>
+              <height>40</height>
+              <colordiffuse>33FFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+            </control>
+            <control type="label">
+              <left>0</left>
+              <top>0</top>
+              <width>100</width>
+              <height>40</height>
+              <font>Font_Neon_18</font>
+              <align>center</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.StartTime</info>
+            </control>
+            <control type="image">
+              <left>110</left>
+              <top>5</top>
+              <width>30</width>
+              <height>30</height>
+              <info>ListItem.Icon</info>
+            </control>
+            <control type="label">
+              <left>150</left>
+              <top>0</top>
+              <width>190</width>
+              <height>35</height>
+              <font>Font_Neon_18</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.ChannelName</info>
+            </control>
+            <control type="label">
+              <left>360</left>
+              <top>0</top>
+              <width>590</width>
+              <height>35</height>
+              <font>Font_Neon_20</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.Label</info>
+            </control>
+            <control type="image">
+              <left>970</left>
+              <top>10</top>
+              <width>30</width>
+              <height>20</height>
+              <texture>PVR-IsRecording.png</texture>
+              <visible>ListItem.IsRecording</visible>
+            </control>
+            <control type="label">
+              <left>1005</left>
+              <top>0</top>
+              <width>80</width>
+              <height>40</height>
+              <font>font10</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <label>19043</label>
+              <visible>ListItem.IsRecording</visible>
+            </control>
+            <control type="image">
+              <left>970</left>
+              <top>10</top>
+              <width>20</width>
+              <height>20</height>
+              <texture>PVR-HasTimer.png</texture>
+              <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
+            </control>
+            <control type="label">
+              <left>1000</left>
+              <top>0</top>
+              <width>80</width>
+              <height>40</height>
+              <font>font10</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <label>31510</label>
+              <visible>ListItem.HasTimer</visible>
+            </control>
+          </itemlayout>
+          <focusedlayout height="100">
+            <control type="image">
+              <left>0</left>
+              <top>1</top>
+              <width>1100</width>
+              <height>98</height>
+              <colordiffuse>AAFFFFFF</colordiffuse>
+              <texture border="5">black-back2.png</texture>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>1100</width>
+              <height>100</height>
+              <colordiffuse>mainblue</colordiffuse>
+              <texture border="5">MenuItemNF.png</texture>
+            </control>
+            <control type="image">
+              <left>100</left>
+              <top>0</top>
+              <width>250</width>
+              <height>40</height>
+              <colordiffuse>AAFFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+              <visible>!Control.HasFocus(12)</visible>
+            </control>
+            <control type="image">
+              <left>960</left>
+              <top>0</top>
+              <width>140</width>
+              <height>40</height>
+              <colordiffuse>AAFFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+              <visible>!Control.HasFocus(12)</visible>
+            </control>
+            <control type="image">
+              <left>100</left>
+              <top>0</top>
+              <width>250</width>
+              <height>40</height>
+              <colordiffuse>88FFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+              <visible>Control.HasFocus(12)</visible>
+            </control>
+            <control type="image">
+              <left>960</left>
+              <top>0</top>
+              <width>140</width>
+              <height>40</height>
+              <colordiffuse>88FFFFFF</colordiffuse>
+              <texture border="5">StackFO.png</texture>
+              <visible>Control.HasFocus(12)</visible>
+            </control>
+            <control type="label">
+              <left>0</left>
+              <top>0</top>
+              <width>100</width>
+              <height>40</height>
+              <font>Font_Neon_18</font>
+              <align>center</align>
+              <aligny>center</aligny>
+              <textcolor>white</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.StartTime</info>
+            </control>
+            <control type="image">
+              <left>110</left>
+              <top>5</top>
+              <width>30</width>
+              <height>30</height>
+              <info>ListItem.Icon</info>
+            </control>
+            <control type="label">
+              <left>150</left>
+              <top>0</top>
+              <width>190</width>
+              <height>35</height>
+              <font>Font_Neon_18</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>white</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.ChannelName</info>
+            </control>
+            <control type="label">
+              <left>360</left>
+              <top>0</top>
+              <width>590</width>
+              <height>35</height>
+              <font>Font_Neon_20</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>white</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <info>ListItem.Label</info>
+            </control>
+            <control type="textbox">
+              <description>Plot Value for TVShow</description>
+              <left>50</left>
+              <top>40</top>
+              <width>1000</width>
+              <height>60</height>
+              <font>Font_Neon_18</font>
+              <align>justify</align>
+              <textcolor>grey2</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <pagecontrol>-</pagecontrol>
+              <label>$INFO[ListItem.Plot]</label>
+            </control>
+            <control type="image">
+              <left>970</left>
+              <top>10</top>
+              <width>30</width>
+              <height>20</height>
+              <texture>PVR-IsRecording.png</texture>
+              <visible>ListItem.IsRecording</visible>
+            </control>
+            <control type="label">
+              <left>1005</left>
+              <top>0</top>
+              <width>80</width>
+              <height>40</height>
+              <font>font10</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <label>19043</label>
+              <visible>ListItem.IsRecording</visible>
+            </control>
+            <control type="image">
+              <left>970</left>
+              <top>10</top>
+              <width>20</width>
+              <height>20</height>
+              <texture>PVR-HasTimer.png</texture>
+              <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
+            </control>
+            <control type="label">
+              <left>1000</left>
+              <top>0</top>
+              <width>80</width>
+              <height>40</height>
+              <font>font10</font>
+              <align>left</align>
+              <aligny>center</aligny>
+              <textcolor>grey2</textcolor>
+              <selectedcolor>selected</selectedcolor>
+              <label>31510</label>
+              <visible>ListItem.HasTimer</visible>
+            </control>
+          </focusedlayout>
+        </control>
+        <control type="scrollbar" id="76">
+          <left>1105</left>
+          <top>60</top>
+          <width>25</width>
+          <height>500</height>
+          <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+          <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+          <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+          <textureslidernib>ScrollBarNib.png</textureslidernib>
+          <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+          <onleft>12</onleft>
+          <onright>12</onright>
+          <showonepage>false</showonepage>
+          <orientation>vertical</orientation>
+        </control>
+      </control>
+      <control type="label">
+        <animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
+        <description>Page Count Label</description>
+        <right>40</right>
+        <top>53r</top>
+        <width>500</width>
+        <height>20</height>
+        <font>Font_Neon_18</font>
+        <textcolor>grey</textcolor>
+        <scroll>false</scroll>
+        <align>right</align>
+        <aligny>center</aligny>
+        <label>([COLOR=mainblue]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=mainblue]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
       </control>
     </control>
   </include>
