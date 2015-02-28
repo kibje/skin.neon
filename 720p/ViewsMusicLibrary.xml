@@ -240,7 +240,7 @@
           <top>610</top>
           <width>150</width>
           <height>30</height>
-          <texture>CenterRating/$INFO[ListItem.StarRating]</texture>
+          <texture>LeftRating/$INFO[ListItem.StarRating]</texture>
         </control>
         <control type="image">
           <left>440</left>

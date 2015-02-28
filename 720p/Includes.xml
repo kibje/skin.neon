@@ -44,7 +44,6 @@
   <include file="ViewsVideoLibrary.xml" />
   <include file="ViewsMusicLibrary.xml" />
   <include file="Includes_TVGuide.xml" />
-  <include file="ViewsLiveTV.xml" />
   <include file="ViewsPVR.xml" />
   <include file="IncludesBackgroundBuilding.xml" />
   <include file="weather\10DayForecast.xml"/>

@@ -3,6 +3,7 @@
 <window>
   <defaultcontrol>50</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
+  <views>50,53,503,54,58,56,52</views>
   <controls>
     <control type="image" id="5019">
       <include>Dimensions_Fullscreen</include>
@@ -31,8 +32,9 @@
       <visible>IsEmpty(ListItem.Property(Fanart_Image))</visible>
     </control>
     <include>CommonMediaPlayingBackground</include>
-    <include>Viewtype_List</include> <!-- 50 -->
-    <include>Viewtype_Files</include> <!-- 55  -->
+    <include>Viewtype_Files</include> <!-- 50  -->
+    <include>Viewtype_List</include> <!-- 53 -->
+    <include>MediaListView3</include> <!--  view id 503  -->
     <include>Viewtype_JukeBox</include> <!-- 54 -->
     <include>Viewtype_MusicShowcase</include> <!-- 58 -->
     <include>Viewtype_3daddon</include> <!-- 56 -->

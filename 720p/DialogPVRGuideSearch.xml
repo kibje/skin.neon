@@ -15,38 +15,50 @@
       <width>865</width>
       <height>605</height>
       <colordiffuse>mainblue</colordiffuse>
-      <texture border="40">DialogBack.png</texture>
+      <texture border="20">DialogBackwht.png</texture>
     </control>
     <control type="image">
-      <left>80</left>
+      <description>background image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>865</width>
+      <height>605</height>
+      <colordiffuse>mainblue</colordiffuse>
+      <texture border="20">DialogBack.png</texture>
+    </control>
+    <control type="image">
+      <description>Dialog Header image</description>
+      <left>40</left>
       <top>10</top>
-      <width>700</width>
+      <width>785</width>
       <height>90</height>
-      <aspectratio>stretch</aspectratio>
+      <colordiffuse>mainblue</colordiffuse>
       <texture>GlassTitleBar.png</texture>
     </control>
     <control type="label">
       <description>header label</description>
-      <left>80</left>
-      <top>18</top>
-      <width>700</width>
+      <left>40</left>
+      <top>15</top>
+      <width>785</width>
       <height>30</height>
-      <font>font13_title</font>
+      <font>Font_Bartowski_Episode_ContextMenu</font>
       <label>$LOCALIZE[19142]</label>
       <align>center</align>
       <aligny>center</aligny>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
+      <visible>!pvr.IsPlayingRadio</visible>
     </control>
     <control type="button">
       <description>Close Window button</description>
-      <left>770</left>
+      <left>775</left>
       <top>9</top>
       <width>64</width>
       <height>32</height>
       <label>-</label>
       <font>-</font>
       <onclick>PreviousMenu</onclick>
+      <colordiffuse>mainblue</colordiffuse>
       <texturefocus>DialogCloseButton-focus.png</texturefocus>
       <texturenofocus>DialogCloseButton.png</texturenofocus>
       <onleft>3</onleft>
@@ -84,6 +96,7 @@
       <height>40</height>
       <font>font13</font>
       <textcolor>white</textcolor>
+      <focusedcolor>white</focusedcolor>
       <shadowcolor>black</shadowcolor>
       <texturefocus>-</texturefocus>
       <texturenofocus>-</texturenofocus>
@@ -100,8 +113,8 @@
       <width>800</width>
       <height>70</height>
       <align>left</align>
-      <font>font12</font>
-      <textcolor>grey2</textcolor>
+      <font>Font_Bartowski_Press_S</font>
+      <textcolor>white</textcolor>
       <label>$LOCALIZE[19001] $LOCALIZE[19002]</label>
     </control>
     <control type="group">
@@ -113,13 +126,14 @@
         <top>0</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <align>left</align>
         <aligny>center</aligny>
         <label>19134</label>
@@ -134,13 +148,14 @@
         <top>35</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <align>left</align>
         <aligny>center</aligny>
         <label>19135</label>
@@ -155,10 +170,10 @@
         <top>70</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -174,10 +189,10 @@
         <top>105</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -193,10 +208,14 @@
         <top>140</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <spinposx>-17</spinposx>
         <label>515</label>
         <onright>19</onright>
         <onleft>19</onleft>
@@ -209,15 +228,16 @@
         <top>175</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
-        <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
+        <font>Font_Bartowski_Press_S</font>
         <align>left</align>
         <aligny>center</aligny>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <pulseonselect>no</pulseonselect>
         <label>19132</label>
         <onleft>21</onleft>
@@ -231,15 +251,16 @@
         <top>210</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
-        <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
+        <font>Font_Bartowski_Press_S</font>
         <align>left</align>
         <aligny>center</aligny>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <pulseonselect>no</pulseonselect>
         <label>19123</label>
         <onleft>23</onleft>
@@ -253,15 +274,16 @@
         <top>245</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
-        <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
+        <font>Font_Bartowski_Press_S</font>
         <align>left</align>
         <aligny>center</aligny>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <pulseonselect>no</pulseonselect>
         <label>19124</label>
         <onleft>27</onleft>
@@ -279,10 +301,14 @@
         <top>0</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <spinposx>-17</spinposx>
         <label>19130</label>
         <onright>10</onright>
         <onleft>10</onleft>
@@ -295,10 +321,14 @@
         <top>35</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <spinposx>-17</spinposx>
         <label>19131</label>
         <onright>11</onright>
         <onleft>11</onleft>
@@ -311,10 +341,10 @@
         <top>70</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -330,10 +360,10 @@
         <top>105</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -349,15 +379,16 @@
         <top>140</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
-        <textcolor>white</textcolor>
-        <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
+        <font>Font_Bartowski_Press_S</font>
         <align>left</align>
         <aligny>center</aligny>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <pulseonselect>no</pulseonselect>
         <label>19121</label>
         <onright>18</onright>
@@ -371,10 +402,14 @@
         <top>175</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <spinposx>-17</spinposx>
         <label>19141</label>
         <onright>20</onright>
         <onleft>20</onleft>
@@ -387,10 +422,14 @@
         <top>210</top>
         <width>400</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <spinposx>-17</spinposx>
         <label>19148</label>
         <onleft>22</onleft>
         <onright>22</onright>
@@ -403,15 +442,14 @@
         <top>245</top>
         <height>35</height>
         <width>400</width>
-        <font>font12</font>
-        <textcolor>white</textcolor>
+        <font>Font_Bartowski_Press_S</font>
+        <textoffsetx>8</textoffsetx>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white</focusedcolor>
-        <shadowcolor>black</shadowcolor>
-        <align>left</align>
-        <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
         <texturefocus border="5">button-focus.png</texturefocus>
         <texturenofocus border="5">button-nofocus.png</texturenofocus>
+        <radioposx>325</radioposx>
         <pulseonselect>no</pulseonselect>
         <label>19125</label>
         <onleft>24</onleft>
@@ -429,17 +467,12 @@
         <top>0</top>
         <width>200</width>
         <height>40</height>
-        <align>center</align>
-        <aligny>center</aligny>
-        <colordiffuse>mainblue</colordiffuse>
-        <texturenofocus border="5">MenuItemNF.png</texturenofocus>
-        <texturefocus border="5">button-focus.png</texturefocus>
-        <font>font12_title</font>
-        <label>409</label>
+        <label>10035</label>
         <onleft>26</onleft>
         <onright>25</onright>
         <onup>24</onup>
         <ondown>9</ondown>
+        <include>ButtonInfoDialogsCommonValues</include>
       </control>
       <control type="button" id="25">
         <description>Cancel Button</description>
@@ -447,17 +480,12 @@
         <top>0</top>
         <width>200</width>
         <height>40</height>
-        <align>center</align>
-        <aligny>center</aligny>
-        <colordiffuse>mainblue</colordiffuse>
-        <texturenofocus border="5">MenuItemNF.png</texturenofocus>
-        <texturefocus border="5">button-focus.png</texturefocus>
-        <font>font12_title</font>
         <label>222</label>
         <onleft>28</onleft>
         <onright>26</onright>
         <onup>27</onup>
         <ondown>9</ondown>
+        <include>ButtonInfoDialogsCommonValues</include>
       </control>
       <control type="button" id="26">
         <description>Search Button</description>
@@ -465,17 +493,12 @@
         <top>0</top>
         <width>200</width>
         <height>40</height>
-        <align>center</align>
-        <aligny>center</aligny>
-        <colordiffuse>mainblue</colordiffuse>
-        <texturenofocus border="5">MenuItemNF.png</texturenofocus>
-        <texturefocus border="5">button-focus.png</texturefocus>
-        <font>font12_title</font>
         <label>137</label>
         <onleft>25</onleft>
         <onright>28</onright>
         <onup>27</onup>
         <ondown>9</ondown>
+        <include>ButtonInfoDialogsCommonValues</include>
       </control>
     </control>
   </controls>

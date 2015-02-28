@@ -17,6 +17,15 @@
     <texturenofocus>ButtonNF.png</texturenofocus>
     <pulseonselect>false</pulseonselect>
   </default>
+  <default type="textbox">
+    <left>0</left>
+    <top>0</top>
+    <width>410</width>
+    <height>215</height>
+    <align>left</align>
+    <textcolor>white</textcolor>
+    <font>Font_Settings</font>
+  </default>
   <default type="label">
     <label>-</label>
     <font>Font_Settings</font>
@@ -28,6 +37,8 @@
   </default>
   <default type="edit">
     <label>-</label>
+    <align>left</align>
+    <aligny>center</aligny>
     <font>Font_Settings</font>
     <textcolor>Text</textcolor>
     <focusedcolor>TextFocused</focusedcolor>
@@ -56,9 +67,9 @@
     <selectedcolor>TextFocused</selectedcolor>
     <disabledcolor>TextDisabled</disabledcolor>
     <!--<texturenofocus>arrowupnf.png</texturenofocus>
-		<texturefocus>arrowupfo.png</texturefocus>
-		<alttexturenofocus>arrowdownnf.png</alttexturenofocus>
-		<alttexturefocus>arrowdownfo.png</alttexturefocus>-->
+    <texturefocus>arrowupfo.png</texturefocus>
+    <alttexturenofocus>arrowdownnf.png</alttexturenofocus>
+    <alttexturefocus>arrowdownfo.png</alttexturefocus>-->
     <!--<colordiffuse>ButtonFilterColor</colordiffuse>-->
     <pulseonselect>false</pulseonselect>
   </default>

@@ -6,7 +6,7 @@
     <system>1</system>
     <left>0</left>
     <top>0</top>
-    <origin x="460" y="160" />
+    <origin x="460" y="60" />
   </coordinates>
   <controls>
     <control type="grouplist">
