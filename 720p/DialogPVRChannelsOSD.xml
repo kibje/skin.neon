@@ -27,6 +27,7 @@
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>2</onleft>
@@ -41,6 +42,7 @@
         <width>430</width>
         <height>90</height>
         <aspectratio>stretch</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
         <texture>GlassTitleBar.png</texture>
       </control>
       <control type="label">
