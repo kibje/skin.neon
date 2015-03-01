@@ -953,53 +953,8 @@
           <top>60</top>
           <height>530</height>
           <visible>Container(9000).Hasfocus(3)</visible>
-          <control type="label">
-            <left>0</left>
-            <top>0</top>
-            <width>680</width>
-            <height>45</height>
-            <font>Font_KeyboardKeys</font>
-            <label>31109</label>
-            <textcolor>mainblue</textcolor>
-            <shadowcolor>black</shadowcolor>
-            <align>left</align>
-            <aligny>center</aligny>
-          </control>
-          <control type="button" id="304">
-            <description>Menu Item Next Button</description>
-            <left>670</left>
-            <top>53</top>
-            <width>33</width>
-            <height>22</height>
-            <label>-</label>
-            <font>-</font>
-            <texturenofocus>scroll_down.png</texturenofocus>
-            <texturefocus>scroll_down.png</texturefocus>
-            <onclick>Control.Move(9003,1)</onclick>
-            <onleft>9000</onleft>
-            <onright>305</onright>
-            <onup>300</onup>
-            <ondown>300</ondown>
-          </control>
-          <control type="button" id="305">
-            <description>Menu Item Prev Button</description>
-            <left>703</left>
-            <top>53</top>
-            <width>33</width>
-            <height>22</height>
-            <label>-</label>
-            <font>-</font>
-            <texturenofocus>scroll_up.png</texturenofocus>
-            <texturefocus>scroll_up.png</texturefocus>
-            <onclick>Control.Move(9003,-1)</onclick>
-            <onleft>304</onleft>
-            <onright>9000</onright>
-            <onup>300</onup>
-            <ondown>300</ondown>
-          </control>
           <control type="list" id="9003">
-            <hitrect x="0" y="0" w="0" h="0" />
-            <left>0</left>
+            <left>-39</left>
             <top>45</top>
             <width>860</width>
             <height>40</height>
@@ -1014,7 +969,7 @@
               <control type="image">
                 <left>0</left>
                 <top>0</top>
-                <width>740</width>
+                <width>798</width>
                 <height>40</height>
                 <texture>MenuItemNF.png</texture>
                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
@@ -1022,8 +977,8 @@
               <control type="image">
                 <left>0</left>
                 <top>0</top>
-                <width>740</width>
-                <height>40</height>
+                <width>798</width>
+                <height>42</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>mainmenu/home_bottom_white.png</texture>
                 <visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
@@ -1053,7 +1008,7 @@
                 <visible>[Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <left>650</left>
+                <left>0</left>
                 <top>0</top>
                 <width>640</width>
                 <height>40</height>
@@ -1065,7 +1020,7 @@
                 <visible>![Control.HasFocus(304) | Control.HasFocus(305)]</visible>
               </control>
               <control type="label">
-                <left>650</left>
+                <left>0</left>
                 <top>0</top>
                 <width>640</width>
                 <height>40</height>
@@ -1233,6 +1188,38 @@
               </item>
             </content>
           </control>
+          <control type="button" id="304">
+            <description>Menu Item Next Button</description>
+            <left>670</left>
+            <top>53</top>
+            <width>33</width>
+            <height>22</height>
+            <label>-</label>
+            <font>-</font>
+            <texturenofocus>scroll_down.png</texturenofocus>
+            <texturefocus colordiffuse="mainblue">scroll_down.png</texturefocus>
+            <onclick>Control.Move(9003,1)</onclick>
+            <onleft>9000</onleft>
+            <onright>305</onright>
+            <onup>300</onup>
+            <ondown>300</ondown>
+          </control>
+          <control type="button" id="305">
+            <description>Menu Item Prev Button</description>
+            <left>703</left>
+            <top>53</top>
+            <width>33</width>
+            <height>22</height>
+            <label>-</label>
+            <font>-</font>
+            <texturenofocus>scroll_up.png</texturenofocus>
+            <texturefocus colordiffuse="mainblue">scroll_up.png</texturefocus>
+            <onclick>Control.Move(9003,-1)</onclick>
+            <onleft>304</onleft>
+            <onright>9000</onright>
+            <onup>300</onup>
+            <ondown>300</ondown>
+          </control>
           <control type="image">
             <left>85</left>
             <top>100</top>
@@ -1253,12 +1240,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomVideosFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1273,12 +1255,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomVideosFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1293,12 +1270,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomVideosFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1316,12 +1288,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomMusicFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1336,12 +1303,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomMusicFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1356,12 +1318,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomMusicFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1379,12 +1336,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomPicturesFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1399,12 +1351,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomPicturesFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1419,12 +1366,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomPicturesFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1442,12 +1384,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomHDMoviesFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1462,12 +1399,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomHDMoviesFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1482,12 +1414,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomHDMoviesFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1505,12 +1432,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1525,12 +1447,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1545,12 +1462,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Weather_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1568,12 +1480,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomScriptsFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1588,12 +1495,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomScriptsFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1608,12 +1510,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomScriptsFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1631,12 +1528,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomfavouritesFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1651,12 +1543,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomfavouritesFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1671,12 +1558,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomfavouritesFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1694,12 +1576,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomSettingsFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1714,12 +1591,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomSettingsFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1734,12 +1606,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomSettingsFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1757,12 +1624,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1777,12 +1639,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1797,12 +1654,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Shutdown_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1820,12 +1672,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomMoviesFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1840,12 +1687,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomMoviesFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1860,12 +1702,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomMoviesFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1883,12 +1720,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(CustomTVShowsFolder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1903,12 +1735,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(CustomTVShowsFolder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1923,12 +1750,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(CustomTVShowsFolder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -1946,12 +1768,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom1_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -1966,12 +1783,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom1_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -1986,12 +1798,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom1_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2009,12 +1816,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom2_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2029,12 +1831,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom2_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2049,12 +1846,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom2_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2072,12 +1864,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom3_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2092,12 +1879,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom3_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2112,12 +1894,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom3_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2135,12 +1912,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom4_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2155,12 +1927,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom4_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2175,12 +1942,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom4_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2198,12 +1960,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom5_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2218,12 +1975,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom5_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2238,12 +1990,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom5_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2261,12 +2008,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom6_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2281,12 +2023,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom6_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2301,12 +2038,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom6_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2324,12 +2056,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom7_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2344,12 +2071,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom7_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2364,12 +2086,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom7_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2387,12 +2104,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom8_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2407,12 +2119,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom8_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2427,12 +2134,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom8_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2450,12 +2152,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom9_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2470,12 +2167,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom9_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2490,12 +2182,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom9_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2513,12 +2200,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Menu_Custom10_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2533,12 +2215,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Menu_Custom10_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2553,12 +2230,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Menu_Custom10_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2576,12 +2248,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2596,12 +2263,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2616,12 +2278,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_TV_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
@@ -2639,12 +2296,7 @@
                 <height>40</height>
                 <label>31113</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetImage(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>302</onleft>
                 <onright>301</onright>
@@ -2659,12 +2311,7 @@
                 <height>40</height>
                 <label>31114</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.SetPath(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>300</onleft>
                 <onright>302</onright>
@@ -2679,12 +2326,7 @@
                 <height>40</height>
                 <label>571</label>
                 <font>font12caps_title</font>
-                <textcolor>grey2</textcolor>
-                <focusedcolor>white</focusedcolor>
-                <align>center</align>
-                <colordiffuse>mainblue</colordiffuse>
-                <texturenofocus>button-nofocus.png</texturenofocus>
-                <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+                <include>ButtonInfoDialogsCommonValues</include>
                 <onclick>Skin.Reset(Home_Custom_Back_Radio_Folder)</onclick>
                 <onleft>301</onleft>
                 <onright>300</onright>
