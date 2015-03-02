@@ -27,6 +27,7 @@
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+        <colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>2</onleft>
@@ -41,6 +42,7 @@
         <width>430</width>
         <height>90</height>
         <aspectratio>stretch</aspectratio>
+        <colordiffuse>mainblue</colordiffuse>
         <texture>GlassTitleBar.png</texture>
       </control>
       <control type="label">
@@ -239,7 +241,7 @@
         <height>541</height>
         <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
         <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
-        <texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+        <texturesliderbarfocus border="0,14,0,14" colordiffuse="mainblue">ScrollBarV_bar_focus.png</texturesliderbarfocus>
         <textureslidernib>ScrollBarNib.png</textureslidernib>
         <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
         <onleft>11</onleft>

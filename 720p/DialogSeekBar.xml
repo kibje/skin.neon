@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Alaska-->
 <window>
-  <visible>Window.IsActive(VideoOSD) | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding</visible>
+  <visible>[Window.IsActive(VideoOSD) | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding] + ![Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide)]</visible>
   <controls>
     <include>Time</include>
     <include>Finish_Time</include>
