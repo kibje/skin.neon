@@ -227,14 +227,14 @@
             <top>-40</top>
             <width>1000</width>
             <height>562</height>
-            <texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+            <texture background="true">$INFO[ListItem.Art(fanart)]</texture>
             <bordertexture border="5">button-nofocus.png</bordertexture>
             <bordersize>4</bordersize>
             <aspectratio>keep</aspectratio>
-            <visible>!IsEmpty(Listitem.Property(Fanart_Image))</visible>
+            <visible>!IsEmpty(ListItem.Art(fanart))</visible>
           </control>
           <control type="group">
-            <visible>IsEmpty(Listitem.Property(Fanart_Image))</visible>
+            <visible>IsEmpty(ListItem.Art(fanart))</visible>
             <control type="label">
               <left>0</left>
               <top>0</top>
@@ -355,7 +355,7 @@
             <include>AudioChannelsFlaggingConditions</include>
           </control>
           <control type="list" id="49">
-            <left>-310</left>
+            <left>-250</left>
             <top>60</top>
             <width>900</width>
             <height>330</height>
@@ -370,7 +370,7 @@
             <animation effect="fade" start="100" end="0" time="400" delay="200">WindowClose</animation>
             <itemlayout height="30">
               <control type="label">
-                <left>170</left>
+                <left>5</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -382,7 +382,7 @@
                 <info>ListItem.Label</info>
               </control>
               <control type="label">
-                <left>180</left>
+                <left>175</left>
                 <top>2</top>
                 <width>640</width>
                 <height>30</height>
@@ -408,7 +408,7 @@
                 <include>VisibleFadeEffect</include>
               </control>
               <control type="label">
-                <left>170</left>
+                <left>5</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -420,7 +420,7 @@
                 <info>ListItem.Label</info>
               </control>
               <control type="label">
-                <left>180</left>
+                <left>175</left>
                 <top>2</top>
                 <width>540</width>
                 <height>30</height>
@@ -521,7 +521,7 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="30">
               <control type="label">
-                <left>305</left>
+                <left>150</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -557,7 +557,7 @@
                 <include>VisibleFadeEffect</include>
               </control>
               <control type="label">
-                <left>305</left>
+                <left>150</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -620,19 +620,6 @@
               </item>
             </content>
           </control>
-          <!-- TV Poster -->
-          <!--	<control type="image">
-						<left>430</left>
-						<top>0</top>
-						<width>490</width>
-						<height>360</height>
-						<aspectratio align="center" aligny="center">keep</aspectratio>
-						<texture background="true">$INFO[ListItem.Icon]</texture>
-						<bordertexture border="8">common/thumb_border.png</bordertexture>
-						<bordersize>8</bordersize>
-						<visible>!Container.Content(Genres)</visible>
-						<visible>!Container.Content(movies)</visible>
-					</control> -->
           <control type="image" id="7019">
             <left>20</left>
             <top>0</top>
@@ -642,22 +629,13 @@
             <fadetime>100</fadetime>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
-          <!--<control type="image">
-						<left>450</left>
-						<top>20</top>
-						<width>600</width>
-						<height>339</height>
-						<align>center</align>
-						<texture background="true">$INFO[ListItem.FilenameAndPath]landscape.jpg</texture>
-						<fadetime>100</fadetime>
-					</control> -->
           <control type="image">
             <left>450</left>
             <top>10</top>
             <width>650</width>
             <height>339</height>
             <align>center</align>
-            <texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+            <texture background="true">$INFO[ListItem.Art(fanart)]</texture>
             <fadetime>100</fadetime>
             <visible>!Container.Content(movies) + !Container.Content(Genres) + Control.IsVisible(50) | !Control.IsVisible(50) </visible>
           </control>
@@ -668,15 +646,6 @@
             <texture background="true">$INFO[ListItem.Art(banner)]</texture>
             <fadetime>100</fadetime>
           </control>
-          <!-- <control type="image">
-						<left>130</left>
-						<top>450</top>
-						<width>759</width>
-						<height>140</height>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<texture>black-back.png</texture>
-						<fadetime>100</fadetime>
-					</control> -->
           <control type="image">
             <left>1070</left>
             <top>620</top>
@@ -759,7 +728,7 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="30">
               <control type="label">
-                <left>170</left>
+                <left>10</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -785,7 +754,7 @@
             </itemlayout>
             <focusedlayout height="30">
               <control type="label">
-                <left>170</left>
+                <left>10</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -944,7 +913,7 @@
             <scrolltime>200</scrolltime>
             <itemlayout height="30">
               <control type="label">
-                <left>170</left>
+                <left>10</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
@@ -980,7 +949,7 @@
                 <include>VisibleFadeEffect</include>
               </control>
               <control type="label">
-                <left>170</left>
+                <left>10</left>
                 <top>0</top>
                 <width>160</width>
                 <height>30</height>
