@@ -54,7 +54,7 @@
         <width>760</width>
         <height>30</height>
         <font>Font_Neon_24</font>
-        <label>$LOCALIZE[21432]</label>
+        <label>-</label>
         <align>center</align>
         <aligny>center</aligny>
         <textcolor>white</textcolor>
