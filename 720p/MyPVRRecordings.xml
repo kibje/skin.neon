@@ -401,6 +401,13 @@
           <label>19270</label>
           <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
         </control>
+        <control type="radiobutton" id="7">
+          <description>Show deleted recordings</description>
+          <textwidth>235</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>19184</label>
+          <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
+        </control>
         <control type="button" id="2">
           <description>View As button</description>
           <left>0</left>
