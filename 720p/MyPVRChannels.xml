@@ -443,7 +443,7 @@
           <width>250</width>
           <height>35</height>
           <font>font12caps</font>
-          <label>$LOCALIZE[31513]</label>
+          <label>$LOCALIZE[31028]</label>
           <textcolor>mainblue</textcolor>
           <align>center</align>
           <aligny>center</aligny>
@@ -531,15 +531,6 @@
           <include>WindowMenuButton_Vertical</include>
           <label>-</label>
         </control>
-        <control type="radiobutton" id="5">
-          <description>Group recording items by folder structure</description>
-          <left>0</left>
-          <right>40</right>
-          <textwidth>235</textwidth>
-          <include>WindowMenuButton_Vertical</include>
-          <label>19270</label>
-          <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
-        </control>
         <control type="button" id="2">
           <description>View As button</description>
           <left>0</left>
@@ -562,6 +553,54 @@
           <label>31512</label>
           <altlabel>31511</altlabel>
           <usealttexture>Container.SortDirection(Ascending)</usealttexture>
+        </control>
+        <control type="radiobutton" id="31">
+          <description>Filter</description>
+          <left>0</left>
+          <right>40</right>
+          <textwidth>235</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>587</label>
+          <selected>Container.Filtered</selected>
+          <onclick>right</onclick>
+          <visible>Window.IsActive(TVChannels) | Window.IsActive(RadioChannels)</visible>
+        </control>
+        <!-- Misc Options (ID is completely arbitrary) -->
+        <control type="label" id="205">
+          <width>250</width>
+          <height>35</height>
+          <font>font12caps</font>
+          <label>31026</label>
+          <textcolor>mainblue</textcolor>
+          <align>center</align>
+          <aligny>center</aligny>
+          <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
+        </control>
+		<control type="image" id="235">
+          <description>separator</description>
+          <width>240</width>
+          <aspectratio>keep</aspectratio>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>separator2.png</texture>
+          <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
+        </control>
+		<control type="radiobutton" id="5">
+          <description>Group recording items by folder structure</description>
+          <left>0</left>
+          <right>40</right>
+          <textwidth>235</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>19270</label>
+          <visible>Window.IsActive(TVRecordings) | Window.IsActive(RadioRecordings)</visible>
+        </control>
+        <control type="radiobutton" id="6">
+          <description>Show hidden channels</description>
+          <left>0</left>
+          <right>40</right>
+          <textwidth>235</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>19051</label>
+          <visible>Window.IsActive(TVChannels) | Window.IsActive(RadioChannels)</visible>
         </control>
         <include>CommonNowPlaying_Controls</include>
       </control>
