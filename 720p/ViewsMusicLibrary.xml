@@ -889,9 +889,9 @@
           <control type="textbox">
             <description>Description Value for Artist</description>
             <left>0</left>
-            <top>290</top>
+            <top>292</top>
             <width>600</width>
-            <height>120</height>
+            <height>118</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -1155,9 +1155,9 @@
         <control type="textbox">
           <description>Description Value for Album</description>
           <left>460</left>
-          <top>490</top>
+          <top>492</top>
           <width>750</width>
-          <height>165</height>
+          <height>163</height>
           <font>Font_Neon_20</font>
           <align>justify</align>
           <pagecontrol>51361</pagecontrol>

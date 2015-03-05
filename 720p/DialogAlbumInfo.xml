@@ -487,7 +487,18 @@
 					<visible>!Control.IsVisible(50)</visible>
 				</control>-->
         <control type="textbox" id="4">DialogBack
-					<description>Description</description><left>200</left><top>450</top><width>830</width><height>120</height><font>Font_Bartowski_Showcase_plot</font><align>justify</align><textcolor>white</textcolor><pagecontrol>61</pagecontrol><autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll><visible>!Control.IsVisible(50)</visible></control>
+					<description>Description</description>
+          <left>200</left>
+          <top>452</top>
+          <width>830</width>
+          <height>118</height>
+          <font>Font_Bartowski_Showcase_plot</font>
+          <align>justify</align>
+          <textcolor>white</textcolor>
+          <pagecontrol>61</pagecontrol>
+          <autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+          <visible>!Control.IsVisible(50)</visible>
+        </control>
         <control type="image">
           <description>Actor image</description>
           <left>80</left>

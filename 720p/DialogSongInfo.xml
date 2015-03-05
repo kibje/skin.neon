@@ -231,9 +231,9 @@
         <control type="textbox">
           <description>Comment value</description>
           <left>540</left>
-          <top>350</top>
+          <top>352</top>
           <width>460</width>
-          <height>100</height>
+          <height>98</height>
           <font>Font_Neon_20</font>
           <textcolor>white</textcolor>
           <pagecontrol>-</pagecontrol>

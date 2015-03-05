@@ -317,9 +317,9 @@
         <!-- Plot and TV -->
         <visible>!Container.Content(seasons)</visible>
         <left>530</left>
-        <top>170</top>
+        <top>172</top>
         <width>590</width>
-        <height>280</height>
+        <height>278</height>
         <align>left</align>
         <info>ListItem.Plot</info>
         <font>Font_Bartowski_Movies</font>
@@ -330,9 +330,9 @@
         <!-- Plot and TV -->
         <visible>Container.Content(seasons)</visible>
         <left>530</left>
-        <top>170</top>
+        <top>172</top>
         <width>590</width>
-        <height>280</height>
+        <height>278</height>
         <align>left</align>
         <info>Container(52).ShowPlot</info>
         <font>Font_Bartowski_Movies</font>

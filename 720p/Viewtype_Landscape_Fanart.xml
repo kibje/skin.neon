@@ -304,9 +304,9 @@
       </control>
       <control type="textbox">
         <left>460</left>
-        <top>424</top>
+        <top>426</top>
         <width>386</width>
-        <height>188</height>
+        <height>186</height>
         <font>Font_KeyboardKeys_Plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
@@ -328,9 +328,9 @@
       </control>
       <control type="textbox">
         <left>460</left>
-        <top>424</top>
+        <top>426</top>
         <width>386</width>
-        <height>188</height>
+        <height>186</height>
         <font>Font_KeyboardKeys_Plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>

@@ -91,9 +91,9 @@
         <control type="textbox">
           <visible>Skin.HasSetting(extrathumbs)</visible>
           <left>45</left>
-          <top>150</top>
+          <top>152</top>
           <width>300</width>
-          <height>195</height>
+          <height>193</height>
           <animation effect="rotatey" center="0" start="50" end="-45" time="0" condition="true">Conditional</animation>
           <font>Font_Neon_20</font>
           <textcolor>FFFFFFFF</textcolor>
@@ -209,9 +209,9 @@
             </control>
             <control type="textbox">
               <left>0</left>
-              <top>17</top>
+              <top>19</top>
               <width>88</width>
-              <height>126</height>
+              <height>124</height>
               <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
               <font>Font_Neon_19</font>
               <textcolor>FFFFFFFF</textcolor>
@@ -291,9 +291,9 @@
         <control type="textbox">
           <visible>!Skin.HasSetting(extrathumbs)</visible>
           <left>0</left>
-          <top>0</top>
+          <top>2</top>
           <width>630</width>
-          <height>340</height>
+          <height>338</height>
           <label>$INFO[ListItem.Plot]</label>
           <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
           <font>Font_Neon_20</font>
@@ -304,9 +304,9 @@
         <control type="textbox">
           <visible>!Skin.HasSetting(extrathumbs) + IsEmpty(ListItem.Plot)</visible>
           <left>0</left>
-          <top>0</top>
+          <top>2</top>
           <width>640</width>
-          <height>340</height>
+          <height>338</height>
           <label>$INFO[ListItem.PlotOutline]</label>
           <autoscroll delay="35000" time="2000" repeat="20000">Skin.HasSetting(autoscroll)</autoscroll>
           <font>Font_Neon_20</font>

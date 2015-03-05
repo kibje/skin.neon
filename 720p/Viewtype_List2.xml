@@ -286,9 +286,9 @@
         <control type="textbox">
           <description>Description Value for TVShows</description>
           <left>0</left>
-          <top>250</top>
+          <top>252</top>
           <width>600</width>
-          <height>160</height>
+          <height>158</height>
           <font>Font_Neon_18</font>
           <align>justify</align>
           <textcolor>white</textcolor>
@@ -527,9 +527,9 @@
         <control type="textbox">
           <description>Description Value for TVShows</description>
           <left>0</left>
-          <top>280</top>
+          <top>282</top>
           <width>600</width>
-          <height>140</height>
+          <height>138</height>
           <font>Font_Neon_18</font>
           <align>justify</align>
           <textcolor>white</textcolor>
@@ -593,9 +593,9 @@
         <control type="textbox">
           <description>Description Value for Movie</description>
           <left>320</left>
-          <top>80</top>
+          <top>82</top>
           <width>270</width>
-          <height>370</height>
+          <height>368</height>
           <font>Font_Neon_18</font>
           <align>justify</align>
           <textcolor>white</textcolor>
@@ -633,9 +633,9 @@
         <control type="textbox">
           <description>Description Value for Movie</description>
           <left>320</left>
-          <top>80</top>
+          <top>82</top>
           <width>270</width>
-          <height>370</height>
+          <height>368</height>
           <font>Font_Neon_18</font>
           <align>justify</align>
           <textcolor>white</textcolor>

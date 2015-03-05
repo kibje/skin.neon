@@ -71,9 +71,9 @@
 					</control>
 					<control type="textbox">
 						<left>0</left>
-						<top>80</top>
+						<top>82</top>
 						<width>590</width>
-						<height>50</height>
+						<height>48</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -135,9 +135,9 @@
 					</control>
 					<control type="textbox">
 						<left>0</left>
-						<top>80</top>
+						<top>82</top>
 						<width>590</width>
-						<height>50</height>
+						<height>48</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>

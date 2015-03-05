@@ -247,9 +247,9 @@
           <control type="textbox">
             <description>description area</description>
             <left>7</left>
-            <top>30</top>
+            <top>32</top>
             <width>736</width>
-            <height>85</height>
+            <height>83</height>
             <font>Font_Neon_20</font>
             <label>$LOCALIZE[31422]</label>
             <align>justify</align>
@@ -260,9 +260,9 @@
           <control type="textbox">
             <description>description area</description>
             <left>7</left>
-            <top>30</top>
+            <top>32</top>
             <width>736</width>
-            <height>85</height>
+            <height>83</height>
             <font>Font_Neon_20</font>
             <label>$LOCALIZE[31423]</label>
             <align>justify</align>

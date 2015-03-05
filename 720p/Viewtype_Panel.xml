@@ -396,9 +396,9 @@
         <control type="textbox">
           <visible>[Container.Content(movies) | Container.Content(tvshows)] + ![Player.HasAudio + !SubString(Window(videolibrary).Property(tvtunesIsAlive),True)]</visible>
           <left>15</left>
-          <top>390</top>
+          <top>392</top>
           <width>540</width>
-          <height>276</height>
+          <height>274</height>
           <font>Font_Neon_18</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Plot]</label>
@@ -409,9 +409,9 @@
         <control type="textbox">
           <visible>[Container.Content(movies) | Container.Content(tvshows)] + [Player.HasAudio + !SubString(Window(videolibrary).Property(tvtunesIsAlive),True)]</visible>
           <left>15</left>
-          <top>390</top>
+          <top>392</top>
           <width>540</width>
-          <height>170</height>
+          <height>168</height>
           <font>Font_Neon_18</font>
           <textcolor>white</textcolor>
           <label>$INFO[ListItem.Plot]</label>

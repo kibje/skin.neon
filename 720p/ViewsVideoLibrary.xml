@@ -754,9 +754,9 @@
         <control type="textbox">
           <description>Description Value The Movie</description>
           <left>0</left>
-          <top>30</top>
+          <top>32</top>
           <width>850</width>
-          <height>120</height>
+          <height>118</height>
           <font>Font_Neon_16</font>
           <align>justify</align>
           <textcolor>white</textcolor>
@@ -1066,9 +1066,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>250</top>
+            <top>252</top>
             <width>600</width>
-            <height>160</height>
+            <height>158</height>
             <font>Font_Neon_16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -1161,9 +1161,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>275</top>
+            <top>277</top>
             <width>600</width>
-            <height>290</height>
+            <height>288</height>
             <font>Font_Neon_16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -1232,9 +1232,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>275</top>
+            <top>277</top>
             <width>600</width>
-            <height>100</height>
+            <height>98</height>
             <font>Font_Neon_16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -1374,9 +1374,9 @@
           <control type="textbox">
             <description>Description Value for Movie</description>
             <left>0</left>
-            <top>290</top>
+            <top>292</top>
             <width>600</width>
-            <height>120</height>
+            <height>118</height>
             <font>Font_Neon_16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -1645,9 +1645,9 @@
           <control type="textbox">
             <description>Description Value for Episodes</description>
             <left>0</left>
-            <top>290</top>
+            <top>292</top>
             <width>600</width>
-            <height>120</height>
+            <height>118</height>
             <font>Font_Neon_16</font>
             <align>justify</align>
             <textcolor>white</textcolor>
