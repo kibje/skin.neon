@@ -430,9 +430,9 @@
       <control type="textbox">
         <visible>![Container.OnNext | Container.OnPrevious] + !Player.HasAudio</visible>
         <left>0</left>
-        <top>224</top>
+        <top>226</top>
         <width>460</width>
-        <height>310</height>
+        <height>308</height>
         <align>justify</align>
         <info>ListItem.Plot</info>
         <font>Font_Bartowski_Movies_Plot</font>
@@ -443,9 +443,9 @@
       <control type="textbox">
         <visible>![Container.OnNext | Container.OnPrevious] + Player.HasAudio</visible>
         <left>0</left>
-        <top>224</top>
+        <top>226</top>
         <width>460</width>
-        <height>264</height>
+        <height>262</height>
         <align>justify</align>
         <info>ListItem.Plot</info>
         <font>Font_Bartowski_Movies_Plot</font>

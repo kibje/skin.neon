@@ -427,9 +427,9 @@
             </control>
             <control type="textbox">
               <left>30</left>
-              <top>70</top>
+              <top>72</top>
               <width>400</width>
-              <height>50</height>
+              <height>48</height>
               <font>Font_Neon_28</font>
               <textcolor>white</textcolor>
               <shadowcolor>black</shadowcolor>
@@ -495,9 +495,9 @@
             </control>
             <control type="textbox">
               <left>30</left>
-              <top>70</top>
+              <top>72</top>
               <width>400</width>
-              <height>50</height>
+              <height>48</height>
               <font>Font_Neon_28</font>
               <textcolor>white</textcolor>
               <shadowcolor>black</shadowcolor>

@@ -180,9 +180,9 @@
     <control type="textbox">
       <!-- Plot TV -->
       <left>778</left>
-      <top>70</top>
+      <top>72</top>
       <width>450</width>
-      <height>280</height>
+      <height>278</height>
       <align>justify</align>
       <info>ListItem.Property(Addon.Description)</info>
       <font>Font_Bartowski_Movies</font>

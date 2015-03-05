@@ -19,9 +19,9 @@
   </default>
   <default type="textbox">
     <left>0</left>
-    <top>0</top>
+    <top>2</top>
     <width>410</width>
-    <height>215</height>
+    <height>213</height>
     <align>left</align>
     <textcolor>white</textcolor>
     <font>Font_Settings</font>

@@ -45,12 +45,13 @@
     <control type="textbox" id="9">
 	  <description>text</description>
       <left>390</left>
-      <top>250</top>
+      <top>252</top>
+      <width>500</width>
+      <height>98</height>
       <font>Font_Bartowski_Episode_ContextMenu</font>
       <textcolor>white</textcolor>
-      <width>500</width>
       <align>center</align>
-	  <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+	    <autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
     </control>
     <control type="button" id="10">
       <description>no</description>

@@ -190,9 +190,9 @@
     </control>
     <control type="textbox">
       <left>10</left>
-      <top>166</top>
+      <top>168</top>
       <width>350</width>
-      <height>344</height>
+      <height>342</height>
       <align>justify</align>
       <info>Container(51).ListItem.Plot</info>
       <autoscroll time="3000" delay="5000" repeat="5000">Skin.HasSetting(autoscroll)</autoscroll>
@@ -301,10 +301,10 @@
     <control type="textbox">
       <!-- Uncheck Cleartitle -->
       <left>10</left>
-      <top>35</top>
+      <top>37</top>
       <width>500</width>
       <!--1200 50 -->
-      <height>300</height>
+      <height>298</height>
       <font>Font_Episode_Landscape_TVTitle</font>
       <textcolor>mainblue</textcolor>
       <label>$INFO[ListItem.TVShowtitle]</label>

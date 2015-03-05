@@ -275,9 +275,9 @@
       <control type="textbox">
         <visible>!Skin.HasSetting(ShowcaseFanart)</visible>
         <left>450</left>
-        <top>55</top>
+        <top>57</top>
         <width>540</width>
-        <height>300</height>
+        <height>298</height>
         <font>Font_Bartowski_Showcase_plot</font>
         <textcolor>white</textcolor>
         <label>$INFO[ListItem.Plot]</label>

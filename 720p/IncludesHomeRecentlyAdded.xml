@@ -203,9 +203,9 @@
               </control>
               <control type="textbox">
                 <left>300</left>
-                <top>60</top>
+                <top>62</top>
                 <width>960</width>
-                <height>104</height>
+                <height>102</height>
                 <align>justify</align>
                 <label>$INFO[ListItem.Property(Plot)]</label>
                 <font>Font_Bartowski_Movies_Plot</font>

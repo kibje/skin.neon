@@ -2773,18 +2773,6 @@
               <visible>system.hasaddon(script.artwork.downloader)</visible>
             </control>
           </control>
-          <!--	<control type="textbox" id="521">
-							<left>380</left>
-							<top>560</top>
-							<width>690</width>
-							<height>50</height>
-							<textoffsetx>40</textoffsetx>
-							<align>justify</align>
-							<label>$LOCALIZE[31977]</label>
-							 <font>Font_Neon_20</font>
-							<textcolor>grey2</textcolor>
-							<visible>Container(9000).Hasfocus(5)</visible>
-						</control> -->
         </control>
         <control type="group">
           <!--Music-->

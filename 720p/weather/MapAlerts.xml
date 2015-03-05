@@ -74,9 +74,9 @@
 				<visible>!StringCompare(Window.Property(Alerts.Count),0)</visible>
 				<control type="textbox">
 					<left>40</left>
-					<top>470</top>
+					<top>472</top>
 					<width>570</width>
-					<height>100</height>
+					<height>98</height>
 					<font>Font_Neon_28</font>
 					<textcolor>white</textcolor>
 					<selectedcolor>selected</selectedcolor>

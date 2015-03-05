@@ -166,9 +166,9 @@
           <control type="textbox">
             <description>Plot Value for TVShow</description>
             <left>0</left>
-            <top>50</top>
+            <top>52</top>
             <width>680</width>
-            <height>74</height>
+            <height>72</height>
             <font>Font_Neon_18</font>
             <align>justify</align>
             <textcolor>white</textcolor>

@@ -127,9 +127,9 @@
             <!-- Plot and TV -->
             <description>Episode Plot</description>
             <left>300</left>
-            <top>60</top>
+            <top>62</top>
             <width>960</width>
-            <height>104</height>
+            <height>102</height>
             <align>justify</align>
             <info>ListItem.Plot</info>
             <font>Font_Bartowski_Movies_Plot</font>
@@ -252,9 +252,9 @@
           <control type="textbox">
             <!-- Plot and TV -->
             <left>300</left>
-            <top>60</top>
+            <top>62</top>
             <width>960</width>
-            <height>104</height>
+            <height>102</height>
             <align>justify</align>
             <info>ListItem.Plot</info>
             <font>Font_Bartowski_Movies_Plot</font>

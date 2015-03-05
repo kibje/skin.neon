@@ -323,9 +323,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>255</top>
+            <top>257</top>
             <width>600</width>
-            <height>150</height>
+            <height>148</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -418,9 +418,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>275</top>
+            <top>277</top>
             <width>600</width>
-            <height>290</height>
+            <height>288</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -513,9 +513,9 @@
           <control type="textbox">
             <description>Description Value for TVShows</description>
             <left>0</left>
-            <top>275</top>
+            <top>277</top>
             <width>600</width>
-            <height>100</height>
+            <height>98</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -659,9 +659,9 @@
           <control type="textbox">
             <description>Description Value for Movie</description>
             <left>0</left>
-            <top>270</top>
+            <top>272</top>
             <width>600</width>
-            <height>132</height>
+            <height>130</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>
@@ -927,9 +927,9 @@
           <control type="textbox">
             <description>Description Value for Episodes</description>
             <left>0</left>
-            <top>290</top>
+            <top>292</top>
             <width>600</width>
-            <height>120</height>
+            <height>118</height>
             <font>Font_Neon_20</font>
             <align>justify</align>
             <textcolor>white</textcolor>

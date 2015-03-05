@@ -214,9 +214,9 @@
       </control>
       <control type="textbox">
         <left>0</left>
-        <top>180</top>
+        <top>182</top>
         <width>360</width>
-        <height>310</height>
+        <height>308</height>
         <align>left</align>
         <info>ListItem.Property(Description)</info>
         <font>Font_Bartowski_Movies_Plot</font>

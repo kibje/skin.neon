@@ -336,9 +336,9 @@
         <!--TV Plot-->
         <visible>!Player.HasAudio</visible>
         <left>15</left>
-        <top>450</top>
+        <top>452</top>
         <width>555</width>
-        <height>240</height>
+        <height>238</height>
         <font>Font_Bartowski_Showcase_plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
@@ -350,9 +350,9 @@
         <!--TV Plot-->
         <visible>Player.HasAudio</visible>
         <left>15</left>
-        <top>450</top>
+        <top>452</top>
         <width>555</width>
-        <height>144</height>
+        <height>142</height>
         <font>Font_Bartowski_Showcase_plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
@@ -368,9 +368,9 @@
         <!--TV Plot-->
         <visible>!Player.HasAudio</visible>
         <left>15</left>
-        <top>410</top>
+        <top>412</top>
         <width>555</width>
-        <height>264</height>
+        <height>262</height>
         <font>Font_Bartowski_Showcase_plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>
@@ -382,9 +382,9 @@
         <!--TV Plot-->
         <visible>Player.HasAudio</visible>
         <left>15</left>
-        <top>410</top>
+        <top>412</top>
         <width>555</width>
-        <height>144</height>
+        <height>142</height>
         <font>Font_Bartowski_Showcase_plot</font>
         <textcolor>ffffffff</textcolor>
         <label>$INFO[ListItem.Plot]</label>

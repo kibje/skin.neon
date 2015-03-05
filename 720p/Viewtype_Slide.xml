@@ -240,9 +240,9 @@
     <control type="textbox">
       <description>Plot Movie</description>
       <left>660</left>
-      <top>230</top>
+      <top>232</top>
       <width>600</width>
-      <height>236</height>
+      <height>234</height>
       <align>justify</align>
       <info>ListItem.Plot</info>
       <font>Font_Bartowski_Movies_Plot</font>
