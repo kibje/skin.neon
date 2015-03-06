@@ -143,7 +143,7 @@
         <height>40</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <label>222</label>
         <onleft>50</onleft>
         <onright>28</onright>
@@ -158,7 +158,7 @@
         <height>40</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <label>186</label>
         <onleft>29</onleft>
         <onright>50</onright>
@@ -173,7 +173,7 @@
         <height>40</height>
         <align>center</align>
         <aligny>center</aligny>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <label>409</label>
         <onleft>28</onleft>
         <onright>29</onright>
