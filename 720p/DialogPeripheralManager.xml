@@ -108,7 +108,7 @@
             <label>$LOCALIZE[35504]:  [COLOR=grey2]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=grey2]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>font12</font>
+            <font>Font_Neon_20</font>
             <textcolor>blue</textcolor>
           </control>
           <control type="label">
@@ -120,7 +120,7 @@
             <label>$LOCALIZE[35501]:  [COLOR=grey2]$INFO[ListItem.Property(Class)][/COLOR]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>font12</font>
+            <font>Font_Neon_20</font>
             <textcolor>blue</textcolor>
           </control>
         </itemlayout>
@@ -164,7 +164,7 @@
             <label>$LOCALIZE[35504]:  [COLOR=grey2]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=grey2]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>font12</font>
+            <font>Font_Neon_20</font>
             <textcolor>blue</textcolor>
           </control>
           <control type="label">
@@ -176,7 +176,7 @@
             <label>$LOCALIZE[35501]:  [COLOR=grey2]$INFO[ListItem.Property(Class)][/COLOR]</label>
             <align>left</align>
             <aligny>center</aligny>
-            <font>font12</font>
+            <font>Font_Neon_20</font>
             <textcolor>blue</textcolor>
           </control>
         </focusedlayout>
@@ -204,7 +204,7 @@
         <top>585</top>
         <width>300</width>
         <height>35</height>
-        <font>font12</font>
+        <font>Font_Neon_20</font>
         <align>right</align>
         <aligny>center</aligny>
         <scroll>true</scroll>
@@ -218,7 +218,7 @@
         <width>200</width>
         <height>40</height>
         <label>186</label>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <textcolor>white</textcolor>
         <focusedcolor>white</focusedcolor>
         <align>center</align>
