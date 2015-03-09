@@ -54,7 +54,7 @@ msgstr "Muzyka: Pokazuj utwory ostatnio dodane zamiast albumów"
 
 msgctxt "#31012"
 msgid "Select folder containing weather fanart:"
-msgstr "Wybierz folder tapet warunków pogody: "
+msgstr "Wybierz folder z fototapetami warunków pogody: "
 
 msgctxt "#31013"
 msgid "Select bottom line RSS logo:"
@@ -116,9 +116,17 @@ msgctxt "#31028"
 msgid "Actions"
 msgstr "Operacje"
 
+msgctxt "#31029"
+msgid "Disable Views"
+msgstr "Ukrywanie widoków"
+
 msgctxt "#31030"
 msgid "Reset Skin"
 msgstr "Przywróć domyślne ustawienia skóry"
+
+msgctxt "#31031"
+msgid "Use extrathumbs instead of extrafanart folder"
+msgstr "Używaj folderu extrathumbs zamiast extrafanart"
 
 msgctxt "#31033"
 msgid "Scroll Plot for Movies and TV"
@@ -146,11 +154,15 @@ msgstr "Opcje wizualizacji muzyki"
 
 msgctxt "#31039"
 msgid "Use Fanart Instead of Visualisation"
-msgstr "Używaj tapety zamiast wizualizacji"
+msgstr "Używaj fototapety zamiast wizualizacji"
+
+msgctxt "#31040"
+msgid "Use JukeBox for Fullscreen Playback"
+msgstr "Używaj trybu szafy grającej podczas pełnoekranowego odtwarzania"
 
 msgctxt "#31041"
 msgid "Enable Dark Fanart for Fullscreen Playback"
-msgstr "Używaj ciemnej tapety dla odtwarzania pełnoekranowego"
+msgstr "Używaj ciemnej fototapety w trybie pełnoekranowym odtwarzacza"
 
 msgctxt "#31042"
 msgid "Hide Main Menu Items"
@@ -170,7 +182,11 @@ msgstr "Używaj banerów w sekcji Seriale"
 
 msgctxt "#31046"
 msgid "Path to Music Library"
-msgstr "Ścieżka do folderu biblioteki muzyki"
+msgstr "Ścieżka folderu biblioteki muzyki"
+
+msgctxt "#31047"
+msgid "Disable Movies and TV Views"
+msgstr "Ukrywaj widoki filmów i seriali"
 
 msgctxt "#31048"
 msgid "16x9"
@@ -222,11 +238,15 @@ msgstr "Plakat"
 
 msgctxt "#31063"
 msgid "Showcase"
-msgstr "Witryna"
+msgstr "Wizytownik"
 
 msgctxt "#31064"
 msgid "Wall"
 msgstr "Kafelki Okładki"
+
+msgctxt "#31065"
+msgid "Disable Music Views"
+msgstr "Ukrywaj widoki muzyki"
 
 msgctxt "#31066"
 msgid "Jukebox"
@@ -256,9 +276,13 @@ msgctxt "#31075"
 msgid "Finish Time"
 msgstr "Koniec o"
 
+msgctxt "#31086"
+msgid "Show: Fanart"
+msgstr "Pokazuj: Fototapeta"
+
 msgctxt "#31094"
 msgid "Dark Showcase"
-msgstr "Ciemna Witryna"
+msgstr "Wizytownik ciemny"
 
 msgctxt "#31110"
 msgid "Edit Background for Home Button"
@@ -314,7 +338,7 @@ msgstr "Dodatek TvTunes"
 
 msgctxt "#31127"
 msgid "Select Lyrics Add-On"
-msgstr "Dodatek Tekst utworu"
+msgstr "Wybierz dodatek tekstu utworów"
 
 msgctxt "#31128"
 msgid "Kodi Lyrics"
@@ -354,7 +378,7 @@ msgstr "Kafelki Logo"
 
 msgctxt "#31142"
 msgid "Logo Fanart"
-msgstr "Logo Tapeta"
+msgstr "Logo Fototapeta"
 
 msgctxt "#31143"
 msgid "Episode"
@@ -392,17 +416,25 @@ msgctxt "#31213"
 msgid "WallPanel"
 msgstr "Kafelki"
 
+msgctxt "#31214"
+msgid "Show: Dark View"
+msgstr "Pokazuj: Mroczny widok"
+
 msgctxt "#31218"
 msgid "Power Options"
 msgstr "Opcje zasilania"
 
 msgctxt "#31221"
 msgid "Use condition-based weather fanart"
-msgstr "Używaj tapet warunków pogodowych"
+msgstr "Używaj fototapet warunków pogodowych"
 
 msgctxt "#31226"
 msgid "Rated"
 msgstr "Ocenione"
+
+msgctxt "#31229"
+msgid "First Premiered in"
+msgstr "Premiera w"
 
 msgctxt "#31230"
 msgid "This Show Aired"
@@ -430,7 +462,7 @@ msgstr "Naciśnij DÓŁ, aby obejrzeć zwiastun"
 
 msgctxt "#31238"
 msgid "Press \"X\" to Stop"
-msgstr "Naciśnij \"X\", aby zatrzymać"
+msgstr "Naciśnij X, aby zatrzymać"
 
 msgctxt "#31240"
 msgid "Press \"Left\" for Trailer"
@@ -448,9 +480,13 @@ msgctxt "#31243"
 msgid "Cancel Timer"
 msgstr "Anuluj licznik czasu"
 
+msgctxt "#31244"
+msgid "Press Down for Info"
+msgstr "Naciśnij GÓRA po informacje"
+
 msgctxt "#31245"
 msgid "Landscape Fanart"
-msgstr "Tapeta panoramiczna"
+msgstr "Panorama"
 
 msgctxt "#31246"
 msgid "Press Up or \"X\" to stop Trailer"
@@ -484,6 +520,14 @@ msgctxt "#31256"
 msgid "Global Settings"
 msgstr "Ustawienia globalne"
 
+msgctxt "#31257"
+msgid "Use random music backdrops - Same ones used on Home"
+msgstr "Używaj losowych tapet muzyki - tych samych co na ekranie startowym"
+
+msgctxt "#31258"
+msgid "Use random photo backdrops - Same ones used on Home"
+msgstr "Używaj losowych tapet obrazów - tych samych co na ekranie startowym"
+
 msgctxt "#31259"
 msgid "Home screen options"
 msgstr "Opcje ekranu startowego"
@@ -507,6 +551,14 @@ msgstr "Pobieraj grafiki seriali automatycznie"
 msgctxt "#31264"
 msgid "Click to Download [COLOR=selected]logo.png[/COLOR]"
 msgstr "Naciśnij, aby pobrać [COLOR=selected]logo.png[/COLOR]"
+
+msgctxt "#31266"
+msgid "Enable 'extrafanart' - random cycling of fanart in Library mode"
+msgstr "Używaj dodatkowych tapet do pokazu slajdów w bibliotece muzyki"
+
+msgctxt "#31267"
+msgid "User needs the 'extrafanart' folder at the root of TV Show or Movie folder"
+msgstr "Wymagany podfolder 'extrafanart' w folderze serialu lub filmu"
 
 msgctxt "#31268"
 msgid "Logo"
@@ -552,6 +604,14 @@ msgctxt "#31280"
 msgid "HD Movies"
 msgstr "Filmy HD"
 
+msgctxt "#31281"
+msgid "Rotate/Zoom fanart on the home screen"
+msgstr "Animuj fototapety na ekranie startowym"
+
+msgctxt "#31282"
+msgid "Enable Season Fanart on Episode level, will disable \"ExtraFanart\""
+msgstr "Pokazuj fototapetę sezonu dla odcinka - blokuje dodatkowe fototapety"
+
 msgctxt "#31284"
 msgid "Remove Info"
 msgstr "Usuń informacje"
@@ -567,6 +627,10 @@ msgstr "Info"
 msgctxt "#31287"
 msgid "Icon"
 msgstr "Ikona"
+
+msgctxt "#31288"
+msgid "Shelf"
+msgstr "Półka"
 
 msgctxt "#31289"
 msgid "Set Label"
@@ -602,7 +666,7 @@ msgstr "Ostatnio dodane"
 
 msgctxt "#31297"
 msgid "Disable global weather"
-msgstr "Ukrywaj ikonę pogody"
+msgstr "Ukrywaj globalną ikonę pogody"
 
 msgctxt "#31298"
 msgid "Recent Items"
@@ -618,7 +682,7 @@ msgstr "Ostatnia aktualizacja"
 
 msgctxt "#31307"
 msgid "Hide Fanart"
-msgstr "Ukrywaj tapety"
+msgstr "Ukrywaj fototapety"
 
 msgctxt "#31309"
 msgid "Memory Used:"
@@ -626,7 +690,7 @@ msgstr "Użycie pamięci:"
 
 msgctxt "#31317"
 msgid "Set Fanart Patnh"
-msgstr "Ustaw ścieżkę do tapety"
+msgstr "Ustaw ścieżkę folderu z fototapetami"
 
 msgctxt "#31319"
 msgid "Selected Profile"
@@ -846,7 +910,7 @@ msgstr "Prognoza 36 godzinna"
 
 msgctxt "#31902"
 msgid "Hourly Forecast"
-msgstr "Prognoza godzinna"
+msgstr "Prognoza godzinowa"
 
 msgctxt "#31903"
 msgid "Weekend Forecast"
@@ -855,6 +919,10 @@ msgstr "Prognoza na weekend"
 msgctxt "#31904"
 msgid "10 Day Forecast"
 msgstr "Prognoza 10 dniowa"
+
+msgctxt "#31905"
+msgid "CURRENT"
+msgstr "AKTUALNY"
 
 msgctxt "#31906"
 msgid "ALERTS"
@@ -886,7 +954,7 @@ msgstr "Prognoza pogody"
 
 msgctxt "#31972"
 msgid "TV Guide"
-msgstr "Przewodnik TV"
+msgstr "Przewodnik"
 
 msgctxt "#31973"
 msgid "Click to Download [COLOR=selected]poster.jpg[/COLOR]"
@@ -903,6 +971,14 @@ msgstr "Naciśnij, aby pobrać [COLOR=selected]landscape.jpg[/COLOR]"
 msgctxt "#31976"
 msgid "Click to Download [COLOR=selected]clearart.png[/COLOR]"
 msgstr "Naciśnij, aby pobrać [COLOR=selected]clearart.png[/COLOR]"
+
+msgctxt "#31977"
+msgid "The below items will download the corresponding artwork for all TV Shows. [COLOR=red]Warning[/COLOR]: It will overwrite existing files"
+msgstr "Poniższe pozycję umożliwiają pobranie odpowiednich grafik dla wszystkich seriali. [COLOR=red]Uwaga[/COLOR]: Istniejące pliki zostaną nadpisane"
+
+msgctxt "#31978"
+msgid "These are all of the currently installed custom images used in the TV Views. When updating it may take time for Kodi to update the image in its cache."
+msgstr "To są wszystkie aktualnie zainstalowane niestandardowe obrazy używane w widokach seriali. Po ich aktualizacji niezbędne jest oczekiwanie na aktualizację przez Kodi bufora obrazów."
 
 msgctxt "#31979"
 msgid "TV: Use large recently added view"
