@@ -17,7 +17,7 @@
       <ondown>3110</ondown>
     </control>
     <control type="grouplist" id="1">
-      <left>458</left>
+      <left>455</left>
       <top>0</top>
       <onleft>noop</onleft>
       <onright>noop</onright>
@@ -36,7 +36,7 @@
           <texture border="45,45,45,0">DialogContextTop.png</texture>
         </control>
         <control type="image">
-          <left>72</left>
+          <left>75</left>
           <top>39</top>
           <width>220</width>
           <height>35</height>
@@ -51,7 +51,7 @@
           <texture border="45,0,45,0">DialogContextMiddle.png</texture>
         </control>
         <control type="image">
-          <left>42</left>
+          <left>50</left>
           <top>86</top>
           <width>270</width>
           <height>2</height>
@@ -66,6 +66,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -83,6 +84,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>red</colordiffuse>
@@ -100,6 +102,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -118,6 +121,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -135,6 +139,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -152,6 +157,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -169,6 +175,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
@@ -186,6 +193,7 @@
         <height>35</height>
         <textcolor>grey</textcolor>
         <focusedcolor>white</focusedcolor>
+        <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
         <colordiffuse>mainblue</colordiffuse>
