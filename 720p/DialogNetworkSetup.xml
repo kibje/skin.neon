@@ -102,7 +102,7 @@
       <width>170</width>
       <height>40</height>
       <textoffsetx>12</textoffsetx>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <colordiffuse>mainblue</colordiffuse>
       <texturefocus border="5">button-focus.png</texturefocus>
       <texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -203,7 +203,7 @@
       <texturefocus border="5">button-focus.png</texturefocus>
       <texturenofocus border="5">button-nofocus.png</texturenofocus>
       <focusedcolor>white</focusedcolor>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <label>186</label>
       <onup>15</onup>
       <onleft>19</onleft>
@@ -222,7 +222,7 @@
       <texturefocus border="5">button-focus.png</texturefocus>
       <texturenofocus border="5">button-nofocus.png</texturenofocus>
       <focusedcolor>white</focusedcolor>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <label>222</label>
       <onup>15</onup>
       <onleft>18</onleft>

@@ -126,7 +126,7 @@
           <font>Font_Date</font>
           <textcolor>white</textcolor>
           <align>left</align>
-          <label>$ADDON[script.tv.show.next.aired 450][COLOR=mainblue] - [/COLOR]$LOCALIZE[31201]</label>
+          <label>$ADDON[script.tv.show.next.aired 32019][COLOR=mainblue] - [/COLOR]$LOCALIZE[31201]</label>
         </control>
       </control>
     </control>
@@ -317,7 +317,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -328,7 +328,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -382,7 +382,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -393,7 +393,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -407,7 +407,7 @@
               <visible>!Control.HasFocus(200)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -418,7 +418,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -477,7 +477,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -488,7 +488,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -542,7 +542,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -553,7 +553,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -567,7 +567,7 @@
               <visible>!Control.HasFocus(201)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -578,7 +578,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -637,7 +637,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -648,7 +648,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -702,7 +702,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -713,7 +713,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -727,7 +727,7 @@
               <visible>!Control.HasFocus(202)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -738,7 +738,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -797,7 +797,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -808,7 +808,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -862,7 +862,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -873,7 +873,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -887,7 +887,7 @@
               <visible>!Control.HasFocus(203)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -898,7 +898,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -957,7 +957,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -968,7 +968,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -1022,7 +1022,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1033,7 +1033,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -1047,7 +1047,7 @@
               <visible>!Control.HasFocus(204)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1058,7 +1058,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -1117,7 +1117,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -1128,7 +1128,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -1182,7 +1182,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1193,7 +1193,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -1207,7 +1207,7 @@
               <visible>!Control.HasFocus(205)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1218,7 +1218,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -1277,7 +1277,7 @@
           <itemlayout height="75" width="150">
             <control type="label">
               <description>Next air date</description>
-              <left>75</left>
+              <left>0</left>
               <top>26</top>
               <width>150</width>
               <height>20</height>
@@ -1288,7 +1288,7 @@
             </control>
             <control type="label">
               <description>Airing time</description>
-              <left>75</left>
+              <left>0</left>
               <top>48</top>
               <width>150</width>
               <height>20</height>
@@ -1342,7 +1342,7 @@
               </control>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1353,7 +1353,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
@@ -1367,7 +1367,7 @@
               <visible>!Control.HasFocus(206)</visible>
               <control type="label">
                 <description>Next air date</description>
-                <left>75</left>
+                <left>0</left>
                 <top>26</top>
                 <width>150</width>
                 <height>20</height>
@@ -1378,7 +1378,7 @@
               </control>
               <control type="label">
                 <description>Airing time</description>
-                <left>75</left>
+                <left>0</left>
                 <top>48</top>
                 <width>150</width>
                 <height>20</height>
