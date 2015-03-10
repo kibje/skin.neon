@@ -419,7 +419,7 @@
 					<onup>150</onup>
 					<ondown>150</ondown>
 					<label>$LOCALIZE[24120]</label>
-					<font>font12_title</font>
+					<font>Font_Neon_22</font>
 					<textcolor>white</textcolor>
 					<focusedcolor>white</focusedcolor>
 					<align>center</align>

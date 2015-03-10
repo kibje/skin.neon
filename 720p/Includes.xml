@@ -313,7 +313,7 @@
     <textoffsetx>20</textoffsetx>
     <textwidth>195</textwidth>
     <aligny>center</aligny>
-    <font>font12_title</font>
+    <font>Font_Neon_22</font>
     <textcolor>grey2</textcolor>
     <focusedcolor>white</focusedcolor>
     <colordiffuse>mainblue</colordiffuse>
@@ -1149,7 +1149,7 @@
         <label>$INFO[MusicPlayer.Title]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>font12</font>
+        <font>Font_Neon_20</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
@@ -1203,7 +1203,7 @@
         <label>$INFO[VideoPlayer.Title]</label>
         <align>left</align>
         <aligny>center</aligny>
-        <font>font12</font>
+        <font>Font_Neon_20</font>
         <textcolor>white</textcolor>
         <shadowcolor>black</shadowcolor>
         <scrollout>false</scrollout>
@@ -1597,7 +1597,7 @@
       <label>$INFO[MusicPlayer.Artist]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <textcolor>grey2</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1625,7 +1625,7 @@
       <label>$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1638,7 +1638,7 @@
       <label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, / ]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1651,7 +1651,7 @@
       <label>[COLOR=blue]$LOCALIZE[209] :[/COLOR] $INFO[MusicPlayer.offset(1).Title]</label>
       <align>right</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>grey</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>
@@ -1685,7 +1685,7 @@
       <label>$INFO[VideoPlayer.Studio]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <textcolor>grey2</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
@@ -1699,7 +1699,7 @@
       <label>$INFO[VideoPlayer.tvshowtitle]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(episodes)</visible>
@@ -1713,7 +1713,7 @@
       <label>$INFO[VideoPlayer.Artist]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12_title</font>
+      <font>Font_Neon_22</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(musicvideos)</visible>
@@ -1744,7 +1744,7 @@
       <label>$INFO[VideoPlayer.Genre]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
@@ -1757,7 +1757,7 @@
       <label>$INFO[VideoPlayer.Album]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(musicvideos)</visible>
@@ -1771,7 +1771,7 @@
       <label>$LOCALIZE[20373] $INFO[VideoPlayer.Season] - $LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
       <visible>videoplayer.content(episodes)</visible>
@@ -1785,7 +1785,7 @@
       <label>$INFO[VideoPlayer.Time]$INFO[VideoPlayer.Duration, / ]</label>
       <align>left</align>
       <aligny>center</aligny>
-      <font>font12</font>
+      <font>Font_Neon_20</font>
       <textcolor>white</textcolor>
       <shadowcolor>black</shadowcolor>
     </control>

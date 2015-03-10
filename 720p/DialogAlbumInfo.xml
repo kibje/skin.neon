@@ -422,72 +422,19 @@
             <texture>common/separator.png</texture>
           </control>
         </control>
-        <!-- <control type="label">
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[21821][/COLOR]$INFO[Container(4).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(4).NumPages,/, )]</label>
-					<visible>Control.IsVisible(4)</visible>
-				</control> 
-				<control type="label"> 
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[182][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
-					<visible>Control.IsVisible(50) + Container.Content(Albums)</visible>
-				</control>
-				<control type="label">
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[132][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
-					<visible>Control.IsVisible(50) + Container.Content(Artists)</visible>
-				</control>
-				<control type="spincontrol" id="61">
-					<description>Next page button</description>
-					<right>120</right>
-					<top>485</top>
-					<subtype>page</subtype>
-					<font>-</font>
-					<onleft>61</onleft>
-					<onright>61</onright>
-					<ondown>9000</ondown>
-					<onup>49</onup>
-					<textcolor>-</textcolor>
-					<showonepage>true</showonepage>
-				</control>
-				<control type="image">
-					<left>175</left>
-					<top>500</top>
-					<width>880</width>
-					<height>140</height>
-					<colordiffuse>mainblue</colordiffuse>
-					<texture>DialogBack.png</texture>
-					<visible>!Control.IsVisible(50)</visible>
-				</control>-->
         <control type="textbox" id="4">DialogBack
-					<description>Description</description><left>200</left><top>450</top><width>830</width><height>120</height><font>Font_Bartowski_Showcase_plot</font><align>justify</align><textcolor>white</textcolor><pagecontrol>61</pagecontrol><autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll><visible>!Control.IsVisible(50)</visible></control>
+          <description>Description</description>
+          <left>200</left>
+          <top>450</top>
+          <width>830</width>
+          <height>120</height>
+          <font>Font_Bartowski_Showcase_plot</font>
+          <align>justify</align>
+          <textcolor>white</textcolor>
+          <pagecontrol>61</pagecontrol>
+          <autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
+          <visible>!Control.IsVisible(50)</visible>
+        </control>
         <control type="image">
           <description>Actor image</description>
           <left>80</left>

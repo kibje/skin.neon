@@ -174,7 +174,7 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <texturefocus>button-focus.png</texturefocus>
         <label>186</label>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <onup>5</onup>
         <onleft>27</onleft>
         <onright>27</onright>
@@ -193,7 +193,7 @@
         <texturenofocus>button-nofocus.png</texturenofocus>
         <texturefocus>button-focus.png</texturefocus>
         <label>192</label>
-        <font>font12_title</font>
+        <font>Font_Neon_22</font>
         <onup>5</onup>
         <onleft>28</onleft>
         <onright>28</onright>
