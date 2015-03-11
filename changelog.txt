@@ -1,6 +1,13 @@
 -------------------------------------------------------------------------------
 Changelog:
 -------------------------------------------------------------------------------
+4.0.1
+- Fix selection dialog box
+- Fix shutdown menu overflow for foreign languages
+- Cleanup undefined include and id
+- Fix dialog picture info alignment
+- Fix weather section
+
 4.0.0
 - Fix pvr dialog options
 - Fix skin settings options

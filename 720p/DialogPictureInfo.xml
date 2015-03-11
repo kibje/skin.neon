@@ -4,7 +4,7 @@
   <controls>
     <control type="image">
       <include>Dimensions_Fullscreen</include>
-      <texture>common/7000_focus.png</texture>
+      <texture>background-solid.png</texture>
       <animation effect="fade" start="0" end="100" time="600">Visible</animation>
       <animation effect="fade" start="100" end="0" time="600">Hidden</animation>
     </control>
@@ -48,7 +48,7 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="40">
           <control type="label">
-            <left>170</left>
+            <left>0</left>
             <top>0</top>
             <width>160</width>
             <height>35</height>
@@ -86,13 +86,13 @@
             <left>0</left>
             <top>0</top>
             <width>560</width>
-            <height>41</height>
+            <height>42</height>
             <visible>Control.HasFocus(5)</visible>
             <colordiffuse>mainblue</colordiffuse>
-            <texture>button-focus.png</texture>
+            <texture>MenuItemFO.png</texture>
           </control>
           <control type="label">
-            <left>170</left>
+            <left>0</left>
             <top>0</top>
             <width>160</width>
             <height>35</height>
@@ -117,6 +117,23 @@
             <info>ListItem.Label2</info>
           </control>
         </focusedlayout>
+      </control>
+      <control type="scrollbar" id="60">
+        <left>1240</left>
+        <top>80</top>
+        <width>25</width>
+        <height>611</height>
+        <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+        <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+        <texturesliderbarfocus border="0,14,0,14" colordiffuse="mainblue">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+        <textureslidernib>ScrollBarNib.png</textureslidernib>
+        <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+        <onleft>5</onleft>
+        <onright>5</onright>
+        <ondown>60</ondown>
+        <onup>60</onup>
+        <showonepage>false</showonepage>
+        <orientation>vertical</orientation>
       </control>
     </control>
   </controls>
