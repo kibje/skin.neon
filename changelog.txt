@@ -1,7 +1,14 @@
 -------------------------------------------------------------------------------
 Changelog:
 -------------------------------------------------------------------------------
-5.0.0 
+5.0.1
+- Fix selection dialog box
+- Fix shutdown menu overflow for foreign languages
+- Cleanup undefined include and id
+- Fix dialog picture info alignment
+- Fix weather section
+
+5.0.0
 - Initial add for XBMC v15 (Isengard)
 - Fixes required because of skinning engine changes in Isengard:
   * xbmc.gui version bump to 5.8.0
