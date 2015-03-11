@@ -81,33 +81,33 @@
 					</control>
 					<control type="label">
 						<right>90</right>
-						<top>60</top>
+						<top>20</top>
 						<width>390</width>
-						<height>20</height>
+						<height>130</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.1.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Window.Property(36Hour.1.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.1.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.1.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
-						<top>112</top>
+						<top>145</top>
 						<width>590</width>
-						<height>68</height>
+						<height>70</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.1.Forecast),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Window.Property(36hour.1.Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
 						<top>180</top>
 						<width>650</width>
 						<height>4</height>
-                        <colordiffuse>mainblue</colordiffuse>
+            <colordiffuse>mainblue</colordiffuse>
 						<texture>separator2.png</texture>
 					</control>
 				</control>
@@ -147,33 +147,33 @@
 					</control>
 					<control type="label">
 						<right>90</right>
-						<top>60</top>
+						<top>20</top>
 						<width>390</width>
-						<height>20</height>
+						<height>130</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.2.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Window.Property(36Hour.2.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.2.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.2.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
-						<top>112</top>
+						<top>145</top>
 						<width>590</width>
-						<height>68</height>
+						<height>70</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.2.Forecast),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Window.Property(36hour.2.Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
 						<top>180</top>
 						<width>650</width>
 						<height>4</height>
-                        <colordiffuse>mainblue</colordiffuse>
+            <colordiffuse>mainblue</colordiffuse>
 						<texture>separator2.png</texture>
 					</control>
 				</control>
@@ -213,26 +213,26 @@
 					</control>
 					<control type="label">
 						<right>90</right>
-						<top>60</top>
+						<top>20</top>
 						<width>390</width>
-						<height>20</height>
+						<height>130</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.3.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Window.Property(36Hour.3.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.3.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.3.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
-						<top>112</top>
+						<top>145</top>
 						<width>590</width>
-						<height>68</height>
+						<height>70</height>
 						<font>Font_Neon_20</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.3.Forecast),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Window.Property(36hour.3.Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]</label>
 					</control>
 				</control>
 			</control>
