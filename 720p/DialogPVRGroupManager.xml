@@ -493,7 +493,7 @@
         </control>
       </control>
     </control>
-    <include>Clock</include>
+    <include>Time</include>
 
     <control type="label" id="20">
       <description>Fake Label used to pass on name label</description>

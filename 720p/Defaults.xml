@@ -15,7 +15,7 @@
     <disabledcolor>TextDisabled</disabledcolor>
     <texturefocus>ButtonFo.png</texturefocus>
     <texturenofocus>ButtonNF.png</texturenofocus>
-    <pulseonselect>false</pulseonselect>
+    <pulseonselect>no</pulseonselect>
   </default>
   <default type="textbox">
     <left>0</left>
