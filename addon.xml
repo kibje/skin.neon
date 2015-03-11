@@ -14,7 +14,7 @@
     point="xbmc.gui.skin"
     defaultresolution="720p" 
     defaultresolutionwide="720p"
-    defaultthemename="textures.xbt" 
+    defaultthemename="Textures.xbt" 
     effectslowdown="1"
     debugging="false">
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
