@@ -113,6 +113,11 @@
           <include>WindowMenuButton_Vertical</include>
           <label>24999</label>
         </control>
+        <control type="button" id="9">
+          <description>Check for updates</description>
+          <include>WindowMenuButton_Vertical</include>
+          <label>24034</label>
+        </control>
         <include>CommonNowPlaying_Controls</include>
       </control>
     </control>
