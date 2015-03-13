@@ -95,7 +95,7 @@
             <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
           </control>
           <control type="label">
-            <left>154</left>
+            <left>11</left>
             <top>266</top>
             <width>298</width>
             <label>$INFO[ListItem.Label]</label>
@@ -196,7 +196,7 @@
             <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
           </control>
           <control type="label">
-            <left>154</left>
+            <left>2</left>
             <top>266</top>
             <width>298</width>
             <label>$INFO[ListItem.Label]</label>
