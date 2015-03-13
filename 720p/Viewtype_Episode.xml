@@ -65,7 +65,7 @@
           <visible>!IsEmpty(ListItem.Title)</visible>
         </control>
         <control type="label">
-          <left>130</left>
+          <left>12</left>
           <top>112</top>
           <width>235</width>
           <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>
@@ -123,7 +123,7 @@
           </animation>
         </control>
         <control type="label">
-          <left>130</left>
+          <left>12</left>
           <top>112</top>
           <width>235</width>
           <label>$LOCALIZE[20359] $INFO[ListItem.Episode]</label>

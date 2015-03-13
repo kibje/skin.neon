@@ -89,7 +89,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
-          <left>115</left>
+          <left>1</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -100,7 +100,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <left>115</left>
+          <left>1</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -133,7 +133,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
-          <left>135</left>
+          <left>25</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -145,7 +145,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <left>135</left>
+          <left>25</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
