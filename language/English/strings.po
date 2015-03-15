@@ -957,7 +957,9 @@ msgctxt "#31517"
 msgid "Use recommended items instead of recently added items"
 msgstr ""
 
-#empty string with id 31518
+msgctxt "#31518"
+msgid "Open Library Data Provider Settings"
+msgstr ""
 
 msgctxt "#31519"
 msgid "Recommended"

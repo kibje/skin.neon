@@ -374,6 +374,23 @@
               <label>$LOCALIZE[31117]</label>
               <onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
               <selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+              <enable>System.HasAddon(service.library.data.provider)</enable>
+            </control>
+            <control type="button" id="2020">
+              <description>Open Library Data Provider Settings</description>
+              <width>798</width>
+              <height>30</height>
+              <radioposx>640</radioposx>
+              <font>Font_KeyboardTitle</font>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31518]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Addon.OpenSettings(service.library.data.provider)</onclick>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2021">
               <description>Use Recommended Items</description>
