@@ -145,7 +145,7 @@
       <visible>!SubString(Window(Videos).Property(tvtunesIsAlive),True)</visible>
       <include>RSS_Music</include>
     </control>
-    <!--		<include>7000_has_focus</include> -->
+    <!--    <include>7000_has_focus</include> -->
     <control type="group">
       <left>-839</left>
       <include>SideBladeLeft</include>
@@ -189,7 +189,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31094]</label>
           <onclick>Skin.ToggleSetting(ShowcaseFanart)</onclick>
-		  <selected>!Skin.HasSetting(ShowcaseFanart)</selected>
+      <selected>!Skin.HasSetting(ShowcaseFanart)</selected>
           <visible>Control.IsVisible(58)</visible>
         </control>
         <control type="radiobutton" id="37">
@@ -197,7 +197,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31132]</label>
           <onclick>Skin.ToggleSetting(MultiPlexFanart)</onclick>
-		  <selected>Skin.HasSetting(MultiPlexFanart)</selected>
+      <selected>Skin.HasSetting(MultiPlexFanart)</selected>
           <visible>Control.IsVisible(588)</visible>
         </control>
         <control type="radiobutton" id="25">
@@ -205,7 +205,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31200]</label>
           <onclick>Skin.ToggleSetting(extrathumbs)</onclick>
-		  <selected>Skin.HasSetting(extrathumbs)</selected>
+      <selected>Skin.HasSetting(extrathumbs)</selected>
           <visible>Control.IsVisible(58) + !Skin.HasSetting(ShowcaseFanart)</visible>
         </control>
         <control type="radiobutton" id="38">
@@ -213,7 +213,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31200]</label>
           <onclick>Skin.ToggleSetting(extrathumbs)</onclick>
-		  <selected>Skin.HasSetting(extrathumbs)</selected>
+      <selected>Skin.HasSetting(extrathumbs)</selected>
           <visible>Control.IsVisible(588)</visible>
         </control>
         <control type="togglebutton" id="26">
@@ -221,7 +221,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31094]</label>
           <onclick>Skin.ToggleSetting(3dLandscape_Fanart)</onclick>
-		  <selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
+      <selected>Skin.HasSetting(3dLandscape_Fanart)</selected>
           <visible>Control.IsVisible(53) + Container.Content(Movies)</visible>
         </control>
         <control type="togglebutton" id="36">
@@ -253,7 +253,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31286]</label>
           <onclick>Skin.ToggleSetting(3dland_down_plot)</onclick>
-		  <selected>!Skin.HasSetting(3dland_down_plot)</selected>
+      <selected>!Skin.HasSetting(3dland_down_plot)</selected>
           <visible>Control.IsVisible(633) + Container.Content(episodes)</visible>
         </control>
         <control type="togglebutton" id="30">
@@ -277,7 +277,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31006]</label>
           <onclick>Skin.ToggleSetting(PosterPlus)</onclick>
-		  <selected>Skin.HasSetting(PosterPlus)</selected>
+      <selected>Skin.HasSetting(PosterPlus)</selected>
           <visible>Control.IsVisible(55) + Container.Content(movies) + !Skin.HasSetting(Poster_Fanart)</visible>
         </control>
         <control type="radiobutton" id="33">
@@ -285,7 +285,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31006]</label>
           <onclick>Skin.ToggleSetting(View508HideInfo)</onclick>
-		  <selected>!Skin.HasSetting(View508HideInfo)</selected>
+      <selected>!Skin.HasSetting(View508HideInfo)</selected>
           <visible>Control.IsVisible(508) + Container.Content(movies)</visible>
         </control>
         <control type="radiobutton" id="24">
@@ -293,7 +293,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>$LOCALIZE[31202]</label>
           <onclick>Skin.ToggleSetting(ClearTitle)</onclick>
-		  <selected>Skin.HasSetting(ClearTitle)</selected>
+      <selected>Skin.HasSetting(ClearTitle)</selected>
           <visible>Control.IsVisible(59) + Container.Content(tvshows)</visible>
         </control>
         <control type="radiobutton" id="34">
@@ -301,7 +301,7 @@
           <include>WindowMenuButton_Vertical</include>
           <label>31298</label>
           <onclick>Skin.ToggleSetting(no_new_recent_info)</onclick>
-		  <selected>!Skin.HasSetting(no_new_recent_info)</selected>
+      <selected>!Skin.HasSetting(no_new_recent_info)</selected>
           <visible>[Control.IsVisible(52) | Control.IsVisible(59)] + Container.Content(tvshows)</visible>
         </control>
         <control type="button" id="3">

@@ -182,25 +182,25 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <!--<control type="image">
-		<visible>Control.IsVisible(54) + Container.OnPrevious</visible>
-		<left>570</left>
-		<top>190</top>
-		<width>218</width>
-		<height>220</height>
-		<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
-		<aspectratio scalediffuse="false">stretch</aspectratio>
-		<animation effect="slide" start="0,0" end="0,200" time="200">Hidden</animation>
-	</control>
-	<control type="image">
-		<visible>Control.IsVisible(54) + Container.OnNext</visible>
-		<left>570</left>
-		<top>190</top>
-		<width>218</width>
-		<height>220</height>
-		<texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
-		<aspectratio scalediffuse="false">stretch</aspectratio>
-		<animation effect="slide" start="0,0" end="0,200" time="200">Hidden</animation>
-	</control>-->
+    <visible>Control.IsVisible(54) + Container.OnPrevious</visible>
+    <left>570</left>
+    <top>190</top>
+    <width>218</width>
+    <height>220</height>
+    <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(1).Icon]</texture>
+    <aspectratio scalediffuse="false">stretch</aspectratio>
+    <animation effect="slide" start="0,0" end="0,200" time="200">Hidden</animation>
+  </control>
+  <control type="image">
+    <visible>Control.IsVisible(54) + Container.OnNext</visible>
+    <left>570</left>
+    <top>190</top>
+    <width>218</width>
+    <height>220</height>
+    <texture background="true" diffuse="music/musicwallmatte.png">$INFO[ListItem(-1).Icon]</texture>
+    <aspectratio scalediffuse="false">stretch</aspectratio>
+    <animation effect="slide" start="0,0" end="0,200" time="200">Hidden</animation>
+  </control>-->
     </control>
     <control type="image">
       <left>550</left>

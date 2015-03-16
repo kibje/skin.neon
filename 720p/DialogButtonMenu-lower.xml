@@ -167,18 +167,18 @@
         <onclick>ActivateWindow(SystemInfo)</onclick>
       </control>
       <!--<control type="button" id="3116">
-				<description>Reload Skin</description>
-				<height>35</height>
-				<width>150</width>
-				<font>Font_Bartowski_Press_S</font>
-				<textcolor>grey</textcolor>
-				<focusedcolor>white</focusedcolor>
-				<texturefocus>button-focus.png</texturefocus>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>Reload Skin</label>
-				<onclick>ReloadSkin()</onclick>
-			</control> -->
+        <description>Reload Skin</description>
+        <height>35</height>
+        <width>150</width>
+        <font>Font_Bartowski_Press_S</font>
+        <textcolor>grey</textcolor>
+        <focusedcolor>white</focusedcolor>
+        <texturefocus>button-focus.png</texturefocus>
+        <align>center</align>
+        <aligny>center</aligny>
+        <label>Reload Skin</label>
+        <onclick>ReloadSkin()</onclick>
+      </control> -->
     </control>
   </controls>
 </window>

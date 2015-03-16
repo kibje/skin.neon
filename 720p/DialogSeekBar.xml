@@ -169,30 +169,30 @@
           <animation effect="slide" start="0,0" end="-304,0" time="0" tween="cubic" easing="inout" condition="VideoPlayer.Content(episodes) + ![IsEmpty(Control.GetLabel(7657)) + IsEmpty(Control.GetLabel(7658))]">Conditional</animation>
         </control>
       </control>
-      <!--	<control type="image">
-				 <description>IMDB Rating</description>
-				 <left>575</left>
-				 <top>-560</top>
-				 <width>120</width>
-				 <height>20</height>
-				 <align>center</align>
-				 <aligny>center</aligny>
-				 <colordiffuse>d0FDD017</colordiffuse>
-				 <info>Player.StarRating</info>
-				<visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
-			</control>
-			<control type="image">
-				 <description>IMDB Rating</description>
-				 <left>575</left>
-				 <top>-560</top>
-				 <width>120</width>
-				 <height>20</height>
-				 <align>center</align>
-				 <aligny>center</aligny>
-				 <colordiffuse>d0FDD017</colordiffuse>
-				 <info>Player.StarRating</info>
-				<visible>VideoPlayer.Content(episodes) + !Skin.HasSetting(no_global_clock)</visible>
-		   </control>		 -->
+      <!--  <control type="image">
+         <description>IMDB Rating</description>
+         <left>575</left>
+         <top>-560</top>
+         <width>120</width>
+         <height>20</height>
+         <align>center</align>
+         <aligny>center</aligny>
+         <colordiffuse>d0FDD017</colordiffuse>
+         <info>Player.StarRating</info>
+        <visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
+      </control>
+      <control type="image">
+         <description>IMDB Rating</description>
+         <left>575</left>
+         <top>-560</top>
+         <width>120</width>
+         <height>20</height>
+         <align>center</align>
+         <aligny>center</aligny>
+         <colordiffuse>d0FDD017</colordiffuse>
+         <info>Player.StarRating</info>
+        <visible>VideoPlayer.Content(episodes) + !Skin.HasSetting(no_global_clock)</visible>
+       </control>     -->
       <control type="image" id="7657">
         <description>tv show image</description>
         <left>948</left>

@@ -152,18 +152,18 @@
             </animation>
           </control>
           <!--<control type="image">
-						<left>-148</left>
-						<top>302</top>
-						<width>211</width>
-						<height>211</height>
-						<texture flipy="true">movie-poster/music_square_diffuse.png</texture>
-						<colordiffuse>ff000000</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="100" time="600" />
-						</animation>
-					</control>-->
+            <left>-148</left>
+            <top>302</top>
+            <width>211</width>
+            <height>211</height>
+            <texture flipy="true">movie-poster/music_square_diffuse.png</texture>
+            <colordiffuse>ff000000</colordiffuse>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+              <effect type="fade" start="0" end="100" time="600" />
+            </animation>
+          </control>-->
           <control type="image">
             <left>-148</left>
             <top>90</top>

@@ -9,14 +9,14 @@
       <visible>!Window.IsVisible(FileBrowser)</visible>
       <animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
       <animation effect="fade" start="100" end="0" time="400" delay="200">WindowClose</animation>
-      <!--	<control type="image">
-				<left>0</left>
-				<top>0</top>
-				<width>1280</width>
-				<height>720</height>
-				<colordiffuse>mainblue</colordiffuse>
-				<texture>DialogBackwht.png</texture>
-			</control>-->
+      <!--  <control type="image">
+        <left>0</left>
+        <top>0</top>
+        <width>1280</width>
+        <height>720</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>DialogBackwht.png</texture>
+      </control>-->
       <control type="image">
         <left>0</left>
         <top>0</top>
@@ -313,13 +313,13 @@
               <aspectratio scalediffuse="false">keep</aspectratio>
               <visible>!Container.Content(episodes) + IsEmpty(Control.GetLabel(200300)) + IsEmpty(Control.GetLabel(200301))</visible>
             </control>
-            <!--	<control type="image">
-							<left>-160</left>
-							<top>-25</top>
-							<width>450</width>
-							<height>650</height>
-							<texture>posterframeF.png</texture>
-						</control> -->
+            <!--  <control type="image">
+              <left>-160</left>
+              <top>-25</top>
+              <width>450</width>
+              <height>650</height>
+              <texture>posterframeF.png</texture>
+            </control> -->
             <control type="image">
               <left>-147</left>
               <top>573</top>
@@ -330,13 +330,13 @@
               <texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
             </control>
           </control>
-          <!--	<control type="group">
-						<left>-240</left>
-						<top>345</top>
-						<width>490</width>
-						<align>left</align>
-						<include>VideoMPAAFlaggingConditions</include>
-					</control> -->
+          <!--  <control type="group">
+            <left>-240</left>
+            <top>345</top>
+            <width>490</width>
+            <align>left</align>
+            <include>VideoMPAAFlaggingConditions</include>
+          </control> -->
           <control type="grouplist">
             <description>Movie Codec Flagging Images</description>
             <left>-100</left>

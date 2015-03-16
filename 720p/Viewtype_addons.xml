@@ -132,7 +132,7 @@
     <control type="group">
       <include>Animation_SettingsFade</include>
       <visible>Control.IsVisible(50)</visible>
-      <!-- <include>Animation_Viewtype_Wall_Title</include>	-->
+      <!-- <include>Animation_Viewtype_Wall_Title</include>  -->
       <control type="image">
         <left>780</left>
         <top>380</top>

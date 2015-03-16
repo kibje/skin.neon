@@ -207,55 +207,55 @@
                 <label>$LOCALIZE[557]:</label>
                 <label2>$INFO[ListItem.Artist]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Artist)</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Artist)</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[515]:</label>
                 <label2>$INFO[ListItem.Genre]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Genre)</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Genre)</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[563]:</label>
                 <label2>$INFO[ListItem.Rating]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Rating)</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Rating)</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[175]:</label>
                 <label2>$INFO[ListItem.Property(Album_Mood)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Album_Mood))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Album_Mood))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[176]:</label>
                 <label2>$INFO[ListItem.Property(Album_Style)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Album_Style))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Album_Style))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21895]:</label>
                 <label2>$INFO[ListItem.Property(Album_mainblue)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Album_mainblue))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Album_mainblue))</visible> -->
               </item>
               <item>
                 <label>146</label>
                 <label2>$INFO[ListItem.Property(Album_Type)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Album_Type))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Album_Type))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21899]:</label>
                 <label2>$INFO[ListItem.Property(Album_Label)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Album_Label))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Album_Label))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[562]:</label>
                 <label2>$INFO[ListItem.Year]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Year)</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Year)</visible> -->
               </item>
             </content>
           </control>
@@ -379,37 +379,37 @@
                 <label>$LOCALIZE[175]:</label>
                 <label2>$INFO[ListItem.Property(Artist_Mood)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_Mood))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_Mood))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[176]:</label>
                 <label2>$INFO[ListItem.Property(Artist_Style)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_Style))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_Style))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21892]:</label>
                 <label2>$INFO[ListItem.Property(Artist_Instrument)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_Instrument))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_Instrument))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21897]:</label>
                 <label2>$INFO[ListItem.Property(Artist_Died)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_Died))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_Died))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21896]:</label>
                 <label2>$INFO[ListItem.Property(Artist_Disbanded)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_Disbanded))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_Disbanded))</visible> -->
               </item>
               <item>
                 <label>$LOCALIZE[21898]:</label>
                 <label2>$INFO[ListItem.Property(Artist_YearsActive)]</label2>
                 <onclick>noop</onclick>
-                <!--	<visible>!IsEmpty(ListItem.Property(Artist_YearsActive))</visible> -->
+                <!--  <visible>!IsEmpty(ListItem.Property(Artist_YearsActive))</visible> -->
               </item>
             </content>
           </control>
@@ -423,71 +423,71 @@
           </control>
         </control>
         <!-- <control type="label">
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[21821][/COLOR]$INFO[Container(4).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(4).NumPages,/, )]</label>
-					<visible>Control.IsVisible(4)</visible>
-				</control> 
-				<control type="label"> 
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[182][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
-					<visible>Control.IsVisible(50) + Container.Content(Albums)</visible>
-				</control>
-				<control type="label">
-					<right>130</right>
-					<top>470</top>
-					<width>400</width>
-					<height>30</height>
-					<font>Font_Neon_18</font>
-					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<scroll>true</scroll>
-					<align>right</align>
-					<aligny>center</aligny>
-					<label>[B][COLOR=mainblue][/B]$LOCALIZE[132][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
-					<visible>Control.IsVisible(50) + Container.Content(Artists)</visible>
-				</control>
-				<control type="spincontrol" id="61">
-					<description>Next page button</description>
-					<right>120</right>
-					<top>485</top>
-					<subtype>page</subtype>
-					<font>-</font>
-					<onleft>61</onleft>
-					<onright>61</onright>
-					<ondown>9000</ondown>
-					<onup>49</onup>
-					<textcolor>-</textcolor>
-					<showonepage>true</showonepage>
-				</control>
-				<control type="image">
-					<left>175</left>
-					<top>500</top>
-					<width>880</width>
-					<height>140</height>
-					<colordiffuse>mainblue</colordiffuse>
-					<texture>DialogBack.png</texture>
-					<visible>!Control.IsVisible(50)</visible>
-				</control>-->
+          <right>130</right>
+          <top>470</top>
+          <width>400</width>
+          <height>30</height>
+          <font>Font_Neon_18</font>
+          <textcolor>grey2</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <scroll>true</scroll>
+          <align>right</align>
+          <aligny>center</aligny>
+          <label>[B][COLOR=mainblue][/B]$LOCALIZE[21821][/COLOR]$INFO[Container(4).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(4).NumPages,/, )]</label>
+          <visible>Control.IsVisible(4)</visible>
+        </control> 
+        <control type="label"> 
+          <right>130</right>
+          <top>470</top>
+          <width>400</width>
+          <height>30</height>
+          <font>Font_Neon_18</font>
+          <textcolor>grey2</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <scroll>true</scroll>
+          <align>right</align>
+          <aligny>center</aligny>
+          <label>[B][COLOR=mainblue][/B]$LOCALIZE[182][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
+          <visible>Control.IsVisible(50) + Container.Content(Albums)</visible>
+        </control>
+        <control type="label">
+          <right>130</right>
+          <top>470</top>
+          <width>400</width>
+          <height>30</height>
+          <font>Font_Neon_18</font>
+          <textcolor>grey2</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <scroll>true</scroll>
+          <align>right</align>
+          <aligny>center</aligny>
+          <label>[B][COLOR=mainblue][/B]$LOCALIZE[132][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
+          <visible>Control.IsVisible(50) + Container.Content(Artists)</visible>
+        </control>
+        <control type="spincontrol" id="61">
+          <description>Next page button</description>
+          <right>120</right>
+          <top>485</top>
+          <subtype>page</subtype>
+          <font>-</font>
+          <onleft>61</onleft>
+          <onright>61</onright>
+          <ondown>9000</ondown>
+          <onup>49</onup>
+          <textcolor>-</textcolor>
+          <showonepage>true</showonepage>
+        </control>
+        <control type="image">
+          <left>175</left>
+          <top>500</top>
+          <width>880</width>
+          <height>140</height>
+          <colordiffuse>mainblue</colordiffuse>
+          <texture>DialogBack.png</texture>
+          <visible>!Control.IsVisible(50)</visible>
+        </control>-->
         <control type="textbox" id="4">DialogBack
-					<description>Description</description>
+          <description>Description</description>
           <left>200</left>
           <top>452</top>
           <width>830</width>
@@ -678,11 +678,11 @@
             <label>20413</label>
           </control>
           <!--<control type="button" id="13">
-						<description>Get cdART</description>
-						<include>ButtonInfoDialogsCommonValues</include>
-						<label>Get cdART</label>
-						<onclick>RunScript(script.cdart,$INFO[ListItem.Artist],$INFO[ListItem.Album],$INFO[ListItem.Path])</onclick>
-					</control>-->
+            <description>Get cdART</description>
+            <include>ButtonInfoDialogsCommonValues</include>
+            <label>Get cdART</label>
+            <onclick>RunScript(script.cdart,$INFO[ListItem.Artist],$INFO[ListItem.Album],$INFO[ListItem.Path])</onclick>
+          </control>-->
         </control>
       </control>
     </control>

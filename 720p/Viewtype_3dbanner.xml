@@ -85,16 +85,16 @@
             <fadetime>200</fadetime>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
-          <!--	<control type="image">
-						<left>-150</left>
-						<top>220</top>
-						<width>304</width>
-						<height>80</height>
-						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>IsEmpty(Control.GetLabel(7888))</visible>
-					</control> -->
+          <!--  <control type="image">
+            <left>-150</left>
+            <top>220</top>
+            <width>304</width>
+            <height>80</height>
+            <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <visible>IsEmpty(Control.GetLabel(7888))</visible>
+          </control> -->
           <control type="image">
             <left>-150</left>
             <top>298</top>
@@ -105,17 +105,17 @@
             <colordiffuse>89FFFFFF</colordiffuse>
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
-          <!--	<control type="image">
-						<left>-150</left>
-						<top>298</top>
-						<width>304</width>
-						<height>80</height>
-						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
-						<fadetime>200</fadetime>
-						<colordiffuse>89FFFFFF</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>IsEmpty(Control.GetLabel(7888))</visible>
-					</control>  -->
+          <!--  <control type="image">
+            <left>-150</left>
+            <top>298</top>
+            <width>304</width>
+            <height>80</height>
+            <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
+            <fadetime>200</fadetime>
+            <colordiffuse>89FFFFFF</colordiffuse>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <visible>IsEmpty(Control.GetLabel(7888))</visible>
+          </control>  -->
           <control type="image">
             <left>110</left>
             <top>265</top>
@@ -205,20 +205,20 @@
               <effect type="fade" start="0" end="70" time="600" />
             </animation>
           </control>
-          <!--	<control type="image">
-						<left>-150</left>
-						<top>312</top>
-						<width>440</width>
-						<height>110</height>
-						<texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="70" time="600" />
-						</animation>
-						<visible>IsEmpty(Control.GetLabel(7889))</visible>
-					</control>  -->
+          <!--  <control type="image">
+            <left>-150</left>
+            <top>312</top>
+            <width>440</width>
+            <height>110</height>
+            <texture background="true" flipy="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+              <effect type="fade" start="0" end="70" time="600" />
+            </animation>
+            <visible>IsEmpty(Control.GetLabel(7889))</visible>
+          </control>  -->
           <control type="image" id="7890">
             <left>-150</left>
             <top>204</top>
@@ -231,19 +231,19 @@
               <effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
             </animation>
           </control>
-          <!--	<control type="image">
-						<left>-150</left>
-						<top>204</top>
-						<width>440</width>
-						<height>110</height>
-						<texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-						</animation>
-						<visible>IsEmpty(Control.GetLabel(7890))</visible>
-					</control> -->
+          <!--  <control type="image">
+            <left>-150</left>
+            <top>204</top>
+            <width>440</width>
+            <height>110</height>
+            <texture background="true" diffuse="movie-poster/xper_test.png">$INFO[ListItem.Icon]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+            </animation>
+            <visible>IsEmpty(Control.GetLabel(7890))</visible>
+          </control> -->
           <control type="image">
             <left>225</left>
             <top>260</top>

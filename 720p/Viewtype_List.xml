@@ -90,15 +90,15 @@
             <visible>Control.HasFocus(53)</visible>
             <!--<include>VisibleFadeEffect</include> -->
           </control>
-          <!--	<control type="image">
-						<left>370</left>
-						<top>5</top>
-						<width>200</width>
-						<height>31</height>
-						<colordiffuse>mainblue</colordiffuse>
-						<texture border="0,0,14,0">MediaItemDetailBG.png</texture>
-						<visible>Control.HasFocus(53) + !IsEmpty(ListItem.Label2)</visible>
-					</control> -->
+          <!--  <control type="image">
+            <left>370</left>
+            <top>5</top>
+            <width>200</width>
+            <height>31</height>
+            <colordiffuse>mainblue</colordiffuse>
+            <texture border="0,0,14,0">MediaItemDetailBG.png</texture>
+            <visible>Control.HasFocus(53) + !IsEmpty(ListItem.Label2)</visible>
+          </control> -->
           <control type="label">
             <left>15</left>
             <top>0</top>
@@ -194,7 +194,7 @@
           <visible>!Skin.HasSetting(FileFanartView)</visible>
         </control>
         <control type="image" id="7018">&gt;
-					<left>0</left><top>60</top><width>600</width><height>140</height><aspectratio aligny="bottom">keep</aspectratio><fadetime>IconCrossfadeTime</fadetime><texture background="true">$VAR[BannerThumb]</texture><bordertexture border="8">ThumbShadow.png</bordertexture><bordersize>8</bordersize><visible>Skin.HasSetting(FileFanartView) + !Skin.HasSetting(TVPosters)</visible></control>
+          <left>0</left><top>60</top><width>600</width><height>140</height><aspectratio aligny="bottom">keep</aspectratio><fadetime>IconCrossfadeTime</fadetime><texture background="true">$VAR[BannerThumb]</texture><bordertexture border="8">ThumbShadow.png</bordertexture><bordersize>8</bordersize><visible>Skin.HasSetting(FileFanartView) + !Skin.HasSetting(TVPosters)</visible></control>
         <control type="image">
           <left>0</left>
           <top>60</top>

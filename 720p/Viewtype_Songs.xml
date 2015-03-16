@@ -102,13 +102,13 @@
       <include>Animation_Viewtype_Showcase_ThumbArea</include>
       <visible>Control.IsVisible(52) + Container.Content(songs)</visible>
       <!--<control type="image">
-			<left>150</left>
-			<top>20</top>
-			<width>700</width>
-			<height>646</height>
-			<texture>music/music_wall_glow.png</texture>
-			<aspectratio scalediffuse="false">stretch</aspectratio>
-		</control>-->
+      <left>150</left>
+      <top>20</top>
+      <width>700</width>
+      <height>646</height>
+      <texture>music/music_wall_glow.png</texture>
+      <aspectratio scalediffuse="false">stretch</aspectratio>
+    </control>-->
       <control type="label">
         <left>20</left>
         <top>30</top>

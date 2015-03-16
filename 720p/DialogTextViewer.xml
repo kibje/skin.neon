@@ -36,17 +36,17 @@
           <textcolor>white</textcolor>
         </control>
         <!--<control type="label" id="20">
-					<description>header label</description>
-					<left>340</left>
-					<top>20</top>
-					<width>640</width>
-					<height>30</height>
-					<font>font24caps_title</font>
-					<label>-</label>
-					<align>left</align>
-					<aligny>center</aligny>
-					<textcolor>black</textcolor>
-				</control>-->
+          <description>header label</description>
+          <left>340</left>
+          <top>20</top>
+          <width>640</width>
+          <height>30</height>
+          <font>font24caps_title</font>
+          <label>-</label>
+          <align>left</align>
+          <aligny>center</aligny>
+          <textcolor>black</textcolor>
+        </control>-->
         <control type="textbox" id="5">
           <description>textarea</description>
           <left>60</left>

@@ -124,15 +124,15 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <!--<control type="image">
-				<visible>!Container(53).Column(0) + Container.OnPrevious</visible>
-				<left>300</left>
-				<top>280</top>
-				<width>45</width>
-				<height>41</height>
-				<fadetime>200</fadetime>
-				<texture>music/arrow_left_glow.png</texture>
-				<aspectratio scalediffuse="false">stretch</aspectratio>
-			</control>-->
+        <visible>!Container(53).Column(0) + Container.OnPrevious</visible>
+        <left>300</left>
+        <top>280</top>
+        <width>45</width>
+        <height>41</height>
+        <fadetime>200</fadetime>
+        <texture>music/arrow_left_glow.png</texture>
+        <aspectratio scalediffuse="false">stretch</aspectratio>
+      </control>-->
       <control type="image">
         <visible>!Container(53).Column(8)</visible>
         <left>660</left>
@@ -144,16 +144,16 @@
         <aspectratio scalediffuse="false">stretch</aspectratio>
       </control>
       <!--<control type="image">
-				<visible>!Container(53).Column(8) + Container.OnNext</visible>
-				<left>660</left>
-				<top>280</top>
-				<width>45</width>
-				<height>41</height>
-				<fadetime>200</fadetime>
-				<texture>music/arrow_right_glow.png</texture>
-				<animation effect="fade" start="100" end="100" time="400">Visible</animation>
-				<aspectratio scalediffuse="false">stretch</aspectratio>
-			</control>-->
+        <visible>!Container(53).Column(8) + Container.OnNext</visible>
+        <left>660</left>
+        <top>280</top>
+        <width>45</width>
+        <height>41</height>
+        <fadetime>200</fadetime>
+        <texture>music/arrow_right_glow.png</texture>
+        <animation effect="fade" start="100" end="100" time="400">Visible</animation>
+        <aspectratio scalediffuse="false">stretch</aspectratio>
+      </control>-->
       <control type="image">
         <visible>!Container(53).Row(0)</visible>
         <left>474</left>
