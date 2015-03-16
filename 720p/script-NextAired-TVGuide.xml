@@ -305,7 +305,7 @@
           <left>124</left>
           <top>80</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>206</onup>
@@ -314,146 +314,89 @@
           <onleft>7000</onleft>
           <onright>200</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(200)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(200)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -465,7 +408,7 @@
           <left>124</left>
           <top>159</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>200</onup>
@@ -474,146 +417,89 @@
           <onleft>7000</onleft>
           <onright>201</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(201)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(201)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -625,7 +511,7 @@
           <left>124</left>
           <top>239</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>201</onup>
@@ -634,146 +520,89 @@
           <onleft>7000</onleft>
           <onright>202</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(202)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(202)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -785,7 +614,7 @@
           <left>124</left>
           <top>318</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>202</onup>
@@ -794,146 +623,89 @@
           <onleft>7000</onleft>
           <onright>203</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(203)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(203)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -945,7 +717,7 @@
           <left>124</left>
           <top>398</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>203</onup>
@@ -954,146 +726,89 @@
           <onleft>7000</onleft>
           <onright>204</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(204)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(204)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1105,7 +820,7 @@
           <left>124</left>
           <top>477</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>204</onup>
@@ -1114,146 +829,89 @@
           <onleft>7000</onleft>
           <onright>205</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(205)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(205)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
@@ -1265,7 +923,7 @@
           <left>124</left>
           <top>556</top>
           <width>770</width>
-          <height>75</height>
+          <height>77</height>
           <orientation>horizontal</orientation>
           <scrolltime>0</scrolltime>
           <onup>205</onup>
@@ -1274,146 +932,89 @@
           <onleft>7000</onleft>
           <onright>206</onright>
           <itemgap>5</itemgap>
-          <itemlayout height="75" width="150">
-            <control type="label">
-              <description>Next air date</description>
-              <left>0</left>
-              <top>26</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(NextDate)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
-            <control type="label">
-              <description>Airing time</description>
-              <left>0</left>
-              <top>48</top>
-              <width>150</width>
-              <height>20</height>
-              <label>$INFO[ListItem.Property(ShortTime)]</label>
-              <textcolor>99FFFFFF</textcolor>
-              <font>Font_Neon_20</font>
-              <align>center</align>
-            </control>
+          <itemlayout height="77" width="150">
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
             </control>
           </itemlayout>
-          <focusedlayout height="75" width="150">
+          <focusedlayout height="77" width="150">
             <control type="group">
               <visible>Control.HasFocus(206)</visible>
               <control type="image">
                 <left>0</left>
                 <top>0</top>
                 <width>147</width>
-                <height>75</height>
+                <height>77</height>
                 <colordiffuse>mainblue</colordiffuse>
                 <texture>button-focus.png</texture>
                 <aspectratio>stretch</aspectratio>
               </control>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>FFFFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-            </control>
-            <control type="group">
-              <visible>!Control.HasFocus(206)</visible>
-              <control type="label">
-                <description>Next air date</description>
-                <left>0</left>
-                <top>26</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(NextDate)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
-              <control type="label">
-                <description>Airing time</description>
-                <left>0</left>
-                <top>48</top>
-                <width>150</width>
-                <height>20</height>
-                <label>$INFO[ListItem.Property(ShortTime)]</label>
-                <textcolor>99FFFFFF</textcolor>
-                <font>Font_Neon_20</font>
-                <align>center</align>
-              </control>
             </control>
             <control type="image">
               <description>Thumb</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(poster))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),0)</visible>
             </control>
             <control type="image">
               <description>Banner</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
             </control>
             <control type="image">
               <description>Logo</description>
-              <left>21</left>
+              <left>4</left>
               <top>4</top>
-              <width>108</width>
-              <height>20</height>
+              <width>140</width>
+              <height>70</height>
+              <align>center</align>
+              <aligny>center</aligny>
               <aspectratio>keep</aspectratio>
               <texture background="true">$INFO[ListItem.Property(Art(clearlogo))]</texture>
               <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
