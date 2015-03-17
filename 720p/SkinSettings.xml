@@ -374,8 +374,43 @@
               <label>$LOCALIZE[31117]</label>
               <onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
               <selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+              <enable>System.HasAddon(service.library.data.provider)</enable>
+            </control>
+            <control type="button" id="2020">
+              <description>Open Library Data Provider Settings</description>
+              <width>798</width>
+              <height>30</height>
+              <radioposx>640</radioposx>
+              <font>Font_KeyboardTitle</font>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31518]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Addon.OpenSettings(service.library.data.provider)</onclick>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2021">
+              <description>Use Recommended Items</description>
+              <width>798</width>
+              <height>30</height>
+              <radioposx>640</radioposx>
+              <font>Font_KeyboardTitle</font>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31517]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(recommended_items)</onclick>
+              <selected>Skin.HasSetting(recommended_items)</selected>
+              <enable>!Skin.HasSetting(random_items)</enable>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+            </control>
+            <control type="radiobutton" id="2022">
               <description>Use Random Items</description>
               <width>798</width>
               <height>30</height>
@@ -390,9 +425,28 @@
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Skin.ToggleSetting(random_items)</onclick>
               <selected>Skin.HasSetting(random_items)</selected>
+              <enable>!Skin.HasSetting(recommended_items)</enable>
               <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
-            <control type="radiobutton" id="2022">
+            <control type="radiobutton" id="2023">
+              <description>Only show Albums in music view</description>
+              <width>798</width>
+              <height>30</height>
+              <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31982]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(noprefersong)</onclick>
+              <selected>!Skin.HasSetting(noprefersong)</selected>
+              <enable>Skin.HasSetting(random_items)</enable>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+            </control>
+            <control type="radiobutton" id="2024">
               <description>Show Large Recently added tvinfo</description>
               <width>798</width>
               <height>30</height>
@@ -407,40 +461,6 @@
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
               <selected>Skin.HasSetting(BigRecentTV)</selected>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
-            </control>
-            <control type="radiobutton" id="2023">
-              <description>Show Large Recently added tvinfo</description>
-              <width>798</width>
-              <height>30</height>
-              <font>Font_KeyboardTitle</font>
-              <radioposx>640</radioposx>
-              <textoffsetx>40</textoffsetx>
-              <label>$LOCALIZE[31980]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-              <onclick>Skin.ToggleSetting(BigRecentMovie)</onclick>
-              <selected>Skin.HasSetting(BigRecentMovie)</selected>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
-            </control>
-            <control type="radiobutton" id="2024">
-              <description>Only show Albums in music view</description>
-              <width>798</width>
-              <height>30</height>
-              <font>Font_KeyboardTitle</font>
-              <radioposx>640</radioposx>
-              <textoffsetx>40</textoffsetx>
-              <label>$LOCALIZE[31011]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-              <onclick>Skin.ToggleSetting(noprefersong)</onclick>
-              <selected>!Skin.HasSetting(noprefersong)</selected>
               <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2025">

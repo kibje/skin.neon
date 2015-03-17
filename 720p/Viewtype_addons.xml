@@ -193,20 +193,20 @@
       <visible>Control.IsVisible(50)</visible>
     </control>
     <control type="scrollbar" id="63">
-      <include>Animation_ZoomInZoomOut</include>
-      <left>1280</left>
-      <top>100</top>
+      <left>675</left>
+      <top>110</top>
       <width>25</width>
-      <height>460</height>
-      <visible allowhiddenfocus="true">Control.IsVisible(50) + Control.HasFocus(63)</visible>
+      <height>505</height>
       <texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-      <textureslidernibfocus>ScrollBarV_Nib_Focus.png</textureslidernibfocus>
+      <texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+      <texturesliderbarfocus border="0,14,0,14" colordiffuse="mainblue">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+      <textureslidernib>ScrollBarNib.png</textureslidernib>
+      <textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
       <onleft>50</onleft>
-      <showonepage>true</showonepage>
+      <onright>50</onright>
+      <showonepage>false</showonepage>
       <orientation>vertical</orientation>
-      <include>Animation_CommonFade</include>
-      <animation effect="slide" start="0,0" end="-500,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(63)">Conditional</animation>
-      <animation effect="slide" start="0,0" end="-530,0" time="400" tween="cubic" easing="inout" condition="Control.HasFocus(63)">Conditional</animation>
+      <visible>Control.IsVisible(50)</visible>
     </control>
   </include>
 </includes>

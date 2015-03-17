@@ -48,9 +48,7 @@ msgctxt "#31010"
 msgid "Enable startup video"
 msgstr ""
 
-msgctxt "#31011"
-msgid "Music: Show recently added songs instead of albums"
-msgstr ""
+#empty string with id 31011
 
 msgctxt "#31012"
 msgid "Select folder containing weather fanart:"
@@ -955,7 +953,17 @@ msgctxt "#31516"
 msgid "Use random items instead of recently added items"
 msgstr ""
 
-#empty strings from id 31517 to 31519
+msgctxt "#31517"
+msgid "Use recommended items instead of recently added items"
+msgstr ""
+
+msgctxt "#31518"
+msgid "Open Library Data Provider Settings"
+msgstr ""
+
+msgctxt "#31519"
+msgid "Recommended"
+msgstr ""
 
 msgctxt "#31520"
 msgid "Recent"
@@ -1095,10 +1103,12 @@ msgctxt "#31979"
 msgid "TV: Use large recently added view"
 msgstr ""
 
-msgctxt "#31980"
-msgid "Movies: Use large recently added view"
-msgstr ""
+#empty string with id 31980
 
 msgctxt "#31981"
 msgid "Items"
+msgstr ""
+
+msgctxt "#31982"
+msgid "Music: Show randomly added songs instead of albums"
 msgstr ""

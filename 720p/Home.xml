@@ -77,7 +77,6 @@
     </control>
     <include condition="Skin.HasSetting(homepageHideRecentlyAdded)">NewRecentlyAdded</include>
     <include condition="Skin.HasSetting(HomepageWeatherWidget)">HomepageWeatherWidget_2</include>
-    <include condition="Skin.HasSetting(random_items)">random_tv</include>
     <include>HorizontalHomeBottom</include>
     <!-- stoli - new home animation - 030511 -->
     <control type="image">
