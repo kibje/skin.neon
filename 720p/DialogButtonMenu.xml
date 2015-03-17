@@ -87,8 +87,8 @@
         <textwidth>280</textwidth>
         <align>center</align>
         <aligny>center</aligny>
-        <colordiffuse>red</colordiffuse>
-        <texturefocus border="45,0,45,0">DialogContextMiddleFO.png</texturefocus>
+        <colordiffuse>mainblue</colordiffuse>
+        <texturefocus border="45,0,45,0" colordiffuse="red">DialogContextMiddleFO.png</texturefocus>
         <texturenofocus border="45,0,45,0">DialogContextMiddleNF.png</texturenofocus>
         <onclick>XBMC.Powerdown()</onclick>
         <pulseonselect>no</pulseonselect>

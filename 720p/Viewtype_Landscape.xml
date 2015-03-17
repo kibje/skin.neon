@@ -12,50 +12,50 @@
       <aspectratio>stretch</aspectratio>
       <include>Animation_BackdropFade</include>
     </control>
-    <!--	<control type="image">
-			<visible>Control.IsVisible(52) + !Skin.HasSetting(TVPosters) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
-			<left>0</left>
-			<top>0</top>
-			<width>684</width>
-			<height>720</height>
-			<texture>tv-landscape/landscape_thumb_glow.png</texture>
-			<aspectratio>stretch</aspectratio>
-			<include>Animation_LandscapeFade</include>
-			<include>Animation_HiddenByInfo</include>
-		</control>
-		<control type="image">
-			<visible>Control.IsVisible(52) + !Skin.HasSetting(landscape_jpg) + Skin.HasSetting(TVPosters) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
-			<left>0</left>
-			<top>0</top>
-			<width>544</width>
-			<height>720</height>
-			<texture>tv-landscape/tv_poster_glow.png</texture>
-			<aspectratio>stretch</aspectratio>
-			<include>Animation_LandscapeFade</include>
-			<include>Animation_HiddenByInfo</include>
-		</control>
-		<control type="image">
-			<visible>Control.IsVisible(52) + Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
-			<left>0</left>
-			<top>0</top>
-			<width>684</width>
-			<height>720</height>
-			<texture>tv-landscape/landscape_thumb_glow.png</texture>
-			<aspectratio>stretch</aspectratio>
-			<include>Animation_LandscapeFade</include>
-			<include>Animation_HiddenByInfo</include>
-		</control>
-		<control type="image">
-			<visible>Control.IsVisible(52) + Container.Content(episodes)</visible>
-			<left>0</left>
-			<top>0</top>
-			<width>684</width>
-			<height>720</height>
-			<texture>tv-landscape/landscape_thumb_glow.png</texture>
-			<aspectratio>stretch</aspectratio>
-			<include>Animation_LandscapeFade</include>
-			<include>Animation_HiddenByInfo</include>
-		</control>  -->
+    <!--  <control type="image">
+      <visible>Control.IsVisible(52) + !Skin.HasSetting(TVPosters) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+      <left>0</left>
+      <top>0</top>
+      <width>684</width>
+      <height>720</height>
+      <texture>tv-landscape/landscape_thumb_glow.png</texture>
+      <aspectratio>stretch</aspectratio>
+      <include>Animation_LandscapeFade</include>
+      <include>Animation_HiddenByInfo</include>
+    </control>
+    <control type="image">
+      <visible>Control.IsVisible(52) + !Skin.HasSetting(landscape_jpg) + Skin.HasSetting(TVPosters) + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
+      <left>0</left>
+      <top>0</top>
+      <width>544</width>
+      <height>720</height>
+      <texture>tv-landscape/tv_poster_glow.png</texture>
+      <aspectratio>stretch</aspectratio>
+      <include>Animation_LandscapeFade</include>
+      <include>Animation_HiddenByInfo</include>
+    </control>
+    <control type="image">
+      <visible>Control.IsVisible(52) + Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
+      <left>0</left>
+      <top>0</top>
+      <width>684</width>
+      <height>720</height>
+      <texture>tv-landscape/landscape_thumb_glow.png</texture>
+      <aspectratio>stretch</aspectratio>
+      <include>Animation_LandscapeFade</include>
+      <include>Animation_HiddenByInfo</include>
+    </control>
+    <control type="image">
+      <visible>Control.IsVisible(52) + Container.Content(episodes)</visible>
+      <left>0</left>
+      <top>0</top>
+      <width>684</width>
+      <height>720</height>
+      <texture>tv-landscape/landscape_thumb_glow.png</texture>
+      <aspectratio>stretch</aspectratio>
+      <include>Animation_LandscapeFade</include>
+      <include>Animation_HiddenByInfo</include>
+    </control>  -->
     <control type="wraplist" id="52">
       <left>10</left>
       <top>0</top>
@@ -89,7 +89,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
-          <left>115</left>
+          <left>1</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -100,7 +100,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <left>115</left>
+          <left>1</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -133,7 +133,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(episodes) + !IsEmpty(ListItem.Title)</visible>
-          <left>135</left>
+          <left>25</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>
@@ -145,7 +145,7 @@
         </control>
         <control type="label">
           <visible>Container.Content(seasons) | [Container.Content(episodes) + IsEmpty(ListItem.Title)] | [Container.Content(tvshows) + IsEmpty(ListItem.Title)]</visible>
-          <left>135</left>
+          <left>25</left>
           <top>100</top>
           <width>230</width>
           <height>89</height>

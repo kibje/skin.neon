@@ -337,18 +337,18 @@
             <visible>Container.Content(Genres) + Skin.HasSetting(Poster_Fanart)</visible>
           </control>
           <!--<control type="image">
-						<left>-148</left>
-						<top>390</top>
-						<width>211</width>
-						<height>302</height>
-						<texture>movie-poster/mask_border2.png</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="51" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="50" time="600" />
-						</animation>
-					</control>-->
+            <left>-148</left>
+            <top>390</top>
+            <width>211</width>
+            <height>302</height>
+            <texture>movie-poster/mask_border2.png</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="60,238" start="51" end="100" time="600" tween="back" easing="out" />
+              <effect type="fade" start="0" end="50" time="600" />
+            </animation>
+          </control>-->
           <control type="image">
             <left>-148</left>
             <top>386</top>

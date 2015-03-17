@@ -26,7 +26,7 @@
         <control type="group">
           <visible>IntegerGreaterThan(Window(Home).Property(NextAired.TodayTotal),0)</visible>
           <width>600</width>
-		  <height>500</height>
+      <height>500</height>
           <control type="image">
             <description>background</description>
             <left>0</left>
@@ -71,7 +71,7 @@
             <left>0</left>
             <top>60</top>
             <width>580</width>
-		    <height>270</height>
+        <height>270</height>
             <pagecontrol>4052</pagecontrol>
             <control type="group">
               <width>580</width>

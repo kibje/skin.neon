@@ -259,19 +259,19 @@
             <visible>Skin.HasSetting(landscape_jpg) + !Container.Content(episodes)</visible>
           </control>
           <!--<control type="image">
-						<visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
-						<left>-150</left>
-						<top>86</top>
-						<width>407</width>
-						<height>232</height>
-						<texture>movie-poster/xper_test.png</texture>
-						<colordiffuse>plotdiffuse</colordiffuse>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<animation type="Focus" reversible="false">
-							<effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
-							<effect type="fade" start="0" end="100" time="400" delay="2800" />
-						</animation>
-					</control>-->
+            <visible>ControlGroup(28374).HasFocus() + Container.Content(episodes) + Skin.HasSetting(3dLandscape_Fanart)</visible>
+            <left>-150</left>
+            <top>86</top>
+            <width>407</width>
+            <height>232</height>
+            <texture>movie-poster/xper_test.png</texture>
+            <colordiffuse>plotdiffuse</colordiffuse>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <animation type="Focus" reversible="false">
+              <effect type="zoom" center="60,238" start="80" end="100" time="600" tween="back" easing="out" />
+              <effect type="fade" start="0" end="100" time="400" delay="2800" />
+            </animation>
+          </control>-->
           <control type="image">
             <left>-147</left>
             <top>81</top>
@@ -345,15 +345,15 @@
       </focusedlayout>
     </control>
     <!--<control type="group" id="28374">
-		<control type="button" id="38374">
-			<onleft>599</onleft>
-			<onright>599</onright>
-			<onup>7000</onup>
-			<ondown>599</ondown>
-			<label></label>
-			<visible allowhiddenfocus="true">ControlGroup(28374).HasFocus() + Skin.HasSetting(3dLandscape_Fanart) + Container.Content(episodes)</visible>
-		</control>
-	</control>-->
+    <control type="button" id="38374">
+      <onleft>599</onleft>
+      <onright>599</onright>
+      <onup>7000</onup>
+      <ondown>599</ondown>
+      <label></label>
+      <visible allowhiddenfocus="true">ControlGroup(28374).HasFocus() + Skin.HasSetting(3dLandscape_Fanart) + Container.Content(episodes)</visible>
+    </control>
+  </control>-->
     <control type="group">
       <visible>Control.IsVisible(599)</visible>
       <control type="image">

@@ -8,11 +8,11 @@
       <left>80</left>
       <top>50</top>
       <animation type="WindowOpen" reversible="false">
-        <!--	<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
+        <!--  <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" /> -->
         <effect type="fade" start="0" end="100" time="300" />
       </animation>
       <animation type="WindowClose" reversible="false">
-        <!--	<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
+        <!--  <effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300" /> -->
         <effect type="fade" start="100" end="0" time="300" />
       </animation>
       <control type="image">
@@ -374,8 +374,43 @@
               <label>$LOCALIZE[31117]</label>
               <onclick>Skin.ToggleSetting(homepageHideRecentlyAdded)</onclick>
               <selected>Skin.HasSetting(homepageHideRecentlyAdded)</selected>
+              <enable>System.HasAddon(service.library.data.provider)</enable>
+            </control>
+            <control type="button" id="2020">
+              <description>Open Library Data Provider Settings</description>
+              <width>798</width>
+              <height>30</height>
+              <radioposx>640</radioposx>
+              <font>Font_KeyboardTitle</font>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31518]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Addon.OpenSettings(service.library.data.provider)</onclick>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2021">
+              <description>Use Recommended Items</description>
+              <width>798</width>
+              <height>30</height>
+              <radioposx>640</radioposx>
+              <font>Font_KeyboardTitle</font>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31517]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(recommended_items)</onclick>
+              <selected>Skin.HasSetting(recommended_items)</selected>
+              <enable>!Skin.HasSetting(random_items)</enable>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+            </control>
+            <control type="radiobutton" id="2022">
               <description>Use Random Items</description>
               <width>798</width>
               <height>30</height>
@@ -390,9 +425,28 @@
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Skin.ToggleSetting(random_items)</onclick>
               <selected>Skin.HasSetting(random_items)</selected>
+              <enable>!Skin.HasSetting(recommended_items)</enable>
               <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
-            <control type="radiobutton" id="2022">
+            <control type="radiobutton" id="2023">
+              <description>Only show Albums in music view</description>
+              <width>798</width>
+              <height>30</height>
+              <font>Font_KeyboardTitle</font>
+              <radioposx>640</radioposx>
+              <textoffsetx>40</textoffsetx>
+              <label>$LOCALIZE[31982]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <colordiffuse>mainblue</colordiffuse>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(noprefersong)</onclick>
+              <selected>!Skin.HasSetting(noprefersong)</selected>
+              <enable>Skin.HasSetting(random_items)</enable>
+              <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
+            </control>
+            <control type="radiobutton" id="2024">
               <description>Show Large Recently added tvinfo</description>
               <width>798</width>
               <height>30</height>
@@ -407,40 +461,6 @@
               <texturenofocus>MenuItemNF.png</texturenofocus>
               <onclick>Skin.ToggleSetting(BigRecentTV)</onclick>
               <selected>Skin.HasSetting(BigRecentTV)</selected>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
-            </control>
-            <control type="radiobutton" id="2023">
-              <description>Show Large Recently added tvinfo</description>
-              <width>798</width>
-              <height>30</height>
-              <font>Font_KeyboardTitle</font>
-              <radioposx>640</radioposx>
-              <textoffsetx>40</textoffsetx>
-              <label>$LOCALIZE[31980]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-              <onclick>Skin.ToggleSetting(BigRecentMovie)</onclick>
-              <selected>Skin.HasSetting(BigRecentMovie)</selected>
-              <visible>Skin.HasSetting(homepageHideRecentlyAdded) +!Skin.HasSetting(random_items)</visible>
-            </control>
-            <control type="radiobutton" id="2024">
-              <description>Only show Albums in music view</description>
-              <width>798</width>
-              <height>30</height>
-              <font>Font_KeyboardTitle</font>
-              <radioposx>640</radioposx>
-              <textoffsetx>40</textoffsetx>
-              <label>$LOCALIZE[31011]</label>
-              <textcolor>grey2</textcolor>
-              <focusedcolor>white</focusedcolor>
-              <colordiffuse>mainblue</colordiffuse>
-              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-              <texturenofocus>MenuItemNF.png</texturenofocus>
-              <onclick>Skin.ToggleSetting(noprefersong)</onclick>
-              <selected>!Skin.HasSetting(noprefersong)</selected>
               <visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
             </control>
             <control type="radiobutton" id="2025">
@@ -2494,93 +2514,93 @@
               <visible>Skin.HasSetting(HomeScriptButton6)</visible>
             </control>
             <!--<control type="label" id="419">
-							<width>860</width>
-							<height>45</height>
-							<font>Font_KeyboardKeys</font>
-							<label>31122</label>
-							<textcolor>mainblue</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<align>left</align>
-							<aligny>center</aligny>
-						</control>
+              <width>860</width>
+              <height>45</height>
+              <font>Font_KeyboardKeys</font>
+              <label>31122</label>
+              <textcolor>mainblue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
 
-						<control type="radiobutton" id="420">
-							<width>860</width>
-							<height>40</height>
-							 <font>Font_Neon_20</font>
-							<label>$LOCALIZE[31119]</label>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.ToggleSetting(WeatherScript_Enable)</onclick>
-							<selected>Skin.HasSetting(WeatherScript_Enable)</selected>
-						</control>
-						<control type="button" id="421">
-							<width>860</width>
-							<height>40</height>
-							 <font>Font_Neon_16</font>
-							<label> - $LOCALIZE[31120]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Label)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetString(WeatherScript_Label)</onclick>
-							<visible>Skin.HasSetting(WeatherScript_Enable)</visible>
-						</control>
-						<control type="button" id="422">
-							<width>860</width>
-							<height>40</height>
-							 <font>Font_Neon_16</font>
-							<label> - $LOCALIZE[31121]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Path)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetFile(WeatherScript_Path,.py)</onclick>
-							<visible>Skin.HasSetting(WeatherScript_Enable)</visible>
-						</control>
+            <control type="radiobutton" id="420">
+              <width>860</width>
+              <height>40</height>
+               <font>Font_Neon_20</font>
+              <label>$LOCALIZE[31119]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(WeatherScript_Enable)</onclick>
+              <selected>Skin.HasSetting(WeatherScript_Enable)</selected>
+            </control>
+            <control type="button" id="421">
+              <width>860</width>
+              <height>40</height>
+               <font>Font_Neon_16</font>
+              <label> - $LOCALIZE[31120]</label>
+              <label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Label)][/COLOR]</label2>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.SetString(WeatherScript_Label)</onclick>
+              <visible>Skin.HasSetting(WeatherScript_Enable)</visible>
+            </control>
+            <control type="button" id="422">
+              <width>860</width>
+              <height>40</height>
+               <font>Font_Neon_16</font>
+              <label> - $LOCALIZE[31121]</label>
+              <label2>[COLOR=selected]$INFO[Skin.String(WeatherScript_Path)][/COLOR]</label2>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.SetFile(WeatherScript_Path,.py)</onclick>
+              <visible>Skin.HasSetting(WeatherScript_Enable)</visible>
+            </control>
 
-						<control type="label" id="423">
-							<width>860</width>
-							<height>45</height>
-							<font>Font_KeyboardKeys</font>
-							<label>31128</label>
-							<textcolor>mainblue</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<align>left</align>
-							<aligny>center</aligny>
-						</control>
+            <control type="label" id="423">
+              <width>860</width>
+              <height>45</height>
+              <font>Font_KeyboardKeys</font>
+              <label>31128</label>
+              <textcolor>mainblue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>
 
-						<control type="radiobutton" id="424">
-							<width>860</width>
-							<height>35</height>
-							 <font>Font_Neon_20</font>
-							<label>$LOCALIZE[31126]</label>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.ToggleSetting(LyricScript_Enable)</onclick>
-							<selected>Skin.HasSetting(LyricScript_Enable)</selected>
-						</control>
-						<control type="button" id="425">
-							<width>860</width>
-							<height>35</height>
-							 <font>Font_Neon_16</font>
-							<label>- $LOCALIZE[31127]</label>
-							<label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<width>860</width>
-							<height>35</height>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>mainmenu/home_bottom_white.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetFile(LyricScript_Path,.py)</onclick>
-							<visible>Skin.HasSetting(LyricScript_Enable)</visible>
-						</control>-->
+            <control type="radiobutton" id="424">
+              <width>860</width>
+              <height>35</height>
+               <font>Font_Neon_20</font>
+              <label>$LOCALIZE[31126]</label>
+              <textcolor>grey2</textcolor>
+              <focusedcolor>white</focusedcolor>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.ToggleSetting(LyricScript_Enable)</onclick>
+              <selected>Skin.HasSetting(LyricScript_Enable)</selected>
+            </control>
+            <control type="button" id="425">
+              <width>860</width>
+              <height>35</height>
+               <font>Font_Neon_16</font>
+              <label>- $LOCALIZE[31127]</label>
+              <label2>[COLOR=selected]$INFO[Skin.String(LyricScript_Path)][/COLOR]</label2>
+              <textcolor>grey2</textcolor>
+              <width>860</width>
+              <height>35</height>
+              <focusedcolor>white</focusedcolor>
+              <texturefocus>mainmenu/home_bottom_white.png</texturefocus>
+              <texturenofocus>MenuItemNF.png</texturenofocus>
+              <onclick>Skin.SetFile(LyricScript_Path,.py)</onclick>
+              <visible>Skin.HasSetting(LyricScript_Enable)</visible>
+            </control>-->
           </control>
           <control type="scrollbar" id="61">
             <left>1068</left>
@@ -2728,16 +2748,16 @@
               <visible>Skin.HasSetting(extrafanart)</visible>
             </control>
             <!--<control type="label" id="512">
-							<width>860</width>
-							<height>45</height>
-							<font>Font_Neon_20</font>
-							<label>
+              <width>860</width>
+              <height>45</height>
+              <font>Font_Neon_20</font>
+              <label>
 </label>
-							<textcolor>mainblue</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<align>left</align>
-							<aligny>center</aligny>
-						</control>-->
+              <textcolor>mainblue</textcolor>
+              <shadowcolor>black</shadowcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+            </control>-->
             <control type="label" id="513">
               <width>860</width>
               <height>45</height>

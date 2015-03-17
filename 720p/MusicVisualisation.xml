@@ -390,13 +390,13 @@
     <control type="group">
       <visible>Skin.HasSetting(FullscreenJukebox)</visible>
       <!--<control type="image">
-				<left>370</left>
-				<top>146</top>
-				<width>585</width>
-				<height>286</height>
-				<texture diffuse="music/jukebox_fanart_diffuse.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
-				<visible>!Skin.HasSetting(Artist_Slideshow)</visible>
-			</control> -->
+        <left>370</left>
+        <top>146</top>
+        <width>585</width>
+        <height>286</height>
+        <texture diffuse="music/jukebox_fanart_diffuse.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
+        <visible>!Skin.HasSetting(Artist_Slideshow)</visible>
+      </control> -->
       <control type="image">
         <left>70</left>
         <top>346</top>

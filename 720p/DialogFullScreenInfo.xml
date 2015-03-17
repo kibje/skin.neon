@@ -4,8 +4,8 @@
   <controls>
     <control type="group">
       <!--<animation type="WindowOpen">
-				<effect type="fade" start="0" end="100" time="600" delay="600" />
-			</animation>	-->
+        <effect type="fade" start="0" end="100" time="600" delay="600" />
+      </animation>  -->
       <control type="group">
         <top>560</top>
         <visible>!Control.IsVisible(10)</visible>
@@ -42,17 +42,17 @@
           <aspectratio>stretch</aspectratio>
           <visible>!Control.IsVisible(10)</visible>
         </control>
-        <!--	<control type="image">
-				<description> lower backgound </description>
-				<left>0</left>
-				<top>-575</top>
-				<width>1280</width>
-				<height>50</height>
-				<colordiffuse>mainblue</colordiffuse>
-				<texture>MediaInfoBackUpper.png</texture>
-				<aspectratio>stretch</aspectratio>
-				<visible>Skin.HasSetting(no_global_clock) + !Control.IsVisible(602)</visible>
-			</control> -->
+        <!--  <control type="image">
+        <description> lower backgound </description>
+        <left>0</left>
+        <top>-575</top>
+        <width>1280</width>
+        <height>50</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>MediaInfoBackUpper.png</texture>
+        <aspectratio>stretch</aspectratio>
+        <visible>Skin.HasSetting(no_global_clock) + !Control.IsVisible(602)</visible>
+      </control> -->
       </control>
       <control type="group">
         <top>560</top>
@@ -68,13 +68,13 @@
           <lefttexture>osd/left.png</lefttexture>
           <midtexture>osd/mid.png</midtexture>
           <righttexture>osd/slidernibfo1.png</righttexture>
-				<info>Player.Progress</info><left>345</left><top>139</top><width>400</width><height>20</height><visible>Skin.HasSetting(no_global_clock)</visible></control>
+        <info>Player.Progress</info><left>345</left><top>139</top><width>400</width><height>20</height><visible>Skin.HasSetting(no_global_clock)</visible></control>
         <control type="progress" id="23">
           <texturebg>osd/osd_progress_back1.png</texturebg>
           <lefttexture>osd/left.png</lefttexture>
           <midtexture>osd/mid.png</midtexture>
           <righttexture>osd/slidernibfo1.png</righttexture>
-				<info>Player.Progress</info><left>130</left><top>135</top><width>400</width><height>20</height><visible>!Skin.HasSetting(no_global_clock)</visible></control>
+        <info>Player.Progress</info><left>130</left><top>135</top><width>400</width><height>20</height><visible>!Skin.HasSetting(no_global_clock)</visible></control>
         <control type="label">
           <left>-180</left>
           <top>125</top>
@@ -223,7 +223,7 @@
             <font>Font_Bartowski_Movies</font>
             <textcolor>ffffffff</textcolor>
             <!--<scroll>true</scroll>
-					<scrollspeed>30</scrollspeed> -->
+          <scrollspeed>30</scrollspeed> -->
             <visible>VideoPlayer.Content(movies) + !Player.ChapterCount</visible>
           </control>
           <control type="label">
@@ -313,18 +313,18 @@
           <textcolor>mainblue</textcolor>
           <visible>VideoPlayer.Content(episodes)+ ![[Player.Paused + Player.Caching] + !Player.Seeking]</visible>
         </control>
-        <!--	<control type="image">
-					 <description>IMDB Rating</description>
-					 <left>575</left>
-					 <top>-555</top>
-					 <width>120</width>
-					 <height>20</height>
-					 <align>center</align>
-					 <aligny>center</aligny>
-					 <colordiffuse>d0FDD017</colordiffuse>
-					 <info>Player.StarRating</info>
-					<visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
-				</control>-->
+        <!--  <control type="image">
+           <description>IMDB Rating</description>
+           <left>575</left>
+           <top>-555</top>
+           <width>120</width>
+           <height>20</height>
+           <align>center</align>
+           <aligny>center</aligny>
+           <colordiffuse>d0FDD017</colordiffuse>
+           <info>Player.StarRating</info>
+          <visible>VideoPlayer.Content(movies) + !Skin.HasSetting(no_global_clock)</visible>
+        </control>-->
         <control type="label">
           <label>$LOCALIZE[31230]</label>
           <left>665</left>

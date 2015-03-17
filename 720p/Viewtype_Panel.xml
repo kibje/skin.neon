@@ -260,12 +260,12 @@
             <effect type="zoom" center="auto" start="80" end="110" time="400" tween="back" easing="out" />
           </animation>
           <!--<control type="image">
-							<left>-90</left>
-							<top>38</top>
-							<width>392</width>
-							<height>500</height>
-							<texture>panel/panel_poster_back.png</texture>
-						</control>-->
+              <left>-90</left>
+              <top>38</top>
+              <width>392</width>
+              <height>500</height>
+              <texture>panel/panel_poster_back.png</texture>
+            </control>-->
           <control type="image">
             <left>1</left>
             <top>0</top>

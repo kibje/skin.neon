@@ -468,13 +468,13 @@
           <visible>!IsEmpty(Window.Property(Map.IsFetched))</visible>
         </control>
         <control type="button" id="307">
-					<description>Alerts button</description>
-					<textwidth>235</textwidth>
-					<include>WindowMenuButton_Vertical</include>
-					<label>33050</label>
-					<onfocus>SetProperty(Weather.CurrentView,alerts)</onfocus>
-					<visible>!IsEmpty(Window.Property(Alerts.IsFetched))</visible>
-				</control>
+          <description>Alerts button</description>
+          <textwidth>235</textwidth>
+          <include>WindowMenuButton_Vertical</include>
+          <label>33050</label>
+          <onfocus>SetProperty(Weather.CurrentView,alerts)</onfocus>
+          <visible>!IsEmpty(Window.Property(Alerts.IsFetched))</visible>
+        </control>
         <control type="label" id="201">
           <width>250</width>
           <height>35</height>

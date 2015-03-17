@@ -65,24 +65,24 @@
             <aspectratio scalediffuse="false">stretch</aspectratio>
           </control>
           <!-- <control type="image">
-						<left>1</left>
-						<top>0</top>
-						<width>646</width>
-						<height>126</height>
-						<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
-						<fadetime>200</fadetime>
-						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<visible>IsEmpty(Control.GetLabel(5921))</visible>
-					</control>
-					<control type="image">
-						<left>1</left>
-						<top>0</top>
-						<width>646</width>
-						<height>126</height>
-						<texture>panel/bannermatte.png</texture>
-						<colordiffuse>black</colordiffuse>
-						<animation effect="fade" start="10" end="70" time="0" condition="true">Conditional</animation>
-					</control>  -->
+            <left>1</left>
+            <top>0</top>
+            <width>646</width>
+            <height>126</height>
+            <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
+            <fadetime>200</fadetime>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <visible>IsEmpty(Control.GetLabel(5921))</visible>
+          </control>
+          <control type="image">
+            <left>1</left>
+            <top>0</top>
+            <width>646</width>
+            <height>126</height>
+            <texture>panel/bannermatte.png</texture>
+            <colordiffuse>black</colordiffuse>
+            <animation effect="fade" start="10" end="70" time="0" condition="true">Conditional</animation>
+          </control>  -->
           <control type="image">
             <left>575</left>
             <top>66</top>
@@ -130,19 +130,19 @@
               <effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />
             </animation>
           </control>
-          <!--	<control type="image">
-					<left>1</left>
-					<top>0</top>
-					<width>646</width>
-					<height>126</height>
-					<texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
-					<fadetime>200</fadetime>
-					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<visible>!Container.Content(Genres)</visible>
-					<animation type="Focus" reversible="false">
-						<effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />
-					</animation>
-				</control> -->
+          <!--  <control type="image">
+          <left>1</left>
+          <top>0</top>
+          <width>646</width>
+          <height>126</height>
+          <texture background="true" diffuse="tv-landscape/landscapematteFO.png">$INFO[ListItem.Icon]</texture>
+          <fadetime>200</fadetime>
+          <aspectratio scalediffuse="false">stretch</aspectratio>
+          <visible>!Container.Content(Genres)</visible>
+          <animation type="Focus" reversible="false">
+            <effect type="zoom" center="auto" start="51" end="104" time="600" tween="back" easing="out" />
+          </animation>
+        </control> -->
           <control type="image">
             <left>585</left>
             <top>65</top>

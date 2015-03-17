@@ -113,13 +113,13 @@
             <label>119</label>
           </control>
           <!-- <control type="radiobutton" id="416">
-						<description>Flip Image button</description>
-						<height>52</height>
-						<align>center</align>
-						<texturenofocus border="5">MenuItemNF.png</texturenofocus>
-						<include>ButtonMediaSubCommonValues</include>
-						<label>749</label> 
-					</control> -->
+            <description>Flip Image button</description>
+            <height>52</height>
+            <align>center</align>
+            <texturenofocus border="5">MenuItemNF.png</texturenofocus>
+            <include>ButtonMediaSubCommonValues</include>
+            <label>749</label> 
+          </control> -->
         </control>
         <control type="image">
           <left>685</left>

@@ -3,15 +3,15 @@
   <defaultcontrol always="true">100</defaultcontrol>
   <zorder>2</zorder>
   <controls>
-    <!--	<control type="image">
-				<description>media info background image</description>
-				<left>0</left>
-				<top>-145</top>
-				<width>1280</width>
-				<height>256</height>
-				<colordiffuse>mainblue</colordiffuse>
-				<texture>MediaInfoBackUpper.png</texture>
-			</control>  -->
+    <!--  <control type="image">
+        <description>media info background image</description>
+        <left>0</left>
+        <top>-145</top>
+        <width>1280</width>
+        <height>256</height>
+        <colordiffuse>mainblue</colordiffuse>
+        <texture>MediaInfoBackUpper.png</texture>
+      </control>  -->
     <control type="slider" id="87">
       <texturesliderbar colordiffuse="mainblue">osd/mid.png</texturesliderbar>
       <textureslidernib colordiffuse="mainblue">osd/new_pause2.png</textureslidernib>
@@ -482,7 +482,7 @@
         <font>Font_Neon_20</font>
         <textcolor>grey</textcolor>
         <shadowcolor>black</shadowcolor>
-        <!--	<visible>Window.IsTopmost(VideoOSD)</visible> -->
+        <!--  <visible>Window.IsTopmost(VideoOSD)</visible> -->
       </control>
       <control type="label">
         <left>1260</left>

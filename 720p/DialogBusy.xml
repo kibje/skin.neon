@@ -32,15 +32,15 @@
         <animation effect="rotate" start="360" end="0" center="36,36" time="1200" loop="true" condition="true">conditional</animation>
       </control>
       <!-- <control type="multiimage">
-				<description>Busy animation</description>
-				<left>20</left>
-				<top>20</top>
-				<width>32</width>
-				<height>32</height>
-				<imagepath>simplicity/busy2</imagepath>
-				<timeperimage>100</timeperimage>
-				<fadetime>0</fadetime>
-			</control> -->
+        <description>Busy animation</description>
+        <left>20</left>
+        <top>20</top>
+        <width>32</width>
+        <height>32</height>
+        <imagepath>simplicity/busy2</imagepath>
+        <timeperimage>100</timeperimage>
+        <fadetime>0</fadetime>
+      </control> -->
       <control type="label">
         <description>Busy label</description>
         <left>60</left>
