@@ -88,8 +88,10 @@
     <disabledcolor>TextDisabled</disabledcolor>
     <texturefocus>ButtonFo.png</texturefocus>
     <texturenofocus>ButtonNF.png</texturenofocus>
-    <textureradiofocus>settings/button_radioF.png</textureradiofocus>
-    <textureradionofocus>settings/button_radioNF.png</textureradionofocus>
+    <textureradioonfocus>settings/button_radioF.png</textureradioonfocus>
+    <textureradioonnofocus>settings/button_radioF.png</textureradioonnofocus>
+    <textureradioofffocus>settings/button_radioNF.png</textureradioofffocus>
+    <textureradiooffnofocus>settings/button_radioNF.png</textureradiooffnofocus>
     <colordiffuse>ButtonFilterColor</colordiffuse>
     <radioheight>65</radioheight>
     <radiowidth>94</radiowidth>
