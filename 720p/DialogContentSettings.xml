@@ -35,6 +35,7 @@
         <width>640</width>
         <height>90</height>
         <aspectratio>stretch</aspectratio>
+				<colordiffuse>mainblue</colordiffuse>
         <texture>GlassTitleBar.png</texture>
       </control>
       <control type="label" id="1">
@@ -53,12 +54,13 @@
       <control type="button">
         <description>Close Window button</description>
         <left>710</left>
-        <top>9</top>
+        <top>11</top>
         <width>64</width>
         <height>32</height>
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
+				<colordiffuse>mainblue</colordiffuse>
         <texturefocus>DialogCloseButton-focus.png</texturefocus>
         <texturenofocus>DialogCloseButton.png</texturenofocus>
         <onleft>3</onleft>
@@ -104,7 +106,7 @@
         <width>280</width>
         <height>40</height>
         <font>Font_Neon_24</font>
-        <label>$INFO[Control.GetLabel(3)]</label>
+        <label>$INFO[Control.GetLabel(20)]</label>
         <align>left</align>
         <aligny>center</aligny>
         <textcolor>white</textcolor>
@@ -212,7 +214,7 @@
             <top>0</top>
             <width>340</width>
             <height>41</height>
-            <visible>!Control.HasFocus(4)</visible>
+            <visible>!Control.HasFocus(21)</visible>
             <texture>MenuItemNF.png</texture>
           </control>
           <control type="image">
@@ -221,7 +223,7 @@
             <width>340</width>
             <height>41</height>
             <colordiffuse>mainblue</colordiffuse>
-            <visible>Control.HasFocus(4)</visible>
+            <visible>Control.HasFocus(21)</visible>
             <texture>MenuItemFO.png</texture>
           </control>
           <control type="image">
@@ -304,6 +306,7 @@
         <top>0</top>
         <height>40</height>
         <textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
         <selectedcolor>selected</selectedcolor>
         <font>Font_Neon_24</font>
         <colordiffuse>mainblue</colordiffuse>
